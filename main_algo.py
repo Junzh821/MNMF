@@ -222,13 +222,11 @@ def main():
     logger = init(config.LOG_DIR, config.LOG_FNAME)
     dataset = load_dataset(config.DATA_DIR)
     h_row = 2
-    names = ["MNMF_n.xlsx"]
     names_c = ["MNMF_c.xlsx"]
     tmp = {"accuracy": 0, "micro_precision": 0, "micro_recall": 0, "micro_f1": 0, "macro_precision": 0,
            "macro_recall": 0, "macro_f1": 0, "average_precision": 0, "coverage": 0, "ranking_loss": 0,
            "hamming_loss": 0, "cross_entropy": 0}
-    overall_performances_0 = overall_performances_c_0 = tmp
-    overall_performances = [overall_performances_0]
+    overall_performances_c_0 = tmp
     overall_performances_c = [overall_performances_c_0]
     # workbooks = []
     # worksheets = []
@@ -249,23 +247,17 @@ def main():
     #         worksheets[i].write(0, a + 1, metrics[a])
     #         worksheets[i].set_column(0, a + 1, 20)
     perc_data = dataset.expt_sets
-    all_results = {}
     all_results_c = {}
-    all_avg_results = {}
     all_avg_results_c = {}
-    l_res = list()
     l_res_c = list()
     master_results = {}
     for a in perc_data :
-        all_results[a] = {}
         all_results_c[a] = {}
-        all_avg_results[str.split(config.LOG_DIR, "/")[1]] = list()
         all_avg_results_c[str.split(config.LOG_DIR, "/")[1]] = list()
         h_col = 0
         master_results['C'] = list()
         # for i in range(len(worksheets)):
         #     worksheets[i].write(h_row, h_col, a)
-        overall_performances = [dict.fromkeys(aa, 0) for aa in overall_performances]
         overall_performances_c = [dict.fromkeys(aaa, 0) for aaa in overall_performances_c]
         itr = 0
         print("% of randomly sampled training data ---- ", a)
@@ -287,8 +279,7 @@ def main():
             h_col = 1
             entity_embeddings = []
             performances = []
-            perfs = []
-            best_result_c, best_result = mnmf.factorize(config, D, X, Y.T, Y_train.T, train_ids, val_ids, logger)
+            best_result_c = mnmf.factorize(config, D, X, Y.T, Y_train.T, train_ids, val_ids, logger)
             entity_embeddings.append(best_result_c['U'])
             # outputEntities = path.join(config.LOG_DIR, "U_" + str(a) + "_" + str(b) + "_" + "_c.log")  # U
             # np.savetxt(outputEntities, best_result_c['U'], fmt="%f")
@@ -308,26 +299,7 @@ def main():
                 print("Performance_using_classifier : Test accuracy: {%0.5f } , Test Loss: {%0.5f }" % (
                     performance['accuracy'], performance['cross_entropy']))
                 performances.append(performance)
-                perf = get_perf_metrics(config, best_result['U'], best_result['Q'], Y, train_ids, test_ids)
-                print("Performance_without_classifier : Test accuracy: {%0.5f } , Test Loss: {%0.5f }" % (
-                    perf['accuracy'], perf['cross_entropy']))
-                perfs.append(perf)
-                all_results[a][b] = perf
                 all_results_c[a][b] = performance
-            for i in range(len(overall_performances)) :
-                if len(overall_performances) == len(perfs) :
-                    overall_performances[i]["accuracy"] += perfs[i]["accuracy"]
-                    overall_performances[i]["micro_precision"] += perfs[i]["micro_precision"]
-                    overall_performances[i]["micro_recall"] += perfs[i]["micro_recall"]
-                    overall_performances[i]["micro_f1"] += perfs[i]["micro_f1"]
-                    overall_performances[i]["macro_precision"] += perfs[i]["macro_precision"]
-                    overall_performances[i]["macro_recall"] += perfs[i]["macro_recall"]
-                    overall_performances[i]["macro_f1"] += perfs[i]["macro_f1"]
-                    overall_performances[i]["average_precision"] += perfs[i]["average_precision"]
-                    overall_performances[i]["coverage"] += perfs[i]["coverage"]
-                    overall_performances[i]["ranking_loss"] += perfs[i]["ranking_loss"]
-                    overall_performances[i]["hamming_loss"] += perfs[i]["hamming_loss"]
-                    overall_performances[i]["cross_entropy"] += perfs[i]["cross_entropy"]
             for i in range(len(overall_performances_c)) :
                 if len(overall_performances_c) == len(performances) :
                     overall_performances_c[i]["accuracy"] += performances[i]["accuracy"]
@@ -342,20 +314,6 @@ def main():
                     overall_performances_c[i]["ranking_loss"] += performances[i]["ranking_loss"]
                     overall_performances_c[i]["hamming_loss"] += performances[i]["hamming_loss"]
                     overall_performances_c[i]["cross_entropy"] += performances[i]["cross_entropy"]
-            # if len(perfs) != 0 :
-            #     for i in range(0, 1):
-            #         worksheets[i].write(h_row, h_col, perfs[i]["accuracy"])
-            #         worksheets[i].write(h_row, h_col + 1, perfs[i]["micro_precision"])
-            #         worksheets[i].write(h_row, h_col + 2, perfs[i]["micro_recall"])
-            #         worksheets[i].write(h_row, h_col + 3, perfs[i]["micro_f1"])
-            #         worksheets[i].write(h_row, h_col + 4, perfs[i]["macro_precision"])
-            #         worksheets[i].write(h_row, h_col + 5, perfs[i]["macro_recall"])
-            #         worksheets[i].write(h_row, h_col + 6, perfs[i]["macro_f1"])
-            #         worksheets[i].write(h_row, h_col + 7, perfs[i]["average_precision"])
-            #         worksheets[i].write(h_row, h_col + 8, perfs[i]["coverage"])
-            #         worksheets[i].write(h_row, h_col + 9, perfs[i]["ranking_loss"])
-            #         worksheets[i].write(h_row, h_col + 10, perfs[i]["hamming_loss"])
-            #         worksheets[i].write(h_row, h_col + 11, perfs[i]["cross_entropy"])
             # for i in range(1, len(worksheets)):
             #     worksheets[i].write(h_row, h_col, performances[i-1]["accuracy"])
             #     worksheets[i].write(h_row, h_col + 1, performances[i-1]["micro_precision"])
@@ -372,26 +330,9 @@ def main():
             print("**********************************************************")
             h_row += 1
             itr += 1
-        overall_performances = [{k: v / dataset.n_folds for k, v in d.items()} for d in overall_performances]
         overall_performances_c = [{k: v / dataset.n_folds for k, v in d.items()} for d in overall_performances_c]
-        print(overall_performances)
         print(overall_performances_c)
-        l_res.append({a: overall_performances[0]})
         l_res_c.append({a: overall_performances_c[0]})
-        # for i in range(0, 1):
-        #     worksheets[i].write(h_row, h_col - 1, "Average : ")
-        #     worksheets[i].write(h_row, h_col, overall_performances[i]["accuracy"])
-        #     worksheets[i].write(h_row, h_col + 1, overall_performances[i]["micro_precision"])
-        #     worksheets[i].write(h_row, h_col + 2, overall_performances[i]["micro_recall"])
-        #     worksheets[i].write(h_row, h_col + 3, overall_performances[i]["micro_f1"])
-        #     worksheets[i].write(h_row, h_col + 4, overall_performances[i]["macro_precision"])
-        #     worksheets[i].write(h_row, h_col + 5, overall_performances[i]["macro_recall"])
-        #     worksheets[i].write(h_row, h_col + 6, overall_performances[i]["macro_f1"])
-        #     worksheets[i].write(h_row, h_col + 7, overall_performances[i]["average_precision"])
-        #     worksheets[i].write(h_row, h_col + 8, overall_performances[i]["coverage"])
-        #     worksheets[i].write(h_row, h_col + 9, overall_performances[i]["ranking_loss"])
-        #     worksheets[i].write(h_row, h_col + 10, overall_performances[i]["hamming_loss"])
-        #     worksheets[i].write(h_row, h_col + 11, overall_performances[i]["cross_entropy"])
         # for i in range(1, len(worksheets)):
         #     worksheets[i].write(h_row, h_col - 1, "Average : ")
         #     worksheets[i].write(h_row, h_col, overall_performances_c[i-1]["accuracy"])
@@ -410,18 +351,13 @@ def main():
         h_row += 2
     # for i in range(len(workbooks)):
     #     workbooks[i].close()
-    all_results[str(0)] = config
     all_results_c[str(0)] = config
     np.save(path.join(fldr1, str.split(config.LOG_DIR, "/")[1] + '_results_c.npy'), all_results_c)
-    np.save(path.join(fldr2, str.split(config.LOG_DIR, "/")[1] + '_results_n.npy'), all_results)
-    l_res.append({str(0): config})
     l_res_c.append({str(0): config})
     all_avg_results_c[str.split(config.LOG_DIR, "/")[1]] = l_res_c
-    all_avg_results[str.split(config.LOG_DIR, "/")[1]] = l_res
     fn1 = str.split(config.LOG_DIR, "/")[1] + '_results_avg_n.npy'
     fn2 = str.split(config.LOG_DIR, "/")[1] + '_results_avg_c.npy'
     np.save(path.join(fldr1, "Avg", fn2), all_avg_results_c)
-    np.save(path.join(fldr2, "Avg", fn1), all_avg_results)
 
 if __name__ == "__main__":
     main()
