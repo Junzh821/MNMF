@@ -110,18 +110,20 @@ def load_dataset(dir_name):
     print("================ Dataset Details : End ================")
     return dataset
 
-def get_perf_metrics_using_classifier(config, entity_embedding, labels, train_ids, test_ids) :
-    #pred_ids = test_ids
-    pred_ids = np.logical_not(train_ids)
+def get_perf_metrics_using_classifier(config, entity_embedding, labels, train_ids, val_ids, test_ids) :
+    pred_ids = test_ids
+    #pred_ids = np.logical_not(train_ids)
+    labelled_ids = np.logical_or(val_ids, train_ids)
     clf = OneVsRestClassifier(LogisticRegression())
-    clf.fit(entity_embedding[train_ids, :], labels[train_ids, :])
+    clf.fit(entity_embedding[labelled_ids, :], labels[labelled_ids, :])
     predictions = clf.predict_proba(entity_embedding[pred_ids, :])
     performances = ep.evaluate(predictions, labels[pred_ids, :], threshold=0, multi_label=config.MULTI_LABEL)
     return performances
 
-def get_perf_metrics(config, entity_embedding, Q, labels, train_ids, test_ids) :
-    #pred_ids = test_ids
-    pred_ids = np.logical_not(train_ids)
+def get_perf_metrics(config, entity_embedding, Q, labels, train_ids, val_ids, test_ids) :
+    pred_ids = test_ids
+    #pred_ids = np.logical_not(train_ids)
+    labelled_ids = np.logical_or(val_ids, train_ids)
     Y_hat = np.dot(Q, entity_embedding.T)
     Y_hat = Y_hat.T
     #Y_hat_binarized = np.zeros_like(Y_hat)
@@ -295,7 +297,7 @@ def main():
             # np.savetxt(outputEntities, best_result['Q'], fmt="%f")
 
             for i in range(len(entity_embeddings)) :
-                performance = get_perf_metrics_using_classifier(config, best_result_c['U'], Y, train_ids, test_ids)
+                performance = get_perf_metrics_using_classifier(config, best_result_c['U'], Y, train_ids, val_ids, test_ids)
                 print("Performance_using_classifier : Test accuracy: {%0.5f } , Test Loss: {%0.5f }" % (
                     performance['accuracy'], performance['cross_entropy']))
                 performances.append(performance)

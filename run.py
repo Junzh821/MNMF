@@ -12,22 +12,22 @@ import tabulate_results
 get_results_only = False
 
 switch_gpus = False #For multiple GPUs
-n_parallel_threads = 25
+n_parallel_threads = 16
 
 # Set Hyper-parameters
 args = dict()
 # The names should be the same as argument names in parser.py
-args['hyper_params'] = ['DATA_DIR', 'ETA', 'ALPHA', 'BETA', 'THETA', 'PHI', 'LAMBDA','L_COMPONENTS', 'K', 'COST_F']
+args['hyper_params'] = ['DATA_DIR', 'ETA', 'ALPHA', 'BETA', 'THETA', 'GAMMA', 'LAMBDA','L_COMPONENTS', 'K', 'COST_F']
 custom = '_MNMF_'
 now = datetime.now()
 args['timestamp'] = str(now.month)+'|'+str(now.day)+'|'+str(now.hour)+':'+str(now.minute)+':'+str(now.second) + custom #  '05|12|03:41:02'  # Month | Day | hours | minutes (24 hour clock)
 
-args['DATA_DIR'] = ['washington']# ,'washington', 'wisconsin', 'texas', 'cornell', 'ppi', 'wiki_n2v', 'cora', 'citeseer', 'wiki', 'armherst', 'hamilton', 'mich', 'rochester', 'blogcatalog']
+args['DATA_DIR'] = ['washington', 'wisconsin', 'texas', 'cornell']#, 'ppi', 'wiki_n2v', 'cora', 'citeseer', 'wiki', 'armherst', 'hamilton', 'mich', 'rochester', 'blogcatalog']
 args['ETA'] = [1.0]#, 1.0, 5.0]
 args['ALPHA'] = [0.1, 0.5, 1.0, 2.0, 5.0, 7.0, 10.0]
 args['BETA'] = [0.1, 0.5, 1.0, 2.0, 5.0, 7.0, 10.0]
 args['THETA'] = [1.0] #[0.5, 1.0, 5.0, 10.0]
-args['PHI'] = [1.0] #[0.5, 1.0, 5.0, 10.0]
+args['GAMMA'] = [1.0] #[0.5, 1.0, 5.0, 10.0]
 args['LAMBDA'] = [1.0] #[0.001, 0.01, 0.1, 1.0]
 args['COST_F'] = [5e-5]#, 5e-4, 5e-3]
 args['L_COMPONENTS'] = [128]#, 175]
