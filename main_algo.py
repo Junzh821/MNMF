@@ -17,6 +17,7 @@ import xlsxwriter
 import MNMF as mnmf
 import latent_graphs as lg
 import collections
+from collections import Counter
 import json
 from sklearn.linear_model import LogisticRegression
 
@@ -225,9 +226,9 @@ def main():
     dataset = load_dataset(config.DATA_DIR)
     h_row = 2
     names_c = ["MNMF_c.xlsx"]
-    tmp = {"accuracy": 0, "micro_precision": 0, "micro_recall": 0, "micro_f1": 0, "macro_precision": 0,
-           "macro_recall": 0, "macro_f1": 0, "average_precision": 0, "coverage": 0, "ranking_loss": 0,
-           "hamming_loss": 0, "cross_entropy": 0}
+    tmp = Counter({"accuracy": 0, "micro_precision": 0, "micro_recall": 0, "micro_f1": 0, "macro_precision": 0,
+                   "macro_recall": 0, "macro_f1": 0, "average_precision": 0, "coverage": 0, "ranking_loss": 0,
+                   "hamming_loss": 0, "cross_entropy": 0, "bae": 0, "pak": 0})
     overall_performances_c_0 = tmp
     overall_performances_c = [overall_performances_c_0]
     # workbooks = []
@@ -268,7 +269,8 @@ def main():
             train_ids = np.load(path.join(data_dir, 'train_ids.npy')).astype(dtype=bool)
             val_ids = np.load(path.join(data_dir, 'val_ids.npy')).astype(dtype=bool)
             test_ids = np.load(path.join(data_dir, 'test_ids.npy')).astype(dtype=bool)
-            unlabelled_ids = np.logical_or(val_ids, test_ids)
+            # unlabelled_ids = np.logical_or(val_ids, test_ids)
+            unlabelled_ids = np.logical_not(train_ids)
             n_unlabelled = np.count_nonzero(unlabelled_ids)
             labels = np.copy(dataset.truth)
             labels[unlabelled_ids, :] = np.zeros((n_unlabelled, dataset.n_labels))
@@ -300,22 +302,11 @@ def main():
                 performance = get_perf_metrics_using_classifier(config, best_result_c['U'], Y, train_ids, val_ids, test_ids)
                 print("Performance_using_classifier : Test accuracy: {%0.5f } , Test Loss: {%0.5f }" % (
                     performance['accuracy'], performance['cross_entropy']))
-                performances.append(performance)
+                performances.append(Counter(performance))
                 all_results_c[a][b] = performance
             for i in range(len(overall_performances_c)) :
                 if len(overall_performances_c) == len(performances) :
-                    overall_performances_c[i]["accuracy"] += performances[i]["accuracy"]
-                    overall_performances_c[i]["micro_precision"] += performances[i]["micro_precision"]
-                    overall_performances_c[i]["micro_recall"] += performances[i]["micro_recall"]
-                    overall_performances_c[i]["micro_f1"] += performances[i]["micro_f1"]
-                    overall_performances_c[i]["macro_precision"] += performances[i]["macro_precision"]
-                    overall_performances_c[i]["macro_recall"] += performances[i]["macro_recall"]
-                    overall_performances_c[i]["macro_f1"] += performances[i]["macro_f1"]
-                    overall_performances_c[i]["average_precision"] += performances[i]["average_precision"]
-                    overall_performances_c[i]["coverage"] += performances[i]["coverage"]
-                    overall_performances_c[i]["ranking_loss"] += performances[i]["ranking_loss"]
-                    overall_performances_c[i]["hamming_loss"] += performances[i]["hamming_loss"]
-                    overall_performances_c[i]["cross_entropy"] += performances[i]["cross_entropy"]
+                    overall_performances_c[i] += performances[i]
             # for i in range(1, len(worksheets)):
             #     worksheets[i].write(h_row, h_col, performances[i-1]["accuracy"])
             #     worksheets[i].write(h_row, h_col + 1, performances[i-1]["micro_precision"])

@@ -290,6 +290,7 @@ def factorize(config, D, X, Y, Y_train, train_ids, val_ids, logger):
                     best_result_c['H'] = H
                 elif performance_val_c['cross_entropy'] <= best_val_fit_c and performance_train_c['cross_entropy'] < best_train_fit_c:
                     #print("Changed in first")
+                    best_val_fit_c = performance_val_c['cross_entropy']
                     best_train_fit_c = performance_train_c['cross_entropy']
                     best_result_c['U'] = U
                     best_result_c['H'] = H

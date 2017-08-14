@@ -95,7 +95,14 @@ def evaluate(predictions, labels, threshold=0, multi_label=False):
     assert predictions.shape == labels.shape, "Shapes: %s, %s" % (predictions.shape, labels.shape,)
     metrics = dict()
     predictions_binarized = np.zeros_like(predictions)
-    predictions_binarized[np.arange(len(predictions)), predictions.argmax(1)] = 1
+    if not multi_label :
+        predictions_binarized[np.arange(len(predictions)), predictions.argmax(1)] = 1
+    else :
+        for i in range(predictions.shape[0]):
+            k = np.sum(labels[i])
+            pos = predictions[i].argsort()
+            predictions_binarized[i].fill(0)
+            predictions_binarized[i][pos[-int(k):]] = 1
     metrics['cross_entropy'] = -np.mean(labels * np.log(predictions_binarized + 1e-10))
 
     if not multi_label:
@@ -107,10 +114,10 @@ def evaluate(predictions, labels, threshold=0, multi_label=False):
         # metrics['micro_precision'], metrics['micro_recall'], metrics['micro_f1']= \
         #    0, 0, 0
         metrics['macro_precision'], metrics['macro_recall'], metrics['macro_f1'], metrics['coverage'], \
-            metrics['average_precision'], metrics['ranking_loss'], metrics['pak'], metrics['hamming_loss'] \
+        metrics['average_precision'], metrics['ranking_loss'], metrics['pak'], metrics['hamming_loss'] \
             = 0, 0, 0, 0, 0, 0, 0, 0
     else:
-        #metrics['accuracy'] = accuracy_score(np.argmax(labels, axis=1), np.argmax(predictions, axis=1))
+        # metrics['accuracy'] = accuracy_score(np.argmax(labels, axis=1), np.argmax(predictions, axis=1))
         metrics['coverage'] = coverage_error(labels, predictions)
         metrics['average_precision'] = label_ranking_average_precision_score(labels, predictions)
         metrics['ranking_loss'] = label_ranking_loss(labels, predictions)
@@ -130,6 +137,7 @@ def evaluate(predictions, labels, threshold=0, multi_label=False):
         metrics['pak'] = patk(predictions, labels)
         metrics['hamming_loss'] = hamming_loss(labels, predictions)
         metrics['micro_precision'], metrics['micro_recall'], metrics['micro_f1'], metrics['macro_precision'], \
-            metrics['macro_recall'], metrics['macro_f1'] = bipartition_scores(labels, predictions)
+        metrics['macro_recall'], metrics['macro_f1'] = bipartition_scores(labels, predictions)
 
     return metrics
+
