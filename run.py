@@ -22,7 +22,7 @@ custom = '_MNMF_'
 now = datetime.now()
 args['timestamp'] = str(now.month)+'|'+str(now.day)+'|'+str(now.hour)+':'+str(now.minute)+':'+str(now.second) + custom #  '05|12|03:41:02'  # Month | Day | hours | minutes (24 hour clock)
 
-args['DATA_DIR'] = ['washington', 'wisconsin', 'texas', 'cornell', 'cora', 'citeseer', 'wiki'] #'washington', 'wisconsin', 'texas', 'cornell', 'cora', 'citeseer', 'wiki', 'ppi', 'wiki_n2v', 'blogcatalog', 'armherst', 'hamilton', 'mich', 'rochester']
+args['DATA_DIR'] = ['wiki_n2v'] #'washington', 'wisconsin', 'texas', 'cornell', 'cora', 'citeseer', 'wiki', 'ppi', 'wiki_n2v', 'blogcatalog', 'armherst', 'hamilton', 'mich', 'rochester']
 args['ETA'] = [1.0]#, 1.0, 5.0]
 args['ALPHA'] = [0.1, 0.5, 1.0, 2.0, 5.0, 7.0, 10.0]
 args['BETA'] = [0.1, 0.5, 1.0, 2.0, 5.0, 7.0, 10.0]

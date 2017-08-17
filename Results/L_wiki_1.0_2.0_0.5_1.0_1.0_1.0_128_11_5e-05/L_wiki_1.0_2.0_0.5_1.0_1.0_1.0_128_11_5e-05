@@ -1,0 +1,63 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Matrix Factorization~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Config: Namespace(ALPHA='2.0', BETA='0.5', CONV_KL=0.0001, CONV_LS=7e-05, CONV_MUL=0.0001, COST_F='5e-05', DATA_DIR='../Datasets/wiki', DELTA=1.0, ENF_Y=0, ETA='1.0', FACT_Y=1, GAMMA='1.0', INIT='nndsvd', K='11', LAMBDA='1.0', LG=1, LOG_DIR='Results/L_wiki_1.0_2.0_0.5_1.0_1.0_1.0_128_11_5e-05/L_wiki_1.0_2.0_0.5_1.0_1.0_1.0_128_11_5e-05', LOG_FNAME='mod_mnmf.log', L_COMPONENTS='128', MAX_ITER=700, MULTI_LABEL=False, PHI=3.0, PROJ=True, THETA='1.0', ZETA=1000000000.0)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+================ Dataset Details : Start ================
+Dataset: wiki
+Attributes: ['view.mat']
+Relations: ['adjmat.mat']
+Sets: [10 30 50 70]
+N_Folds: 5
+Number of nodes : 2405
+Number of labels : 19
+Number of features : [4973]
+All label distribution : [  92.  406.  203.  103.   10.  361.  157.   53.  109.   11.  269.    0.
+  179.    0.    9.   30.   77.  228.  108.]
+================ Dataset Details : End ================
+% of randomly sampled training data ----  10
+Performance_using_classifier : Test accuracy: {0.26403 } , Test Loss: {0.89191 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.31393 } , Test Loss: {0.83144 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.29522 } , Test Loss: {0.85412 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.30146 } , Test Loss: {0.84656 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.25780 } , Test Loss: {0.89947 }
+**********************************************************
+[{'micro_f1': 0.2864864864864865, 'micro_recall': 0.2864864864864865, 'bae': 0.76585251890761163, 'accuracy': 0.2864864864864865, 'micro_precision': 0.2864864864864865, 'cross_entropy': 0.86469767361218786}]
+% of randomly sampled training data ----  30
+Performance_using_classifier : Test accuracy: {0.48441 } , Test Loss: {0.62484 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.47609 } , Test Loss: {0.63492 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.49272 } , Test Loss: {0.61476 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.50520 } , Test Loss: {0.59964 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.49064 } , Test Loss: {0.61728 }
+**********************************************************
+[{'accuracy': 0.4898128898128899, 'micro_recall': 0.4898128898128899, 'bae': 0.55419750012619629, 'micro_f1': 0.4898128898128899, 'micro_precision': 0.4898128898128899, 'cross_entropy': 0.61828907081560647}]
+% of randomly sampled training data ----  50
+Performance_using_classifier : Test accuracy: {0.56133 } , Test Loss: {0.53162 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.53638 } , Test Loss: {0.56185 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.54054 } , Test Loss: {0.55681 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.51975 } , Test Loss: {0.58201 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.55301 } , Test Loss: {0.54170 }
+**********************************************************
+[{'micro_f1': 0.54220374220374223, 'micro_recall': 0.54220374220374223, 'bae': 0.58084299981318133, 'accuracy': 0.54220374220374223, 'micro_precision': 0.54220374220374223, 'cross_entropy': 0.55479728359194758}]
+% of randomly sampled training data ----  70
+Performance_using_classifier : Test accuracy: {0.55301 } , Test Loss: {0.54170 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.56133 } , Test Loss: {0.53162 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.55509 } , Test Loss: {0.53918 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.57173 } , Test Loss: {0.51902 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.54470 } , Test Loss: {0.55177 }
+**********************************************************
+[{'accuracy': 0.5571725571725572, 'micro_recall': 0.5571725571725572, 'bae': 0.57009439619260505, 'micro_f1': 0.5571725571725572, 'micro_precision': 0.5571725571725572, 'cross_entropy': 0.53665677295661651}]

@@ -230,7 +230,7 @@ def main():
                    "macro_recall": 0, "macro_f1": 0, "average_precision": 0, "coverage": 0, "ranking_loss": 0,
                    "hamming_loss": 0, "cross_entropy": 0, "bae": 0, "pak": 0})
     overall_performances_c_0 = tmp
-    overall_performances_c = [overall_performances_c_0]
+    overall_performances_c = [Counter(overall_performances_c_0)]
     # workbooks = []
     # worksheets = []
     # for i in range(len(names)) :
@@ -261,7 +261,7 @@ def main():
         master_results['C'] = list()
         # for i in range(len(worksheets)):
         #     worksheets[i].write(h_row, h_col, a)
-        overall_performances_c = [dict.fromkeys(aaa, 0) for aaa in overall_performances_c]
+        overall_performances_c = [Counter(dict.fromkeys(aaa, 0)) for aaa in overall_performances_c]
         itr = 0
         print("% of randomly sampled training data ---- ", a)
         for b in range(1, dataset.n_folds+1) :
