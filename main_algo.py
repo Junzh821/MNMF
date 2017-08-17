@@ -304,9 +304,23 @@ def main():
                     performance['accuracy'], performance['cross_entropy']))
                 performances.append(Counter(performance))
                 all_results_c[a][b] = performance
-            for i in range(len(overall_performances_c)) :
-                if len(overall_performances_c) == len(performances) :
-                    overall_performances_c[i] += performances[i]
+            for i in range(len(overall_performances_c)):
+                if len(overall_performances_c) == len(performances):
+                    # overall_performances_c[i] += performances[i]
+                    overall_performances_c[i]["accuracy"] += performances[i]["accuracy"]
+                    overall_performances_c[i]["micro_precision"] += performances[i]["micro_precision"]
+                    overall_performances_c[i]["micro_recall"] += performances[i]["micro_recall"]
+                    overall_performances_c[i]["micro_f1"] += performances[i]["micro_f1"]
+                    overall_performances_c[i]["macro_precision"] += performances[i]["macro_precision"]
+                    overall_performances_c[i]["macro_recall"] += performances[i]["macro_recall"]
+                    overall_performances_c[i]["macro_f1"] += performances[i]["macro_f1"]
+                    overall_performances_c[i]["average_precision"] += performances[i]["average_precision"]
+                    overall_performances_c[i]["coverage"] += performances[i]["coverage"]
+                    overall_performances_c[i]["ranking_loss"] += performances[i]["ranking_loss"]
+                    overall_performances_c[i]["hamming_loss"] += performances[i]["hamming_loss"]
+                    overall_performances_c[i]["cross_entropy"] += performances[i]["cross_entropy"]
+                    overall_performances_c[i]["bae"] += performances[i]["bae"]
+                    overall_performances_c[i]["pak"] += performances[i]["pak"]
             # for i in range(1, len(worksheets)):
             #     worksheets[i].write(h_row, h_col, performances[i-1]["accuracy"])
             #     worksheets[i].write(h_row, h_col + 1, performances[i-1]["micro_precision"])
