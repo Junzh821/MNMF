@@ -270,7 +270,7 @@ def main():
             val_ids = np.load(path.join(data_dir, 'val_ids.npy')).astype(dtype=bool)
             test_ids = np.load(path.join(data_dir, 'test_ids.npy')).astype(dtype=bool)
             # unlabelled_ids = np.logical_or(val_ids, test_ids)
-            unlabelled_ids = np.logical_not(train_ids)
+            unlabelled_ids = np.logical_not(np.logical_or(train_ids, val_ids))
             n_unlabelled = np.count_nonzero(unlabelled_ids)
             labels = np.copy(dataset.truth)
             labels[unlabelled_ids, :] = np.zeros((n_unlabelled, dataset.n_labels))
@@ -359,12 +359,13 @@ def main():
     # for i in range(len(workbooks)):
     #     workbooks[i].close()
     all_results_c[str(0)] = config
-    np.save(path.join(fldr1, config.FOLDER_SUFFIX + '_results_c.npy'), all_results_c)
+    np.save(path.join(fldr1, str.split(config.LOG_DIR, "/")[1] + '_results_c.npy'), all_results_c)
     l_res_c.append({str(0): config})
     all_avg_results_c[str.split(config.LOG_DIR, "/")[1]] = l_res_c
     fn1 = str.split(config.LOG_DIR, "/")[1] + '_results_avg_n.npy'
     fn2 = str.split(config.LOG_DIR, "/")[1] + '_results_avg_c.npy'
     np.save(path.join(fldr1, "Avg", fn2), all_avg_results_c)
+
 
 if __name__ == "__main__":
     main()

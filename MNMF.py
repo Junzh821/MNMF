@@ -239,13 +239,14 @@ def factorize(config, D, X, Y, Y_train, train_ids, val_ids, logger):
     train_label_dist = train_label_dist / sum(train_label_dist)
     # Creation of penalty matrix from label matrix and training data
     W = np.copy(Y.T)
-    unlabelled_ids = np.logical_not(train_ids)
+    unlabelled_ids = np.logical_not(np.logical_or(train_ids, val_ids))
     n_unlabelled = np.count_nonzero(unlabelled_ids)
     W[unlabelled_ids, :] = np.zeros((n_unlabelled, q))
     # tmp = W[train_ids, :]
     # tmp[tmp == 1] = 0.01
     # tmp[tmp == 0] = 1
-    W[train_ids, :] = np.ones((n - n_unlabelled, q))
+    labelled_ids = np.logical_or(train_ids, val_ids)
+    W[labelled_ids, :] = np.ones((n - n_unlabelled, q))
     W = W.T
     mod_Y = W * Y
     # ---------- Initialize factor matrices-----------------------------------------
@@ -269,9 +270,11 @@ def factorize(config, D, X, Y, Y_train, train_ids, val_ids, logger):
             #print 'M : ', np.count_nonzero(M)
             U = __LS_updateU_L2(S, M, U, H, C, alpha, beta, lmbda)
             #print 'U : ', np.count_nonzero(U)
-            C = __LS_updateC_L2(H, U, C, beta, lmbda)
-            # compute fit value
-            H = __LS_updateH_L2(H, U, C, X, B, beta, gamma, zeta)
+            if beta != 0 :
+                C = __LS_updateC_L2(H, U, C, beta, lmbda)
+                # compute fit value
+                if zeta != 0 and gamma != 0 :
+                    H = __LS_updateH_L2(H, U, C, X, B, beta, gamma, zeta)
             fit = __LS_compute_fit(S, M, U, H, C, X, B, alpha, beta, gamma, zeta, lmbda)
 
         if (iter % 5 == 0):
