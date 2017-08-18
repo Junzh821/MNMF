@@ -1,3 +1,65 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Matrix Factorization~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Config: Namespace(ALPHA='10.0', BETA='0.5', CONV_KL=0.0001, CONV_LS=7e-05, CONV_MUL=0.0001, COST_F='5e-05', DATA_DIR='../Datasets/blogcatalog', DELTA=1.0, ENF_Y=0, ETA='1.0', FACT_Y=1, GAMMA='1.0', INIT='nndsvd', K='11', LAMBDA='1.0', LG=1, LOG_DIR='Results/L_blogcatalog_1.0_10.0_0.5_1.0_1.0_1.0_128_11_5e-05/L_blogcatalog_1.0_10.0_0.5_1.0_1.0_1.0_128_11_5e-05', LOG_FNAME='mod_mnmf.log', L_COMPONENTS='128', MAX_ITER=700, MULTI_LABEL=True, PHI=3.0, PROJ=True, THETA='1.0', ZETA=1000000000.0)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+================ Dataset Details : Start ================
+Dataset: blogcatalog
+Attributes: ['view.mat']
+Relations: ['adjmat.mat']
+Sets: [10 30 50 70]
+N_Folds: 5
+Number of nodes : 10312
+Number of labels : 39
+Number of features : [444]
+All label distribution : [  167.   778.   619.   246.   908.   876.   610.  1623.   323.   405.
+   472.    38.   514.   306.    91.   415.   467.   311.   986.   320.
+   246.   287.   325.   977.   201.   284.    94.   112.   173.   372.
+    98.   386.    95.    64.    62.   137.    53.    27.     8.]
+================ Dataset Details : End ================
+% of randomly sampled training data ----  10
+Performance_using_classifier : Test accuracy: {0.15034 } , Test Loss: {0.65283 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.15761 } , Test Loss: {0.64853 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.15907 } , Test Loss: {0.64538 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.16004 } , Test Loss: {0.64280 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.15761 } , Test Loss: {0.64309 }
+**********************************************************
+[{'macro_f1': 0.09549926009849706, 'bae': 0.0, 'accuracy': 0.15693501454898157, 'hamming_loss': 0.05615658185978264, 'micro_f1': 0.23353649924291173, 'macro_precision': 0.12063460538082038, 'micro_precision': 0.23353699924184079, 'cross_entropy': 0.64652654131832121, 'micro_recall': 0.23353699924184079, 'ranking_loss': 0.23071963031276099, 'coverage': 11.605334626576139, 'pak': array([ 0.,  0.,  0.]), 'average_precision': 0.34659763865899834, 'macro_recall': 0.079748144233011756}]
+% of randomly sampled training data ----  30
+Performance_using_classifier : Test accuracy: {0.18429 } , Test Loss: {0.62792 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.18671 } , Test Loss: {0.62763 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.18235 } , Test Loss: {0.63135 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.18089 } , Test Loss: {0.63021 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.18235 } , Test Loss: {0.63164 }
+**********************************************************
+[{'macro_f1': 0.12225358169478966, 'bae': 0.0, 'accuracy': 0.1833171677982541, 'hamming_loss': 0.054699196697256834, 'micro_f1': 0.25846207577356928, 'macro_precision': 0.16756732151280151, 'micro_precision': 0.25846257577260201, 'cross_entropy': 0.62974777456831044, 'micro_recall': 0.25846257577260201, 'ranking_loss': 0.21592737800131481, 'coverage': 10.959747817652763, 'pak': array([ 0.,  0.,  0.]), 'average_precision': 0.378913663567646, 'macro_recall': 0.097062153966323089}]
+% of randomly sampled training data ----  50
+Performance_using_classifier : Test accuracy: {0.20951 } , Test Loss: {0.59928 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.21145 } , Test Loss: {0.59642 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.21678 } , Test Loss: {0.59499 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.21775 } , Test Loss: {0.59098 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.21678 } , Test Loss: {0.59327 }
+**********************************************************
+[{'macro_f1': 0.12594657204863607, 'bae': 0.0, 'accuracy': 0.21445198836081475, 'hamming_loss': 0.05167997214553956, 'micro_f1': 0.27947245413422583, 'macro_precision': 0.15413037312433941, 'micro_precision': 0.27947295413333118, 'cross_entropy': 0.59498766734233222, 'micro_recall': 0.27947295413333118, 'ranking_loss': 0.2108579093264526, 'coverage': 10.734820562560621, 'pak': array([ 0.,  0.,  0.]), 'average_precision': 0.39909579252903699, 'macro_recall': 0.10674985434733697}]
+% of randomly sampled training data ----  70
+Performance_using_classifier : Test accuracy: {0.22211 } , Test Loss: {0.60329 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.21581 } , Test Loss: {0.60759 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.21775 } , Test Loss: {0.60845 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.21435 } , Test Loss: {0.61016 }
+**********************************************************
+Performance_using_classifier : Test accuracy: {0.21581 } , Test Loss: {0.60587 }
+**********************************************************
+[{'macro_f1': 0.14401946395310236, 'bae': 0.0, 'accuracy': 0.21716779825412225, 'hamming_loss': 0.05272948842298988, 'micro_f1': 0.28708759674361195, 'macro_precision': 0.19661026182229033, 'micro_precision': 0.28708809674274105, 'cross_entropy': 0.60707067001883142, 'micro_recall': 0.28708809674274105, 'ranking_loss': 0.20210155724630924, 'coverage': 10.458486905916585, 'pak': array([ 0.,  0.,  0.]), 'average_precision': 0.40644842545090765, 'macro_recall': 0.1137169974771034}]
