@@ -359,7 +359,7 @@ def main():
     # for i in range(len(workbooks)):
     #     workbooks[i].close()
     all_results_c[str(0)] = config
-    np.save(path.join(fldr1, str.split(config.LOG_DIR, "/")[1] + '_results_c.npy'), all_results_c)
+    np.save(path.join(fldr1, config.FOLDER_SUFFIX + '_results_c.npy'), all_results_c)
     l_res_c.append({str(0): config})
     all_avg_results_c[str.split(config.LOG_DIR, "/")[1]] = l_res_c
     fn1 = str.split(config.LOG_DIR, "/")[1] + '_results_avg_n.npy'

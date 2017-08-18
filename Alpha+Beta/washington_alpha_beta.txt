@@ -1,0 +1,36 @@
+L_washington_1.0_0.1_5.0_1.0_1.0_1.0_128_11_5e-05: 0.404348
+L_washington_1.0_2.0_0.5_1.0_1.0_1.0_128_11_5e-05: 0.404348
+L_washington_1.0_1.0_7.0_1.0_1.0_1.0_128_11_5e-05: 0.404348
+
+L_washington_1.0_0.1_5.0_1.0_1.0_1.0_128_11_5e-05: 0.508696
+L_washington_1.0_2.0_0.5_1.0_1.0_1.0_128_11_5e-05: 0.508696
+L_washington_1.0_10.0_0.5_1.0_1.0_1.0_128_11_5e-05: 0.508696
+
+L_washington_1.0_2.0_7.0_1.0_1.0_1.0_128_11_5e-05: 0.586957
+L_washington_1.0_7.0_1.0_1.0_1.0_1.0_128_11_5e-05: 0.586957
+L_washington_1.0_1.0_5.0_1.0_1.0_1.0_128_11_5e-05: 0.586957
+
+L_washington_1.0_0.1_1.0_1.0_1.0_1.0_128_11_5e-05: 0.669565
+L_washington_1.0_10.0_5.0_1.0_1.0_1.0_128_11_5e-05: 0.669565
+L_washington_1.0_5.0_1.0_1.0_1.0_1.0_128_11_5e-05: 0.669565
+Improved over upto two percentage of data --> Key :  L_washington_1.0_0.1_5.0_1.0_1.0_1.0_128_11_5e-05 Accuracy :  [0.40434782608695652, 0.50869565217391299] Config :  Namespace(ALPHA='0.1', BETA='5.0', CONV_KL=0.0001, CONV_LS=7e-05, CONV_MUL=0.0001, COST_F='5e-05', DATA_DIR='../Datasets/washington', DELTA=1.0, ENF_Y=0, ETA='1.0', FACT_Y=1, GAMMA='1.0', INIT='nndsvd', K='11', LAMBDA='1.0', LG=1, LOG_DIR='Results/L_washington_1.0_0.1_5.0_1.0_1.0_1.0_128_11_5e-05/L_washington_1.0_0.1_5.0_1.0_1.0_1.0_128_11_5e-05', LOG_FNAME='mod_mnmf.log', L_COMPONENTS='128', MAX_ITER=700, MULTI_LABEL=False, PHI=3.0, PROJ=True, THETA='1.0', ZETA=1000000000.0)
+Alpha :  0.1 Beta :  5.0
+Improved over upto two percentage of data --> Key :  L_washington_1.0_2.0_0.5_1.0_1.0_1.0_128_11_5e-05 Accuracy :  [0.40434782608695652, 0.50869565217391299] Config :  Namespace(ALPHA='2.0', BETA='0.5', CONV_KL=0.0001, CONV_LS=7e-05, CONV_MUL=0.0001, COST_F='5e-05', DATA_DIR='../Datasets/washington', DELTA=1.0, ENF_Y=0, ETA='1.0', FACT_Y=1, GAMMA='1.0', INIT='nndsvd', K='11', LAMBDA='1.0', LG=1, LOG_DIR='Results/L_washington_1.0_2.0_0.5_1.0_1.0_1.0_128_11_5e-05/L_washington_1.0_2.0_0.5_1.0_1.0_1.0_128_11_5e-05', LOG_FNAME='mod_mnmf.log', L_COMPONENTS='128', MAX_ITER=700, MULTI_LABEL=False, PHI=3.0, PROJ=True, THETA='1.0', ZETA=1000000000.0)
+Alpha :  2.0 Beta :  0.5
+Improved over upto one percentage of data --> Key :  L_washington_1.0_1.0_5.0_1.0_1.0_1.0_128_11_5e-05 Accuracy :  [0.58695652173913049] Config :  Namespace(ALPHA='1.0', BETA='5.0', CONV_KL=0.0001, CONV_LS=7e-05, CONV_MUL=0.0001, COST_F='5e-05', DATA_DIR='../Datasets/washington', DELTA=1.0, ENF_Y=0, ETA='1.0', FACT_Y=1, GAMMA='1.0', INIT='nndsvd', K='11', LAMBDA='1.0', LG=1, LOG_DIR='Results/L_washington_1.0_1.0_5.0_1.0_1.0_1.0_128_11_5e-05/L_washington_1.0_1.0_5.0_1.0_1.0_1.0_128_11_5e-05', LOG_FNAME='mod_mnmf.log', L_COMPONENTS='128', MAX_ITER=700, MULTI_LABEL=False, PHI=3.0, PROJ=True, THETA='1.0', ZETA=1000000000.0)
+Alpha :  1.0 Beta :  5.0
+Improved over upto one percentage of data --> Key :  L_washington_1.0_1.0_7.0_1.0_1.0_1.0_128_11_5e-05 Accuracy :  [0.40434782608695652] Config :  Namespace(ALPHA='1.0', BETA='7.0', CONV_KL=0.0001, CONV_LS=7e-05, CONV_MUL=0.0001, COST_F='5e-05', DATA_DIR='../Datasets/washington', DELTA=1.0, ENF_Y=0, ETA='1.0', FACT_Y=1, GAMMA='1.0', INIT='nndsvd', K='11', LAMBDA='1.0', LG=1, LOG_DIR='Results/L_washington_1.0_1.0_7.0_1.0_1.0_1.0_128_11_5e-05/L_washington_1.0_1.0_7.0_1.0_1.0_1.0_128_11_5e-05', LOG_FNAME='mod_mnmf.log', L_COMPONENTS='128', MAX_ITER=700, MULTI_LABEL=False, PHI=3.0, PROJ=True, THETA='1.0', ZETA=1000000000.0)
+Alpha :  1.0 Beta :  7.0
+Improved over upto one percentage of data --> Key :  L_washington_1.0_10.0_5.0_1.0_1.0_1.0_128_11_5e-05 Accuracy :  [0.66956521739130437] Config :  Namespace(ALPHA='10.0', BETA='5.0', CONV_KL=0.0001, CONV_LS=7e-05, CONV_MUL=0.0001, COST_F='5e-05', DATA_DIR='../Datasets/washington', DELTA=1.0, ENF_Y=0, ETA='1.0', FACT_Y=1, GAMMA='1.0', INIT='nndsvd', K='11', LAMBDA='1.0', LG=1, LOG_DIR='Results/L_washington_1.0_10.0_5.0_1.0_1.0_1.0_128_11_5e-05/L_washington_1.0_10.0_5.0_1.0_1.0_1.0_128_11_5e-05', LOG_FNAME='mod_mnmf.log', L_COMPONENTS='128', MAX_ITER=700, MULTI_LABEL=False, PHI=3.0, PROJ=True, THETA='1.0', ZETA=1000000000.0)
+Alpha :  10.0 Beta :  5.0
+Improved over upto one percentage of data --> Key :  L_washington_1.0_0.1_1.0_1.0_1.0_1.0_128_11_5e-05 Accuracy :  [0.66956521739130437] Config :  Namespace(ALPHA='0.1', BETA='1.0', CONV_KL=0.0001, CONV_LS=7e-05, CONV_MUL=0.0001, COST_F='5e-05', DATA_DIR='../Datasets/washington', DELTA=1.0, ENF_Y=0, ETA='1.0', FACT_Y=1, GAMMA='1.0', INIT='nndsvd', K='11', LAMBDA='1.0', LG=1, LOG_DIR='Results/L_washington_1.0_0.1_1.0_1.0_1.0_1.0_128_11_5e-05/L_washington_1.0_0.1_1.0_1.0_1.0_1.0_128_11_5e-05', LOG_FNAME='mod_mnmf.log', L_COMPONENTS='128', MAX_ITER=700, MULTI_LABEL=False, PHI=3.0, PROJ=True, THETA='1.0', ZETA=1000000000.0)
+Alpha :  0.1 Beta :  1.0
+Improved over upto one percentage of data --> Key :  L_washington_1.0_5.0_1.0_1.0_1.0_1.0_128_11_5e-05 Accuracy :  [0.66956521739130437] Config :  Namespace(ALPHA='5.0', BETA='1.0', CONV_KL=0.0001, CONV_LS=7e-05, CONV_MUL=0.0001, COST_F='5e-05', DATA_DIR='../Datasets/washington', DELTA=1.0, ENF_Y=0, ETA='1.0', FACT_Y=1, GAMMA='1.0', INIT='nndsvd', K='11', LAMBDA='1.0', LG=1, LOG_DIR='Results/L_washington_1.0_5.0_1.0_1.0_1.0_1.0_128_11_5e-05/L_washington_1.0_5.0_1.0_1.0_1.0_1.0_128_11_5e-05', LOG_FNAME='mod_mnmf.log', L_COMPONENTS='128', MAX_ITER=700, MULTI_LABEL=False, PHI=3.0, PROJ=True, THETA='1.0', ZETA=1000000000.0)
+Alpha :  5.0 Beta :  1.0
+Improved over upto one percentage of data --> Key :  L_washington_1.0_2.0_7.0_1.0_1.0_1.0_128_11_5e-05 Accuracy :  [0.58695652173913049] Config :  Namespace(ALPHA='2.0', BETA='7.0', CONV_KL=0.0001, CONV_LS=7e-05, CONV_MUL=0.0001, COST_F='5e-05', DATA_DIR='../Datasets/washington', DELTA=1.0, ENF_Y=0, ETA='1.0', FACT_Y=1, GAMMA='1.0', INIT='nndsvd', K='11', LAMBDA='1.0', LG=1, LOG_DIR='Results/L_washington_1.0_2.0_7.0_1.0_1.0_1.0_128_11_5e-05/L_washington_1.0_2.0_7.0_1.0_1.0_1.0_128_11_5e-05', LOG_FNAME='mod_mnmf.log', L_COMPONENTS='128', MAX_ITER=700, MULTI_LABEL=False, PHI=3.0, PROJ=True, THETA='1.0', ZETA=1000000000.0)
+Alpha :  2.0 Beta :  7.0
+Improved over upto one percentage of data --> Key :  L_washington_1.0_10.0_0.5_1.0_1.0_1.0_128_11_5e-05 Accuracy :  [0.50869565217391299] Config :  Namespace(ALPHA='10.0', BETA='0.5', CONV_KL=0.0001, CONV_LS=7e-05, CONV_MUL=0.0001, COST_F='5e-05', DATA_DIR='../Datasets/washington', DELTA=1.0, ENF_Y=0, ETA='1.0', FACT_Y=1, GAMMA='1.0', INIT='nndsvd', K='11', LAMBDA='1.0', LG=1, LOG_DIR='Results/L_washington_1.0_10.0_0.5_1.0_1.0_1.0_128_11_5e-05/L_washington_1.0_10.0_0.5_1.0_1.0_1.0_128_11_5e-05', LOG_FNAME='mod_mnmf.log', L_COMPONENTS='128', MAX_ITER=700, MULTI_LABEL=False, PHI=3.0, PROJ=True, THETA='1.0', ZETA=1000000000.0)
+Alpha :  10.0 Beta :  0.5
+Improved over upto one percentage of data --> Key :  L_washington_1.0_7.0_1.0_1.0_1.0_1.0_128_11_5e-05 Accuracy :  [0.58695652173913049] Config :  Namespace(ALPHA='7.0', BETA='1.0', CONV_KL=0.0001, CONV_LS=7e-05, CONV_MUL=0.0001, COST_F='5e-05', DATA_DIR='../Datasets/washington', DELTA=1.0, ENF_Y=0, ETA='1.0', FACT_Y=1, GAMMA='1.0', INIT='nndsvd', K='11', LAMBDA='1.0', LG=1, LOG_DIR='Results/L_washington_1.0_7.0_1.0_1.0_1.0_1.0_128_11_5e-05/L_washington_1.0_7.0_1.0_1.0_1.0_1.0_128_11_5e-05', LOG_FNAME='mod_mnmf.log', L_COMPONENTS='128', MAX_ITER=700, MULTI_LABEL=False, PHI=3.0, PROJ=True, THETA='1.0', ZETA=1000000000.0)
+Alpha :  7.0 Beta :  1.0
+
