@@ -3,11 +3,11 @@ DEBUG:M-NMF:Initialization completed
 DEBUG:M-NMF:
 ***************************************************
 DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.39015 } , Train Loss: {2.34038 }
+DEBUG:M-NMF:Train accuracy: {0.40152 } , Train Loss: {2.29677 }
 DEBUG:M-NMF:Validation accuracy: {0.25758 } , Validation Loss: {2.84916 }
 DEBUG:M-NMF:***************************************************
 
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.17456
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.46359
 DEBUG:M-NMF:***************************************************
 
 DEBUG:M-NMF:Initializing U
@@ -15,11 +15,11 @@ DEBUG:M-NMF:Initialization completed
 DEBUG:M-NMF:
 ***************************************************
 DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.46591 } , Train Loss: {2.04965 }
+DEBUG:M-NMF:Train accuracy: {0.45076 } , Train Loss: {2.10780 }
 DEBUG:M-NMF:Validation accuracy: {0.24242 } , Validation Loss: {2.90730 }
 DEBUG:M-NMF:***************************************************
 
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.28506
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.30847
 DEBUG:M-NMF:***************************************************
 
 DEBUG:M-NMF:Initializing U
@@ -27,11 +27,11 @@ DEBUG:M-NMF:Initialization completed
 DEBUG:M-NMF:
 ***************************************************
 DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.39773 } , Train Loss: {2.31131 }
+DEBUG:M-NMF:Train accuracy: {0.39394 } , Train Loss: {2.32584 }
 DEBUG:M-NMF:Validation accuracy: {0.25758 } , Validation Loss: {2.84916 }
 DEBUG:M-NMF:***************************************************
 
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.43118
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.31871
 DEBUG:M-NMF:***************************************************
 
 DEBUG:M-NMF:Initializing U
@@ -39,11 +39,11 @@ DEBUG:M-NMF:Initialization completed
 DEBUG:M-NMF:
 ***************************************************
 DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.43939 } , Train Loss: {2.15141 }
+DEBUG:M-NMF:Train accuracy: {0.44697 } , Train Loss: {2.12233 }
 DEBUG:M-NMF:Validation accuracy: {0.39394 } , Validation Loss: {2.32584 }
 DEBUG:M-NMF:***************************************************
 
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.35435
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.27097
 DEBUG:M-NMF:***************************************************
 
 DEBUG:M-NMF:Initializing U
@@ -52,10 +52,10 @@ DEBUG:M-NMF:
 ***************************************************
 DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
 DEBUG:M-NMF:Train accuracy: {0.37879 } , Train Loss: {2.38399 }
-DEBUG:M-NMF:Validation accuracy: {0.36364 } , Validation Loss: {2.44214 }
+DEBUG:M-NMF:Validation accuracy: {0.37879 } , Validation Loss: {2.38399 }
 DEBUG:M-NMF:***************************************************
 
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.53564
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.38025
 DEBUG:M-NMF:***************************************************
 
 DEBUG:M-NMF:Initializing U
@@ -63,11 +63,11 @@ DEBUG:M-NMF:Initialization completed
 DEBUG:M-NMF:
 ***************************************************
 DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.46725 } , Train Loss: {2.04449 }
+DEBUG:M-NMF:Train accuracy: {0.46474 } , Train Loss: {2.05415 }
 DEBUG:M-NMF:Validation accuracy: {0.45960 } , Validation Loss: {2.07388 }
 DEBUG:M-NMF:***************************************************
 
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 1.18432
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.41537
 DEBUG:M-NMF:***************************************************
 
 DEBUG:M-NMF:Initializing U
@@ -75,23 +75,11 @@ DEBUG:M-NMF:Initialization completed
 DEBUG:M-NMF:
 ***************************************************
 DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.51134 } , Train Loss: {1.87532 }
-DEBUG:M-NMF:Validation accuracy: {0.42929 } , Validation Loss: {2.19017 }
+DEBUG:M-NMF:Train accuracy: {0.50882 } , Train Loss: {1.88499 }
+DEBUG:M-NMF:Validation accuracy: {0.41919 } , Validation Loss: {2.22893 }
 DEBUG:M-NMF:***************************************************
 
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 1.32140
-DEBUG:M-NMF:***************************************************
-
-DEBUG:M-NMF:Initializing U
-DEBUG:M-NMF:Initialization completed
-DEBUG:M-NMF:
-***************************************************
-DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.46096 } , Train Loss: {2.06865 }
-DEBUG:M-NMF:Validation accuracy: {0.44949 } , Validation Loss: {2.11264 }
-DEBUG:M-NMF:***************************************************
-
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.85564
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.46588
 DEBUG:M-NMF:***************************************************
 
 DEBUG:M-NMF:Initializing U
@@ -99,11 +87,11 @@ DEBUG:M-NMF:Initialization completed
 DEBUG:M-NMF:
 ***************************************************
 DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.45088 } , Train Loss: {2.10732 }
-DEBUG:M-NMF:Validation accuracy: {0.41414 } , Validation Loss: {2.24832 }
+DEBUG:M-NMF:Train accuracy: {0.46977 } , Train Loss: {2.03482 }
+DEBUG:M-NMF:Validation accuracy: {0.43434 } , Validation Loss: {2.17079 }
 DEBUG:M-NMF:***************************************************
 
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.93505
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.95228
 DEBUG:M-NMF:***************************************************
 
 DEBUG:M-NMF:Initializing U
@@ -111,11 +99,11 @@ DEBUG:M-NMF:Initialization completed
 DEBUG:M-NMF:
 ***************************************************
 DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.43955 } , Train Loss: {2.15082 }
+DEBUG:M-NMF:Train accuracy: {0.45340 } , Train Loss: {2.09765 }
 DEBUG:M-NMF:Validation accuracy: {0.40404 } , Validation Loss: {2.28708 }
 DEBUG:M-NMF:***************************************************
 
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.69098
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.87776
 DEBUG:M-NMF:***************************************************
 
 DEBUG:M-NMF:Initializing U
@@ -123,23 +111,11 @@ DEBUG:M-NMF:Initialization completed
 DEBUG:M-NMF:
 ***************************************************
 DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.47205 } , Train Loss: {2.02607 }
-DEBUG:M-NMF:Validation accuracy: {0.44109 } , Validation Loss: {2.14491 }
+DEBUG:M-NMF:Train accuracy: {0.44962 } , Train Loss: {2.11215 }
+DEBUG:M-NMF:Validation accuracy: {0.41414 } , Validation Loss: {2.24832 }
 DEBUG:M-NMF:***************************************************
 
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 1.84221
-DEBUG:M-NMF:***************************************************
-
-DEBUG:M-NMF:Initializing U
-DEBUG:M-NMF:Initialization completed
-DEBUG:M-NMF:
-***************************************************
-DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.45091 } , Train Loss: {2.10722 }
-DEBUG:M-NMF:Validation accuracy: {0.46526 } , Validation Loss: {2.05215 }
-DEBUG:M-NMF:***************************************************
-
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.90892
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.85026
 DEBUG:M-NMF:***************************************************
 
 DEBUG:M-NMF:Initializing U
@@ -147,11 +123,11 @@ DEBUG:M-NMF:Initialization completed
 DEBUG:M-NMF:
 ***************************************************
 DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.46299 } , Train Loss: {2.06085 }
-DEBUG:M-NMF:Validation accuracy: {0.47734 } , Validation Loss: {2.00578 }
+DEBUG:M-NMF:Train accuracy: {0.46979 } , Train Loss: {2.03476 }
+DEBUG:M-NMF:Validation accuracy: {0.43807 } , Validation Loss: {2.15650 }
 DEBUG:M-NMF:***************************************************
 
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 1.28107
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 1.16543
 DEBUG:M-NMF:***************************************************
 
 DEBUG:M-NMF:Initializing U
@@ -159,11 +135,47 @@ DEBUG:M-NMF:Initialization completed
 DEBUG:M-NMF:
 ***************************************************
 DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.46073 } , Train Loss: {2.06954 }
+DEBUG:M-NMF:Train accuracy: {0.45544 } , Train Loss: {2.08983 }
+DEBUG:M-NMF:Validation accuracy: {0.48640 } , Validation Loss: {1.97099 }
+DEBUG:M-NMF:***************************************************
+
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 1.09606
+DEBUG:M-NMF:***************************************************
+
+DEBUG:M-NMF:Initializing U
+DEBUG:M-NMF:Initialization completed
+DEBUG:M-NMF:
+***************************************************
+DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
+DEBUG:M-NMF:Train accuracy: {0.46224 } , Train Loss: {2.06375 }
+DEBUG:M-NMF:Validation accuracy: {0.48036 } , Validation Loss: {1.99418 }
+DEBUG:M-NMF:***************************************************
+
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 1.20997
+DEBUG:M-NMF:***************************************************
+
+DEBUG:M-NMF:Initializing U
+DEBUG:M-NMF:Initialization completed
+DEBUG:M-NMF:
+***************************************************
+DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
+DEBUG:M-NMF:Train accuracy: {0.45393 } , Train Loss: {2.09563 }
+DEBUG:M-NMF:Validation accuracy: {0.45921 } , Validation Loss: {2.07534 }
+DEBUG:M-NMF:***************************************************
+
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.97960
+DEBUG:M-NMF:***************************************************
+
+DEBUG:M-NMF:Initializing U
+DEBUG:M-NMF:Initialization completed
+DEBUG:M-NMF:
+***************************************************
+DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
+DEBUG:M-NMF:Train accuracy: {0.46450 } , Train Loss: {2.05505 }
 DEBUG:M-NMF:Validation accuracy: {0.45317 } , Validation Loss: {2.09853 }
 DEBUG:M-NMF:***************************************************
 
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.96610
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.99423
 DEBUG:M-NMF:***************************************************
 
 DEBUG:M-NMF:Initializing U
@@ -171,23 +183,11 @@ DEBUG:M-NMF:Initialization completed
 DEBUG:M-NMF:
 ***************************************************
 DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.46073 } , Train Loss: {2.06954 }
-DEBUG:M-NMF:Validation accuracy: {0.45619 } , Validation Loss: {2.08694 }
+DEBUG:M-NMF:Train accuracy: {0.47303 } , Train Loss: {2.02232 }
+DEBUG:M-NMF:Validation accuracy: {0.44492 } , Validation Loss: {2.13018 }
 DEBUG:M-NMF:***************************************************
 
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.64984
-DEBUG:M-NMF:***************************************************
-
-DEBUG:M-NMF:Initializing U
-DEBUG:M-NMF:Initialization completed
-DEBUG:M-NMF:
-***************************************************
-DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.47627 } , Train Loss: {2.00990 }
-DEBUG:M-NMF:Validation accuracy: {0.44060 } , Validation Loss: {2.14676 }
-DEBUG:M-NMF:***************************************************
-
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.94441
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.81489
 DEBUG:M-NMF:***************************************************
 
 DEBUG:M-NMF:Initializing U
@@ -195,11 +195,11 @@ DEBUG:M-NMF:Initialization completed
 DEBUG:M-NMF:
 ***************************************************
 DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.46009 } , Train Loss: {2.07200 }
-DEBUG:M-NMF:Validation accuracy: {0.49460 } , Validation Loss: {1.93954 }
+DEBUG:M-NMF:Train accuracy: {0.45847 } , Train Loss: {2.07821 }
+DEBUG:M-NMF:Validation accuracy: {0.49244 } , Validation Loss: {1.94783 }
 DEBUG:M-NMF:***************************************************
 
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 1.23071
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 1.48204
 DEBUG:M-NMF:***************************************************
 
 DEBUG:M-NMF:Initializing U
@@ -207,11 +207,11 @@ DEBUG:M-NMF:Initialization completed
 DEBUG:M-NMF:
 ***************************************************
 DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.46872 } , Train Loss: {2.03888 }
-DEBUG:M-NMF:Validation accuracy: {0.45572 } , Validation Loss: {2.08874 }
+DEBUG:M-NMF:Train accuracy: {0.47303 } , Train Loss: {2.02232 }
+DEBUG:M-NMF:Validation accuracy: {0.46652 } , Validation Loss: {2.04729 }
 DEBUG:M-NMF:***************************************************
 
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.79641
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 1.75710
 DEBUG:M-NMF:***************************************************
 
 DEBUG:M-NMF:Initializing U
@@ -220,10 +220,10 @@ DEBUG:M-NMF:
 ***************************************************
 DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
 DEBUG:M-NMF:Train accuracy: {0.46494 } , Train Loss: {2.05337 }
-DEBUG:M-NMF:Validation accuracy: {0.45140 } , Validation Loss: {2.10532 }
+DEBUG:M-NMF:Validation accuracy: {0.44924 } , Validation Loss: {2.11360 }
 DEBUG:M-NMF:***************************************************
 
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 1.05414
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 1.03390
 DEBUG:M-NMF:***************************************************
 
 DEBUG:M-NMF:Initializing U
@@ -231,10 +231,10 @@ DEBUG:M-NMF:Initialization completed
 DEBUG:M-NMF:
 ***************************************************
 DEBUG:M-NMF:Train Fit at step {  0}: {0.00000 }
-DEBUG:M-NMF:Train accuracy: {0.47843 } , Train Loss: {2.00162 }
-DEBUG:M-NMF:Validation accuracy: {0.50756 } , Validation Loss: {1.88981 }
+DEBUG:M-NMF:Train accuracy: {0.48112 } , Train Loss: {1.99127 }
+DEBUG:M-NMF:Validation accuracy: {0.48812 } , Validation Loss: {1.96441 }
 DEBUG:M-NMF:***************************************************
 
-DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.58909
+DEBUG:M-NMF:M-NMF ::: [  0] fit: 0.00000 | delta: 0.0e+00 | secs: 0.37134
 DEBUG:M-NMF:***************************************************
 
