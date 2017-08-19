@@ -24,7 +24,7 @@ custom = '_LNMF_'
 now = datetime.now()
 args['timestamp'] = str(now.month)+'|'+str(now.day)+'|'+str(now.hour)+':'+str(now.minute)+':'+str(now.second) + custom #  '05|12|03:41:02'  # Month | Day | hours | minutes (24 hour clock)
 
-args['DATA_DIR'] = ['ppi']# ,'washington', 'wisconsin', 'texas', 'cornell', 'ppi', 'wiki_n2v', 'cora', 'citeseer', 'wiki', 'armherst', 'hamilton', 'mich', 'rochester', 'blogcatalog']
+args['DATA_DIR'] = ['wiki_n2v']# ,'washington', 'wisconsin', 'texas', 'cornell', 'ppi', 'wiki_n2v', 'cora', 'citeseer', 'wiki', 'armherst', 'hamilton', 'mich', 'rochester', 'blogcatalog']
 args['ETA'] = [1.0]#, 1.0, 5.0]
 #args['ALPHA'] = [0.1, 0.5, 1.0, 2.0, 5.0, 7.0, 10.0]
 #args['BETA'] = [0.1, 0.5, 1.0, 2.0, 5.0, 7.0, 10.0]
@@ -89,7 +89,7 @@ wiki_n2v_pruned_hyper_params.append([('ALPHA', '1.0'), ('BETA', '1.0')])
 wiki_n2v_pruned_hyper_params.append([('ALPHA', '2.0'), ('BETA', '0.5')])
 wiki_n2v_pruned_hyper_params.append([('ALPHA', '2.0'), ('BETA', '10.0')])
 wiki_n2v_pruned_hyper_params.append([('ALPHA', '1.0'), ('BETA', '0.1')])
-
+pruned_hyper_params = wiki_n2v_pruned_hyper_params
 
 ppi_pruned_hyper_params = list()
 ppi_pruned_hyper_params.append([('ALPHA', '7.0'), ('BETA', '2.0')])
@@ -103,7 +103,7 @@ ppi_pruned_hyper_params.append([('ALPHA', '0.5'), ('BETA', '5.0')])
 ppi_pruned_hyper_params.append([('ALPHA', '7.0'), ('BETA', '10.0')])
 ppi_pruned_hyper_params.append([('ALPHA', '0.5'), ('BETA', '1.0')])
 ppi_pruned_hyper_params.append([('ALPHA', '0.1'), ('BETA', '0.1')])
-pruned_hyper_params = ppi_pruned_hyper_params
+#pruned_hyper_params = ppi_pruned_hyper_params
 
 
 if not get_results_only:
