@@ -20,13 +20,13 @@ args['timestamp'] = str(now.month)+'|'+str(now.day)+'|'+str(now.hour)+':'+str(no
 
 args['DATA_DIR'] = ['wiki'] #'washington', 'wisconsin', 'texas', 'cornell', 'cora', 'citeseer', 'wiki', 'ppi', 'wiki_n2v', 'blogcatalog', 'armherst', 'hamilton', 'mich', 'rochester']
 args['ETA'] = [1.0]
-args['ALPHA'] = [0.1, 0.5, 1.0, 2.0, 5.0]
-args['BETA'] = [0.1, 0.5, 1.0, 2.0, 5.0]
-args['THETA'] = [0.1, 0.5, 1.0, 2.0, 5.0]
-args['GAMMA'] = [0.1, 0.5, 1.0, 2.0, 5.0]
-args['LAMBDA'] = [0.01, 0.1, 1.0]
+args['ALPHA'] = [0.5, 1.0, 2.0, 5.0]
+args['BETA'] = [0.5, 1.0, 2.0, 5.0]
+args['THETA'] = [0.5, 1.0, 2.0, 5.0]
+args['GAMMA'] = [0.5, 1.0, 2.0, 5.0]
+args['LAMBDA'] = [1.0]
 args['K'] = [9, 11, 13, 15, 17, 19, 21, 23, 25]
-args['MAX_ITER'] = [10, 25, 50, 75, 100]
+args['MAX_ITER'] = [50, 100, 150]
 
 def run_algo() :
     global get_results_only

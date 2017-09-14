@@ -65,7 +65,7 @@ if __name__ == "__main__":
     tmp_n_70 = collections.Counter(dict())
 
     for i, setting in enumerate(combinations):
-        folder_suffix = "MNF"
+        folder_suffix = "MNF-L"
         dataset_name = ''
         for name, value in zip(args['hyper_params'], setting):
             folder_suffix += "_" + str(value)

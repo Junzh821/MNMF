@@ -19,6 +19,7 @@ import mnf_sp as mnfsp
 
 
 
+
 def get_ArgumentParser():
     parser = argparse.ArgumentParser()
 
@@ -52,7 +53,7 @@ def get_ArgumentParser():
     parser.add_argument("--INIT", default="nndsvd")
     parser.add_argument("--PROJ", default=True)
     parser.add_argument("--COST_F", default='LS')
-    parser.add_argument("--CONV_LS", default=5e-5)
+    parser.add_argument("--CONV_LS", default=5e-4)
     parser.add_argument("--CONV_KL", default=1e-4)
     parser.add_argument("--CONV_MUL", default=1e-4)
     parser.add_argument("--MULTI_LABEL", default=False)
