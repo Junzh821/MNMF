@@ -1,0 +1,16 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Matrix Factorization~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Config: Namespace(ALPHA='0.1', BETA='0.1', CONV_KL=0.0001, CONV_LS=5e-05, CONV_MUL=0.0001, COST_F='LS', DATA_DIR='cora', DELTA=1.0, ENF_Y=0, ETA='1.0', FACT_Y=1, FOLDER_SUFFIX='L_cora_1.0_0.1_0.1_0.1_0.1_0.01_7_75', GAMMA=1.0, INIT='nndsvd', K='7', LAMBDA='0.01', LG=1, LOG_DIR='emb/Cora/L_cora_1.0_0.1_0.1_0.1_0.1_0.01_7_75', LOG_FNAME='mod_lnmf.log', L_COMPONENTS=200, MAX_ITER='75', MULTI_LABEL=False, PHI='0.1', PROJ=True, THETA='0.1', ZETA=1000000000.0)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+================ Dataset Details : Start ================
+Dataset: cora
+Attributes: ['view.mat']
+Relations: ['adjmat.mat']
+Sets: [10 30 50 70]
+N_Folds: 5
+Number of nodes : 2708
+Number of labels : 7
+Number of features : [1433]
+All label distribution : [ 0.12961595  0.08013294  0.15435746  0.30206795  0.15731167  0.11004431
+  0.06646972]
+================ Dataset Details : End ================
+% of randomly sampled training data ----  10
