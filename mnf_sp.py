@@ -201,10 +201,7 @@ def factorize(config, dataset, S, B, D, X, Y, Y_train, train_ids, val_ids, test_
             U = __LS_updateU_L2(S, M, U, H, C, W, Y, Q, A, d, alpha, beta, theta, lmbda, phi)
             fit = __LS_compute_fit(S, M, U, H, C, X, B, W, Y, Q, A, d, alpha, beta, gamma, zeta, theta, lmbda, phi)
 
-        if fitold != 0.0:
-            fitchange = abs(fitold - fit)/abs(fitold)
-        else :
-            fitchange = abs(fitold - fit)
+        fitchange = abs(fitold - fit)
 
         toc = time.time()
         exectimes.append(toc - tic)

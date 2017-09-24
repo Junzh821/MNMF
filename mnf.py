@@ -12,7 +12,7 @@ def initialize_factor_matrices(S, Y, n, rank, k, init, dtype, logger) :
     # np.random.seed(0)
     logger.debug('Initializing U')
     if init == 'random':
-        U = np.array(np.random.rand(n, rank), dtype=dtype)
+        U = np.array(np.random.rand(rank, n), dtype=dtype)
         M = np.array(np.random.rand(n, rank), dtype=dtype)
     elif init == 'nndsvd':
         M, U = _initialize_nmf(S, rank, 'nndsvd')
@@ -185,9 +185,7 @@ def factorize(config, dataset, S, B, D, X, Y, Y_train, train_ids, val_ids, test_
     #  ------ compute factorization -------------------------------------------
     fit = fitchange = fitold = f = prev_fitchange = 0
     exectimes = []
-    best_val_fit_lr = best_val_fit_svm = best_val_fit = np.inf
-    best_result_lr = best_result_svm = best_result = {'Q': Q, 'U': U, 'H': H, 'i': 0}
-    best_train_fit_lr = best_train_fit_svm = best_train_fit = np.inf
+    best_result = {'Q': Q, 'U': U, 'H': H, 'i': 0}
 
     for iter in range(maxIter):
         tic = time.time()
@@ -202,44 +200,7 @@ def factorize(config, dataset, S, B, D, X, Y, Y_train, train_ids, val_ids, test_
             U = __LS_updateU_L2(S, M, U, H, C, W, Y, Q, A, d, alpha, beta, theta, lmbda, phi)
             fit = __LS_compute_fit(S, M, U, H, C, X, B, W, Y, Q, A, d, alpha, beta, gamma, zeta, theta, lmbda, phi)
 
-        if (iter % 1 == 0):
-            from main_algo import tune_model, tune_model_using_svm, tune_model_using_lr
-            performance_val_lr = tune_model_using_lr(config, U, Y.T, train_ids, val_ids)
-            performance_train_lr = tune_model_using_lr(config, U, Y.T, train_ids, train_ids)
-            performance_val_svm = tune_model_using_svm(config, U, Y.T, train_ids, val_ids)
-            performance_train_svm = tune_model_using_svm(config, U, Y.T, train_ids, train_ids)
-            if performance_val_lr['cross_entropy'] < best_val_fit_lr:
-                best_val_fit_lr = performance_val_lr['cross_entropy']
-                best_result_lr['Q'] = Q
-                best_result_lr['U'] = U
-                best_result_lr['H'] = H
-                best_result_lr['i'] = iter
-                if performance_train_lr['cross_entropy'] < best_train_fit_lr:
-                    best_train_fit_lr = performance_train_lr['cross_entropy']
-            if performance_val_svm['cross_entropy'] < best_val_fit_svm:
-                best_val_fit_svm = performance_val_svm['cross_entropy']
-                best_result_svm['Q'] = Q
-                best_result_svm['U'] = U
-                best_result_svm['H'] = H
-                best_result_svm['i'] = iter
-                if performance_train_svm['cross_entropy'] < best_train_fit_svm:
-                    best_train_fit_svm = performance_train_svm['cross_entropy']
-            performance_train = tune_model(config, U, Q, Y.T, train_ids, train_ids)
-            performance_val = tune_model(config, U, Q, Y.T, train_ids, val_ids)
-            if performance_val['cross_entropy'] < best_val_fit:
-                best_val_fit = performance_val['cross_entropy']
-                best_result['Q'] = Q
-                best_result['U'] = U
-                best_result['H'] = H
-                best_result['i'] = iter
-                if performance_train['cross_entropy'] < best_train_fit:
-                    best_train_fit = performance_train['cross_entropy']
-            logger.debug("***************************************************\n")
-
-        if fitold != 0.0:
-            fitchange = abs(fitold - fit)/abs(fitold)
-        else :
-            fitchange = abs(fitold - fit)
+        fitchange = abs(fitold - fit)
 
         toc = time.time()
         exectimes.append(toc - tic)
@@ -247,37 +208,7 @@ def factorize(config, dataset, S, B, D, X, Y, Y_train, train_ids, val_ids, test_
                    % (iter, fit, fitchange, exectimes[-1]))
 
         if iter > maxIter or fitchange < conv:
-            from main_algo import tune_model, tune_model_using_svm, tune_model_using_lr
-            performance_train_c = tune_model_using_lr(config, best_result_lr['U'], Y.T, train_ids, train_ids)
-            performance_val_c = tune_model_using_lr(config, best_result_lr['U'], Y.T, train_ids, val_ids)
-            performance_train_c_1 = tune_model_using_lr(config, U, Y.T, train_ids, train_ids)
-            performance_val_c_1 = tune_model_using_lr(config, U, Y.T, train_ids, val_ids)
-            if performance_val_c_1['cross_entropy'] < performance_val_c['cross_entropy']:
-                best_result_lr['Q'] = Q
-                best_result_lr['U'] = U
-                best_result_lr['H'] = H
-                best_result_lr['i'] = iter
-            performance_train_c = tune_model_using_svm(config, best_result_svm['U'], Y.T, train_ids, train_ids)
-            performance_val_c = tune_model_using_svm(config, best_result_svm['U'], Y.T, train_ids, val_ids)
-            performance_train_c_1 = tune_model_using_svm(config, U, Y.T, train_ids, train_ids)
-            performance_val_c_1 = tune_model_using_svm(config, U, Y.T, train_ids, val_ids)
-            if performance_val_c_1['cross_entropy'] < performance_val_c['cross_entropy']:
-                best_result_svm['Q'] = Q
-                best_result_svm['U'] = U
-                best_result_svm['H'] = H
-                best_result_svm['i'] = iter
-            performance_train = tune_model(config, best_result['U'], Q, Y.T, train_ids, train_ids)
-            performance_val = tune_model(config, best_result['U'], Q, Y.T, train_ids, val_ids)
-            performance_train_1 = tune_model(config, U, Q, Y.T, train_ids, train_ids)
-            performance_val_1 = tune_model(config, U, Q, Y.T, train_ids, val_ids)
-            if performance_val_1['cross_entropy'] < performance_val['cross_entropy']:
-                best_result['Q'] = Q
-                best_result['U'] = U
-                best_result['H'] = H
-                best_result['i'] = iter
-            logger.debug("***************************************************\n")
             break
 
-    return best_result_lr, best_result_svm, best_result
-    # return best_result, best_result, best_result
-    # return {'Q' : Q, 'U' : U, 'H' : H, 'i' : 0}, {'Q' : Q, 'U' : U, 'H' : H, 'i' : 0}, {'Q' : Q, 'U' : U, 'H' : H, 'i' : 0}
+    best_result = {'Q': Q, 'U': U, 'H': H, 'i': iter}
+    return best_result, best_result, best_result

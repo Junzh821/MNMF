@@ -8,25 +8,32 @@ from shutil import rmtree
 from os import environ, mkdir, path, makedirs
 
 get_results_only = False
-switch_gpus = False #For multiple GPUs
+switch_gpus = False
 n_parallel_threads = 1
-# Set Hyper-parameters
 args = dict()
-# The names should be the same as argument names in parser.py
 args['hyper_params'] = ['DATA_DIR', 'ETA', 'ALPHA', 'BETA', 'THETA', 'GAMMA', 'LAMBDA', 'K', 'MAX_ITER']
 custom = '_MNF_'
 now = datetime.now()
-args['timestamp'] = str(now.month)+'|'+str(now.day)+'|'+str(now.hour)+':'+str(now.minute)+':'+str(now.second) + custom #  '05|12|03:41:02'  # Month | Day | hours | minutes (24 hour clock)
+args['timestamp'] = str(now.month)+'|'+str(now.day)+'|'+str(now.hour)+':'+st(now.minute)+':'+str(now.second) + custom
 
-args['DATA_DIR'] = ['wiki'] #'washington', 'wisconsin', 'texas', 'cornell', 'cora', 'citeseer', 'wiki', 'ppi', 'wiki_n2v', 'blogcatalog', 'armherst', 'hamilton', 'mich', 'rochester']
+args['DATA_DIR'] = ['wiki']
 args['ETA'] = [1.0]
-args['ALPHA'] = [0.5, 1.0, 2.0, 5.0]
-args['BETA'] = [0.5, 1.0, 2.0, 5.0]
-args['THETA'] = [0.5, 1.0, 2.0, 5.0]
-args['GAMMA'] = [0.5, 1.0, 2.0, 5.0]
+args['ALPHA'] = [1.0]
+args['BETA'] = [1.0]
+args['THETA'] = [1.0]
+args['GAMMA'] = [1.0]
 args['LAMBDA'] = [1.0]
-args['K'] = [9, 11, 13, 15, 17, 19, 21, 23, 25]
-args['MAX_ITER'] = [50, 100, 150]
+args['K'] = [7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 50]
+args['MAX_ITER'] = [500]
+
+dataset = ['cora', 'citeseer', 'wiki', 'ppi', 'blogcatalog']
+cora_K = [4, 5, 6, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 40] #20 ta, 7
+citeseer_K = [4, 5, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40] #20 ta, 6
+wiki_K = [7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 50] #22 ta, 17
+ppi_K = [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70] #21 ta, 50
+bc_K = [25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 60, 62, 64] #20 ta, 39
+lmbda = [0.01, 0.1, 1.0]
+param = [0.1, 0.3, 0.5, 0.7, 1.0, 3.0, 5.0, 7.0, 10.0]
 
 def run_algo() :
     global get_results_only

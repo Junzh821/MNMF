@@ -24,7 +24,7 @@ def get_ArgumentParser():
     parser = argparse.ArgumentParser()
 
     # Experiment configuration
-    parser.add_argument("--DATA_DIR", default="citeseer")
+    parser.add_argument("--DATA_DIR", default=" ")
     parser.add_argument("--LOG_DIR", default="emb/")
     parser.add_argument("--FOLDER_SUFFIX", default=" ")
     parser.add_argument("--LOG_FNAME", default="mod_mnf.log")
@@ -43,17 +43,17 @@ def get_ArgumentParser():
     parser.add_argument("--PHI", default=1.0, help="Network regularization weight")
     parser.add_argument("--DELTA", default=1.0, help="Simple Network regularization weight")
     parser.add_argument("--LAMBDA", default=1.0, help="L2 regularization weight for S and H factorization")
-    parser.add_argument("--ZETA", default=1e+9, help="L2 regularization weight for solving H")
+    parser.add_argument("--ZETA", default=1.0e+9, help="L2 regularization weight for solving H")
     # paper to code attribute mapping : alpha for S factorization, beta for H factorization, gamma for modularity maximization
 
     # Factorization parameters
-    parser.add_argument("--MAX_ITER", default=50)
+    parser.add_argument("--MAX_ITER", default=500)
     parser.add_argument("--L_COMPONENTS", default=128)
-    parser.add_argument("--K", default=16)
-    parser.add_argument("--INIT", default="nndsvd")
+    parser.add_argument("--K", default=1)
+    parser.add_argument("--INIT", default="random")
     parser.add_argument("--PROJ", default=True)
     parser.add_argument("--COST_F", default='LS')
-    parser.add_argument("--CONV_LS", default=5e-4)
+    parser.add_argument("--CONV_LS", default=5e-6)
     parser.add_argument("--CONV_KL", default=1e-4)
     parser.add_argument("--CONV_MUL", default=1e-4)
     parser.add_argument("--MULTI_LABEL", default=False)
@@ -201,8 +201,10 @@ def main():
     # graph_file = path.join(config.MODEL, "Net", config.DATA_DIR.title() + "_net.txt")
     # S = np.loadtxt(graph_file)
     # S = du.get_proximity_similarity_matrix(dataset.relations[0], float(config.ETA))
-    S = csr_matrix(du.get_proximity_matrix(dataset.relations[0], float(config.ETA)))
-    B = csr_matrix(du.get_modularity_matrix(dataset.relations[0]))
+    # S = csr_matrix(du.get_proximity_matrix(dataset.relations[0], float(config.ETA)))
+    # B = csr_matrix(du.get_modularity_matrix(dataset.relations[0]))
+    S = du.get_proximity_matrix(dataset.relations[0], float(config.ETA))
+    B = du.get_modularity_matrix(dataset.relations[0])
 
     perc_data = dataset.expt_sets
     for a in perc_data :
@@ -231,15 +233,19 @@ def main():
             n_labelled = np.count_nonzero(labelled_ids)
             labels = np.copy(dataset.truth)
             labels[unlabelled_ids, :] = np.zeros((n_unlabelled, dataset.n_labels))
-            Y = csr_matrix(dataset.truth)
-            Y_train = csr_matrix(labels)
-            D = [csr_matrix(i.T) for i in dataset.attributes]  # mxn
-            X = [csr_matrix(i) for i in dataset.relations]  # nxn
+            # Y = csr_matrix(dataset.truth)
+            # Y_train = csr_matrix(labels)
+            # D = [csr_matrix(i.T) for i in dataset.attributes]  # mxn
+            # X = [csr_matrix(i) for i in dataset.relations]  # nxn
+            Y = dataset.truth
+            Y_train = labels
+            D = [i.T for i in dataset.attributes]  # mxn
+            X = [i for i in dataset.relations]  # nxn
 
             performances_a = []
             performances_b = []
             performances_c = []
-            best_result_lr, best_result_svm, best_result = mnfsp.factorize(config, dataset, S, B, D[0], X[0], Y.T, Y_train.T,
+            best_result_lr, best_result_svm, best_result = mnf.factorize(config, dataset, S, B, D[0], X[0], Y.T, Y_train.T,
                                                                           train_ids, val_ids, test_ids, logger)
 
 
@@ -250,17 +256,31 @@ def main():
             # outputEntities = path.join(config.LOG_DIR, "Q_" + str(a) + "_" + str(b) + "_" + "_n.log")  # U
             # np.savetxt(outputEntities, best_result_n['Q'], fmt="%f")
 
-            performance_lr = get_perf_metrics_using_lr(config, best_result_lr['U'], Y.toarray(), train_ids, val_ids,
+            # performance_lr = get_perf_metrics_using_lr(config, best_result_lr['U'], Y.toarray(), train_ids, val_ids,
+            #                                            test_ids)
+            # print("Performance_using_LR : Test accuracy: {%0.5f } , Test Loss: {%0.5f } Iter: {%d}" % (
+            #     performance_lr['accuracy'], performance_lr['cross_entropy'], best_result_lr['i']))
+            # performances_a.append(performance_lr)
+            # performance_svm = get_perf_metrics_using_svm(config, best_result_svm['U'], Y.toarray(), train_ids, val_ids,
+            #                                              test_ids)
+            # print("Performance_using_SVM : Test accuracy: {%0.5f } , Test Loss: {%0.5f } Iter: {%d}" % (
+            #     performance_svm['accuracy'], performance_svm['cross_entropy'], best_result_svm['i']))
+            # performances_b.append(performance_svm)
+            # performance = get_perf_metrics(config, best_result['U'], best_result['Q'], Y.toarray(), train_ids, val_ids,
+            #                                test_ids)
+            # print("Performance_without_classifier : Test accuracy: {%0.5f } , Test Loss: {%0.5f } Iter: {%d}" % (
+            #     performance['accuracy'], performance['cross_entropy'], best_result['i']))
+            performance_lr = get_perf_metrics_using_lr(config, best_result_lr['U'], Y, train_ids, val_ids,
                                                        test_ids)
             print("Performance_using_LR : Test accuracy: {%0.5f } , Test Loss: {%0.5f } Iter: {%d}" % (
                 performance_lr['accuracy'], performance_lr['cross_entropy'], best_result_lr['i']))
             performances_a.append(performance_lr)
-            performance_svm = get_perf_metrics_using_svm(config, best_result_svm['U'], Y.toarray(), train_ids, val_ids,
+            performance_svm = get_perf_metrics_using_svm(config, best_result_svm['U'], Y, train_ids, val_ids,
                                                          test_ids)
             print("Performance_using_SVM : Test accuracy: {%0.5f } , Test Loss: {%0.5f } Iter: {%d}" % (
                 performance_svm['accuracy'], performance_svm['cross_entropy'], best_result_svm['i']))
             performances_b.append(performance_svm)
-            performance = get_perf_metrics(config, best_result['U'], best_result['Q'], Y.toarray(), train_ids, val_ids,
+            performance = get_perf_metrics(config, best_result['U'], best_result['Q'], Y, train_ids, val_ids,
                                            test_ids)
             print("Performance_without_classifier : Test accuracy: {%0.5f } , Test Loss: {%0.5f } Iter: {%d}" % (
                 performance['accuracy'], performance['cross_entropy'], best_result['i']))
