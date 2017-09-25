@@ -17,11 +17,11 @@ args['timestamp'] = str(now.month)+'|'+str(now.day)+'|'+str(now.hour)+':'+str(no
 args['DATA_DIR'] = ['cora']
 args['ETA'] = [1.0]
 args['ALPHA'] = [1.0]
-args['BETA'] = [1.0]
+args['BETA'] = [0.1, 0.3, 0.5, 0.7, 1.0, 3.0, 5.0, 7.0, 10.0]
 args['THETA'] = [1.0]
-args['GAMMA'] = [1.0]
+args['GAMMA'] = [0.1, 0.3, 0.5, 0.7, 1.0, 3.0, 5.0, 7.0, 10.0]
 args['LAMBDA'] = [1.0]
-args['K'] = [4, 5, 6, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 40]
+args['K'] = [5]
 args['MAX_ITER'] = [500]
 
 
