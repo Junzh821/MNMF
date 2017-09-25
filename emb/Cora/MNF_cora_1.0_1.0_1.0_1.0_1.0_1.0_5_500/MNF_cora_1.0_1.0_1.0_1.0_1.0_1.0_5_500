@@ -14,26 +14,26 @@ All label distribution : [ 0.12961595  0.08013294  0.15435746  0.30206795  0.157
   0.06646972]
 ================ Dataset Details : End ================
 % of randomly sampled training data ----  50
-Performance_using_LR : Test accuracy: {0.78155 } , Test Loss: {0.71857 } Iter: {499}
-Performance_using_SVM : Test accuracy: {0.78303 } , Test Loss: {0.71372 } Iter: {499}
-Performance_without_classifier : Test accuracy: {0.13506 } , Test Loss: {2.84516 } Iter: {499}
+Performance_using_LR : Test accuracy: {0.78081 } , Test Loss: {0.72100 } Iter: {499}
+Performance_using_SVM : Test accuracy: {0.78376 } , Test Loss: {0.71129 } Iter: {499}
+Performance_without_classifier : Test accuracy: {0.08782 } , Test Loss: {3.00052 } Iter: {499}
+**********************************************************
+Performance_using_LR : Test accuracy: {0.78672 } , Test Loss: {0.70158 } Iter: {499}
+Performance_using_SVM : Test accuracy: {0.78376 } , Test Loss: {0.71129 } Iter: {499}
+Performance_without_classifier : Test accuracy: {0.22214 } , Test Loss: {2.55870 } Iter: {499}
 **********************************************************
 Performance_using_LR : Test accuracy: {0.78745 } , Test Loss: {0.69915 } Iter: {499}
-Performance_using_SVM : Test accuracy: {0.80221 } , Test Loss: {0.65060 } Iter: {499}
-Performance_without_classifier : Test accuracy: {0.11292 } , Test Loss: {2.91798 } Iter: {499}
+Performance_using_SVM : Test accuracy: {0.80148 } , Test Loss: {0.65303 } Iter: {499}
+Performance_without_classifier : Test accuracy: {0.14686 } , Test Loss: {2.80631 } Iter: {499}
 **********************************************************
-Performance_using_LR : Test accuracy: {0.78155 } , Test Loss: {0.71857 } Iter: {499}
-Performance_using_SVM : Test accuracy: {0.78229 } , Test Loss: {0.71614 } Iter: {499}
-Performance_without_classifier : Test accuracy: {0.11734 } , Test Loss: {2.90342 } Iter: {499}
+Performance_using_LR : Test accuracy: {0.77712 } , Test Loss: {0.73314 } Iter: {499}
+Performance_using_SVM : Test accuracy: {0.78450 } , Test Loss: {0.70886 } Iter: {499}
+Performance_without_classifier : Test accuracy: {0.21993 } , Test Loss: {2.56598 } Iter: {499}
 **********************************************************
-Performance_using_LR : Test accuracy: {0.78524 } , Test Loss: {0.70643 } Iter: {499}
-Performance_using_SVM : Test accuracy: {0.79410 } , Test Loss: {0.67730 } Iter: {499}
-Performance_without_classifier : Test accuracy: {0.17343 } , Test Loss: {2.71892 } Iter: {499}
+Performance_using_LR : Test accuracy: {0.77638 } , Test Loss: {0.73556 } Iter: {499}
+Performance_using_SVM : Test accuracy: {0.77638 } , Test Loss: {0.73556 } Iter: {499}
+Performance_without_classifier : Test accuracy: {0.09889 } , Test Loss: {2.96411 } Iter: {499}
 **********************************************************
-Performance_using_LR : Test accuracy: {0.78893 } , Test Loss: {0.69430 } Iter: {499}
-Performance_using_SVM : Test accuracy: {0.79483 } , Test Loss: {0.67487 } Iter: {499}
-Performance_without_classifier : Test accuracy: {0.18598 } , Test Loss: {2.67765 } Iter: {499}
-**********************************************************
-LR --->  [{'coverage': 0.0, 'micro_precision': 0.78494464944649445, 'macro_f1': 0.0, 'macro_recall': 0.0, 'ranking_loss': 0.0, 'micro_f1': 0.78494464944649445, 'bae': 0.24947753731107433, 'hamming_loss': 0.0, 'micro_recall': 0.78494464944649445, 'accuracy': 0.78494464944649445, 'macro_precision': 0.0, 'average_precision': 0.0, 'pak': 0.0, 'cross_entropy': 0.70740463477894455}]
-SVM --->  [{'coverage': 0.0, 'micro_precision': 0.79129151291512911, 'macro_f1': 0.0, 'macro_recall': 0.0, 'ranking_loss': 0.0, 'micro_f1': 0.79129151291512911, 'bae': 0.23587912907341782, 'hamming_loss': 0.0, 'micro_recall': 0.79129151291512911, 'accuracy': 0.79129151291512911, 'macro_precision': 0.0, 'average_precision': 0.0, 'pak': 0.0, 'cross_entropy': 0.68652721590721588}]
-N --->  [{'coverage': 0.0, 'micro_precision': 0.14494464944649449, 'macro_f1': 0.0, 'macro_recall': 0.0, 'ranking_loss': 0.0, 'micro_f1': 0.14494464944649449, 'bae': 0.86013621624549919, 'hamming_loss': 0.0, 'micro_recall': 0.14494464944649449, 'accuracy': 0.14494464944649449, 'macro_precision': 0.0, 'average_precision': 0.0, 'pak': 0.0, 'cross_entropy': 2.812625213808051}]
+LR --->  [{'macro_recall': 0.0, 'accuracy': 0.78169741697416983, 'macro_precision': 0.0, 'micro_recall': 0.78169741697416983, 'average_precision': 0.0, 'macro_f1': 0.0, 'micro_precision': 0.78169741697416983, 'ranking_loss': 0.0, 'bae': 0.25290238709591722, 'cross_entropy': 0.71808610489936409, 'coverage': 0.0, 'micro_f1': 0.78169741697416983, 'hamming_loss': 0.0, 'pak': 0.0}]
+SVM --->  [{'macro_recall': 0.0, 'accuracy': 0.78597785977859791, 'macro_precision': 0.0, 'micro_recall': 0.78597785977859791, 'average_precision': 0.0, 'macro_f1': 0.0, 'micro_precision': 0.78597785977859791, 'ranking_loss': 0.0, 'bae': 0.24233306262433074, 'cross_entropy': 0.70400598519517488, 'coverage': 0.0, 'micro_f1': 0.78597785977859791, 'hamming_loss': 0.0, 'pak': 0.0}]
+N --->  [{'macro_recall': 0.0, 'accuracy': 0.15512915129151292, 'macro_precision': 0.0, 'micro_recall': 0.15512915129151292, 'average_precision': 0.0, 'macro_f1': 0.0, 'micro_precision': 0.15512915129151292, 'ranking_loss': 0.0, 'bae': 0.8421132383326293, 'cross_entropy': 2.7791242402619165, 'coverage': 0.0, 'micro_f1': 0.15512915129151292, 'hamming_loss': 0.0, 'pak': 0.0}]

@@ -1,0 +1,2510 @@
+DEBUG:MNF:Initializing U
+DEBUG:MNF:Initialization completed
+DEBUG:MNF:MNF  ::: [  0] fit: 961157123.24665 | delta: 9.6e+08 | secs: 0.26673
+DEBUG:MNF:MNF  ::: [  1] fit: 748893703.61858 | delta: 2.1e+08 | secs: 0.28855
+DEBUG:MNF:MNF  ::: [  2] fit: 535009252.07431 | delta: 2.1e+08 | secs: 0.29029
+DEBUG:MNF:MNF  ::: [  3] fit: 524064987.75976 | delta: 1.1e+07 | secs: 0.28645
+DEBUG:MNF:MNF  ::: [  4] fit: 540372703.78323 | delta: 1.6e+07 | secs: 0.28448
+DEBUG:MNF:MNF  ::: [  5] fit: 480458684.80853 | delta: 6.0e+07 | secs: 0.28604
+DEBUG:MNF:MNF  ::: [  6] fit: 379236719.01995 | delta: 1.0e+08 | secs: 0.28437
+DEBUG:MNF:MNF  ::: [  7] fit: 281837932.68549 | delta: 9.7e+07 | secs: 0.28530
+DEBUG:MNF:MNF  ::: [  8] fit: 205748425.81798 | delta: 7.6e+07 | secs: 0.28440
+DEBUG:MNF:MNF  ::: [  9] fit: 151252795.10366 | delta: 5.4e+07 | secs: 0.28919
+DEBUG:MNF:MNF  ::: [ 10] fit: 113344975.75184 | delta: 3.8e+07 | secs: 0.28407
+DEBUG:MNF:MNF  ::: [ 11] fit: 86959272.72485 | delta: 2.6e+07 | secs: 0.28739
+DEBUG:MNF:MNF  ::: [ 12] fit: 68306114.81660 | delta: 1.9e+07 | secs: 0.28480
+DEBUG:MNF:MNF  ::: [ 13] fit: 54827807.26613 | delta: 1.3e+07 | secs: 0.28603
+DEBUG:MNF:MNF  ::: [ 14] fit: 44858046.97322 | delta: 1.0e+07 | secs: 0.28684
+DEBUG:MNF:MNF  ::: [ 15] fit: 37315528.79431 | delta: 7.5e+06 | secs: 0.28688
+DEBUG:MNF:MNF  ::: [ 16] fit: 31490176.73164 | delta: 5.8e+06 | secs: 0.29216
+DEBUG:MNF:MNF  ::: [ 17] fit: 26906769.17098 | delta: 4.6e+06 | secs: 0.28808
+DEBUG:MNF:MNF  ::: [ 18] fit: 23240543.33475 | delta: 3.7e+06 | secs: 0.28671
+DEBUG:MNF:MNF  ::: [ 19] fit: 20264890.19125 | delta: 3.0e+06 | secs: 0.28869
+DEBUG:MNF:MNF  ::: [ 20] fit: 17818364.22147 | delta: 2.4e+06 | secs: 0.28778
+DEBUG:MNF:MNF  ::: [ 21] fit: 15783534.03086 | delta: 2.0e+06 | secs: 0.28779
+DEBUG:MNF:MNF  ::: [ 22] fit: 14073345.84073 | delta: 1.7e+06 | secs: 0.28671
+DEBUG:MNF:MNF  ::: [ 23] fit: 12622285.72778 | delta: 1.5e+06 | secs: 0.28844
+DEBUG:MNF:MNF  ::: [ 24] fit: 11380497.55077 | delta: 1.2e+06 | secs: 0.28763
+DEBUG:MNF:MNF  ::: [ 25] fit: 10309661.74338 | delta: 1.1e+06 | secs: 0.28798
+DEBUG:MNF:MNF  ::: [ 26] fit: 9379985.31103 | delta: 9.3e+05 | secs: 0.28855
+DEBUG:MNF:MNF  ::: [ 27] fit: 8567992.72985 | delta: 8.1e+05 | secs: 0.28964
+DEBUG:MNF:MNF  ::: [ 28] fit: 7854932.81258 | delta: 7.1e+05 | secs: 0.28889
+DEBUG:MNF:MNF  ::: [ 29] fit: 7225650.15515 | delta: 6.3e+05 | secs: 0.28973
+DEBUG:MNF:MNF  ::: [ 30] fit: 6667786.41545 | delta: 5.6e+05 | secs: 0.28845
+DEBUG:MNF:MNF  ::: [ 31] fit: 6171191.99076 | delta: 5.0e+05 | secs: 0.28884
+DEBUG:MNF:MNF  ::: [ 32] fit: 5727465.29201 | delta: 4.4e+05 | secs: 0.28832
+DEBUG:MNF:MNF  ::: [ 33] fit: 5329587.99516 | delta: 4.0e+05 | secs: 0.28943
+DEBUG:MNF:MNF  ::: [ 34] fit: 4971648.05585 | delta: 3.6e+05 | secs: 0.28745
+DEBUG:MNF:MNF  ::: [ 35] fit: 4648631.47212 | delta: 3.2e+05 | secs: 0.28886
+DEBUG:MNF:MNF  ::: [ 36] fit: 4356256.27500 | delta: 2.9e+05 | secs: 0.29076
+DEBUG:MNF:MNF  ::: [ 37] fit: 4090834.49984 | delta: 2.7e+05 | secs: 0.28800
+DEBUG:MNF:MNF  ::: [ 38] fit: 3849161.64709 | delta: 2.4e+05 | secs: 0.28847
+DEBUG:MNF:MNF  ::: [ 39] fit: 3628437.39327 | delta: 2.2e+05 | secs: 0.28791
+DEBUG:MNF:MNF  ::: [ 40] fit: 3426218.07751 | delta: 2.0e+05 | secs: 0.28746
+DEBUG:MNF:MNF  ::: [ 41] fit: 3240390.40274 | delta: 1.9e+05 | secs: 0.29241
+DEBUG:MNF:MNF  ::: [ 42] fit: 3069145.62075 | delta: 1.7e+05 | secs: 0.28774
+DEBUG:MNF:MNF  ::: [ 43] fit: 2910940.39512 | delta: 1.6e+05 | secs: 0.28774
+DEBUG:MNF:MNF  ::: [ 44] fit: 2764449.96229 | delta: 1.5e+05 | secs: 0.28816
+DEBUG:MNF:MNF  ::: [ 45] fit: 2628527.94637 | delta: 1.4e+05 | secs: 0.28835
+DEBUG:MNF:MNF  ::: [ 46] fit: 2502178.21026 | delta: 1.3e+05 | secs: 0.28659
+DEBUG:MNF:MNF  ::: [ 47] fit: 2384533.30098 | delta: 1.2e+05 | secs: 0.28876
+DEBUG:MNF:MNF  ::: [ 48] fit: 2274833.35918 | delta: 1.1e+05 | secs: 0.28776
+DEBUG:MNF:MNF  ::: [ 49] fit: 2172405.12550 | delta: 1.0e+05 | secs: 0.28963
+DEBUG:MNF:MNF  ::: [ 50] fit: 2076644.72594 | delta: 9.6e+04 | secs: 0.28850
+DEBUG:MNF:MNF  ::: [ 51] fit: 1987007.06195 | delta: 9.0e+04 | secs: 0.28894
+DEBUG:MNF:MNF  ::: [ 52] fit: 1903000.76314 | delta: 8.4e+04 | secs: 0.28769
+DEBUG:MNF:MNF  ::: [ 53] fit: 1824184.36926 | delta: 7.9e+04 | secs: 0.28938
+DEBUG:MNF:MNF  ::: [ 54] fit: 1750159.72932 | delta: 7.4e+04 | secs: 0.28773
+DEBUG:MNF:MNF  ::: [ 55] fit: 1680562.88037 | delta: 7.0e+04 | secs: 0.28828
+DEBUG:MNF:MNF  ::: [ 56] fit: 1615056.60449 | delta: 6.6e+04 | secs: 0.29016
+DEBUG:MNF:MNF  ::: [ 57] fit: 1553327.67950 | delta: 6.2e+04 | secs: 0.28929
+DEBUG:MNF:MNF  ::: [ 58] fit: 1495087.26265 | delta: 5.8e+04 | secs: 0.28707
+DEBUG:MNF:MNF  ::: [ 59] fit: 1440071.01399 | delta: 5.5e+04 | secs: 0.28979
+DEBUG:MNF:MNF  ::: [ 60] fit: 1388037.91401 | delta: 5.2e+04 | secs: 0.28781
+DEBUG:MNF:MNF  ::: [ 61] fit: 1338768.93243 | delta: 4.9e+04 | secs: 0.28822
+DEBUG:MNF:MNF  ::: [ 62] fit: 1292066.15671 | delta: 4.7e+04 | secs: 0.28765
+DEBUG:MNF:MNF  ::: [ 63] fit: 1247751.73468 | delta: 4.4e+04 | secs: 0.29010
+DEBUG:MNF:MNF  ::: [ 64] fit: 1205666.18528 | delta: 4.2e+04 | secs: 0.28699
+DEBUG:MNF:MNF  ::: [ 65] fit: 1165666.30726 | delta: 4.0e+04 | secs: 0.28909
+DEBUG:MNF:MNF  ::: [ 66] fit: 1127622.74412 | delta: 3.8e+04 | secs: 0.28746
+DEBUG:MNF:MNF  ::: [ 67] fit: 1091417.11841 | delta: 3.6e+04 | secs: 0.28857
+DEBUG:MNF:MNF  ::: [ 68] fit: 1056939.17580 | delta: 3.4e+04 | secs: 0.28851
+DEBUG:MNF:MNF  ::: [ 69] fit: 1024084.68646 | delta: 3.3e+04 | secs: 0.28843
+DEBUG:MNF:MNF  ::: [ 70] fit: 992754.55469 | delta: 3.1e+04 | secs: 0.28800
+DEBUG:MNF:MNF  ::: [ 71] fit: 962855.03986 | delta: 3.0e+04 | secs: 0.28937
+DEBUG:MNF:MNF  ::: [ 72] fit: 934298.43844 | delta: 2.9e+04 | secs: 0.28807
+DEBUG:MNF:MNF  ::: [ 73] fit: 907003.46821 | delta: 2.7e+04 | secs: 0.28971
+DEBUG:MNF:MNF  ::: [ 74] fit: 880895.09101 | delta: 2.6e+04 | secs: 0.28785
+DEBUG:MNF:MNF  ::: [ 75] fit: 855903.95343 | delta: 2.5e+04 | secs: 0.28853
+DEBUG:MNF:MNF  ::: [ 76] fit: 831965.70701 | delta: 2.4e+04 | secs: 0.28828
+DEBUG:MNF:MNF  ::: [ 77] fit: 809020.47674 | delta: 2.3e+04 | secs: 0.28997
+DEBUG:MNF:MNF  ::: [ 78] fit: 787012.60830 | delta: 2.2e+04 | secs: 0.28803
+DEBUG:MNF:MNF  ::: [ 79] fit: 765890.49279 | delta: 2.1e+04 | secs: 0.28839
+DEBUG:MNF:MNF  ::: [ 80] fit: 745606.25847 | delta: 2.0e+04 | secs: 0.28863
+DEBUG:MNF:MNF  ::: [ 81] fit: 726115.46029 | delta: 1.9e+04 | secs: 0.28829
+DEBUG:MNF:MNF  ::: [ 82] fit: 707376.94761 | delta: 1.9e+04 | secs: 0.28810
+DEBUG:MNF:MNF  ::: [ 83] fit: 689352.77660 | delta: 1.8e+04 | secs: 0.28891
+DEBUG:MNF:MNF  ::: [ 84] fit: 672007.88562 | delta: 1.7e+04 | secs: 0.28767
+DEBUG:MNF:MNF  ::: [ 85] fit: 655309.51232 | delta: 1.7e+04 | secs: 0.28802
+DEBUG:MNF:MNF  ::: [ 86] fit: 639226.68998 | delta: 1.6e+04 | secs: 0.28856
+DEBUG:MNF:MNF  ::: [ 87] fit: 623730.11647 | delta: 1.5e+04 | secs: 0.28843
+DEBUG:MNF:MNF  ::: [ 88] fit: 608792.25363 | delta: 1.5e+04 | secs: 0.28769
+DEBUG:MNF:MNF  ::: [ 89] fit: 594387.32496 | delta: 1.4e+04 | secs: 0.28904
+DEBUG:MNF:MNF  ::: [ 90] fit: 580491.15024 | delta: 1.4e+04 | secs: 0.28775
+DEBUG:MNF:MNF  ::: [ 91] fit: 567080.95426 | delta: 1.3e+04 | secs: 0.28816
+DEBUG:MNF:MNF  ::: [ 92] fit: 554135.18705 | delta: 1.3e+04 | secs: 0.28728
+DEBUG:MNF:MNF  ::: [ 93] fit: 541633.28002 | delta: 1.3e+04 | secs: 0.28847
+DEBUG:MNF:MNF  ::: [ 94] fit: 529555.31672 | delta: 1.2e+04 | secs: 0.28762
+DEBUG:MNF:MNF  ::: [ 95] fit: 517881.74735 | delta: 1.2e+04 | secs: 0.28919
+DEBUG:MNF:MNF  ::: [ 96] fit: 506593.37932 | delta: 1.1e+04 | secs: 0.28801
+DEBUG:MNF:MNF  ::: [ 97] fit: 495671.69413 | delta: 1.1e+04 | secs: 0.28793
+DEBUG:MNF:MNF  ::: [ 98] fit: 485099.21095 | delta: 1.1e+04 | secs: 0.28806
+DEBUG:MNF:MNF  ::: [ 99] fit: 474859.60836 | delta: 1.0e+04 | secs: 0.28867
+DEBUG:MNF:MNF  ::: [100] fit: 464937.63547 | delta: 9.9e+03 | secs: 0.28919
+DEBUG:MNF:MNF  ::: [101] fit: 455319.01151 | delta: 9.6e+03 | secs: 0.28954
+DEBUG:MNF:MNF  ::: [102] fit: 445990.41580 | delta: 9.3e+03 | secs: 0.28821
+DEBUG:MNF:MNF  ::: [103] fit: 436939.58881 | delta: 9.1e+03 | secs: 0.28969
+DEBUG:MNF:MNF  ::: [104] fit: 428155.50944 | delta: 8.8e+03 | secs: 0.29150
+DEBUG:MNF:MNF  ::: [105] fit: 419628.46586 | delta: 8.5e+03 | secs: 0.28885
+DEBUG:MNF:MNF  ::: [106] fit: 411349.77395 | delta: 8.3e+03 | secs: 0.28730
+DEBUG:MNF:MNF  ::: [107] fit: 403311.10817 | delta: 8.0e+03 | secs: 0.28925
+DEBUG:MNF:MNF  ::: [108] fit: 395503.78099 | delta: 7.8e+03 | secs: 0.28783
+DEBUG:MNF:MNF  ::: [109] fit: 387918.46119 | delta: 7.6e+03 | secs: 0.28820
+DEBUG:MNF:MNF  ::: [110] fit: 380545.50835 | delta: 7.4e+03 | secs: 0.28816
+DEBUG:MNF:MNF  ::: [111] fit: 373375.59103 | delta: 7.2e+03 | secs: 0.28845
+DEBUG:MNF:MNF  ::: [112] fit: 366400.11755 | delta: 7.0e+03 | secs: 0.28773
+DEBUG:MNF:MNF  ::: [113] fit: 359611.32622 | delta: 6.8e+03 | secs: 0.28887
+DEBUG:MNF:MNF  ::: [114] fit: 353002.19205 | delta: 6.6e+03 | secs: 0.28777
+DEBUG:MNF:MNF  ::: [115] fit: 346566.31623 | delta: 6.4e+03 | secs: 0.28851
+DEBUG:MNF:MNF  ::: [116] fit: 340297.83950 | delta: 6.3e+03 | secs: 0.28955
+DEBUG:MNF:MNF  ::: [117] fit: 334191.37145 | delta: 6.1e+03 | secs: 0.28899
+DEBUG:MNF:MNF  ::: [118] fit: 328241.91941 | delta: 5.9e+03 | secs: 0.28722
+DEBUG:MNF:MNF  ::: [119] fit: 322444.77980 | delta: 5.8e+03 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [120] fit: 316795.37623 | delta: 5.6e+03 | secs: 0.28843
+DEBUG:MNF:MNF  ::: [121] fit: 311289.09853 | delta: 5.5e+03 | secs: 0.28834
+DEBUG:MNF:MNF  ::: [122] fit: 305921.21323 | delta: 5.4e+03 | secs: 0.28894
+DEBUG:MNF:MNF  ::: [123] fit: 300686.86523 | delta: 5.2e+03 | secs: 0.28883
+DEBUG:MNF:MNF  ::: [124] fit: 295581.16593 | delta: 5.1e+03 | secs: 0.28746
+DEBUG:MNF:MNF  ::: [125] fit: 290599.35118 | delta: 5.0e+03 | secs: 0.28947
+DEBUG:MNF:MNF  ::: [126] fit: 285736.92001 | delta: 4.9e+03 | secs: 0.28803
+DEBUG:MNF:MNF  ::: [127] fit: 280989.64405 | delta: 4.7e+03 | secs: 0.28875
+DEBUG:MNF:MNF  ::: [128] fit: 276353.46127 | delta: 4.6e+03 | secs: 0.28890
+DEBUG:MNF:MNF  ::: [129] fit: 271824.38218 | delta: 4.5e+03 | secs: 0.28892
+DEBUG:MNF:MNF  ::: [130] fit: 267398.50515 | delta: 4.4e+03 | secs: 0.28736
+DEBUG:MNF:MNF  ::: [131] fit: 263072.13461 | delta: 4.3e+03 | secs: 0.28886
+DEBUG:MNF:MNF  ::: [132] fit: 258841.92342 | delta: 4.2e+03 | secs: 0.28771
+DEBUG:MNF:MNF  ::: [133] fit: 254704.94310 | delta: 4.1e+03 | secs: 0.28924
+DEBUG:MNF:MNF  ::: [134] fit: 250658.64048 | delta: 4.0e+03 | secs: 0.28877
+DEBUG:MNF:MNF  ::: [135] fit: 246700.72050 | delta: 4.0e+03 | secs: 0.28880
+DEBUG:MNF:MNF  ::: [136] fit: 242829.01486 | delta: 3.9e+03 | secs: 0.28789
+DEBUG:MNF:MNF  ::: [137] fit: 239041.37771 | delta: 3.8e+03 | secs: 0.28930
+DEBUG:MNF:MNF  ::: [138] fit: 235335.65451 | delta: 3.7e+03 | secs: 0.28912
+DEBUG:MNF:MNF  ::: [139] fit: 231709.75160 | delta: 3.6e+03 | secs: 0.28821
+DEBUG:MNF:MNF  ::: [140] fit: 228161.76398 | delta: 3.5e+03 | secs: 0.28901
+DEBUG:MNF:MNF  ::: [141] fit: 224690.06889 | delta: 3.5e+03 | secs: 0.28882
+DEBUG:MNF:MNF  ::: [142] fit: 221293.31873 | delta: 3.4e+03 | secs: 0.28705
+DEBUG:MNF:MNF  ::: [143] fit: 217970.32943 | delta: 3.3e+03 | secs: 0.29124
+DEBUG:MNF:MNF  ::: [144] fit: 214719.91249 | delta: 3.3e+03 | secs: 0.28792
+DEBUG:MNF:MNF  ::: [145] fit: 211540.73925 | delta: 3.2e+03 | secs: 0.28882
+DEBUG:MNF:MNF  ::: [146] fit: 208431.31380 | delta: 3.1e+03 | secs: 0.28901
+DEBUG:MNF:MNF  ::: [147] fit: 205390.02868 | delta: 3.0e+03 | secs: 0.28871
+DEBUG:MNF:MNF  ::: [148] fit: 202415.18352 | delta: 3.0e+03 | secs: 0.28754
+DEBUG:MNF:MNF  ::: [149] fit: 199504.89043 | delta: 2.9e+03 | secs: 0.28918
+DEBUG:MNF:MNF  ::: [150] fit: 196656.94229 | delta: 2.8e+03 | secs: 0.28848
+DEBUG:MNF:MNF  ::: [151] fit: 193868.80735 | delta: 2.8e+03 | secs: 0.28799
+DEBUG:MNF:MNF  ::: [152] fit: 191137.81734 | delta: 2.7e+03 | secs: 0.28871
+DEBUG:MNF:MNF  ::: [153] fit: 188461.42946 | delta: 2.7e+03 | secs: 0.28916
+DEBUG:MNF:MNF  ::: [154] fit: 185837.38224 | delta: 2.6e+03 | secs: 0.28724
+DEBUG:MNF:MNF  ::: [155] fit: 183263.70490 | delta: 2.6e+03 | secs: 0.28925
+DEBUG:MNF:MNF  ::: [156] fit: 180738.68041 | delta: 2.5e+03 | secs: 0.28837
+DEBUG:MNF:MNF  ::: [157] fit: 178260.83997 | delta: 2.5e+03 | secs: 0.28840
+DEBUG:MNF:MNF  ::: [158] fit: 175828.97140 | delta: 2.4e+03 | secs: 0.28845
+DEBUG:MNF:MNF  ::: [159] fit: 173442.10384 | delta: 2.4e+03 | secs: 0.28899
+DEBUG:MNF:MNF  ::: [160] fit: 171099.46681 | delta: 2.3e+03 | secs: 0.28786
+DEBUG:MNF:MNF  ::: [161] fit: 168800.43602 | delta: 2.3e+03 | secs: 0.28955
+DEBUG:MNF:MNF  ::: [162] fit: 166544.46748 | delta: 2.3e+03 | secs: 0.28900
+DEBUG:MNF:MNF  ::: [163] fit: 164331.01682 | delta: 2.2e+03 | secs: 0.28947
+DEBUG:MNF:MNF  ::: [164] fit: 162159.45174 | delta: 2.2e+03 | secs: 0.28871
+DEBUG:MNF:MNF  ::: [165] fit: 160028.99252 | delta: 2.1e+03 | secs: 0.28862
+DEBUG:MNF:MNF  ::: [166] fit: 157938.72939 | delta: 2.1e+03 | secs: 0.28790
+DEBUG:MNF:MNF  ::: [167] fit: 155887.72371 | delta: 2.1e+03 | secs: 0.28995
+DEBUG:MNF:MNF  ::: [168] fit: 153875.13871 | delta: 2.0e+03 | secs: 0.28810
+DEBUG:MNF:MNF  ::: [169] fit: 151900.31243 | delta: 2.0e+03 | secs: 0.28852
+DEBUG:MNF:MNF  ::: [170] fit: 149962.73089 | delta: 1.9e+03 | secs: 0.28855
+DEBUG:MNF:MNF  ::: [171] fit: 148061.93410 | delta: 1.9e+03 | secs: 0.28851
+DEBUG:MNF:MNF  ::: [172] fit: 146197.41268 | delta: 1.9e+03 | secs: 0.28751
+DEBUG:MNF:MNF  ::: [173] fit: 144368.52732 | delta: 1.8e+03 | secs: 0.28896
+DEBUG:MNF:MNF  ::: [174] fit: 142574.47453 | delta: 1.8e+03 | secs: 0.28816
+DEBUG:MNF:MNF  ::: [175] fit: 140814.32745 | delta: 1.8e+03 | secs: 0.28893
+DEBUG:MNF:MNF  ::: [176] fit: 139087.14605 | delta: 1.7e+03 | secs: 0.28867
+DEBUG:MNF:MNF  ::: [177] fit: 137392.09252 | delta: 1.7e+03 | secs: 0.28887
+DEBUG:MNF:MNF  ::: [178] fit: 135728.48093 | delta: 1.7e+03 | secs: 0.28737
+DEBUG:MNF:MNF  ::: [179] fit: 134095.74997 | delta: 1.6e+03 | secs: 0.28984
+DEBUG:MNF:MNF  ::: [180] fit: 132493.40646 | delta: 1.6e+03 | secs: 0.28842
+DEBUG:MNF:MNF  ::: [181] fit: 130920.98842 | delta: 1.6e+03 | secs: 0.28841
+DEBUG:MNF:MNF  ::: [182] fit: 129378.05139 | delta: 1.5e+03 | secs: 0.28935
+DEBUG:MNF:MNF  ::: [183] fit: 127864.14320 | delta: 1.5e+03 | secs: 0.28911
+DEBUG:MNF:MNF  ::: [184] fit: 126378.74105 | delta: 1.5e+03 | secs: 0.28769
+DEBUG:MNF:MNF  ::: [185] fit: 124921.17359 | delta: 1.5e+03 | secs: 0.28907
+DEBUG:MNF:MNF  ::: [186] fit: 123490.59188 | delta: 1.4e+03 | secs: 0.28858
+DEBUG:MNF:MNF  ::: [187] fit: 122086.03252 | delta: 1.4e+03 | secs: 0.28864
+DEBUG:MNF:MNF  ::: [188] fit: 120706.54268 | delta: 1.4e+03 | secs: 0.28894
+DEBUG:MNF:MNF  ::: [189] fit: 119351.29092 | delta: 1.4e+03 | secs: 0.28906
+DEBUG:MNF:MNF  ::: [190] fit: 118019.61323 | delta: 1.3e+03 | secs: 0.28752
+DEBUG:MNF:MNF  ::: [191] fit: 116710.99688 | delta: 1.3e+03 | secs: 0.28989
+DEBUG:MNF:MNF  ::: [192] fit: 115425.02236 | delta: 1.3e+03 | secs: 0.28806
+DEBUG:MNF:MNF  ::: [193] fit: 114161.28256 | delta: 1.3e+03 | secs: 0.28854
+DEBUG:MNF:MNF  ::: [194] fit: 112919.30964 | delta: 1.2e+03 | secs: 0.28907
+DEBUG:MNF:MNF  ::: [195] fit: 111698.55247 | delta: 1.2e+03 | secs: 0.28899
+DEBUG:MNF:MNF  ::: [196] fit: 110498.42219 | delta: 1.2e+03 | secs: 0.28741
+DEBUG:MNF:MNF  ::: [197] fit: 109318.37345 | delta: 1.2e+03 | secs: 0.29031
+DEBUG:MNF:MNF  ::: [198] fit: 108157.96167 | delta: 1.2e+03 | secs: 0.28812
+DEBUG:MNF:MNF  ::: [199] fit: 107016.83940 | delta: 1.1e+03 | secs: 0.28841
+DEBUG:MNF:MNF  ::: [200] fit: 105894.69802 | delta: 1.1e+03 | secs: 0.28921
+DEBUG:MNF:MNF  ::: [201] fit: 104791.19047 | delta: 1.1e+03 | secs: 0.28887
+DEBUG:MNF:MNF  ::: [202] fit: 103705.87788 | delta: 1.1e+03 | secs: 0.28726
+DEBUG:MNF:MNF  ::: [203] fit: 102638.23041 | delta: 1.1e+03 | secs: 0.29002
+DEBUG:MNF:MNF  ::: [204] fit: 101587.68037 | delta: 1.1e+03 | secs: 0.28845
+DEBUG:MNF:MNF  ::: [205] fit: 100553.69326 | delta: 1.0e+03 | secs: 0.28879
+DEBUG:MNF:MNF  ::: [206] fit: 99535.81514 | delta: 1.0e+03 | secs: 0.28887
+DEBUG:MNF:MNF  ::: [207] fit: 98533.67993 | delta: 1.0e+03 | secs: 0.28888
+DEBUG:MNF:MNF  ::: [208] fit: 97546.99132 | delta: 9.9e+02 | secs: 0.28837
+DEBUG:MNF:MNF  ::: [209] fit: 96575.49349 | delta: 9.7e+02 | secs: 0.28984
+DEBUG:MNF:MNF  ::: [210] fit: 95618.93150 | delta: 9.6e+02 | secs: 0.28842
+DEBUG:MNF:MNF  ::: [211] fit: 94677.00655 | delta: 9.4e+02 | secs: 0.28846
+DEBUG:MNF:MNF  ::: [212] fit: 93749.34742 | delta: 9.3e+02 | secs: 0.28882
+DEBUG:MNF:MNF  ::: [213] fit: 92835.52059 | delta: 9.1e+02 | secs: 0.28902
+DEBUG:MNF:MNF  ::: [214] fit: 91935.08336 | delta: 9.0e+02 | secs: 0.28806
+DEBUG:MNF:MNF  ::: [215] fit: 91047.65875 | delta: 8.9e+02 | secs: 0.28943
+DEBUG:MNF:MNF  ::: [216] fit: 90172.99241 | delta: 8.7e+02 | secs: 0.28825
+DEBUG:MNF:MNF  ::: [217] fit: 89310.96012 | delta: 8.6e+02 | secs: 0.28872
+DEBUG:MNF:MNF  ::: [218] fit: 88461.52824 | delta: 8.5e+02 | secs: 0.28888
+DEBUG:MNF:MNF  ::: [219] fit: 87624.69370 | delta: 8.4e+02 | secs: 0.28865
+DEBUG:MNF:MNF  ::: [220] fit: 86800.42707 | delta: 8.2e+02 | secs: 0.28839
+DEBUG:MNF:MNF  ::: [221] fit: 85988.63062 | delta: 8.1e+02 | secs: 0.28961
+DEBUG:MNF:MNF  ::: [222] fit: 85189.11815 | delta: 8.0e+02 | secs: 0.28933
+DEBUG:MNF:MNF  ::: [223] fit: 84401.62407 | delta: 7.9e+02 | secs: 0.28892
+DEBUG:MNF:MNF  ::: [224] fit: 83625.84162 | delta: 7.8e+02 | secs: 0.28879
+DEBUG:MNF:MNF  ::: [225] fit: 82861.47116 | delta: 7.6e+02 | secs: 0.28882
+DEBUG:MNF:MNF  ::: [226] fit: 82108.25031 | delta: 7.5e+02 | secs: 0.28787
+DEBUG:MNF:MNF  ::: [227] fit: 81365.95822 | delta: 7.4e+02 | secs: 0.28929
+DEBUG:MNF:MNF  ::: [228] fit: 80634.41245 | delta: 7.3e+02 | secs: 0.28828
+DEBUG:MNF:MNF  ::: [229] fit: 79913.46955 | delta: 7.2e+02 | secs: 0.28871
+DEBUG:MNF:MNF  ::: [230] fit: 79203.01786 | delta: 7.1e+02 | secs: 0.28925
+DEBUG:MNF:MNF  ::: [231] fit: 78502.94904 | delta: 7.0e+02 | secs: 0.28860
+DEBUG:MNF:MNF  ::: [232] fit: 77813.11429 | delta: 6.9e+02 | secs: 0.28800
+DEBUG:MNF:MNF  ::: [233] fit: 77133.28933 | delta: 6.8e+02 | secs: 0.28952
+DEBUG:MNF:MNF  ::: [234] fit: 76463.17039 | delta: 6.7e+02 | secs: 0.28843
+DEBUG:MNF:MNF  ::: [235] fit: 75802.40251 | delta: 6.6e+02 | secs: 0.28829
+DEBUG:MNF:MNF  ::: [236] fit: 75150.62368 | delta: 6.5e+02 | secs: 0.28911
+DEBUG:MNF:MNF  ::: [237] fit: 74507.50714 | delta: 6.4e+02 | secs: 0.28916
+DEBUG:MNF:MNF  ::: [238] fit: 73872.78912 | delta: 6.3e+02 | secs: 0.28793
+DEBUG:MNF:MNF  ::: [239] fit: 73246.27670 | delta: 6.3e+02 | secs: 0.28975
+DEBUG:MNF:MNF  ::: [240] fit: 72627.83979 | delta: 6.2e+02 | secs: 0.28895
+DEBUG:MNF:MNF  ::: [241] fit: 72017.39618 | delta: 6.1e+02 | secs: 0.28861
+DEBUG:MNF:MNF  ::: [242] fit: 71414.89474 | delta: 6.0e+02 | secs: 0.28855
+DEBUG:MNF:MNF  ::: [243] fit: 70820.29762 | delta: 5.9e+02 | secs: 0.28889
+DEBUG:MNF:MNF  ::: [244] fit: 70233.56400 | delta: 5.9e+02 | secs: 0.28782
+DEBUG:MNF:MNF  ::: [245] fit: 69654.63856 | delta: 5.8e+02 | secs: 0.28984
+DEBUG:MNF:MNF  ::: [246] fit: 69083.44867 | delta: 5.7e+02 | secs: 0.28837
+DEBUG:MNF:MNF  ::: [247] fit: 68519.91102 | delta: 5.6e+02 | secs: 0.28846
+DEBUG:MNF:MNF  ::: [248] fit: 67963.94002 | delta: 5.6e+02 | secs: 0.28885
+DEBUG:MNF:MNF  ::: [249] fit: 67415.44579 | delta: 5.5e+02 | secs: 0.28910
+DEBUG:MNF:MNF  ::: [250] fit: 66874.31693 | delta: 5.4e+02 | secs: 0.28802
+DEBUG:MNF:MNF  ::: [251] fit: 66340.39951 | delta: 5.3e+02 | secs: 0.28908
+DEBUG:MNF:MNF  ::: [252] fit: 65813.48870 | delta: 5.3e+02 | secs: 0.28866
+DEBUG:MNF:MNF  ::: [253] fit: 65293.34138 | delta: 5.2e+02 | secs: 0.28875
+DEBUG:MNF:MNF  ::: [254] fit: 64779.70292 | delta: 5.1e+02 | secs: 0.28919
+DEBUG:MNF:MNF  ::: [255] fit: 64272.33473 | delta: 5.1e+02 | secs: 0.28896
+DEBUG:MNF:MNF  ::: [256] fit: 63771.03279 | delta: 5.0e+02 | secs: 0.28786
+DEBUG:MNF:MNF  ::: [257] fit: 63275.63605 | delta: 5.0e+02 | secs: 0.28962
+DEBUG:MNF:MNF  ::: [258] fit: 62786.02761 | delta: 4.9e+02 | secs: 0.28847
+DEBUG:MNF:MNF  ::: [259] fit: 62302.12858 | delta: 4.8e+02 | secs: 0.28855
+DEBUG:MNF:MNF  ::: [260] fit: 61823.88432 | delta: 4.8e+02 | secs: 0.28902
+DEBUG:MNF:MNF  ::: [261] fit: 61351.24659 | delta: 4.7e+02 | secs: 0.28916
+DEBUG:MNF:MNF  ::: [262] fit: 60884.15799 | delta: 4.7e+02 | secs: 0.28882
+DEBUG:MNF:MNF  ::: [263] fit: 60422.54594 | delta: 4.6e+02 | secs: 0.29031
+DEBUG:MNF:MNF  ::: [264] fit: 59966.32851 | delta: 4.6e+02 | secs: 0.28823
+DEBUG:MNF:MNF  ::: [265] fit: 59515.42363 | delta: 4.5e+02 | secs: 0.28874
+DEBUG:MNF:MNF  ::: [266] fit: 59069.74705 | delta: 4.5e+02 | secs: 0.28949
+DEBUG:MNF:MNF  ::: [267] fit: 58629.19570 | delta: 4.4e+02 | secs: 0.28947
+DEBUG:MNF:MNF  ::: [268] fit: 58193.63079 | delta: 4.4e+02 | secs: 0.28796
+DEBUG:MNF:MNF  ::: [269] fit: 57762.88046 | delta: 4.3e+02 | secs: 0.29067
+DEBUG:MNF:MNF  ::: [270] fit: 57336.76721 | delta: 4.3e+02 | secs: 0.28850
+DEBUG:MNF:MNF  ::: [271] fit: 56915.14448 | delta: 4.2e+02 | secs: 0.29915
+DEBUG:MNF:MNF  ::: [272] fit: 56497.92054 | delta: 4.2e+02 | secs: 0.28952
+DEBUG:MNF:MNF  ::: [273] fit: 56085.05994 | delta: 4.1e+02 | secs: 0.29040
+DEBUG:MNF:MNF  ::: [274] fit: 55676.56723 | delta: 4.1e+02 | secs: 0.28765
+DEBUG:MNF:MNF  ::: [275] fit: 55272.46298 | delta: 4.0e+02 | secs: 0.29031
+DEBUG:MNF:MNF  ::: [276] fit: 54872.75980 | delta: 4.0e+02 | secs: 0.28984
+DEBUG:MNF:MNF  ::: [277] fit: 54477.44255 | delta: 4.0e+02 | secs: 0.28921
+DEBUG:MNF:MNF  ::: [278] fit: 54086.45612 | delta: 3.9e+02 | secs: 0.28968
+DEBUG:MNF:MNF  ::: [279] fit: 53699.70477 | delta: 3.9e+02 | secs: 0.28907
+DEBUG:MNF:MNF  ::: [280] fit: 53317.06754 | delta: 3.8e+02 | secs: 0.28840
+DEBUG:MNF:MNF  ::: [281] fit: 52938.42344 | delta: 3.8e+02 | secs: 0.29389
+DEBUG:MNF:MNF  ::: [282] fit: 52563.67142 | delta: 3.7e+02 | secs: 0.28847
+DEBUG:MNF:MNF  ::: [283] fit: 52192.73360 | delta: 3.7e+02 | secs: 0.28849
+DEBUG:MNF:MNF  ::: [284] fit: 51825.54559 | delta: 3.7e+02 | secs: 0.28965
+DEBUG:MNF:MNF  ::: [285] fit: 51462.04568 | delta: 3.6e+02 | secs: 0.28962
+DEBUG:MNF:MNF  ::: [286] fit: 51102.17064 | delta: 3.6e+02 | secs: 0.28844
+DEBUG:MNF:MNF  ::: [287] fit: 50745.85852 | delta: 3.6e+02 | secs: 0.28953
+DEBUG:MNF:MNF  ::: [288] fit: 50393.05447 | delta: 3.5e+02 | secs: 0.28933
+DEBUG:MNF:MNF  ::: [289] fit: 50043.71317 | delta: 3.5e+02 | secs: 0.28906
+DEBUG:MNF:MNF  ::: [290] fit: 49697.79582 | delta: 3.5e+02 | secs: 0.29036
+DEBUG:MNF:MNF  ::: [291] fit: 49355.26663 | delta: 3.4e+02 | secs: 0.28887
+DEBUG:MNF:MNF  ::: [292] fit: 49016.09414 | delta: 3.4e+02 | secs: 0.28853
+DEBUG:MNF:MNF  ::: [293] fit: 48680.25717 | delta: 3.4e+02 | secs: 0.29043
+DEBUG:MNF:MNF  ::: [294] fit: 48347.75165 | delta: 3.3e+02 | secs: 0.28919
+DEBUG:MNF:MNF  ::: [295] fit: 48018.59428 | delta: 3.3e+02 | secs: 0.28984
+DEBUG:MNF:MNF  ::: [296] fit: 47692.81857 | delta: 3.3e+02 | secs: 0.28898
+DEBUG:MNF:MNF  ::: [297] fit: 47370.46230 | delta: 3.2e+02 | secs: 0.28927
+DEBUG:MNF:MNF  ::: [298] fit: 47051.55051 | delta: 3.2e+02 | secs: 0.28872
+DEBUG:MNF:MNF  ::: [299] fit: 46736.07930 | delta: 3.2e+02 | secs: 0.29016
+DEBUG:MNF:MNF  ::: [300] fit: 46424.00479 | delta: 3.1e+02 | secs: 0.28899
+DEBUG:MNF:MNF  ::: [301] fit: 46115.24154 | delta: 3.1e+02 | secs: 0.28901
+DEBUG:MNF:MNF  ::: [302] fit: 45809.67350 | delta: 3.1e+02 | secs: 0.28962
+DEBUG:MNF:MNF  ::: [303] fit: 45507.17579 | delta: 3.0e+02 | secs: 0.28889
+DEBUG:MNF:MNF  ::: [304] fit: 45207.63886 | delta: 3.0e+02 | secs: 0.28859
+DEBUG:MNF:MNF  ::: [305] fit: 44910.98171 | delta: 3.0e+02 | secs: 0.29079
+DEBUG:MNF:MNF  ::: [306] fit: 44617.14749 | delta: 2.9e+02 | secs: 0.28963
+DEBUG:MNF:MNF  ::: [307] fit: 44326.08942 | delta: 2.9e+02 | secs: 0.28891
+DEBUG:MNF:MNF  ::: [308] fit: 44037.76037 | delta: 2.9e+02 | secs: 0.29035
+DEBUG:MNF:MNF  ::: [309] fit: 43752.11375 | delta: 2.9e+02 | secs: 0.28961
+DEBUG:MNF:MNF  ::: [310] fit: 43469.11293 | delta: 2.8e+02 | secs: 0.28774
+DEBUG:MNF:MNF  ::: [311] fit: 43188.73892 | delta: 2.8e+02 | secs: 0.29035
+DEBUG:MNF:MNF  ::: [312] fit: 42910.98828 | delta: 2.8e+02 | secs: 0.28874
+DEBUG:MNF:MNF  ::: [313] fit: 42635.86208 | delta: 2.8e+02 | secs: 0.28891
+DEBUG:MNF:MNF  ::: [314] fit: 42363.35434 | delta: 2.7e+02 | secs: 0.28976
+DEBUG:MNF:MNF  ::: [315] fit: 42093.44625 | delta: 2.7e+02 | secs: 0.28927
+DEBUG:MNF:MNF  ::: [316] fit: 41826.10589 | delta: 2.7e+02 | secs: 0.28780
+DEBUG:MNF:MNF  ::: [317] fit: 41561.28898 | delta: 2.6e+02 | secs: 0.29011
+DEBUG:MNF:MNF  ::: [318] fit: 41298.94353 | delta: 2.6e+02 | secs: 0.28860
+DEBUG:MNF:MNF  ::: [319] fit: 41039.01839 | delta: 2.6e+02 | secs: 0.28917
+DEBUG:MNF:MNF  ::: [320] fit: 40781.47110 | delta: 2.6e+02 | secs: 0.28953
+DEBUG:MNF:MNF  ::: [321] fit: 40526.27060 | delta: 2.6e+02 | secs: 0.28869
+DEBUG:MNF:MNF  ::: [322] fit: 40273.39267 | delta: 2.5e+02 | secs: 0.28838
+DEBUG:MNF:MNF  ::: [323] fit: 40022.81507 | delta: 2.5e+02 | secs: 0.29044
+DEBUG:MNF:MNF  ::: [324] fit: 39774.51775 | delta: 2.5e+02 | secs: 0.28940
+DEBUG:MNF:MNF  ::: [325] fit: 39528.48646 | delta: 2.5e+02 | secs: 0.28935
+DEBUG:MNF:MNF  ::: [326] fit: 39284.71374 | delta: 2.4e+02 | secs: 0.28896
+DEBUG:MNF:MNF  ::: [327] fit: 39043.19591 | delta: 2.4e+02 | secs: 0.28953
+DEBUG:MNF:MNF  ::: [328] fit: 38803.92918 | delta: 2.4e+02 | secs: 0.28844
+DEBUG:MNF:MNF  ::: [329] fit: 38566.90851 | delta: 2.4e+02 | secs: 0.29011
+DEBUG:MNF:MNF  ::: [330] fit: 38332.12783 | delta: 2.3e+02 | secs: 0.28896
+DEBUG:MNF:MNF  ::: [331] fit: 38099.57905 | delta: 2.3e+02 | secs: 0.28898
+DEBUG:MNF:MNF  ::: [332] fit: 37869.25058 | delta: 2.3e+02 | secs: 0.28925
+DEBUG:MNF:MNF  ::: [333] fit: 37641.12791 | delta: 2.3e+02 | secs: 0.28922
+DEBUG:MNF:MNF  ::: [334] fit: 37415.19504 | delta: 2.3e+02 | secs: 0.28898
+DEBUG:MNF:MNF  ::: [335] fit: 37191.43382 | delta: 2.2e+02 | secs: 0.28991
+DEBUG:MNF:MNF  ::: [336] fit: 36969.82219 | delta: 2.2e+02 | secs: 0.28849
+DEBUG:MNF:MNF  ::: [337] fit: 36750.33424 | delta: 2.2e+02 | secs: 0.28965
+DEBUG:MNF:MNF  ::: [338] fit: 36532.94090 | delta: 2.2e+02 | secs: 0.28951
+DEBUG:MNF:MNF  ::: [339] fit: 36317.60720 | delta: 2.2e+02 | secs: 0.28913
+DEBUG:MNF:MNF  ::: [340] fit: 36104.28699 | delta: 2.1e+02 | secs: 0.28807
+DEBUG:MNF:MNF  ::: [341] fit: 35892.92217 | delta: 2.1e+02 | secs: 0.29012
+DEBUG:MNF:MNF  ::: [342] fit: 35683.44899 | delta: 2.1e+02 | secs: 0.28885
+DEBUG:MNF:MNF  ::: [343] fit: 35475.80580 | delta: 2.1e+02 | secs: 0.28926
+DEBUG:MNF:MNF  ::: [344] fit: 35269.93529 | delta: 2.1e+02 | secs: 0.28942
+DEBUG:MNF:MNF  ::: [345] fit: 35065.78093 | delta: 2.0e+02 | secs: 0.28945
+DEBUG:MNF:MNF  ::: [346] fit: 34863.28379 | delta: 2.0e+02 | secs: 0.28754
+DEBUG:MNF:MNF  ::: [347] fit: 34662.38509 | delta: 2.0e+02 | secs: 0.28994
+DEBUG:MNF:MNF  ::: [348] fit: 34463.03322 | delta: 2.0e+02 | secs: 0.28898
+DEBUG:MNF:MNF  ::: [349] fit: 34265.18868 | delta: 2.0e+02 | secs: 0.28904
+DEBUG:MNF:MNF  ::: [350] fit: 34068.82273 | delta: 2.0e+02 | secs: 0.28962
+DEBUG:MNF:MNF  ::: [351] fit: 33873.91290 | delta: 1.9e+02 | secs: 0.28955
+DEBUG:MNF:MNF  ::: [352] fit: 33680.44051 | delta: 1.9e+02 | secs: 0.28815
+DEBUG:MNF:MNF  ::: [353] fit: 33488.39111 | delta: 1.9e+02 | secs: 0.29018
+DEBUG:MNF:MNF  ::: [354] fit: 33297.75522 | delta: 1.9e+02 | secs: 0.28862
+DEBUG:MNF:MNF  ::: [355] fit: 33108.52826 | delta: 1.9e+02 | secs: 0.28928
+DEBUG:MNF:MNF  ::: [356] fit: 32920.70976 | delta: 1.9e+02 | secs: 0.28944
+DEBUG:MNF:MNF  ::: [357] fit: 32734.30118 | delta: 1.9e+02 | secs: 0.28942
+DEBUG:MNF:MNF  ::: [358] fit: 32549.30235 | delta: 1.8e+02 | secs: 0.28793
+DEBUG:MNF:MNF  ::: [359] fit: 32365.70787 | delta: 1.8e+02 | secs: 0.29013
+DEBUG:MNF:MNF  ::: [360] fit: 32183.50509 | delta: 1.8e+02 | secs: 0.28914
+DEBUG:MNF:MNF  ::: [361] fit: 32002.67567 | delta: 1.8e+02 | secs: 0.28852
+DEBUG:MNF:MNF  ::: [362] fit: 31823.20033 | delta: 1.8e+02 | secs: 0.28970
+DEBUG:MNF:MNF  ::: [363] fit: 31645.06412 | delta: 1.8e+02 | secs: 0.29052
+DEBUG:MNF:MNF  ::: [364] fit: 31468.25840 | delta: 1.8e+02 | secs: 0.28896
+DEBUG:MNF:MNF  ::: [365] fit: 31292.77850 | delta: 1.8e+02 | secs: 0.28991
+DEBUG:MNF:MNF  ::: [366] fit: 31118.62044 | delta: 1.7e+02 | secs: 0.28928
+DEBUG:MNF:MNF  ::: [367] fit: 30945.78006 | delta: 1.7e+02 | secs: 0.28911
+DEBUG:MNF:MNF  ::: [368] fit: 30774.25527 | delta: 1.7e+02 | secs: 0.28959
+DEBUG:MNF:MNF  ::: [369] fit: 30604.04856 | delta: 1.7e+02 | secs: 0.28900
+DEBUG:MNF:MNF  ::: [370] fit: 30435.16713 | delta: 1.7e+02 | secs: 0.28836
+DEBUG:MNF:MNF  ::: [371] fit: 30267.62043 | delta: 1.7e+02 | secs: 0.29038
+DEBUG:MNF:MNF  ::: [372] fit: 30101.41735 | delta: 1.7e+02 | secs: 0.28909
+DEBUG:MNF:MNF  ::: [373] fit: 29936.56467 | delta: 1.6e+02 | secs: 0.28902
+DEBUG:MNF:MNF  ::: [374] fit: 29773.06639 | delta: 1.6e+02 | secs: 0.28929
+DEBUG:MNF:MNF  ::: [375] fit: 29610.92214 | delta: 1.6e+02 | secs: 0.28919
+DEBUG:MNF:MNF  ::: [376] fit: 29450.12380 | delta: 1.6e+02 | secs: 0.28795
+DEBUG:MNF:MNF  ::: [377] fit: 29290.65274 | delta: 1.6e+02 | secs: 0.29065
+DEBUG:MNF:MNF  ::: [378] fit: 29132.48162 | delta: 1.6e+02 | secs: 0.28877
+DEBUG:MNF:MNF  ::: [379] fit: 28975.58169 | delta: 1.6e+02 | secs: 0.28897
+DEBUG:MNF:MNF  ::: [380] fit: 28819.93250 | delta: 1.6e+02 | secs: 0.28978
+DEBUG:MNF:MNF  ::: [381] fit: 28665.52820 | delta: 1.5e+02 | secs: 0.28926
+DEBUG:MNF:MNF  ::: [382] fit: 28512.37765 | delta: 1.5e+02 | secs: 0.28902
+DEBUG:MNF:MNF  ::: [383] fit: 28360.49984 | delta: 1.5e+02 | secs: 0.29057
+DEBUG:MNF:MNF  ::: [384] fit: 28209.91781 | delta: 1.5e+02 | secs: 0.28886
+DEBUG:MNF:MNF  ::: [385] fit: 28060.65419 | delta: 1.5e+02 | secs: 0.28931
+DEBUG:MNF:MNF  ::: [386] fit: 27912.72839 | delta: 1.5e+02 | secs: 0.28949
+DEBUG:MNF:MNF  ::: [387] fit: 27766.15474 | delta: 1.5e+02 | secs: 0.28909
+DEBUG:MNF:MNF  ::: [388] fit: 27620.94016 | delta: 1.5e+02 | secs: 0.28815
+DEBUG:MNF:MNF  ::: [389] fit: 27477.08096 | delta: 1.4e+02 | secs: 0.28977
+DEBUG:MNF:MNF  ::: [390] fit: 27334.55941 | delta: 1.4e+02 | secs: 0.28875
+DEBUG:MNF:MNF  ::: [391] fit: 27193.34109 | delta: 1.4e+02 | secs: 0.28898
+DEBUG:MNF:MNF  ::: [392] fit: 27053.37454 | delta: 1.4e+02 | secs: 0.28845
+DEBUG:MNF:MNF  ::: [393] fit: 26914.59510 | delta: 1.4e+02 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [394] fit: 26776.93467 | delta: 1.4e+02 | secs: 0.28827
+DEBUG:MNF:MNF  ::: [395] fit: 26640.33348 | delta: 1.4e+02 | secs: 0.29012
+DEBUG:MNF:MNF  ::: [396] fit: 26504.74770 | delta: 1.4e+02 | secs: 0.28855
+DEBUG:MNF:MNF  ::: [397] fit: 26370.14912 | delta: 1.3e+02 | secs: 0.28856
+DEBUG:MNF:MNF  ::: [398] fit: 26236.51953 | delta: 1.3e+02 | secs: 0.28974
+DEBUG:MNF:MNF  ::: [399] fit: 26103.84499 | delta: 1.3e+02 | secs: 0.28887
+DEBUG:MNF:MNF  ::: [400] fit: 25972.11347 | delta: 1.3e+02 | secs: 0.28796
+DEBUG:MNF:MNF  ::: [401] fit: 25841.31633 | delta: 1.3e+02 | secs: 0.29081
+DEBUG:MNF:MNF  ::: [402] fit: 25711.44974 | delta: 1.3e+02 | secs: 0.28912
+DEBUG:MNF:MNF  ::: [403] fit: 25582.51345 | delta: 1.3e+02 | secs: 0.28928
+DEBUG:MNF:MNF  ::: [404] fit: 25454.50732 | delta: 1.3e+02 | secs: 0.28930
+DEBUG:MNF:MNF  ::: [405] fit: 25327.42857 | delta: 1.3e+02 | secs: 0.28937
+DEBUG:MNF:MNF  ::: [406] fit: 25201.27119 | delta: 1.3e+02 | secs: 0.28840
+DEBUG:MNF:MNF  ::: [407] fit: 25076.02687 | delta: 1.3e+02 | secs: 0.28987
+DEBUG:MNF:MNF  ::: [408] fit: 24951.68582 | delta: 1.2e+02 | secs: 0.28894
+DEBUG:MNF:MNF  ::: [409] fit: 24828.23732 | delta: 1.2e+02 | secs: 0.28917
+DEBUG:MNF:MNF  ::: [410] fit: 24705.67046 | delta: 1.2e+02 | secs: 0.28951
+DEBUG:MNF:MNF  ::: [411] fit: 24583.97561 | delta: 1.2e+02 | secs: 0.28977
+DEBUG:MNF:MNF  ::: [412] fit: 24463.14555 | delta: 1.2e+02 | secs: 0.28803
+DEBUG:MNF:MNF  ::: [413] fit: 24343.17497 | delta: 1.2e+02 | secs: 0.29047
+DEBUG:MNF:MNF  ::: [414] fit: 24224.05813 | delta: 1.2e+02 | secs: 0.28872
+DEBUG:MNF:MNF  ::: [415] fit: 24105.78619 | delta: 1.2e+02 | secs: 0.28916
+DEBUG:MNF:MNF  ::: [416] fit: 23988.34588 | delta: 1.2e+02 | secs: 0.28946
+DEBUG:MNF:MNF  ::: [417] fit: 23871.71945 | delta: 1.2e+02 | secs: 0.28972
+DEBUG:MNF:MNF  ::: [418] fit: 23755.88546 | delta: 1.2e+02 | secs: 0.28858
+DEBUG:MNF:MNF  ::: [419] fit: 23640.82116 | delta: 1.2e+02 | secs: 0.29007
+DEBUG:MNF:MNF  ::: [420] fit: 23526.50684 | delta: 1.1e+02 | secs: 0.28973
+DEBUG:MNF:MNF  ::: [421] fit: 23412.92994 | delta: 1.1e+02 | secs: 0.28940
+DEBUG:MNF:MNF  ::: [422] fit: 23300.08552 | delta: 1.1e+02 | secs: 0.28947
+DEBUG:MNF:MNF  ::: [423] fit: 23187.97302 | delta: 1.1e+02 | secs: 0.28937
+DEBUG:MNF:MNF  ::: [424] fit: 23076.59241 | delta: 1.1e+02 | secs: 0.28812
+DEBUG:MNF:MNF  ::: [425] fit: 22965.94237 | delta: 1.1e+02 | secs: 0.29091
+DEBUG:MNF:MNF  ::: [426] fit: 22856.02075 | delta: 1.1e+02 | secs: 0.28924
+DEBUG:MNF:MNF  ::: [427] fit: 22746.82591 | delta: 1.1e+02 | secs: 0.28917
+DEBUG:MNF:MNF  ::: [428] fit: 22638.35738 | delta: 1.1e+02 | secs: 0.29010
+DEBUG:MNF:MNF  ::: [429] fit: 22530.61494 | delta: 1.1e+02 | secs: 0.28977
+DEBUG:MNF:MNF  ::: [430] fit: 22423.59662 | delta: 1.1e+02 | secs: 0.28806
+DEBUG:MNF:MNF  ::: [431] fit: 22317.29679 | delta: 1.1e+02 | secs: 0.29030
+DEBUG:MNF:MNF  ::: [432] fit: 22211.70555 | delta: 1.1e+02 | secs: 0.28861
+DEBUG:MNF:MNF  ::: [433] fit: 22106.81024 | delta: 1.0e+02 | secs: 0.28925
+DEBUG:MNF:MNF  ::: [434] fit: 22002.59872 | delta: 1.0e+02 | secs: 0.28913
+DEBUG:MNF:MNF  ::: [435] fit: 21899.06235 | delta: 1.0e+02 | secs: 0.28900
+DEBUG:MNF:MNF  ::: [436] fit: 21796.19656 | delta: 1.0e+02 | secs: 0.28830
+DEBUG:MNF:MNF  ::: [437] fit: 21693.99904 | delta: 1.0e+02 | secs: 0.29009
+DEBUG:MNF:MNF  ::: [438] fit: 21592.46810 | delta: 1.0e+02 | secs: 0.28868
+DEBUG:MNF:MNF  ::: [439] fit: 21491.60236 | delta: 1.0e+02 | secs: 0.28999
+DEBUG:MNF:MNF  ::: [440] fit: 21391.40161 | delta: 1.0e+02 | secs: 0.28959
+DEBUG:MNF:MNF  ::: [441] fit: 21291.86758 | delta: 1.0e+02 | secs: 0.28933
+DEBUG:MNF:MNF  ::: [442] fit: 21193.00395 | delta: 9.9e+01 | secs: 0.28856
+DEBUG:MNF:MNF  ::: [443] fit: 21094.81538 | delta: 9.8e+01 | secs: 0.29037
+DEBUG:MNF:MNF  ::: [444] fit: 20997.30525 | delta: 9.8e+01 | secs: 0.28917
+DEBUG:MNF:MNF  ::: [445] fit: 20900.47272 | delta: 9.7e+01 | secs: 0.28885
+DEBUG:MNF:MNF  ::: [446] fit: 20804.30972 | delta: 9.6e+01 | secs: 0.28988
+DEBUG:MNF:MNF  ::: [447] fit: 20708.79965 | delta: 9.6e+01 | secs: 0.28962
+DEBUG:MNF:MNF  ::: [448] fit: 20613.91968 | delta: 9.5e+01 | secs: 0.28822
+DEBUG:MNF:MNF  ::: [449] fit: 20519.64671 | delta: 9.4e+01 | secs: 0.28993
+DEBUG:MNF:MNF  ::: [450] fit: 20425.96362 | delta: 9.4e+01 | secs: 0.28903
+DEBUG:MNF:MNF  ::: [451] fit: 20332.86189 | delta: 9.3e+01 | secs: 0.28909
+DEBUG:MNF:MNF  ::: [452] fit: 20240.33967 | delta: 9.3e+01 | secs: 0.28970
+DEBUG:MNF:MNF  ::: [453] fit: 20148.39828 | delta: 9.2e+01 | secs: 0.28962
+DEBUG:MNF:MNF  ::: [454] fit: 20057.04009 | delta: 9.1e+01 | secs: 0.28796
+DEBUG:MNF:MNF  ::: [455] fit: 19966.26758 | delta: 9.1e+01 | secs: 0.29006
+DEBUG:MNF:MNF  ::: [456] fit: 19876.08287 | delta: 9.0e+01 | secs: 0.28953
+DEBUG:MNF:MNF  ::: [457] fit: 19786.48714 | delta: 9.0e+01 | secs: 0.28889
+DEBUG:MNF:MNF  ::: [458] fit: 19697.48010 | delta: 8.9e+01 | secs: 0.28883
+DEBUG:MNF:MNF  ::: [459] fit: 19609.05914 | delta: 8.8e+01 | secs: 0.28971
+DEBUG:MNF:MNF  ::: [460] fit: 19521.21852 | delta: 8.8e+01 | secs: 0.28856
+DEBUG:MNF:MNF  ::: [461] fit: 19433.94979 | delta: 8.7e+01 | secs: 0.29013
+DEBUG:MNF:MNF  ::: [462] fit: 19347.24370 | delta: 8.7e+01 | secs: 0.28939
+DEBUG:MNF:MNF  ::: [463] fit: 19261.09256 | delta: 8.6e+01 | secs: 0.28928
+DEBUG:MNF:MNF  ::: [464] fit: 19175.49155 | delta: 8.6e+01 | secs: 0.28987
+DEBUG:MNF:MNF  ::: [465] fit: 19090.43845 | delta: 8.5e+01 | secs: 0.28922
+DEBUG:MNF:MNF  ::: [466] fit: 19005.93283 | delta: 8.5e+01 | secs: 0.28810
+DEBUG:MNF:MNF  ::: [467] fit: 18921.97501 | delta: 8.4e+01 | secs: 0.29032
+DEBUG:MNF:MNF  ::: [468] fit: 18838.56461 | delta: 8.3e+01 | secs: 0.28894
+DEBUG:MNF:MNF  ::: [469] fit: 18755.69971 | delta: 8.3e+01 | secs: 0.28899
+DEBUG:MNF:MNF  ::: [470] fit: 18673.37719 | delta: 8.2e+01 | secs: 0.28999
+DEBUG:MNF:MNF  ::: [471] fit: 18591.59480 | delta: 8.2e+01 | secs: 0.28929
+DEBUG:MNF:MNF  ::: [472] fit: 18510.35345 | delta: 8.1e+01 | secs: 0.28838
+DEBUG:MNF:MNF  ::: [473] fit: 18429.65841 | delta: 8.1e+01 | secs: 0.29039
+DEBUG:MNF:MNF  ::: [474] fit: 18349.51847 | delta: 8.0e+01 | secs: 0.28853
+DEBUG:MNF:MNF  ::: [475] fit: 18269.94375 | delta: 8.0e+01 | secs: 0.28909
+DEBUG:MNF:MNF  ::: [476] fit: 18190.94331 | delta: 7.9e+01 | secs: 0.29005
+DEBUG:MNF:MNF  ::: [477] fit: 18112.52392 | delta: 7.8e+01 | secs: 0.28926
+DEBUG:MNF:MNF  ::: [478] fit: 18034.69028 | delta: 7.8e+01 | secs: 0.28821
+DEBUG:MNF:MNF  ::: [479] fit: 17957.44648 | delta: 7.7e+01 | secs: 0.29005
+DEBUG:MNF:MNF  ::: [480] fit: 17880.79688 | delta: 7.7e+01 | secs: 0.28944
+DEBUG:MNF:MNF  ::: [481] fit: 17804.74545 | delta: 7.6e+01 | secs: 0.28904
+DEBUG:MNF:MNF  ::: [482] fit: 17729.29395 | delta: 7.5e+01 | secs: 0.28973
+DEBUG:MNF:MNF  ::: [483] fit: 17654.44140 | delta: 7.5e+01 | secs: 0.28962
+DEBUG:MNF:MNF  ::: [484] fit: 17580.18583 | delta: 7.4e+01 | secs: 0.28826
+DEBUG:MNF:MNF  ::: [485] fit: 17506.52612 | delta: 7.4e+01 | secs: 0.29065
+DEBUG:MNF:MNF  ::: [486] fit: 17433.46156 | delta: 7.3e+01 | secs: 0.28930
+DEBUG:MNF:MNF  ::: [487] fit: 17360.98903 | delta: 7.2e+01 | secs: 0.29068
+DEBUG:MNF:MNF  ::: [488] fit: 17289.09978 | delta: 7.2e+01 | secs: 0.28903
+DEBUG:MNF:MNF  ::: [489] fit: 17217.77729 | delta: 7.1e+01 | secs: 0.29681
+DEBUG:MNF:MNF  ::: [490] fit: 17146.99686 | delta: 7.1e+01 | secs: 0.28828
+DEBUG:MNF:MNF  ::: [491] fit: 17076.72759 | delta: 7.0e+01 | secs: 0.29018
+DEBUG:MNF:MNF  ::: [492] fit: 17006.93699 | delta: 7.0e+01 | secs: 0.28884
+DEBUG:MNF:MNF  ::: [493] fit: 16937.59699 | delta: 6.9e+01 | secs: 0.28894
+DEBUG:MNF:MNF  ::: [494] fit: 16868.68882 | delta: 6.9e+01 | secs: 0.28891
+DEBUG:MNF:MNF  ::: [495] fit: 16800.20410 | delta: 6.8e+01 | secs: 0.28892
+DEBUG:MNF:MNF  ::: [496] fit: 16732.14236 | delta: 6.8e+01 | secs: 0.28788
+DEBUG:MNF:MNF  ::: [497] fit: 16664.50687 | delta: 6.8e+01 | secs: 0.28971
+DEBUG:MNF:MNF  ::: [498] fit: 16597.30107 | delta: 6.7e+01 | secs: 0.28890
+DEBUG:MNF:MNF  ::: [499] fit: 16530.52672 | delta: 6.7e+01 | secs: 0.28871
+DEBUG:MNF:Initializing U
+DEBUG:MNF:Initialization completed
+DEBUG:MNF:MNF  ::: [  0] fit: 960979733.17192 | delta: 9.6e+08 | secs: 0.26538
+DEBUG:MNF:MNF  ::: [  1] fit: 747937326.43883 | delta: 2.1e+08 | secs: 0.28682
+DEBUG:MNF:MNF  ::: [  2] fit: 531838657.94092 | delta: 2.2e+08 | secs: 0.28673
+DEBUG:MNF:MNF  ::: [  3] fit: 517643187.47335 | delta: 1.4e+07 | secs: 0.28561
+DEBUG:MNF:MNF  ::: [  4] fit: 532651069.61461 | delta: 1.5e+07 | secs: 0.28447
+DEBUG:MNF:MNF  ::: [  5] fit: 474083160.12963 | delta: 5.9e+07 | secs: 0.28375
+DEBUG:MNF:MNF  ::: [  6] fit: 375239224.46223 | delta: 9.9e+07 | secs: 0.28386
+DEBUG:MNF:MNF  ::: [  7] fit: 279933034.76344 | delta: 9.5e+07 | secs: 0.28332
+DEBUG:MNF:MNF  ::: [  8] fit: 205277024.90939 | delta: 7.5e+07 | secs: 0.28452
+DEBUG:MNF:MNF  ::: [  9] fit: 151659685.59771 | delta: 5.4e+07 | secs: 0.28351
+DEBUG:MNF:MNF  ::: [ 10] fit: 114266334.25496 | delta: 3.7e+07 | secs: 0.28508
+DEBUG:MNF:MNF  ::: [ 11] fit: 88177151.63658 | delta: 2.6e+07 | secs: 0.28457
+DEBUG:MNF:MNF  ::: [ 12] fit: 69690907.56376 | delta: 1.8e+07 | secs: 0.28521
+DEBUG:MNF:MNF  ::: [ 13] fit: 56298251.36058 | delta: 1.3e+07 | secs: 0.28511
+DEBUG:MNF:MNF  ::: [ 14] fit: 46358914.07773 | delta: 9.9e+06 | secs: 0.28469
+DEBUG:MNF:MNF  ::: [ 15] fit: 38807147.92381 | delta: 7.6e+06 | secs: 0.28563
+DEBUG:MNF:MNF  ::: [ 16] fit: 32944076.16079 | delta: 5.9e+06 | secs: 0.28749
+DEBUG:MNF:MNF  ::: [ 17] fit: 28303595.57153 | delta: 4.6e+06 | secs: 0.28574
+DEBUG:MNF:MNF  ::: [ 18] fit: 24568429.01691 | delta: 3.7e+06 | secs: 0.28717
+DEBUG:MNF:MNF  ::: [ 19] fit: 21517817.34506 | delta: 3.1e+06 | secs: 0.28579
+DEBUG:MNF:MNF  ::: [ 20] fit: 18994663.13080 | delta: 2.5e+06 | secs: 0.28694
+DEBUG:MNF:MNF  ::: [ 21] fit: 16884659.12187 | delta: 2.1e+06 | secs: 0.28751
+DEBUG:MNF:MNF  ::: [ 22] fit: 15102888.23936 | delta: 1.8e+06 | secs: 0.28727
+DEBUG:MNF:MNF  ::: [ 23] fit: 13585114.33606 | delta: 1.5e+06 | secs: 0.28757
+DEBUG:MNF:MNF  ::: [ 24] fit: 12282010.66773 | delta: 1.3e+06 | secs: 0.28800
+DEBUG:MNF:MNF  ::: [ 25] fit: 11155226.45560 | delta: 1.1e+06 | secs: 0.28736
+DEBUG:MNF:MNF  ::: [ 26] fit: 10174625.72155 | delta: 9.8e+05 | secs: 0.28763
+DEBUG:MNF:MNF  ::: [ 27] fit: 9316294.56675 | delta: 8.6e+05 | secs: 0.28759
+DEBUG:MNF:MNF  ::: [ 28] fit: 8561061.35277 | delta: 7.6e+05 | secs: 0.28743
+DEBUG:MNF:MNF  ::: [ 29] fit: 7893379.53951 | delta: 6.7e+05 | secs: 0.28625
+DEBUG:MNF:MNF  ::: [ 30] fit: 7300497.46276 | delta: 5.9e+05 | secs: 0.28757
+DEBUG:MNF:MNF  ::: [ 31] fit: 6771861.72289 | delta: 5.3e+05 | secs: 0.28744
+DEBUG:MNF:MNF  ::: [ 32] fit: 6298688.85885 | delta: 4.7e+05 | secs: 0.28723
+DEBUG:MNF:MNF  ::: [ 33] fit: 5873637.16305 | delta: 4.3e+05 | secs: 0.28745
+DEBUG:MNF:MNF  ::: [ 34] fit: 5490534.16662 | delta: 3.8e+05 | secs: 0.28851
+DEBUG:MNF:MNF  ::: [ 35] fit: 5144147.33026 | delta: 3.5e+05 | secs: 0.28780
+DEBUG:MNF:MNF  ::: [ 36] fit: 4830001.58736 | delta: 3.1e+05 | secs: 0.28804
+DEBUG:MNF:MNF  ::: [ 37] fit: 4544245.10858 | delta: 2.9e+05 | secs: 0.28710
+DEBUG:MNF:MNF  ::: [ 38] fit: 4283554.35333 | delta: 2.6e+05 | secs: 0.28832
+DEBUG:MNF:MNF  ::: [ 39] fit: 4045060.98210 | delta: 2.4e+05 | secs: 0.28769
+DEBUG:MNF:MNF  ::: [ 40] fit: 3826285.27279 | delta: 2.2e+05 | secs: 0.28775
+DEBUG:MNF:MNF  ::: [ 41] fit: 3625072.68038 | delta: 2.0e+05 | secs: 0.28722
+DEBUG:MNF:MNF  ::: [ 42] fit: 3439540.45951 | delta: 1.9e+05 | secs: 0.28819
+DEBUG:MNF:MNF  ::: [ 43] fit: 3268039.86261 | delta: 1.7e+05 | secs: 0.28723
+DEBUG:MNF:MNF  ::: [ 44] fit: 3109130.14729 | delta: 1.6e+05 | secs: 0.28771
+DEBUG:MNF:MNF  ::: [ 45] fit: 2961556.27461 | delta: 1.5e+05 | secs: 0.28713
+DEBUG:MNF:MNF  ::: [ 46] fit: 2824225.98968 | delta: 1.4e+05 | secs: 0.28851
+DEBUG:MNF:MNF  ::: [ 47] fit: 2696186.17358 | delta: 1.3e+05 | secs: 0.28752
+DEBUG:MNF:MNF  ::: [ 48] fit: 2576599.54006 | delta: 1.2e+05 | secs: 0.28822
+DEBUG:MNF:MNF  ::: [ 49] fit: 2464723.94426 | delta: 1.1e+05 | secs: 0.28732
+DEBUG:MNF:MNF  ::: [ 50] fit: 2359897.49216 | delta: 1.0e+05 | secs: 0.28812
+DEBUG:MNF:MNF  ::: [ 51] fit: 2261530.12923 | delta: 9.8e+04 | secs: 0.28814
+DEBUG:MNF:MNF  ::: [ 52] fit: 2169098.20474 | delta: 9.2e+04 | secs: 0.28842
+DEBUG:MNF:MNF  ::: [ 53] fit: 2082137.58616 | delta: 8.7e+04 | secs: 0.28758
+DEBUG:MNF:MNF  ::: [ 54] fit: 2000233.69052 | delta: 8.2e+04 | secs: 0.28770
+DEBUG:MNF:MNF  ::: [ 55] fit: 1923009.83969 | delta: 7.7e+04 | secs: 0.28763
+DEBUG:MNF:MNF  ::: [ 56] fit: 1850116.85882 | delta: 7.3e+04 | secs: 0.28827
+DEBUG:MNF:MNF  ::: [ 57] fit: 1781227.16162 | delta: 6.9e+04 | secs: 0.28758
+DEBUG:MNF:MNF  ::: [ 58] fit: 1716035.04921 | delta: 6.5e+04 | secs: 0.28835
+DEBUG:MNF:MNF  ::: [ 59] fit: 1654261.61012 | delta: 6.2e+04 | secs: 0.28763
+DEBUG:MNF:MNF  ::: [ 60] fit: 1595659.97522 | delta: 5.9e+04 | secs: 0.28908
+DEBUG:MNF:MNF  ::: [ 61] fit: 1540016.85629 | delta: 5.6e+04 | secs: 0.28768
+DEBUG:MNF:MNF  ::: [ 62] fit: 1487148.61410 | delta: 5.3e+04 | secs: 0.28844
+DEBUG:MNF:MNF  ::: [ 63] fit: 1436893.04452 | delta: 5.0e+04 | secs: 0.28838
+DEBUG:MNF:MNF  ::: [ 64] fit: 1389100.50334 | delta: 4.8e+04 | secs: 0.28855
+DEBUG:MNF:MNF  ::: [ 65] fit: 1343628.40229 | delta: 4.5e+04 | secs: 0.28766
+DEBUG:MNF:MNF  ::: [ 66] fit: 1300340.60752 | delta: 4.3e+04 | secs: 0.28822
+DEBUG:MNF:MNF  ::: [ 67] fit: 1259109.58330 | delta: 4.1e+04 | secs: 0.28853
+DEBUG:MNF:MNF  ::: [ 68] fit: 1219817.51464 | delta: 3.9e+04 | secs: 0.28744
+DEBUG:MNF:MNF  ::: [ 69] fit: 1182354.34540 | delta: 3.7e+04 | secs: 0.28782
+DEBUG:MNF:MNF  ::: [ 70] fit: 1146613.82857 | delta: 3.6e+04 | secs: 0.28835
+DEBUG:MNF:MNF  ::: [ 71] fit: 1112490.50058 | delta: 3.4e+04 | secs: 0.28759
+DEBUG:MNF:MNF  ::: [ 72] fit: 1079879.70690 | delta: 3.3e+04 | secs: 0.28839
+DEBUG:MNF:MNF  ::: [ 73] fit: 1048680.50438 | delta: 3.1e+04 | secs: 0.28763
+DEBUG:MNF:MNF  ::: [ 74] fit: 1018799.50282 | delta: 3.0e+04 | secs: 0.28813
+DEBUG:MNF:MNF  ::: [ 75] fit: 990153.48286 | delta: 2.9e+04 | secs: 0.28750
+DEBUG:MNF:MNF  ::: [ 76] fit: 962669.64142 | delta: 2.7e+04 | secs: 0.28828
+DEBUG:MNF:MNF  ::: [ 77] fit: 936283.72440 | delta: 2.6e+04 | secs: 0.28804
+DEBUG:MNF:MNF  ::: [ 78] fit: 910937.25324 | delta: 2.5e+04 | secs: 0.28882
+DEBUG:MNF:MNF  ::: [ 79] fit: 886575.19311 | delta: 2.4e+04 | secs: 0.28742
+DEBUG:MNF:MNF  ::: [ 80] fit: 863144.90452 | delta: 2.3e+04 | secs: 0.28816
+DEBUG:MNF:MNF  ::: [ 81] fit: 840596.38798 | delta: 2.3e+04 | secs: 0.28838
+DEBUG:MNF:MNF  ::: [ 82] fit: 818883.11575 | delta: 2.2e+04 | secs: 0.28832
+DEBUG:MNF:MNF  ::: [ 83] fit: 797962.55350 | delta: 2.1e+04 | secs: 0.28827
+DEBUG:MNF:MNF  ::: [ 84] fit: 777795.94477 | delta: 2.0e+04 | secs: 0.29026
+DEBUG:MNF:MNF  ::: [ 85] fit: 758347.68187 | delta: 1.9e+04 | secs: 0.28775
+DEBUG:MNF:MNF  ::: [ 86] fit: 739584.84974 | delta: 1.9e+04 | secs: 0.28883
+DEBUG:MNF:MNF  ::: [ 87] fit: 721477.12336 | delta: 1.8e+04 | secs: 0.28831
+DEBUG:MNF:MNF  ::: [ 88] fit: 703996.69916 | delta: 1.7e+04 | secs: 0.28919
+DEBUG:MNF:MNF  ::: [ 89] fit: 687117.80621 | delta: 1.7e+04 | secs: 0.28783
+DEBUG:MNF:MNF  ::: [ 90] fit: 670815.68353 | delta: 1.6e+04 | secs: 0.28879
+DEBUG:MNF:MNF  ::: [ 91] fit: 655065.51872 | delta: 1.6e+04 | secs: 0.28768
+DEBUG:MNF:MNF  ::: [ 92] fit: 639842.07669 | delta: 1.5e+04 | secs: 0.28850
+DEBUG:MNF:MNF  ::: [ 93] fit: 625120.24382 | delta: 1.5e+04 | secs: 0.28802
+DEBUG:MNF:MNF  ::: [ 94] fit: 610876.03821 | delta: 1.4e+04 | secs: 0.28850
+DEBUG:MNF:MNF  ::: [ 95] fit: 597087.51629 | delta: 1.4e+04 | secs: 0.28809
+DEBUG:MNF:MNF  ::: [ 96] fit: 583735.30325 | delta: 1.3e+04 | secs: 0.28838
+DEBUG:MNF:MNF  ::: [ 97] fit: 570802.67510 | delta: 1.3e+04 | secs: 0.28753
+DEBUG:MNF:MNF  ::: [ 98] fit: 558275.15649 | delta: 1.3e+04 | secs: 0.28831
+DEBUG:MNF:MNF  ::: [ 99] fit: 546139.70191 | delta: 1.2e+04 | secs: 0.28850
+DEBUG:MNF:MNF  ::: [100] fit: 534383.73647 | delta: 1.2e+04 | secs: 0.28875
+DEBUG:MNF:MNF  ::: [101] fit: 522994.40132 | delta: 1.1e+04 | secs: 0.28813
+DEBUG:MNF:MNF  ::: [102] fit: 511958.18729 | delta: 1.1e+04 | secs: 0.28842
+DEBUG:MNF:MNF  ::: [103] fit: 501260.98238 | delta: 1.1e+04 | secs: 0.28831
+DEBUG:MNF:MNF  ::: [104] fit: 490888.48525 | delta: 1.0e+04 | secs: 0.28865
+DEBUG:MNF:MNF  ::: [105] fit: 480826.83280 | delta: 1.0e+04 | secs: 0.28766
+DEBUG:MNF:MNF  ::: [106] fit: 471063.22637 | delta: 9.8e+03 | secs: 0.28861
+DEBUG:MNF:MNF  ::: [107] fit: 461586.38074 | delta: 9.5e+03 | secs: 0.28711
+DEBUG:MNF:MNF  ::: [108] fit: 452386.63061 | delta: 9.2e+03 | secs: 0.28884
+DEBUG:MNF:MNF  ::: [109] fit: 443455.53372 | delta: 8.9e+03 | secs: 0.28917
+DEBUG:MNF:MNF  ::: [110] fit: 434785.01672 | delta: 8.7e+03 | secs: 0.28817
+DEBUG:MNF:MNF  ::: [111] fit: 426366.43552 | delta: 8.4e+03 | secs: 0.28762
+DEBUG:MNF:MNF  ::: [112] fit: 418190.01051 | delta: 8.2e+03 | secs: 0.28955
+DEBUG:MNF:MNF  ::: [113] fit: 410244.87424 | delta: 7.9e+03 | secs: 0.28771
+DEBUG:MNF:MNF  ::: [114] fit: 402519.64738 | delta: 7.7e+03 | secs: 0.28935
+DEBUG:MNF:MNF  ::: [115] fit: 395003.22353 | delta: 7.5e+03 | secs: 0.28833
+DEBUG:MNF:MNF  ::: [116] fit: 387685.41828 | delta: 7.3e+03 | secs: 0.28868
+DEBUG:MNF:MNF  ::: [117] fit: 380557.31471 | delta: 7.1e+03 | secs: 0.28846
+DEBUG:MNF:MNF  ::: [118] fit: 373611.33628 | delta: 6.9e+03 | secs: 0.28863
+DEBUG:MNF:MNF  ::: [119] fit: 366841.13956 | delta: 6.8e+03 | secs: 0.28828
+DEBUG:MNF:MNF  ::: [120] fit: 360241.36364 | delta: 6.6e+03 | secs: 0.28824
+DEBUG:MNF:MNF  ::: [121] fit: 353807.24507 | delta: 6.4e+03 | secs: 0.28822
+DEBUG:MNF:MNF  ::: [122] fit: 347534.18457 | delta: 6.3e+03 | secs: 0.28850
+DEBUG:MNF:MNF  ::: [123] fit: 341417.43070 | delta: 6.1e+03 | secs: 0.28804
+DEBUG:MNF:MNF  ::: [124] fit: 335451.98992 | delta: 6.0e+03 | secs: 0.28858
+DEBUG:MNF:MNF  ::: [125] fit: 329632.74086 | delta: 5.8e+03 | secs: 0.28815
+DEBUG:MNF:MNF  ::: [126] fit: 323954.64615 | delta: 5.7e+03 | secs: 0.28890
+DEBUG:MNF:MNF  ::: [127] fit: 318412.93781 | delta: 5.5e+03 | secs: 0.28772
+DEBUG:MNF:MNF  ::: [128] fit: 313003.18910 | delta: 5.4e+03 | secs: 0.28895
+DEBUG:MNF:MNF  ::: [129] fit: 307721.28853 | delta: 5.3e+03 | secs: 0.28874
+DEBUG:MNF:MNF  ::: [130] fit: 302563.42716 | delta: 5.2e+03 | secs: 0.28860
+DEBUG:MNF:MNF  ::: [131] fit: 297526.15908 | delta: 5.0e+03 | secs: 0.28835
+DEBUG:MNF:MNF  ::: [132] fit: 292606.43613 | delta: 4.9e+03 | secs: 0.28851
+DEBUG:MNF:MNF  ::: [133] fit: 287801.48614 | delta: 4.8e+03 | secs: 0.28748
+DEBUG:MNF:MNF  ::: [134] fit: 283108.55513 | delta: 4.7e+03 | secs: 0.28857
+DEBUG:MNF:MNF  ::: [135] fit: 278524.65150 | delta: 4.6e+03 | secs: 0.28833
+DEBUG:MNF:MNF  ::: [136] fit: 274046.40531 | delta: 4.5e+03 | secs: 0.28865
+DEBUG:MNF:MNF  ::: [137] fit: 269670.09480 | delta: 4.4e+03 | secs: 0.28799
+DEBUG:MNF:MNF  ::: [138] fit: 265391.85162 | delta: 4.3e+03 | secs: 0.28881
+DEBUG:MNF:MNF  ::: [139] fit: 261207.98262 | delta: 4.2e+03 | secs: 0.28858
+DEBUG:MNF:MNF  ::: [140] fit: 257115.26838 | delta: 4.1e+03 | secs: 0.28879
+DEBUG:MNF:MNF  ::: [141] fit: 253111.10982 | delta: 4.0e+03 | secs: 0.28830
+DEBUG:MNF:MNF  ::: [142] fit: 249193.49533 | delta: 3.9e+03 | secs: 0.28903
+DEBUG:MNF:MNF  ::: [143] fit: 245360.84631 | delta: 3.8e+03 | secs: 0.28847
+DEBUG:MNF:MNF  ::: [144] fit: 241611.80765 | delta: 3.7e+03 | secs: 0.28876
+DEBUG:MNF:MNF  ::: [145] fit: 237945.03715 | delta: 3.7e+03 | secs: 0.28851
+DEBUG:MNF:MNF  ::: [146] fit: 234359.05505 | delta: 3.6e+03 | secs: 0.28828
+DEBUG:MNF:MNF  ::: [147] fit: 230852.18665 | delta: 3.5e+03 | secs: 0.28851
+DEBUG:MNF:MNF  ::: [148] fit: 227422.57236 | delta: 3.4e+03 | secs: 0.28831
+DEBUG:MNF:MNF  ::: [149] fit: 224068.20390 | delta: 3.4e+03 | secs: 0.28771
+DEBUG:MNF:MNF  ::: [150] fit: 220786.98694 | delta: 3.3e+03 | secs: 0.28905
+DEBUG:MNF:MNF  ::: [151] fit: 217576.83904 | delta: 3.2e+03 | secs: 0.28873
+DEBUG:MNF:MNF  ::: [152] fit: 214435.77752 | delta: 3.1e+03 | secs: 0.28878
+DEBUG:MNF:MNF  ::: [153] fit: 211361.93326 | delta: 3.1e+03 | secs: 0.28929
+DEBUG:MNF:MNF  ::: [154] fit: 208353.48732 | delta: 3.0e+03 | secs: 0.28923
+DEBUG:MNF:MNF  ::: [155] fit: 205408.59125 | delta: 2.9e+03 | secs: 0.28794
+DEBUG:MNF:MNF  ::: [156] fit: 202525.33467 | delta: 2.9e+03 | secs: 0.28885
+DEBUG:MNF:MNF  ::: [157] fit: 199701.78276 | delta: 2.8e+03 | secs: 0.28816
+DEBUG:MNF:MNF  ::: [158] fit: 196936.05374 | delta: 2.8e+03 | secs: 0.28848
+DEBUG:MNF:MNF  ::: [159] fit: 194226.37702 | delta: 2.7e+03 | secs: 0.28833
+DEBUG:MNF:MNF  ::: [160] fit: 191571.10090 | delta: 2.7e+03 | secs: 0.28827
+DEBUG:MNF:MNF  ::: [161] fit: 188968.66118 | delta: 2.6e+03 | secs: 0.28845
+DEBUG:MNF:MNF  ::: [162] fit: 186417.52677 | delta: 2.6e+03 | secs: 0.28861
+DEBUG:MNF:MNF  ::: [163] fit: 183916.15169 | delta: 2.5e+03 | secs: 0.28817
+DEBUG:MNF:MNF  ::: [164] fit: 181462.98549 | delta: 2.5e+03 | secs: 0.28895
+DEBUG:MNF:MNF  ::: [165] fit: 179056.54353 | delta: 2.4e+03 | secs: 0.28772
+DEBUG:MNF:MNF  ::: [166] fit: 176695.46150 | delta: 2.4e+03 | secs: 0.28915
+DEBUG:MNF:MNF  ::: [167] fit: 174378.47710 | delta: 2.3e+03 | secs: 0.28740
+DEBUG:MNF:MNF  ::: [168] fit: 172104.37398 | delta: 2.3e+03 | secs: 0.28910
+DEBUG:MNF:MNF  ::: [169] fit: 169871.95795 | delta: 2.2e+03 | secs: 0.28750
+DEBUG:MNF:MNF  ::: [170] fit: 167680.07814 | delta: 2.2e+03 | secs: 0.28834
+DEBUG:MNF:MNF  ::: [171] fit: 165527.65316 | delta: 2.2e+03 | secs: 0.28804
+DEBUG:MNF:MNF  ::: [172] fit: 163413.68677 | delta: 2.1e+03 | secs: 0.28842
+DEBUG:MNF:MNF  ::: [173] fit: 161337.30089 | delta: 2.1e+03 | secs: 0.28770
+DEBUG:MNF:MNF  ::: [174] fit: 159297.79140 | delta: 2.0e+03 | secs: 0.28891
+DEBUG:MNF:MNF  ::: [175] fit: 157294.64942 | delta: 2.0e+03 | secs: 0.28827
+DEBUG:MNF:MNF  ::: [176] fit: 155327.49732 | delta: 2.0e+03 | secs: 0.28864
+DEBUG:MNF:MNF  ::: [177] fit: 153395.96466 | delta: 1.9e+03 | secs: 0.28890
+DEBUG:MNF:MNF  ::: [178] fit: 151499.57884 | delta: 1.9e+03 | secs: 0.28880
+DEBUG:MNF:MNF  ::: [179] fit: 149637.72119 | delta: 1.9e+03 | secs: 0.28834
+DEBUG:MNF:MNF  ::: [180] fit: 147809.64352 | delta: 1.8e+03 | secs: 0.28897
+DEBUG:MNF:MNF  ::: [181] fit: 146014.51036 | delta: 1.8e+03 | secs: 0.28779
+DEBUG:MNF:MNF  ::: [182] fit: 144251.43793 | delta: 1.8e+03 | secs: 0.28838
+DEBUG:MNF:MNF  ::: [183] fit: 142519.52149 | delta: 1.7e+03 | secs: 0.28818
+DEBUG:MNF:MNF  ::: [184] fit: 140817.84272 | delta: 1.7e+03 | secs: 0.28874
+DEBUG:MNF:MNF  ::: [185] fit: 139145.44848 | delta: 1.7e+03 | secs: 0.28818
+DEBUG:MNF:MNF  ::: [186] fit: 137501.32906 | delta: 1.6e+03 | secs: 0.28893
+DEBUG:MNF:MNF  ::: [187] fit: 135884.45050 | delta: 1.6e+03 | secs: 0.28882
+DEBUG:MNF:MNF  ::: [188] fit: 134293.85106 | delta: 1.6e+03 | secs: 0.28917
+DEBUG:MNF:MNF  ::: [189] fit: 132728.73066 | delta: 1.6e+03 | secs: 0.28876
+DEBUG:MNF:MNF  ::: [190] fit: 131188.47422 | delta: 1.5e+03 | secs: 0.28874
+DEBUG:MNF:MNF  ::: [191] fit: 129672.61700 | delta: 1.5e+03 | secs: 0.28884
+DEBUG:MNF:MNF  ::: [192] fit: 128180.79821 | delta: 1.5e+03 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [193] fit: 126712.71875 | delta: 1.5e+03 | secs: 0.28899
+DEBUG:MNF:MNF  ::: [194] fit: 125268.09785 | delta: 1.4e+03 | secs: 0.28899
+DEBUG:MNF:MNF  ::: [195] fit: 123846.64056 | delta: 1.4e+03 | secs: 0.28833
+DEBUG:MNF:MNF  ::: [196] fit: 122448.03130 | delta: 1.4e+03 | secs: 0.30422
+DEBUG:MNF:MNF  ::: [197] fit: 121071.94879 | delta: 1.4e+03 | secs: 0.28697
+DEBUG:MNF:MNF  ::: [198] fit: 119718.08612 | delta: 1.4e+03 | secs: 0.28907
+DEBUG:MNF:MNF  ::: [199] fit: 118386.15912 | delta: 1.3e+03 | secs: 0.28931
+DEBUG:MNF:MNF  ::: [200] fit: 117075.89972 | delta: 1.3e+03 | secs: 0.28904
+DEBUG:MNF:MNF  ::: [201] fit: 115787.04610 | delta: 1.3e+03 | secs: 0.28821
+DEBUG:MNF:MNF  ::: [202] fit: 114519.33800 | delta: 1.3e+03 | secs: 0.28887
+DEBUG:MNF:MNF  ::: [203] fit: 113272.50385 | delta: 1.2e+03 | secs: 0.28890
+DEBUG:MNF:MNF  ::: [204] fit: 112046.22232 | delta: 1.2e+03 | secs: 0.28831
+DEBUG:MNF:MNF  ::: [205] fit: 110840.06815 | delta: 1.2e+03 | secs: 0.28864
+DEBUG:MNF:MNF  ::: [206] fit: 109653.48292 | delta: 1.2e+03 | secs: 0.28880
+DEBUG:MNF:MNF  ::: [207] fit: 108485.80633 | delta: 1.2e+03 | secs: 0.28832
+DEBUG:MNF:MNF  ::: [208] fit: 107336.36180 | delta: 1.1e+03 | secs: 0.28889
+DEBUG:MNF:MNF  ::: [209] fit: 106204.55199 | delta: 1.1e+03 | secs: 0.28772
+DEBUG:MNF:MNF  ::: [210] fit: 105089.91143 | delta: 1.1e+03 | secs: 0.28893
+DEBUG:MNF:MNF  ::: [211] fit: 103992.09352 | delta: 1.1e+03 | secs: 0.28785
+DEBUG:MNF:MNF  ::: [212] fit: 102910.80799 | delta: 1.1e+03 | secs: 0.28898
+DEBUG:MNF:MNF  ::: [213] fit: 101845.75420 | delta: 1.1e+03 | secs: 0.28851
+DEBUG:MNF:MNF  ::: [214] fit: 100796.59489 | delta: 1.0e+03 | secs: 0.28843
+DEBUG:MNF:MNF  ::: [215] fit: 99762.98266 | delta: 1.0e+03 | secs: 0.28821
+DEBUG:MNF:MNF  ::: [216] fit: 98744.60983 | delta: 1.0e+03 | secs: 0.28978
+DEBUG:MNF:MNF  ::: [217] fit: 97741.24162 | delta: 1.0e+03 | secs: 0.28834
+DEBUG:MNF:MNF  ::: [218] fit: 96752.71656 | delta: 9.9e+02 | secs: 0.28941
+DEBUG:MNF:MNF  ::: [219] fit: 95778.92463 | delta: 9.7e+02 | secs: 0.28860
+DEBUG:MNF:MNF  ::: [220] fit: 94819.77919 | delta: 9.6e+02 | secs: 0.28924
+DEBUG:MNF:MNF  ::: [221] fit: 93875.19172 | delta: 9.4e+02 | secs: 0.28833
+DEBUG:MNF:MNF  ::: [222] fit: 92945.04829 | delta: 9.3e+02 | secs: 0.28877
+DEBUG:MNF:MNF  ::: [223] fit: 92029.18479 | delta: 9.2e+02 | secs: 0.28849
+DEBUG:MNF:MNF  ::: [224] fit: 91127.36733 | delta: 9.0e+02 | secs: 0.28992
+DEBUG:MNF:MNF  ::: [225] fit: 90239.29584 | delta: 8.9e+02 | secs: 0.29053
+DEBUG:MNF:MNF  ::: [226] fit: 89364.63953 | delta: 8.7e+02 | secs: 0.29259
+DEBUG:MNF:MNF  ::: [227] fit: 88503.08553 | delta: 8.6e+02 | secs: 0.28810
+DEBUG:MNF:MNF  ::: [228] fit: 87654.36771 | delta: 8.5e+02 | secs: 0.28897
+DEBUG:MNF:MNF  ::: [229] fit: 86818.26158 | delta: 8.4e+02 | secs: 0.28828
+DEBUG:MNF:MNF  ::: [230] fit: 85994.55963 | delta: 8.2e+02 | secs: 0.28918
+DEBUG:MNF:MNF  ::: [231] fit: 85183.04677 | delta: 8.1e+02 | secs: 0.28907
+DEBUG:MNF:MNF  ::: [232] fit: 84383.48586 | delta: 8.0e+02 | secs: 0.28892
+DEBUG:MNF:MNF  ::: [233] fit: 83595.61561 | delta: 7.9e+02 | secs: 0.28832
+DEBUG:MNF:MNF  ::: [234] fit: 82819.15817 | delta: 7.8e+02 | secs: 0.28888
+DEBUG:MNF:MNF  ::: [235] fit: 82053.82762 | delta: 7.7e+02 | secs: 0.28834
+DEBUG:MNF:MNF  ::: [236] fit: 81299.33499 | delta: 7.5e+02 | secs: 0.28827
+DEBUG:MNF:MNF  ::: [237] fit: 80555.39376 | delta: 7.4e+02 | secs: 0.28830
+DEBUG:MNF:MNF  ::: [238] fit: 79821.72788 | delta: 7.3e+02 | secs: 0.28874
+DEBUG:MNF:MNF  ::: [239] fit: 79098.07653 | delta: 7.2e+02 | secs: 0.28854
+DEBUG:MNF:MNF  ::: [240] fit: 78384.19346 | delta: 7.1e+02 | secs: 0.28914
+DEBUG:MNF:MNF  ::: [241] fit: 77679.84418 | delta: 7.0e+02 | secs: 0.28894
+DEBUG:MNF:MNF  ::: [242] fit: 76984.80288 | delta: 7.0e+02 | secs: 0.28907
+DEBUG:MNF:MNF  ::: [243] fit: 76298.85112 | delta: 6.9e+02 | secs: 0.28865
+DEBUG:MNF:MNF  ::: [244] fit: 75621.78078 | delta: 6.8e+02 | secs: 0.28885
+DEBUG:MNF:MNF  ::: [245] fit: 74953.40056 | delta: 6.7e+02 | secs: 0.28813
+DEBUG:MNF:MNF  ::: [246] fit: 74293.53840 | delta: 6.6e+02 | secs: 0.28891
+DEBUG:MNF:MNF  ::: [247] fit: 73642.03337 | delta: 6.5e+02 | secs: 0.28841
+DEBUG:MNF:MNF  ::: [248] fit: 72998.72153 | delta: 6.4e+02 | secs: 0.28859
+DEBUG:MNF:MNF  ::: [249] fit: 72363.42983 | delta: 6.4e+02 | secs: 0.28807
+DEBUG:MNF:MNF  ::: [250] fit: 71735.98764 | delta: 6.3e+02 | secs: 0.28848
+DEBUG:MNF:MNF  ::: [251] fit: 71116.24632 | delta: 6.2e+02 | secs: 0.28847
+DEBUG:MNF:MNF  ::: [252] fit: 70504.08793 | delta: 6.1e+02 | secs: 0.28883
+DEBUG:MNF:MNF  ::: [253] fit: 69899.41435 | delta: 6.0e+02 | secs: 0.28885
+DEBUG:MNF:MNF  ::: [254] fit: 69302.12424 | delta: 6.0e+02 | secs: 0.28847
+DEBUG:MNF:MNF  ::: [255] fit: 68712.09124 | delta: 5.9e+02 | secs: 0.28861
+DEBUG:MNF:MNF  ::: [256] fit: 68129.15621 | delta: 5.8e+02 | secs: 0.28820
+DEBUG:MNF:MNF  ::: [257] fit: 67553.14276 | delta: 5.8e+02 | secs: 0.28888
+DEBUG:MNF:MNF  ::: [258] fit: 66983.89178 | delta: 5.7e+02 | secs: 0.28911
+DEBUG:MNF:MNF  ::: [259] fit: 66421.29178 | delta: 5.6e+02 | secs: 0.28846
+DEBUG:MNF:MNF  ::: [260] fit: 65865.28444 | delta: 5.6e+02 | secs: 0.28917
+DEBUG:MNF:MNF  ::: [261] fit: 65315.84730 | delta: 5.5e+02 | secs: 0.28775
+DEBUG:MNF:MNF  ::: [262] fit: 64772.97213 | delta: 5.4e+02 | secs: 0.28875
+DEBUG:MNF:MNF  ::: [263] fit: 64236.65035 | delta: 5.4e+02 | secs: 0.28787
+DEBUG:MNF:MNF  ::: [264] fit: 63706.86153 | delta: 5.3e+02 | secs: 0.28923
+DEBUG:MNF:MNF  ::: [265] fit: 63183.55891 | delta: 5.2e+02 | secs: 0.28733
+DEBUG:MNF:MNF  ::: [266] fit: 62666.65524 | delta: 5.2e+02 | secs: 0.28844
+DEBUG:MNF:MNF  ::: [267] fit: 62156.01934 | delta: 5.1e+02 | secs: 0.28813
+DEBUG:MNF:MNF  ::: [268] fit: 61651.48932 | delta: 5.0e+02 | secs: 0.28892
+DEBUG:MNF:MNF  ::: [269] fit: 61152.89683 | delta: 5.0e+02 | secs: 0.28793
+DEBUG:MNF:MNF  ::: [270] fit: 60660.08931 | delta: 4.9e+02 | secs: 0.28958
+DEBUG:MNF:MNF  ::: [271] fit: 60172.94182 | delta: 4.9e+02 | secs: 0.28853
+DEBUG:MNF:MNF  ::: [272] fit: 59691.35941 | delta: 4.8e+02 | secs: 0.28943
+DEBUG:MNF:MNF  ::: [273] fit: 59215.27247 | delta: 4.8e+02 | secs: 0.28782
+DEBUG:MNF:MNF  ::: [274] fit: 58744.62638 | delta: 4.7e+02 | secs: 0.28846
+DEBUG:MNF:MNF  ::: [275] fit: 58279.36758 | delta: 4.7e+02 | secs: 0.28785
+DEBUG:MNF:MNF  ::: [276] fit: 57819.43116 | delta: 4.6e+02 | secs: 0.28848
+DEBUG:MNF:MNF  ::: [277] fit: 57364.73687 | delta: 4.5e+02 | secs: 0.28799
+DEBUG:MNF:MNF  ::: [278] fit: 56915.19870 | delta: 4.5e+02 | secs: 0.28898
+DEBUG:MNF:MNF  ::: [279] fit: 56470.74472 | delta: 4.4e+02 | secs: 0.28909
+DEBUG:MNF:MNF  ::: [280] fit: 56031.33493 | delta: 4.4e+02 | secs: 0.28922
+DEBUG:MNF:MNF  ::: [281] fit: 55596.96532 | delta: 4.3e+02 | secs: 0.28798
+DEBUG:MNF:MNF  ::: [282] fit: 55167.65571 | delta: 4.3e+02 | secs: 0.28931
+DEBUG:MNF:MNF  ::: [283] fit: 54743.42821 | delta: 4.2e+02 | secs: 0.28883
+DEBUG:MNF:MNF  ::: [284] fit: 54324.28492 | delta: 4.2e+02 | secs: 0.28881
+DEBUG:MNF:MNF  ::: [285] fit: 53910.19104 | delta: 4.1e+02 | secs: 0.28870
+DEBUG:MNF:MNF  ::: [286] fit: 53501.06961 | delta: 4.1e+02 | secs: 0.28846
+DEBUG:MNF:MNF  ::: [287] fit: 53096.81255 | delta: 4.0e+02 | secs: 0.28845
+DEBUG:MNF:MNF  ::: [288] fit: 52697.30267 | delta: 4.0e+02 | secs: 0.28889
+DEBUG:MNF:MNF  ::: [289] fit: 52302.43274 | delta: 3.9e+02 | secs: 0.28858
+DEBUG:MNF:MNF  ::: [290] fit: 51912.11136 | delta: 3.9e+02 | secs: 0.28888
+DEBUG:MNF:MNF  ::: [291] fit: 51526.25805 | delta: 3.9e+02 | secs: 0.28813
+DEBUG:MNF:MNF  ::: [292] fit: 51144.79699 | delta: 3.8e+02 | secs: 0.28891
+DEBUG:MNF:MNF  ::: [293] fit: 50767.65475 | delta: 3.8e+02 | secs: 0.28785
+DEBUG:MNF:MNF  ::: [294] fit: 50394.76254 | delta: 3.7e+02 | secs: 0.28921
+DEBUG:MNF:MNF  ::: [295] fit: 50026.05838 | delta: 3.7e+02 | secs: 0.28792
+DEBUG:MNF:MNF  ::: [296] fit: 49661.48233 | delta: 3.6e+02 | secs: 0.28933
+DEBUG:MNF:MNF  ::: [297] fit: 49300.96713 | delta: 3.6e+02 | secs: 0.28877
+DEBUG:MNF:MNF  ::: [298] fit: 48944.43614 | delta: 3.6e+02 | secs: 0.28891
+DEBUG:MNF:MNF  ::: [299] fit: 48591.81406 | delta: 3.5e+02 | secs: 0.28903
+DEBUG:MNF:MNF  ::: [300] fit: 48243.04101 | delta: 3.5e+02 | secs: 0.28901
+DEBUG:MNF:MNF  ::: [301] fit: 47898.07666 | delta: 3.4e+02 | secs: 0.28888
+DEBUG:MNF:MNF  ::: [302] fit: 47556.89528 | delta: 3.4e+02 | secs: 0.28868
+DEBUG:MNF:MNF  ::: [303] fit: 47219.48148 | delta: 3.4e+02 | secs: 0.28855
+DEBUG:MNF:MNF  ::: [304] fit: 46885.82931 | delta: 3.3e+02 | secs: 0.28897
+DEBUG:MNF:MNF  ::: [305] fit: 46555.93783 | delta: 3.3e+02 | secs: 0.28853
+DEBUG:MNF:MNF  ::: [306] fit: 46229.79889 | delta: 3.3e+02 | secs: 0.28864
+DEBUG:MNF:MNF  ::: [307] fit: 45907.38183 | delta: 3.2e+02 | secs: 0.28876
+DEBUG:MNF:MNF  ::: [308] fit: 45588.62232 | delta: 3.2e+02 | secs: 0.28934
+DEBUG:MNF:MNF  ::: [309] fit: 45273.42113 | delta: 3.2e+02 | secs: 0.28900
+DEBUG:MNF:MNF  ::: [310] fit: 44961.65514 | delta: 3.1e+02 | secs: 0.28933
+DEBUG:MNF:MNF  ::: [311] fit: 44653.19711 | delta: 3.1e+02 | secs: 0.28734
+DEBUG:MNF:MNF  ::: [312] fit: 44347.93636 | delta: 3.1e+02 | secs: 0.28888
+DEBUG:MNF:MNF  ::: [313] fit: 44045.79261 | delta: 3.0e+02 | secs: 0.28787
+DEBUG:MNF:MNF  ::: [314] fit: 43746.71740 | delta: 3.0e+02 | secs: 0.28933
+DEBUG:MNF:MNF  ::: [315] fit: 43450.68367 | delta: 3.0e+02 | secs: 0.28834
+DEBUG:MNF:MNF  ::: [316] fit: 43157.66933 | delta: 2.9e+02 | secs: 0.28932
+DEBUG:MNF:MNF  ::: [317] fit: 42867.64442 | delta: 2.9e+02 | secs: 0.28852
+DEBUG:MNF:MNF  ::: [318] fit: 42580.57039 | delta: 2.9e+02 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [319] fit: 42296.41243 | delta: 2.8e+02 | secs: 0.28813
+DEBUG:MNF:MNF  ::: [320] fit: 42015.15416 | delta: 2.8e+02 | secs: 0.28878
+DEBUG:MNF:MNF  ::: [321] fit: 41736.80222 | delta: 2.8e+02 | secs: 0.28839
+DEBUG:MNF:MNF  ::: [322] fit: 41461.37737 | delta: 2.8e+02 | secs: 0.28973
+DEBUG:MNF:MNF  ::: [323] fit: 41188.90001 | delta: 2.7e+02 | secs: 0.28816
+DEBUG:MNF:MNF  ::: [324] fit: 40919.37719 | delta: 2.7e+02 | secs: 0.28950
+DEBUG:MNF:MNF  ::: [325] fit: 40652.79415 | delta: 2.7e+02 | secs: 0.28868
+DEBUG:MNF:MNF  ::: [326] fit: 40389.11085 | delta: 2.6e+02 | secs: 0.29079
+DEBUG:MNF:MNF  ::: [327] fit: 40128.26425 | delta: 2.6e+02 | secs: 0.28872
+DEBUG:MNF:MNF  ::: [328] fit: 39870.17592 | delta: 2.6e+02 | secs: 0.28930
+DEBUG:MNF:MNF  ::: [329] fit: 39614.76480 | delta: 2.6e+02 | secs: 0.28898
+DEBUG:MNF:MNF  ::: [330] fit: 39361.96262 | delta: 2.5e+02 | secs: 0.28941
+DEBUG:MNF:MNF  ::: [331] fit: 39111.72538 | delta: 2.5e+02 | secs: 0.28943
+DEBUG:MNF:MNF  ::: [332] fit: 38864.03578 | delta: 2.5e+02 | secs: 0.28883
+DEBUG:MNF:MNF  ::: [333] fit: 38618.89698 | delta: 2.5e+02 | secs: 0.28833
+DEBUG:MNF:MNF  ::: [334] fit: 38376.32223 | delta: 2.4e+02 | secs: 0.28889
+DEBUG:MNF:MNF  ::: [335] fit: 38136.32460 | delta: 2.4e+02 | secs: 0.28822
+DEBUG:MNF:MNF  ::: [336] fit: 37898.90811 | delta: 2.4e+02 | secs: 0.28931
+DEBUG:MNF:MNF  ::: [337] fit: 37664.06087 | delta: 2.3e+02 | secs: 0.28819
+DEBUG:MNF:MNF  ::: [338] fit: 37431.75355 | delta: 2.3e+02 | secs: 0.28860
+DEBUG:MNF:MNF  ::: [339] fit: 37201.94640 | delta: 2.3e+02 | secs: 0.28852
+DEBUG:MNF:MNF  ::: [340] fit: 36974.60158 | delta: 2.3e+02 | secs: 0.28945
+DEBUG:MNF:MNF  ::: [341] fit: 36749.68897 | delta: 2.2e+02 | secs: 0.28783
+DEBUG:MNF:MNF  ::: [342] fit: 36527.17917 | delta: 2.2e+02 | secs: 0.28895
+DEBUG:MNF:MNF  ::: [343] fit: 36307.03075 | delta: 2.2e+02 | secs: 0.28850
+DEBUG:MNF:MNF  ::: [344] fit: 36089.18633 | delta: 2.2e+02 | secs: 0.28896
+DEBUG:MNF:MNF  ::: [345] fit: 35873.58360 | delta: 2.2e+02 | secs: 0.28869
+DEBUG:MNF:MNF  ::: [346] fit: 35660.17191 | delta: 2.1e+02 | secs: 0.28962
+DEBUG:MNF:MNF  ::: [347] fit: 35448.91993 | delta: 2.1e+02 | secs: 0.28828
+DEBUG:MNF:MNF  ::: [348] fit: 35239.80767 | delta: 2.1e+02 | secs: 0.28924
+DEBUG:MNF:MNF  ::: [349] fit: 35032.80911 | delta: 2.1e+02 | secs: 0.28846
+DEBUG:MNF:MNF  ::: [350] fit: 34827.87799 | delta: 2.0e+02 | secs: 0.28885
+DEBUG:MNF:MNF  ::: [351] fit: 34624.94430 | delta: 2.0e+02 | secs: 0.28827
+DEBUG:MNF:MNF  ::: [352] fit: 34423.92112 | delta: 2.0e+02 | secs: 0.28952
+DEBUG:MNF:MNF  ::: [353] fit: 34224.71622 | delta: 2.0e+02 | secs: 0.28838
+DEBUG:MNF:MNF  ::: [354] fit: 34027.24385 | delta: 2.0e+02 | secs: 0.28897
+DEBUG:MNF:MNF  ::: [355] fit: 33831.43436 | delta: 2.0e+02 | secs: 0.28824
+DEBUG:MNF:MNF  ::: [356] fit: 33637.23941 | delta: 1.9e+02 | secs: 0.28847
+DEBUG:MNF:MNF  ::: [357] fit: 33444.63093 | delta: 1.9e+02 | secs: 0.28919
+DEBUG:MNF:MNF  ::: [358] fit: 33253.59504 | delta: 1.9e+02 | secs: 0.28938
+DEBUG:MNF:MNF  ::: [359] fit: 33064.12424 | delta: 1.9e+02 | secs: 0.28852
+DEBUG:MNF:MNF  ::: [360] fit: 32876.21082 | delta: 1.9e+02 | secs: 0.28903
+DEBUG:MNF:MNF  ::: [361] fit: 32689.84233 | delta: 1.9e+02 | secs: 0.28870
+DEBUG:MNF:MNF  ::: [362] fit: 32504.99986 | delta: 1.8e+02 | secs: 0.28926
+DEBUG:MNF:MNF  ::: [363] fit: 32321.66000 | delta: 1.8e+02 | secs: 0.28883
+DEBUG:MNF:MNF  ::: [364] fit: 32139.79972 | delta: 1.8e+02 | secs: 0.28939
+DEBUG:MNF:MNF  ::: [365] fit: 31959.40131 | delta: 1.8e+02 | secs: 0.28832
+DEBUG:MNF:MNF  ::: [366] fit: 31780.45416 | delta: 1.8e+02 | secs: 0.28862
+DEBUG:MNF:MNF  ::: [367] fit: 31602.95294 | delta: 1.8e+02 | secs: 0.28814
+DEBUG:MNF:MNF  ::: [368] fit: 31426.89509 | delta: 1.8e+02 | secs: 0.28929
+DEBUG:MNF:MNF  ::: [369] fit: 31252.28049 | delta: 1.7e+02 | secs: 0.28793
+DEBUG:MNF:MNF  ::: [370] fit: 31079.11260 | delta: 1.7e+02 | secs: 0.28926
+DEBUG:MNF:MNF  ::: [371] fit: 30907.39825 | delta: 1.7e+02 | secs: 0.28756
+DEBUG:MNF:MNF  ::: [372] fit: 30737.14493 | delta: 1.7e+02 | secs: 0.28921
+DEBUG:MNF:MNF  ::: [373] fit: 30568.35686 | delta: 1.7e+02 | secs: 0.28874
+DEBUG:MNF:MNF  ::: [374] fit: 30401.03285 | delta: 1.7e+02 | secs: 0.28908
+DEBUG:MNF:MNF  ::: [375] fit: 30235.16713 | delta: 1.7e+02 | secs: 0.28886
+DEBUG:MNF:MNF  ::: [376] fit: 30070.75123 | delta: 1.6e+02 | secs: 0.28950
+DEBUG:MNF:MNF  ::: [377] fit: 29907.77395 | delta: 1.6e+02 | secs: 0.28807
+DEBUG:MNF:MNF  ::: [378] fit: 29746.21941 | delta: 1.6e+02 | secs: 0.28951
+DEBUG:MNF:MNF  ::: [379] fit: 29586.06605 | delta: 1.6e+02 | secs: 0.28799
+DEBUG:MNF:MNF  ::: [380] fit: 29427.28779 | delta: 1.6e+02 | secs: 0.28872
+DEBUG:MNF:MNF  ::: [381] fit: 29269.85633 | delta: 1.6e+02 | secs: 0.28780
+DEBUG:MNF:MNF  ::: [382] fit: 29113.74457 | delta: 1.6e+02 | secs: 0.28913
+DEBUG:MNF:MNF  ::: [383] fit: 28958.93127 | delta: 1.5e+02 | secs: 0.28764
+DEBUG:MNF:MNF  ::: [384] fit: 28805.40508 | delta: 1.5e+02 | secs: 0.28927
+DEBUG:MNF:MNF  ::: [385] fit: 28653.16500 | delta: 1.5e+02 | secs: 0.28811
+DEBUG:MNF:MNF  ::: [386] fit: 28502.21724 | delta: 1.5e+02 | secs: 0.28934
+DEBUG:MNF:MNF  ::: [387] fit: 28352.57058 | delta: 1.5e+02 | secs: 0.28788
+DEBUG:MNF:MNF  ::: [388] fit: 28204.23152 | delta: 1.5e+02 | secs: 0.28861
+DEBUG:MNF:MNF  ::: [389] fit: 28057.19966 | delta: 1.5e+02 | secs: 0.28902
+DEBUG:MNF:MNF  ::: [390] fit: 27911.46414 | delta: 1.5e+02 | secs: 0.28889
+DEBUG:MNF:MNF  ::: [391] fit: 27767.00184 | delta: 1.4e+02 | secs: 0.28808
+DEBUG:MNF:MNF  ::: [392] fit: 27623.77672 | delta: 1.4e+02 | secs: 0.28905
+DEBUG:MNF:MNF  ::: [393] fit: 27481.74051 | delta: 1.4e+02 | secs: 0.28802
+DEBUG:MNF:MNF  ::: [394] fit: 27340.83774 | delta: 1.4e+02 | secs: 0.28906
+DEBUG:MNF:MNF  ::: [395] fit: 27201.01590 | delta: 1.4e+02 | secs: 0.28750
+DEBUG:MNF:MNF  ::: [396] fit: 27062.23572 | delta: 1.4e+02 | secs: 0.28869
+DEBUG:MNF:MNF  ::: [397] fit: 26924.47477 | delta: 1.4e+02 | secs: 0.28788
+DEBUG:MNF:MNF  ::: [398] fit: 26787.72423 | delta: 1.4e+02 | secs: 0.28958
+DEBUG:MNF:MNF  ::: [399] fit: 26651.98420 | delta: 1.4e+02 | secs: 0.28822
+DEBUG:MNF:MNF  ::: [400] fit: 26517.26102 | delta: 1.3e+02 | secs: 0.28928
+DEBUG:MNF:MNF  ::: [401] fit: 26383.56569 | delta: 1.3e+02 | secs: 0.28892
+DEBUG:MNF:MNF  ::: [402] fit: 26250.91109 | delta: 1.3e+02 | secs: 0.28912
+DEBUG:MNF:MNF  ::: [403] fit: 26119.30835 | delta: 1.3e+02 | secs: 0.28855
+DEBUG:MNF:MNF  ::: [404] fit: 25988.76323 | delta: 1.3e+02 | secs: 0.30252
+DEBUG:MNF:MNF  ::: [405] fit: 25859.27367 | delta: 1.3e+02 | secs: 0.28812
+DEBUG:MNF:MNF  ::: [406] fit: 25730.82868 | delta: 1.3e+02 | secs: 0.28912
+DEBUG:MNF:MNF  ::: [407] fit: 25603.40950 | delta: 1.3e+02 | secs: 0.28760
+DEBUG:MNF:MNF  ::: [408] fit: 25476.99418 | delta: 1.3e+02 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [409] fit: 25351.56494 | delta: 1.3e+02 | secs: 0.28943
+DEBUG:MNF:MNF  ::: [410] fit: 25227.11447 | delta: 1.2e+02 | secs: 0.28895
+DEBUG:MNF:MNF  ::: [411] fit: 25103.64603 | delta: 1.2e+02 | secs: 0.28828
+DEBUG:MNF:MNF  ::: [412] fit: 24981.16661 | delta: 1.2e+02 | secs: 0.28882
+DEBUG:MNF:MNF  ::: [413] fit: 24859.67777 | delta: 1.2e+02 | secs: 0.28792
+DEBUG:MNF:MNF  ::: [414] fit: 24739.16922 | delta: 1.2e+02 | secs: 0.28957
+DEBUG:MNF:MNF  ::: [415] fit: 24619.61707 | delta: 1.2e+02 | secs: 0.28849
+DEBUG:MNF:MNF  ::: [416] fit: 24500.98725 | delta: 1.2e+02 | secs: 0.28906
+DEBUG:MNF:MNF  ::: [417] fit: 24383.24279 | delta: 1.2e+02 | secs: 0.28831
+DEBUG:MNF:MNF  ::: [418] fit: 24266.35184 | delta: 1.2e+02 | secs: 0.28913
+DEBUG:MNF:MNF  ::: [419] fit: 24150.29199 | delta: 1.2e+02 | secs: 0.28821
+DEBUG:MNF:MNF  ::: [420] fit: 24035.04930 | delta: 1.2e+02 | secs: 0.28915
+DEBUG:MNF:MNF  ::: [421] fit: 23920.61482 | delta: 1.1e+02 | secs: 0.28800
+DEBUG:MNF:MNF  ::: [422] fit: 23806.98305 | delta: 1.1e+02 | secs: 0.28888
+DEBUG:MNF:MNF  ::: [423] fit: 23694.15294 | delta: 1.1e+02 | secs: 0.28819
+DEBUG:MNF:MNF  ::: [424] fit: 23582.12868 | delta: 1.1e+02 | secs: 0.28907
+DEBUG:MNF:MNF  ::: [425] fit: 23470.91755 | delta: 1.1e+02 | secs: 0.28852
+DEBUG:MNF:MNF  ::: [426] fit: 23360.52510 | delta: 1.1e+02 | secs: 0.28929
+DEBUG:MNF:MNF  ::: [427] fit: 23250.95042 | delta: 1.1e+02 | secs: 0.28813
+DEBUG:MNF:MNF  ::: [428] fit: 23142.18359 | delta: 1.1e+02 | secs: 0.28870
+DEBUG:MNF:MNF  ::: [429] fit: 23034.20652 | delta: 1.1e+02 | secs: 0.28866
+DEBUG:MNF:MNF  ::: [430] fit: 22926.99657 | delta: 1.1e+02 | secs: 0.28987
+DEBUG:MNF:MNF  ::: [431] fit: 22820.53134 | delta: 1.1e+02 | secs: 0.28777
+DEBUG:MNF:MNF  ::: [432] fit: 22714.79258 | delta: 1.1e+02 | secs: 0.28934
+DEBUG:MNF:MNF  ::: [433] fit: 22609.76779 | delta: 1.1e+02 | secs: 0.28916
+DEBUG:MNF:MNF  ::: [434] fit: 22505.44953 | delta: 1.0e+02 | secs: 0.28854
+DEBUG:MNF:MNF  ::: [435] fit: 22401.83294 | delta: 1.0e+02 | secs: 0.28918
+DEBUG:MNF:MNF  ::: [436] fit: 22298.91249 | delta: 1.0e+02 | secs: 0.28902
+DEBUG:MNF:MNF  ::: [437] fit: 22196.67922 | delta: 1.0e+02 | secs: 0.28849
+DEBUG:MNF:MNF  ::: [438] fit: 22095.11976 | delta: 1.0e+02 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [439] fit: 21994.21783 | delta: 1.0e+02 | secs: 0.28799
+DEBUG:MNF:MNF  ::: [440] fit: 21893.95721 | delta: 1.0e+02 | secs: 0.28867
+DEBUG:MNF:MNF  ::: [441] fit: 21794.32403 | delta: 1.0e+02 | secs: 0.28884
+DEBUG:MNF:MNF  ::: [442] fit: 21695.30748 | delta: 9.9e+01 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [443] fit: 21596.89937 | delta: 9.8e+01 | secs: 0.28738
+DEBUG:MNF:MNF  ::: [444] fit: 21499.09341 | delta: 9.8e+01 | secs: 0.28869
+DEBUG:MNF:MNF  ::: [445] fit: 21401.88425 | delta: 9.7e+01 | secs: 0.28825
+DEBUG:MNF:MNF  ::: [446] fit: 21305.26673 | delta: 9.7e+01 | secs: 0.28856
+DEBUG:MNF:MNF  ::: [447] fit: 21209.23599 | delta: 9.6e+01 | secs: 0.28909
+DEBUG:MNF:MNF  ::: [448] fit: 21113.78833 | delta: 9.5e+01 | secs: 0.28893
+DEBUG:MNF:MNF  ::: [449] fit: 21018.92235 | delta: 9.5e+01 | secs: 0.28853
+DEBUG:MNF:MNF  ::: [450] fit: 20924.63979 | delta: 9.4e+01 | secs: 0.28912
+DEBUG:MNF:MNF  ::: [451] fit: 20830.94561 | delta: 9.4e+01 | secs: 0.28814
+DEBUG:MNF:MNF  ::: [452] fit: 20737.84706 | delta: 9.3e+01 | secs: 0.28880
+DEBUG:MNF:MNF  ::: [453] fit: 20645.35227 | delta: 9.2e+01 | secs: 0.28775
+DEBUG:MNF:MNF  ::: [454] fit: 20553.46864 | delta: 9.2e+01 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [455] fit: 20462.20150 | delta: 9.1e+01 | secs: 0.28802
+DEBUG:MNF:MNF  ::: [456] fit: 20371.55311 | delta: 9.1e+01 | secs: 0.28929
+DEBUG:MNF:MNF  ::: [457] fit: 20281.52258 | delta: 9.0e+01 | secs: 0.28743
+DEBUG:MNF:MNF  ::: [458] fit: 20192.10698 | delta: 8.9e+01 | secs: 0.28904
+DEBUG:MNF:MNF  ::: [459] fit: 20103.30314 | delta: 8.9e+01 | secs: 0.28795
+DEBUG:MNF:MNF  ::: [460] fit: 20015.10894 | delta: 8.8e+01 | secs: 0.28922
+DEBUG:MNF:MNF  ::: [461] fit: 19927.52347 | delta: 8.8e+01 | secs: 0.28872
+DEBUG:MNF:MNF  ::: [462] fit: 19840.54601 | delta: 8.7e+01 | secs: 0.28917
+DEBUG:MNF:MNF  ::: [463] fit: 19754.17559 | delta: 8.6e+01 | secs: 0.28825
+DEBUG:MNF:MNF  ::: [464] fit: 19668.41189 | delta: 8.6e+01 | secs: 0.28901
+DEBUG:MNF:MNF  ::: [465] fit: 19583.25688 | delta: 8.5e+01 | secs: 0.28802
+DEBUG:MNF:MNF  ::: [466] fit: 19498.71510 | delta: 8.5e+01 | secs: 0.28884
+DEBUG:MNF:MNF  ::: [467] fit: 19414.79075 | delta: 8.4e+01 | secs: 0.28742
+DEBUG:MNF:MNF  ::: [468] fit: 19331.48297 | delta: 8.3e+01 | secs: 0.28885
+DEBUG:MNF:MNF  ::: [469] fit: 19248.78229 | delta: 8.3e+01 | secs: 0.28821
+DEBUG:MNF:MNF  ::: [470] fit: 19166.67039 | delta: 8.2e+01 | secs: 0.28885
+DEBUG:MNF:MNF  ::: [471] fit: 19085.12348 | delta: 8.2e+01 | secs: 0.28813
+DEBUG:MNF:MNF  ::: [472] fit: 19004.11689 | delta: 8.1e+01 | secs: 0.28913
+DEBUG:MNF:MNF  ::: [473] fit: 18923.62871 | delta: 8.0e+01 | secs: 0.28835
+DEBUG:MNF:MNF  ::: [474] fit: 18843.64111 | delta: 8.0e+01 | secs: 0.28872
+DEBUG:MNF:MNF  ::: [475] fit: 18764.14036 | delta: 8.0e+01 | secs: 0.28839
+DEBUG:MNF:MNF  ::: [476] fit: 18685.11617 | delta: 7.9e+01 | secs: 0.28921
+DEBUG:MNF:MNF  ::: [477] fit: 18606.56099 | delta: 7.9e+01 | secs: 0.28791
+DEBUG:MNF:MNF  ::: [478] fit: 18528.46959 | delta: 7.8e+01 | secs: 0.28933
+DEBUG:MNF:MNF  ::: [479] fit: 18450.83902 | delta: 7.8e+01 | secs: 0.28809
+DEBUG:MNF:MNF  ::: [480] fit: 18373.66843 | delta: 7.7e+01 | secs: 0.28914
+DEBUG:MNF:MNF  ::: [481] fit: 18296.95878 | delta: 7.7e+01 | secs: 0.28821
+DEBUG:MNF:MNF  ::: [482] fit: 18220.71213 | delta: 7.6e+01 | secs: 0.28887
+DEBUG:MNF:MNF  ::: [483] fit: 18144.93080 | delta: 7.6e+01 | secs: 0.28846
+DEBUG:MNF:MNF  ::: [484] fit: 18069.61638 | delta: 7.5e+01 | secs: 0.28884
+DEBUG:MNF:MNF  ::: [485] fit: 17994.76907 | delta: 7.5e+01 | secs: 0.28848
+DEBUG:MNF:MNF  ::: [486] fit: 17920.38734 | delta: 7.4e+01 | secs: 0.28877
+DEBUG:MNF:MNF  ::: [487] fit: 17846.46889 | delta: 7.4e+01 | secs: 0.28825
+DEBUG:MNF:MNF  ::: [488] fit: 17773.01249 | delta: 7.3e+01 | secs: 0.28890
+DEBUG:MNF:MNF  ::: [489] fit: 17700.01965 | delta: 7.3e+01 | secs: 0.28877
+DEBUG:MNF:MNF  ::: [490] fit: 17627.49417 | delta: 7.3e+01 | secs: 0.28928
+DEBUG:MNF:MNF  ::: [491] fit: 17555.43992 | delta: 7.2e+01 | secs: 0.28821
+DEBUG:MNF:MNF  ::: [492] fit: 17483.85807 | delta: 7.2e+01 | secs: 0.28864
+DEBUG:MNF:MNF  ::: [493] fit: 17412.74566 | delta: 7.1e+01 | secs: 0.28824
+DEBUG:MNF:MNF  ::: [494] fit: 17342.09617 | delta: 7.1e+01 | secs: 0.28887
+DEBUG:MNF:MNF  ::: [495] fit: 17271.90130 | delta: 7.0e+01 | secs: 0.28856
+DEBUG:MNF:MNF  ::: [496] fit: 17202.15216 | delta: 7.0e+01 | secs: 0.28951
+DEBUG:MNF:MNF  ::: [497] fit: 17132.83880 | delta: 6.9e+01 | secs: 0.28816
+DEBUG:MNF:MNF  ::: [498] fit: 17063.94900 | delta: 6.9e+01 | secs: 0.28866
+DEBUG:MNF:MNF  ::: [499] fit: 16995.46857 | delta: 6.8e+01 | secs: 0.29026
+DEBUG:MNF:Initializing U
+DEBUG:MNF:Initialization completed
+DEBUG:MNF:MNF  ::: [  0] fit: 960351697.05660 | delta: 9.6e+08 | secs: 0.26440
+DEBUG:MNF:MNF  ::: [  1] fit: 745493759.13120 | delta: 2.1e+08 | secs: 0.28766
+DEBUG:MNF:MNF  ::: [  2] fit: 526328815.35804 | delta: 2.2e+08 | secs: 0.28595
+DEBUG:MNF:MNF  ::: [  3] fit: 507171060.67254 | delta: 1.9e+07 | secs: 0.28425
+DEBUG:MNF:MNF  ::: [  4] fit: 519623116.45575 | delta: 1.2e+07 | secs: 0.28395
+DEBUG:MNF:MNF  ::: [  5] fit: 462727309.03023 | delta: 5.7e+07 | secs: 0.28386
+DEBUG:MNF:MNF  ::: [  6] fit: 367502636.32416 | delta: 9.5e+07 | secs: 0.28404
+DEBUG:MNF:MNF  ::: [  7] fit: 275556678.54920 | delta: 9.2e+07 | secs: 0.28526
+DEBUG:MNF:MNF  ::: [  8] fit: 203235937.61245 | delta: 7.2e+07 | secs: 0.28391
+DEBUG:MNF:MNF  ::: [  9] fit: 151006896.06105 | delta: 5.2e+07 | secs: 0.28458
+DEBUG:MNF:MNF  ::: [ 10] fit: 114350977.63318 | delta: 3.7e+07 | secs: 0.28446
+DEBUG:MNF:MNF  ::: [ 11] fit: 88606015.69331 | delta: 2.6e+07 | secs: 0.28402
+DEBUG:MNF:MNF  ::: [ 12] fit: 70243228.70233 | delta: 1.8e+07 | secs: 0.28418
+DEBUG:MNF:MNF  ::: [ 13] fit: 56858390.04713 | delta: 1.3e+07 | secs: 0.28621
+DEBUG:MNF:MNF  ::: [ 14] fit: 46872942.68381 | delta: 1.0e+07 | secs: 0.28543
+DEBUG:MNF:MNF  ::: [ 15] fit: 39256154.20651 | delta: 7.6e+06 | secs: 0.28623
+DEBUG:MNF:MNF  ::: [ 16] fit: 33327679.03489 | delta: 5.9e+06 | secs: 0.28618
+DEBUG:MNF:MNF  ::: [ 17] fit: 28629770.46548 | delta: 4.7e+06 | secs: 0.28602
+DEBUG:MNF:MNF  ::: [ 18] fit: 24847568.20194 | delta: 3.8e+06 | secs: 0.28644
+DEBUG:MNF:MNF  ::: [ 19] fit: 21759777.97771 | delta: 3.1e+06 | secs: 0.28706
+DEBUG:MNF:MNF  ::: [ 20] fit: 19207758.33441 | delta: 2.6e+06 | secs: 0.28728
+DEBUG:MNF:MNF  ::: [ 21] fit: 17075649.72255 | delta: 2.1e+06 | secs: 0.28730
+DEBUG:MNF:MNF  ::: [ 22] fit: 15277262.64741 | delta: 1.8e+06 | secs: 0.28714
+DEBUG:MNF:MNF  ::: [ 23] fit: 13747270.34783 | delta: 1.5e+06 | secs: 0.28680
+DEBUG:MNF:MNF  ::: [ 24] fit: 12435275.38889 | delta: 1.3e+06 | secs: 0.28658
+DEBUG:MNF:MNF  ::: [ 25] fit: 11301844.92792 | delta: 1.1e+06 | secs: 0.28736
+DEBUG:MNF:MNF  ::: [ 26] fit: 10315853.05383 | delta: 9.9e+05 | secs: 0.28729
+DEBUG:MNF:MNF  ::: [ 27] fit: 9452615.39842 | delta: 8.6e+05 | secs: 0.28737
+DEBUG:MNF:MNF  ::: [ 28] fit: 8692470.78755 | delta: 7.6e+05 | secs: 0.28762
+DEBUG:MNF:MNF  ::: [ 29] fit: 8019647.62830 | delta: 6.7e+05 | secs: 0.28693
+DEBUG:MNF:MNF  ::: [ 30] fit: 7421365.24322 | delta: 6.0e+05 | secs: 0.28681
+DEBUG:MNF:MNF  ::: [ 31] fit: 6887146.24397 | delta: 5.3e+05 | secs: 0.28863
+DEBUG:MNF:MNF  ::: [ 32] fit: 6408308.76897 | delta: 4.8e+05 | secs: 0.28726
+DEBUG:MNF:MNF  ::: [ 33] fit: 5977598.14767 | delta: 4.3e+05 | secs: 0.28792
+DEBUG:MNF:MNF  ::: [ 34] fit: 5588911.31241 | delta: 3.9e+05 | secs: 0.28802
+DEBUG:MNF:MNF  ::: [ 35] fit: 5237076.78453 | delta: 3.5e+05 | secs: 0.28847
+DEBUG:MNF:MNF  ::: [ 36] fit: 4917677.24609 | delta: 3.2e+05 | secs: 0.28808
+DEBUG:MNF:MNF  ::: [ 37] fit: 4626915.83745 | delta: 2.9e+05 | secs: 0.28812
+DEBUG:MNF:MNF  ::: [ 38] fit: 4361519.46186 | delta: 2.7e+05 | secs: 0.28819
+DEBUG:MNF:MNF  ::: [ 39] fit: 4118660.55446 | delta: 2.4e+05 | secs: 0.28801
+DEBUG:MNF:MNF  ::: [ 40] fit: 3895883.23276 | delta: 2.2e+05 | secs: 0.28802
+DEBUG:MNF:MNF  ::: [ 41] fit: 3691035.15286 | delta: 2.0e+05 | secs: 0.28806
+DEBUG:MNF:MNF  ::: [ 42] fit: 3502214.60341 | delta: 1.9e+05 | secs: 0.28785
+DEBUG:MNF:MNF  ::: [ 43] fit: 3327738.34420 | delta: 1.7e+05 | secs: 0.28832
+DEBUG:MNF:MNF  ::: [ 44] fit: 3166126.06467 | delta: 1.6e+05 | secs: 0.28775
+DEBUG:MNF:MNF  ::: [ 45] fit: 3016088.71478 | delta: 1.5e+05 | secs: 0.28768
+DEBUG:MNF:MNF  ::: [ 46] fit: 2876508.84634 | delta: 1.4e+05 | secs: 0.28761
+DEBUG:MNF:MNF  ::: [ 47] fit: 2746412.94233 | delta: 1.3e+05 | secs: 0.28753
+DEBUG:MNF:MNF  ::: [ 48] fit: 2624944.23398 | delta: 1.2e+05 | secs: 0.28703
+DEBUG:MNF:MNF  ::: [ 49] fit: 2511341.35976 | delta: 1.1e+05 | secs: 0.28877
+DEBUG:MNF:MNF  ::: [ 50] fit: 2404922.95022 | delta: 1.1e+05 | secs: 0.28776
+DEBUG:MNF:MNF  ::: [ 51] fit: 2305077.79546 | delta: 1.0e+05 | secs: 0.28830
+DEBUG:MNF:MNF  ::: [ 52] fit: 2211259.82723 | delta: 9.4e+04 | secs: 0.28750
+DEBUG:MNF:MNF  ::: [ 53] fit: 2122984.07581 | delta: 8.8e+04 | secs: 0.28800
+DEBUG:MNF:MNF  ::: [ 54] fit: 2039819.12072 | delta: 8.3e+04 | secs: 0.28765
+DEBUG:MNF:MNF  ::: [ 55] fit: 1961376.03497 | delta: 7.8e+04 | secs: 0.28807
+DEBUG:MNF:MNF  ::: [ 56] fit: 1887298.39593 | delta: 7.4e+04 | secs: 0.28743
+DEBUG:MNF:MNF  ::: [ 57] fit: 1817257.76354 | delta: 7.0e+04 | secs: 0.28870
+DEBUG:MNF:MNF  ::: [ 58] fit: 1750955.16582 | delta: 6.6e+04 | secs: 0.28804
+DEBUG:MNF:MNF  ::: [ 59] fit: 1688124.67673 | delta: 6.3e+04 | secs: 0.28786
+DEBUG:MNF:MNF  ::: [ 60] fit: 1628533.50780 | delta: 6.0e+04 | secs: 0.28761
+DEBUG:MNF:MNF  ::: [ 61] fit: 1571976.36078 | delta: 5.7e+04 | secs: 0.28946
+DEBUG:MNF:MNF  ::: [ 62] fit: 1518266.81868 | delta: 5.4e+04 | secs: 0.28811
+DEBUG:MNF:MNF  ::: [ 63] fit: 1467230.07755 | delta: 5.1e+04 | secs: 0.28831
+DEBUG:MNF:MNF  ::: [ 64] fit: 1418699.21372 | delta: 4.9e+04 | secs: 0.28800
+DEBUG:MNF:MNF  ::: [ 65] fit: 1372514.72610 | delta: 4.6e+04 | secs: 0.28731
+DEBUG:MNF:MNF  ::: [ 66] fit: 1328525.95450 | delta: 4.4e+04 | secs: 0.28744
+DEBUG:MNF:MNF  ::: [ 67] fit: 1286592.69004 | delta: 4.2e+04 | secs: 0.28843
+DEBUG:MNF:MNF  ::: [ 68] fit: 1246585.43818 | delta: 4.0e+04 | secs: 0.28794
+DEBUG:MNF:MNF  ::: [ 69] fit: 1208383.96069 | delta: 3.8e+04 | secs: 0.28870
+DEBUG:MNF:MNF  ::: [ 70] fit: 1171875.47912 | delta: 3.7e+04 | secs: 0.28803
+DEBUG:MNF:MNF  ::: [ 71] fit: 1136954.16492 | delta: 3.5e+04 | secs: 0.28807
+DEBUG:MNF:MNF  ::: [ 72] fit: 1103521.92909 | delta: 3.3e+04 | secs: 0.28762
+DEBUG:MNF:MNF  ::: [ 73] fit: 1071489.25785 | delta: 3.2e+04 | secs: 0.28865
+DEBUG:MNF:MNF  ::: [ 74] fit: 1040775.12866 | delta: 3.1e+04 | secs: 0.28814
+DEBUG:MNF:MNF  ::: [ 75] fit: 1011306.00481 | delta: 2.9e+04 | secs: 0.28813
+DEBUG:MNF:MNF  ::: [ 76] fit: 983014.53259 | delta: 2.8e+04 | secs: 0.28833
+DEBUG:MNF:MNF  ::: [ 77] fit: 955838.62314 | delta: 2.7e+04 | secs: 0.28778
+DEBUG:MNF:MNF  ::: [ 78] fit: 929721.15057 | delta: 2.6e+04 | secs: 0.28724
+DEBUG:MNF:MNF  ::: [ 79] fit: 904609.77681 | delta: 2.5e+04 | secs: 0.28929
+DEBUG:MNF:MNF  ::: [ 80] fit: 880456.19186 | delta: 2.4e+04 | secs: 0.28795
+DEBUG:MNF:MNF  ::: [ 81] fit: 857214.79325 | delta: 2.3e+04 | secs: 0.28837
+DEBUG:MNF:MNF  ::: [ 82] fit: 834841.59461 | delta: 2.2e+04 | secs: 0.28841
+DEBUG:MNF:MNF  ::: [ 83] fit: 813293.91447 | delta: 2.2e+04 | secs: 0.28762
+DEBUG:MNF:MNF  ::: [ 84] fit: 792530.67675 | delta: 2.1e+04 | secs: 0.28757
+DEBUG:MNF:MNF  ::: [ 85] fit: 772512.94156 | delta: 2.0e+04 | secs: 0.28877
+DEBUG:MNF:MNF  ::: [ 86] fit: 753204.49186 | delta: 1.9e+04 | secs: 0.28837
+DEBUG:MNF:MNF  ::: [ 87] fit: 734572.39365 | delta: 1.9e+04 | secs: 0.28856
+DEBUG:MNF:MNF  ::: [ 88] fit: 716587.35785 | delta: 1.8e+04 | secs: 0.28811
+DEBUG:MNF:MNF  ::: [ 89] fit: 699223.66326 | delta: 1.7e+04 | secs: 0.28778
+DEBUG:MNF:MNF  ::: [ 90] fit: 682458.53018 | delta: 1.7e+04 | secs: 0.28790
+DEBUG:MNF:MNF  ::: [ 91] fit: 666271.14764 | delta: 1.6e+04 | secs: 0.28941
+DEBUG:MNF:MNF  ::: [ 92] fit: 650641.69771 | delta: 1.6e+04 | secs: 0.28798
+DEBUG:MNF:MNF  ::: [ 93] fit: 635550.52436 | delta: 1.5e+04 | secs: 0.28866
+DEBUG:MNF:MNF  ::: [ 94] fit: 620977.44030 | delta: 1.5e+04 | secs: 0.28850
+DEBUG:MNF:MNF  ::: [ 95] fit: 606901.33993 | delta: 1.4e+04 | secs: 0.28805
+DEBUG:MNF:MNF  ::: [ 96] fit: 593300.44439 | delta: 1.4e+04 | secs: 0.28792
+DEBUG:MNF:MNF  ::: [ 97] fit: 580153.19038 | delta: 1.3e+04 | secs: 0.28844
+DEBUG:MNF:MNF  ::: [ 98] fit: 567439.22813 | delta: 1.3e+04 | secs: 0.28815
+DEBUG:MNF:MNF  ::: [ 99] fit: 555139.93326 | delta: 1.2e+04 | secs: 0.28801
+DEBUG:MNF:MNF  ::: [100] fit: 543238.35088 | delta: 1.2e+04 | secs: 0.28874
+DEBUG:MNF:MNF  ::: [101] fit: 531718.89571 | delta: 1.2e+04 | secs: 0.28836
+DEBUG:MNF:MNF  ::: [102] fit: 520567.03444 | delta: 1.1e+04 | secs: 0.28816
+DEBUG:MNF:MNF  ::: [103] fit: 509768.93736 | delta: 1.1e+04 | secs: 0.28926
+DEBUG:MNF:MNF  ::: [104] fit: 499311.09406 | delta: 1.0e+04 | secs: 0.28864
+DEBUG:MNF:MNF  ::: [105] fit: 489179.99613 | delta: 1.0e+04 | secs: 0.28875
+DEBUG:MNF:MNF  ::: [106] fit: 479361.95129 | delta: 9.8e+03 | secs: 0.28859
+DEBUG:MNF:MNF  ::: [107] fit: 469842.98759 | delta: 9.5e+03 | secs: 0.28779
+DEBUG:MNF:MNF  ::: [108] fit: 460608.88440 | delta: 9.2e+03 | secs: 0.28775
+DEBUG:MNF:MNF  ::: [109] fit: 451645.52032 | delta: 9.0e+03 | secs: 0.28932
+DEBUG:MNF:MNF  ::: [110] fit: 442939.58398 | delta: 8.7e+03 | secs: 0.28831
+DEBUG:MNF:MNF  ::: [111] fit: 434479.28417 | delta: 8.5e+03 | secs: 0.28923
+DEBUG:MNF:MNF  ::: [112] fit: 426254.52815 | delta: 8.2e+03 | secs: 0.28820
+DEBUG:MNF:MNF  ::: [113] fit: 418256.41741 | delta: 8.0e+03 | secs: 0.28820
+DEBUG:MNF:MNF  ::: [114] fit: 410476.49244 | delta: 7.8e+03 | secs: 0.28750
+DEBUG:MNF:MNF  ::: [115] fit: 402906.31278 | delta: 7.6e+03 | secs: 0.28895
+DEBUG:MNF:MNF  ::: [116] fit: 395537.56850 | delta: 7.4e+03 | secs: 0.28842
+DEBUG:MNF:MNF  ::: [117] fit: 388362.46226 | delta: 7.2e+03 | secs: 0.28867
+DEBUG:MNF:MNF  ::: [118] fit: 381374.00864 | delta: 7.0e+03 | secs: 0.28831
+DEBUG:MNF:MNF  ::: [119] fit: 374566.09073 | delta: 6.8e+03 | secs: 0.28847
+DEBUG:MNF:MNF  ::: [120] fit: 367933.29580 | delta: 6.6e+03 | secs: 0.28816
+DEBUG:MNF:MNF  ::: [121] fit: 361470.63168 | delta: 6.5e+03 | secs: 0.28869
+DEBUG:MNF:MNF  ::: [122] fit: 355173.25140 | delta: 6.3e+03 | secs: 0.28824
+DEBUG:MNF:MNF  ::: [123] fit: 349036.25829 | delta: 6.1e+03 | secs: 0.28872
+DEBUG:MNF:MNF  ::: [124] fit: 343054.56717 | delta: 6.0e+03 | secs: 0.28828
+DEBUG:MNF:MNF  ::: [125] fit: 337222.82154 | delta: 5.8e+03 | secs: 0.28878
+DEBUG:MNF:MNF  ::: [126] fit: 331535.45957 | delta: 5.7e+03 | secs: 0.28772
+DEBUG:MNF:MNF  ::: [127] fit: 325986.96094 | delta: 5.5e+03 | secs: 0.28924
+DEBUG:MNF:MNF  ::: [128] fit: 320572.13334 | delta: 5.4e+03 | secs: 0.28820
+DEBUG:MNF:MNF  ::: [129] fit: 315286.26396 | delta: 5.3e+03 | secs: 0.28872
+DEBUG:MNF:MNF  ::: [130] fit: 310125.10262 | delta: 5.2e+03 | secs: 0.28861
+DEBUG:MNF:MNF  ::: [131] fit: 305084.77575 | delta: 5.0e+03 | secs: 0.28755
+DEBUG:MNF:MNF  ::: [132] fit: 300161.72474 | delta: 4.9e+03 | secs: 0.28821
+DEBUG:MNF:MNF  ::: [133] fit: 295352.66912 | delta: 4.8e+03 | secs: 0.28948
+DEBUG:MNF:MNF  ::: [134] fit: 290654.55085 | delta: 4.7e+03 | secs: 0.28838
+DEBUG:MNF:MNF  ::: [135] fit: 286064.44998 | delta: 4.6e+03 | secs: 0.28917
+DEBUG:MNF:MNF  ::: [136] fit: 281579.50252 | delta: 4.5e+03 | secs: 0.28887
+DEBUG:MNF:MNF  ::: [137] fit: 277196.84710 | delta: 4.4e+03 | secs: 0.28838
+DEBUG:MNF:MNF  ::: [138] fit: 272913.60892 | delta: 4.3e+03 | secs: 0.28806
+DEBUG:MNF:MNF  ::: [139] fit: 268726.90450 | delta: 4.2e+03 | secs: 0.28985
+DEBUG:MNF:MNF  ::: [140] fit: 264633.83897 | delta: 4.1e+03 | secs: 0.28883
+DEBUG:MNF:MNF  ::: [141] fit: 260631.49655 | delta: 4.0e+03 | secs: 0.28945
+DEBUG:MNF:MNF  ::: [142] fit: 256716.96748 | delta: 3.9e+03 | secs: 0.28836
+DEBUG:MNF:MNF  ::: [143] fit: 252887.42643 | delta: 3.8e+03 | secs: 0.28808
+DEBUG:MNF:MNF  ::: [144] fit: 249140.19600 | delta: 3.7e+03 | secs: 0.28763
+DEBUG:MNF:MNF  ::: [145] fit: 245472.72410 | delta: 3.7e+03 | secs: 0.28970
+DEBUG:MNF:MNF  ::: [146] fit: 241882.51009 | delta: 3.6e+03 | secs: 0.28882
+DEBUG:MNF:MNF  ::: [147] fit: 238367.10179 | delta: 3.5e+03 | secs: 0.28898
+DEBUG:MNF:MNF  ::: [148] fit: 234924.22435 | delta: 3.4e+03 | secs: 0.28773
+DEBUG:MNF:MNF  ::: [149] fit: 231551.94678 | delta: 3.4e+03 | secs: 0.28846
+DEBUG:MNF:MNF  ::: [150] fit: 228248.73309 | delta: 3.3e+03 | secs: 0.28794
+DEBUG:MNF:MNF  ::: [151] fit: 225013.33827 | delta: 3.2e+03 | secs: 0.28899
+DEBUG:MNF:MNF  ::: [152] fit: 221844.64280 | delta: 3.2e+03 | secs: 0.28825
+DEBUG:MNF:MNF  ::: [153] fit: 218741.53381 | delta: 3.1e+03 | secs: 0.28939
+DEBUG:MNF:MNF  ::: [154] fit: 215702.86871 | delta: 3.0e+03 | secs: 0.28847
+DEBUG:MNF:MNF  ::: [155] fit: 212727.49149 | delta: 3.0e+03 | secs: 0.28811
+DEBUG:MNF:MNF  ::: [156] fit: 209814.25241 | delta: 2.9e+03 | secs: 0.28793
+DEBUG:MNF:MNF  ::: [157] fit: 206962.00274 | delta: 2.9e+03 | secs: 0.28934
+DEBUG:MNF:MNF  ::: [158] fit: 204169.55871 | delta: 2.8e+03 | secs: 0.28863
+DEBUG:MNF:MNF  ::: [159] fit: 201435.64184 | delta: 2.7e+03 | secs: 0.28897
+DEBUG:MNF:MNF  ::: [160] fit: 198758.82710 | delta: 2.7e+03 | secs: 0.28877
+DEBUG:MNF:MNF  ::: [161] fit: 196137.55059 | delta: 2.6e+03 | secs: 0.28899
+DEBUG:MNF:MNF  ::: [162] fit: 193570.19167 | delta: 2.6e+03 | secs: 0.28824
+DEBUG:MNF:MNF  ::: [163] fit: 191055.17144 | delta: 2.5e+03 | secs: 0.28982
+DEBUG:MNF:MNF  ::: [164] fit: 188590.99433 | delta: 2.5e+03 | secs: 0.28877
+DEBUG:MNF:MNF  ::: [165] fit: 186176.23118 | delta: 2.4e+03 | secs: 0.28961
+DEBUG:MNF:MNF  ::: [166] fit: 183809.45051 | delta: 2.4e+03 | secs: 0.28941
+DEBUG:MNF:MNF  ::: [167] fit: 181489.15450 | delta: 2.3e+03 | secs: 0.28847
+DEBUG:MNF:MNF  ::: [168] fit: 179213.77575 | delta: 2.3e+03 | secs: 0.28839
+DEBUG:MNF:MNF  ::: [169] fit: 176981.75684 | delta: 2.2e+03 | secs: 0.28868
+DEBUG:MNF:MNF  ::: [170] fit: 174791.63875 | delta: 2.2e+03 | secs: 0.28866
+DEBUG:MNF:MNF  ::: [171] fit: 172642.07281 | delta: 2.1e+03 | secs: 0.28859
+DEBUG:MNF:MNF  ::: [172] fit: 170531.78014 | delta: 2.1e+03 | secs: 0.28817
+DEBUG:MNF:MNF  ::: [173] fit: 168459.56329 | delta: 2.1e+03 | secs: 0.28806
+DEBUG:MNF:MNF  ::: [174] fit: 166424.39207 | delta: 2.0e+03 | secs: 0.28832
+DEBUG:MNF:MNF  ::: [175] fit: 164425.46313 | delta: 2.0e+03 | secs: 0.28925
+DEBUG:MNF:MNF  ::: [176] fit: 162462.16051 | delta: 2.0e+03 | secs: 0.28842
+DEBUG:MNF:MNF  ::: [177] fit: 160533.94950 | delta: 1.9e+03 | secs: 0.28941
+DEBUG:MNF:MNF  ::: [178] fit: 158640.28058 | delta: 1.9e+03 | secs: 0.28894
+DEBUG:MNF:MNF  ::: [179] fit: 156780.54695 | delta: 1.9e+03 | secs: 0.28830
+DEBUG:MNF:MNF  ::: [180] fit: 154954.08488 | delta: 1.8e+03 | secs: 0.28804
+DEBUG:MNF:MNF  ::: [181] fit: 153160.18499 | delta: 1.8e+03 | secs: 0.28914
+DEBUG:MNF:MNF  ::: [182] fit: 151398.10356 | delta: 1.8e+03 | secs: 0.28879
+DEBUG:MNF:MNF  ::: [183] fit: 149667.07147 | delta: 1.7e+03 | secs: 0.28892
+DEBUG:MNF:MNF  ::: [184] fit: 147966.32146 | delta: 1.7e+03 | secs: 0.28857
+DEBUG:MNF:MNF  ::: [185] fit: 146295.11809 | delta: 1.7e+03 | secs: 0.28874
+DEBUG:MNF:MNF  ::: [186] fit: 144652.74717 | delta: 1.6e+03 | secs: 0.28800
+DEBUG:MNF:MNF  ::: [187] fit: 143038.46004 | delta: 1.6e+03 | secs: 0.28947
+DEBUG:MNF:MNF  ::: [188] fit: 141451.40378 | delta: 1.6e+03 | secs: 0.28894
+DEBUG:MNF:MNF  ::: [189] fit: 139890.60474 | delta: 1.6e+03 | secs: 0.28922
+DEBUG:MNF:MNF  ::: [190] fit: 138355.02134 | delta: 1.5e+03 | secs: 0.28860
+DEBUG:MNF:MNF  ::: [191] fit: 136843.64509 | delta: 1.5e+03 | secs: 0.28857
+DEBUG:MNF:MNF  ::: [192] fit: 135355.61884 | delta: 1.5e+03 | secs: 0.28818
+DEBUG:MNF:MNF  ::: [193] fit: 133890.31484 | delta: 1.5e+03 | secs: 0.29024
+DEBUG:MNF:MNF  ::: [194] fit: 132447.32593 | delta: 1.4e+03 | secs: 0.28909
+DEBUG:MNF:MNF  ::: [195] fit: 131026.38276 | delta: 1.4e+03 | secs: 0.28929
+DEBUG:MNF:MNF  ::: [196] fit: 129627.24839 | delta: 1.4e+03 | secs: 0.28847
+DEBUG:MNF:MNF  ::: [197] fit: 128249.63743 | delta: 1.4e+03 | secs: 0.28821
+DEBUG:MNF:MNF  ::: [198] fit: 126893.17623 | delta: 1.4e+03 | secs: 0.28890
+DEBUG:MNF:MNF  ::: [199] fit: 125557.40109 | delta: 1.3e+03 | secs: 0.28957
+DEBUG:MNF:MNF  ::: [200] fit: 124241.78781 | delta: 1.3e+03 | secs: 0.28889
+DEBUG:MNF:MNF  ::: [201] fit: 122945.79233 | delta: 1.3e+03 | secs: 0.28896
+DEBUG:MNF:MNF  ::: [202] fit: 121668.88170 | delta: 1.3e+03 | secs: 0.28869
+DEBUG:MNF:MNF  ::: [203] fit: 120410.54716 | delta: 1.3e+03 | secs: 0.28866
+DEBUG:MNF:MNF  ::: [204] fit: 119170.30429 | delta: 1.2e+03 | secs: 0.28800
+DEBUG:MNF:MNF  ::: [205] fit: 117947.69322 | delta: 1.2e+03 | secs: 0.28955
+DEBUG:MNF:MNF  ::: [206] fit: 116742.28626 | delta: 1.2e+03 | secs: 0.28819
+DEBUG:MNF:MNF  ::: [207] fit: 115553.70078 | delta: 1.2e+03 | secs: 0.28903
+DEBUG:MNF:MNF  ::: [208] fit: 114381.61368 | delta: 1.2e+03 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [209] fit: 113225.77372 | delta: 1.2e+03 | secs: 0.28856
+DEBUG:MNF:MNF  ::: [210] fit: 112086.00281 | delta: 1.1e+03 | secs: 0.28812
+DEBUG:MNF:MNF  ::: [211] fit: 110962.18066 | delta: 1.1e+03 | secs: 0.28945
+DEBUG:MNF:MNF  ::: [212] fit: 109854.21606 | delta: 1.1e+03 | secs: 0.28819
+DEBUG:MNF:MNF  ::: [213] fit: 108762.01160 | delta: 1.1e+03 | secs: 0.28925
+DEBUG:MNF:MNF  ::: [214] fit: 107685.43501 | delta: 1.1e+03 | secs: 0.28896
+DEBUG:MNF:MNF  ::: [215] fit: 106624.31062 | delta: 1.1e+03 | secs: 0.28866
+DEBUG:MNF:MNF  ::: [216] fit: 105578.43150 | delta: 1.0e+03 | secs: 0.28840
+DEBUG:MNF:MNF  ::: [217] fit: 104547.57621 | delta: 1.0e+03 | secs: 0.28887
+DEBUG:MNF:MNF  ::: [218] fit: 103531.51511 | delta: 1.0e+03 | secs: 0.28875
+DEBUG:MNF:MNF  ::: [219] fit: 102530.00613 | delta: 1.0e+03 | secs: 0.28903
+DEBUG:MNF:MNF  ::: [220] fit: 101542.79157 | delta: 9.9e+02 | secs: 0.28874
+DEBUG:MNF:MNF  ::: [221] fit: 100569.60253 | delta: 9.7e+02 | secs: 0.28855
+DEBUG:MNF:MNF  ::: [222] fit: 99610.16339 | delta: 9.6e+02 | secs: 0.28907
+DEBUG:MNF:MNF  ::: [223] fit: 98664.18294 | delta: 9.5e+02 | secs: 0.28983
+DEBUG:MNF:MNF  ::: [224] fit: 97731.33566 | delta: 9.3e+02 | secs: 0.28892
+DEBUG:MNF:MNF  ::: [225] fit: 96811.25864 | delta: 9.2e+02 | secs: 0.28979
+DEBUG:MNF:MNF  ::: [226] fit: 95903.58010 | delta: 9.1e+02 | secs: 0.28886
+DEBUG:MNF:MNF  ::: [227] fit: 95007.96388 | delta: 9.0e+02 | secs: 0.28892
+DEBUG:MNF:MNF  ::: [228] fit: 94124.14046 | delta: 8.8e+02 | secs: 0.28828
+DEBUG:MNF:MNF  ::: [229] fit: 93251.91206 | delta: 8.7e+02 | secs: 0.28923
+DEBUG:MNF:MNF  ::: [230] fit: 92391.14048 | delta: 8.6e+02 | secs: 0.28828
+DEBUG:MNF:MNF  ::: [231] fit: 91541.72860 | delta: 8.5e+02 | secs: 0.28927
+DEBUG:MNF:MNF  ::: [232] fit: 90703.60285 | delta: 8.4e+02 | secs: 0.28940
+DEBUG:MNF:MNF  ::: [233] fit: 89876.70365 | delta: 8.3e+02 | secs: 0.28889
+DEBUG:MNF:MNF  ::: [234] fit: 89060.98527 | delta: 8.2e+02 | secs: 0.28797
+DEBUG:MNF:MNF  ::: [235] fit: 88256.41621 | delta: 8.0e+02 | secs: 0.28921
+DEBUG:MNF:MNF  ::: [236] fit: 87462.96800 | delta: 7.9e+02 | secs: 0.28869
+DEBUG:MNF:MNF  ::: [237] fit: 86680.59108 | delta: 7.8e+02 | secs: 0.28935
+DEBUG:MNF:MNF  ::: [238] fit: 85909.19254 | delta: 7.7e+02 | secs: 0.28932
+DEBUG:MNF:MNF  ::: [239] fit: 85148.62807 | delta: 7.6e+02 | secs: 0.28911
+DEBUG:MNF:MNF  ::: [240] fit: 84398.70594 | delta: 7.5e+02 | secs: 0.28823
+DEBUG:MNF:MNF  ::: [241] fit: 83659.19748 | delta: 7.4e+02 | secs: 0.28897
+DEBUG:MNF:MNF  ::: [242] fit: 82929.85882 | delta: 7.3e+02 | secs: 0.28871
+DEBUG:MNF:MNF  ::: [243] fit: 82210.46290 | delta: 7.2e+02 | secs: 0.28926
+DEBUG:MNF:MNF  ::: [244] fit: 81500.82160 | delta: 7.1e+02 | secs: 0.28873
+DEBUG:MNF:MNF  ::: [245] fit: 80800.78226 | delta: 7.0e+02 | secs: 0.28906
+DEBUG:MNF:MNF  ::: [246] fit: 80110.21291 | delta: 6.9e+02 | secs: 0.28808
+DEBUG:MNF:MNF  ::: [247] fit: 79428.99861 | delta: 6.8e+02 | secs: 0.28964
+DEBUG:MNF:MNF  ::: [248] fit: 78757.04704 | delta: 6.7e+02 | secs: 0.28866
+DEBUG:MNF:MNF  ::: [249] fit: 78094.28615 | delta: 6.6e+02 | secs: 0.28892
+DEBUG:MNF:MNF  ::: [250] fit: 77440.64874 | delta: 6.5e+02 | secs: 0.28894
+DEBUG:MNF:MNF  ::: [251] fit: 76796.05331 | delta: 6.4e+02 | secs: 0.28816
+DEBUG:MNF:MNF  ::: [252] fit: 76160.39217 | delta: 6.4e+02 | secs: 0.28844
+DEBUG:MNF:MNF  ::: [253] fit: 75533.52965 | delta: 6.3e+02 | secs: 0.28947
+DEBUG:MNF:MNF  ::: [254] fit: 74915.30426 | delta: 6.2e+02 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [255] fit: 74305.52690 | delta: 6.1e+02 | secs: 0.28966
+DEBUG:MNF:MNF  ::: [256] fit: 73703.97831 | delta: 6.0e+02 | secs: 0.28886
+DEBUG:MNF:MNF  ::: [257] fit: 73110.41811 | delta: 5.9e+02 | secs: 0.28922
+DEBUG:MNF:MNF  ::: [258] fit: 72524.60805 | delta: 5.9e+02 | secs: 0.28809
+DEBUG:MNF:MNF  ::: [259] fit: 71946.33230 | delta: 5.8e+02 | secs: 0.28977
+DEBUG:MNF:MNF  ::: [260] fit: 71375.39831 | delta: 5.7e+02 | secs: 0.28878
+DEBUG:MNF:MNF  ::: [261] fit: 70811.62456 | delta: 5.6e+02 | secs: 0.28930
+DEBUG:MNF:MNF  ::: [262] fit: 70254.83787 | delta: 5.6e+02 | secs: 0.28904
+DEBUG:MNF:MNF  ::: [263] fit: 69704.88801 | delta: 5.5e+02 | secs: 0.28886
+DEBUG:MNF:MNF  ::: [264] fit: 69161.66460 | delta: 5.4e+02 | secs: 0.28852
+DEBUG:MNF:MNF  ::: [265] fit: 68625.09629 | delta: 5.4e+02 | secs: 0.28947
+DEBUG:MNF:MNF  ::: [266] fit: 68095.12875 | delta: 5.3e+02 | secs: 0.28911
+DEBUG:MNF:MNF  ::: [267] fit: 67571.69618 | delta: 5.2e+02 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [268] fit: 67054.70218 | delta: 5.2e+02 | secs: 0.28862
+DEBUG:MNF:MNF  ::: [269] fit: 66544.01268 | delta: 5.1e+02 | secs: 0.28877
+DEBUG:MNF:MNF  ::: [270] fit: 66039.45536 | delta: 5.0e+02 | secs: 0.28811
+DEBUG:MNF:MNF  ::: [271] fit: 65540.82388 | delta: 5.0e+02 | secs: 0.28979
+DEBUG:MNF:MNF  ::: [272] fit: 65047.88957 | delta: 4.9e+02 | secs: 0.28870
+DEBUG:MNF:MNF  ::: [273] fit: 64560.41968 | delta: 4.9e+02 | secs: 0.28893
+DEBUG:MNF:MNF  ::: [274] fit: 64078.19629 | delta: 4.8e+02 | secs: 0.28885
+DEBUG:MNF:MNF  ::: [275] fit: 63601.03029 | delta: 4.8e+02 | secs: 0.28902
+DEBUG:MNF:MNF  ::: [276] fit: 63128.77037 | delta: 4.7e+02 | secs: 0.28798
+DEBUG:MNF:MNF  ::: [277] fit: 62661.30736 | delta: 4.7e+02 | secs: 0.28906
+DEBUG:MNF:MNF  ::: [278] fit: 62198.57341 | delta: 4.6e+02 | secs: 0.28887
+DEBUG:MNF:MNF  ::: [279] fit: 61740.53557 | delta: 4.6e+02 | secs: 0.28905
+DEBUG:MNF:MNF  ::: [280] fit: 61287.18625 | delta: 4.5e+02 | secs: 0.28872
+DEBUG:MNF:MNF  ::: [281] fit: 60838.53260 | delta: 4.5e+02 | secs: 0.28858
+DEBUG:MNF:MNF  ::: [282] fit: 60394.58603 | delta: 4.4e+02 | secs: 0.28814
+DEBUG:MNF:MNF  ::: [283] fit: 59955.35282 | delta: 4.4e+02 | secs: 0.28978
+DEBUG:MNF:MNF  ::: [284] fit: 59520.82760 | delta: 4.3e+02 | secs: 0.28907
+DEBUG:MNF:MNF  ::: [285] fit: 59090.99174 | delta: 4.3e+02 | secs: 0.28969
+DEBUG:MNF:MNF  ::: [286] fit: 58665.81457 | delta: 4.3e+02 | secs: 0.28860
+DEBUG:MNF:MNF  ::: [287] fit: 58245.25208 | delta: 4.2e+02 | secs: 0.28805
+DEBUG:MNF:MNF  ::: [288] fit: 57829.24024 | delta: 4.2e+02 | secs: 0.28856
+DEBUG:MNF:MNF  ::: [289] fit: 57417.68781 | delta: 4.1e+02 | secs: 0.28930
+DEBUG:MNF:MNF  ::: [290] fit: 57010.47626 | delta: 4.1e+02 | secs: 0.28898
+DEBUG:MNF:MNF  ::: [291] fit: 56607.46801 | delta: 4.0e+02 | secs: 0.28939
+DEBUG:MNF:MNF  ::: [292] fit: 56208.51863 | delta: 4.0e+02 | secs: 0.28871
+DEBUG:MNF:MNF  ::: [293] fit: 55813.49019 | delta: 4.0e+02 | secs: 0.28908
+DEBUG:MNF:MNF  ::: [294] fit: 55422.26524 | delta: 3.9e+02 | secs: 0.28774
+DEBUG:MNF:MNF  ::: [295] fit: 55034.75832 | delta: 3.9e+02 | secs: 0.28978
+DEBUG:MNF:MNF  ::: [296] fit: 54650.91965 | delta: 3.8e+02 | secs: 0.28919
+DEBUG:MNF:MNF  ::: [297] fit: 54270.72903 | delta: 3.8e+02 | secs: 0.28918
+DEBUG:MNF:MNF  ::: [298] fit: 53894.18280 | delta: 3.8e+02 | secs: 0.28844
+DEBUG:MNF:MNF  ::: [299] fit: 53521.27819 | delta: 3.7e+02 | secs: 0.28876
+DEBUG:MNF:MNF  ::: [300] fit: 53151.99841 | delta: 3.7e+02 | secs: 0.28820
+DEBUG:MNF:MNF  ::: [301] fit: 52786.30220 | delta: 3.7e+02 | secs: 0.28985
+DEBUG:MNF:MNF  ::: [302] fit: 52424.12369 | delta: 3.6e+02 | secs: 0.28905
+DEBUG:MNF:MNF  ::: [303] fit: 52065.38469 | delta: 3.6e+02 | secs: 0.28910
+DEBUG:MNF:MNF  ::: [304] fit: 51710.01233 | delta: 3.6e+02 | secs: 0.28850
+DEBUG:MNF:MNF  ::: [305] fit: 51357.94911 | delta: 3.5e+02 | secs: 0.28857
+DEBUG:MNF:MNF  ::: [306] fit: 51009.14907 | delta: 3.5e+02 | secs: 0.28833
+DEBUG:MNF:MNF  ::: [307] fit: 50663.56794 | delta: 3.5e+02 | secs: 0.28961
+DEBUG:MNF:MNF  ::: [308] fit: 50321.15789 | delta: 3.4e+02 | secs: 0.28911
+DEBUG:MNF:MNF  ::: [309] fit: 49981.86868 | delta: 3.4e+02 | secs: 0.28932
+DEBUG:MNF:MNF  ::: [310] fit: 49645.65074 | delta: 3.4e+02 | secs: 0.29052
+DEBUG:MNF:MNF  ::: [311] fit: 49312.45846 | delta: 3.3e+02 | secs: 0.28860
+DEBUG:MNF:MNF  ::: [312] fit: 48982.25417 | delta: 3.3e+02 | secs: 0.28875
+DEBUG:MNF:MNF  ::: [313] fit: 48655.01158 | delta: 3.3e+02 | secs: 0.29028
+DEBUG:MNF:MNF  ::: [314] fit: 48330.71696 | delta: 3.2e+02 | secs: 0.28883
+DEBUG:MNF:MNF  ::: [315] fit: 48009.36842 | delta: 3.2e+02 | secs: 0.28944
+DEBUG:MNF:MNF  ::: [316] fit: 47690.97464 | delta: 3.2e+02 | secs: 0.28890
+DEBUG:MNF:MNF  ::: [317] fit: 47375.55269 | delta: 3.2e+02 | secs: 0.28873
+DEBUG:MNF:MNF  ::: [318] fit: 47063.12366 | delta: 3.1e+02 | secs: 0.28855
+DEBUG:MNF:MNF  ::: [319] fit: 46753.70660 | delta: 3.1e+02 | secs: 0.28999
+DEBUG:MNF:MNF  ::: [320] fit: 46447.31210 | delta: 3.1e+02 | secs: 0.28863
+DEBUG:MNF:MNF  ::: [321] fit: 46143.93644 | delta: 3.0e+02 | secs: 0.28892
+DEBUG:MNF:MNF  ::: [322] fit: 45843.55589 | delta: 3.0e+02 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [323] fit: 45546.12174 | delta: 3.0e+02 | secs: 0.28875
+DEBUG:MNF:MNF  ::: [324] fit: 45251.55874 | delta: 2.9e+02 | secs: 0.28891
+DEBUG:MNF:MNF  ::: [325] fit: 44959.77066 | delta: 2.9e+02 | secs: 0.28937
+DEBUG:MNF:MNF  ::: [326] fit: 44670.65398 | delta: 2.9e+02 | secs: 0.28890
+DEBUG:MNF:MNF  ::: [327] fit: 44384.11461 | delta: 2.9e+02 | secs: 0.28963
+DEBUG:MNF:MNF  ::: [328] fit: 44100.07929 | delta: 2.8e+02 | secs: 0.28889
+DEBUG:MNF:MNF  ::: [329] fit: 43818.49758 | delta: 2.8e+02 | secs: 0.28952
+DEBUG:MNF:MNF  ::: [330] fit: 43539.33776 | delta: 2.8e+02 | secs: 0.28811
+DEBUG:MNF:MNF  ::: [331] fit: 43262.58264 | delta: 2.8e+02 | secs: 0.29003
+DEBUG:MNF:MNF  ::: [332] fit: 42988.22719 | delta: 2.7e+02 | secs: 0.28922
+DEBUG:MNF:MNF  ::: [333] fit: 42716.27640 | delta: 2.7e+02 | secs: 0.28922
+DEBUG:MNF:MNF  ::: [334] fit: 42446.74224 | delta: 2.7e+02 | secs: 0.28878
+DEBUG:MNF:MNF  ::: [335] fit: 42179.63998 | delta: 2.7e+02 | secs: 0.28889
+DEBUG:MNF:MNF  ::: [336] fit: 41914.98539 | delta: 2.6e+02 | secs: 0.28905
+DEBUG:MNF:MNF  ::: [337] fit: 41652.79390 | delta: 2.6e+02 | secs: 0.29027
+DEBUG:MNF:MNF  ::: [338] fit: 41393.08071 | delta: 2.6e+02 | secs: 0.28889
+DEBUG:MNF:MNF  ::: [339] fit: 41135.85967 | delta: 2.6e+02 | secs: 0.28877
+DEBUG:MNF:MNF  ::: [340] fit: 40881.13956 | delta: 2.5e+02 | secs: 0.28943
+DEBUG:MNF:MNF  ::: [341] fit: 40628.91817 | delta: 2.5e+02 | secs: 0.28845
+DEBUG:MNF:MNF  ::: [342] fit: 40379.17709 | delta: 2.5e+02 | secs: 0.28834
+DEBUG:MNF:MNF  ::: [343] fit: 40131.88132 | delta: 2.5e+02 | secs: 0.28888
+DEBUG:MNF:MNF  ::: [344] fit: 39886.98537 | delta: 2.4e+02 | secs: 0.28877
+DEBUG:MNF:MNF  ::: [345] fit: 39644.44380 | delta: 2.4e+02 | secs: 0.28939
+DEBUG:MNF:MNF  ::: [346] fit: 39404.22171 | delta: 2.4e+02 | secs: 0.28879
+DEBUG:MNF:MNF  ::: [347] fit: 39166.30047 | delta: 2.4e+02 | secs: 0.29035
+DEBUG:MNF:MNF  ::: [348] fit: 38930.67568 | delta: 2.4e+02 | secs: 0.29088
+DEBUG:MNF:MNF  ::: [349] fit: 38697.34850 | delta: 2.3e+02 | secs: 0.29052
+DEBUG:MNF:MNF  ::: [350] fit: 38466.31406 | delta: 2.3e+02 | secs: 0.28970
+DEBUG:MNF:MNF  ::: [351] fit: 38237.54984 | delta: 2.3e+02 | secs: 0.28939
+DEBUG:MNF:MNF  ::: [352] fit: 38011.00753 | delta: 2.3e+02 | secs: 0.28912
+DEBUG:MNF:MNF  ::: [353] fit: 37786.61375 | delta: 2.2e+02 | secs: 0.28856
+DEBUG:MNF:MNF  ::: [354] fit: 37564.28148 | delta: 2.2e+02 | secs: 0.28894
+DEBUG:MNF:MNF  ::: [355] fit: 37343.92780 | delta: 2.2e+02 | secs: 0.28948
+DEBUG:MNF:MNF  ::: [356] fit: 37125.48927 | delta: 2.2e+02 | secs: 0.28952
+DEBUG:MNF:MNF  ::: [357] fit: 36908.92784 | delta: 2.2e+02 | secs: 0.28934
+DEBUG:MNF:MNF  ::: [358] fit: 36694.22513 | delta: 2.1e+02 | secs: 0.28901
+DEBUG:MNF:MNF  ::: [359] fit: 36481.37046 | delta: 2.1e+02 | secs: 0.28888
+DEBUG:MNF:MNF  ::: [360] fit: 36270.35158 | delta: 2.1e+02 | secs: 0.28893
+DEBUG:MNF:MNF  ::: [361] fit: 36061.15311 | delta: 2.1e+02 | secs: 0.28965
+DEBUG:MNF:MNF  ::: [362] fit: 35853.76061 | delta: 2.1e+02 | secs: 0.28913
+DEBUG:MNF:MNF  ::: [363] fit: 35648.16461 | delta: 2.1e+02 | secs: 0.28992
+DEBUG:MNF:MNF  ::: [364] fit: 35444.36033 | delta: 2.0e+02 | secs: 0.28964
+DEBUG:MNF:MNF  ::: [365] fit: 35242.34313 | delta: 2.0e+02 | secs: 0.28914
+DEBUG:MNF:MNF  ::: [366] fit: 35042.10353 | delta: 2.0e+02 | secs: 0.28850
+DEBUG:MNF:MNF  ::: [367] fit: 34843.62524 | delta: 2.0e+02 | secs: 0.28982
+DEBUG:MNF:MNF  ::: [368] fit: 34646.88706 | delta: 2.0e+02 | secs: 0.28912
+DEBUG:MNF:MNF  ::: [369] fit: 34451.86738 | delta: 2.0e+02 | secs: 0.28967
+DEBUG:MNF:MNF  ::: [370] fit: 34258.54958 | delta: 1.9e+02 | secs: 0.28932
+DEBUG:MNF:MNF  ::: [371] fit: 34066.92550 | delta: 1.9e+02 | secs: 0.28883
+DEBUG:MNF:MNF  ::: [372] fit: 33876.99392 | delta: 1.9e+02 | secs: 0.28870
+DEBUG:MNF:MNF  ::: [373] fit: 33688.75489 | delta: 1.9e+02 | secs: 0.28935
+DEBUG:MNF:MNF  ::: [374] fit: 33502.20402 | delta: 1.9e+02 | secs: 0.28930
+DEBUG:MNF:MNF  ::: [375] fit: 33317.32794 | delta: 1.8e+02 | secs: 0.28986
+DEBUG:MNF:MNF  ::: [376] fit: 33134.09995 | delta: 1.8e+02 | secs: 0.28914
+DEBUG:MNF:MNF  ::: [377] fit: 32952.47726 | delta: 1.8e+02 | secs: 0.28937
+DEBUG:MNF:MNF  ::: [378] fit: 32772.40573 | delta: 1.8e+02 | secs: 0.28860
+DEBUG:MNF:MNF  ::: [379] fit: 32593.83377 | delta: 1.8e+02 | secs: 0.28950
+DEBUG:MNF:MNF  ::: [380] fit: 32416.72759 | delta: 1.8e+02 | secs: 0.28952
+DEBUG:MNF:MNF  ::: [381] fit: 32241.07697 | delta: 1.8e+02 | secs: 0.29040
+DEBUG:MNF:MNF  ::: [382] fit: 32066.88916 | delta: 1.7e+02 | secs: 0.28886
+DEBUG:MNF:MNF  ::: [383] fit: 31894.17838 | delta: 1.7e+02 | secs: 0.28844
+DEBUG:MNF:MNF  ::: [384] fit: 31722.95862 | delta: 1.7e+02 | secs: 0.28906
+DEBUG:MNF:MNF  ::: [385] fit: 31553.24141 | delta: 1.7e+02 | secs: 0.28925
+DEBUG:MNF:MNF  ::: [386] fit: 31385.03652 | delta: 1.7e+02 | secs: 0.28887
+DEBUG:MNF:MNF  ::: [387] fit: 31218.35260 | delta: 1.7e+02 | secs: 0.28948
+DEBUG:MNF:MNF  ::: [388] fit: 31053.19542 | delta: 1.7e+02 | secs: 0.28890
+DEBUG:MNF:MNF  ::: [389] fit: 30889.56352 | delta: 1.6e+02 | secs: 0.28915
+DEBUG:MNF:MNF  ::: [390] fit: 30727.44325 | delta: 1.6e+02 | secs: 0.28854
+DEBUG:MNF:MNF  ::: [391] fit: 30566.80605 | delta: 1.6e+02 | secs: 0.29049
+DEBUG:MNF:MNF  ::: [392] fit: 30407.60912 | delta: 1.6e+02 | secs: 0.28918
+DEBUG:MNF:MNF  ::: [393] fit: 30249.79999 | delta: 1.6e+02 | secs: 0.28977
+DEBUG:MNF:MNF  ::: [394] fit: 30093.32442 | delta: 1.6e+02 | secs: 0.28930
+DEBUG:MNF:MNF  ::: [395] fit: 29938.13472 | delta: 1.6e+02 | secs: 0.28869
+DEBUG:MNF:MNF  ::: [396] fit: 29784.19338 | delta: 1.5e+02 | secs: 0.28822
+DEBUG:MNF:MNF  ::: [397] fit: 29631.46879 | delta: 1.5e+02 | secs: 0.29006
+DEBUG:MNF:MNF  ::: [398] fit: 29479.92694 | delta: 1.5e+02 | secs: 0.28861
+DEBUG:MNF:MNF  ::: [399] fit: 29329.52756 | delta: 1.5e+02 | secs: 0.28906
+DEBUG:MNF:MNF  ::: [400] fit: 29180.22804 | delta: 1.5e+02 | secs: 0.28944
+DEBUG:MNF:MNF  ::: [401] fit: 29031.99125 | delta: 1.5e+02 | secs: 0.28866
+DEBUG:MNF:MNF  ::: [402] fit: 28884.79080 | delta: 1.5e+02 | secs: 0.28834
+DEBUG:MNF:MNF  ::: [403] fit: 28738.61137 | delta: 1.5e+02 | secs: 0.28948
+DEBUG:MNF:MNF  ::: [404] fit: 28593.44659 | delta: 1.5e+02 | secs: 0.28891
+DEBUG:MNF:MNF  ::: [405] fit: 28449.29743 | delta: 1.4e+02 | secs: 0.28956
+DEBUG:MNF:MNF  ::: [406] fit: 28306.17088 | delta: 1.4e+02 | secs: 0.28905
+DEBUG:MNF:MNF  ::: [407] fit: 28164.07796 | delta: 1.4e+02 | secs: 0.28907
+DEBUG:MNF:MNF  ::: [408] fit: 28023.03053 | delta: 1.4e+02 | secs: 0.28828
+DEBUG:MNF:MNF  ::: [409] fit: 27883.03675 | delta: 1.4e+02 | secs: 0.29057
+DEBUG:MNF:MNF  ::: [410] fit: 27744.09589 | delta: 1.4e+02 | secs: 0.28909
+DEBUG:MNF:MNF  ::: [411] fit: 27606.19380 | delta: 1.4e+02 | secs: 0.29006
+DEBUG:MNF:MNF  ::: [412] fit: 27469.30188 | delta: 1.4e+02 | secs: 0.28951
+DEBUG:MNF:MNF  ::: [413] fit: 27333.38188 | delta: 1.4e+02 | secs: 0.28885
+DEBUG:MNF:MNF  ::: [414] fit: 27198.39578 | delta: 1.3e+02 | secs: 0.28935
+DEBUG:MNF:MNF  ::: [415] fit: 27064.31514 | delta: 1.3e+02 | secs: 0.28931
+DEBUG:MNF:MNF  ::: [416] fit: 26931.12417 | delta: 1.3e+02 | secs: 0.28855
+DEBUG:MNF:MNF  ::: [417] fit: 26798.81640 | delta: 1.3e+02 | secs: 0.28956
+DEBUG:MNF:MNF  ::: [418] fit: 26667.38962 | delta: 1.3e+02 | secs: 0.28896
+DEBUG:MNF:MNF  ::: [419] fit: 26536.84342 | delta: 1.3e+02 | secs: 0.28895
+DEBUG:MNF:MNF  ::: [420] fit: 26407.17954 | delta: 1.3e+02 | secs: 0.28857
+DEBUG:MNF:MNF  ::: [421] fit: 26278.40240 | delta: 1.3e+02 | secs: 0.29011
+DEBUG:MNF:MNF  ::: [422] fit: 26150.51871 | delta: 1.3e+02 | secs: 0.28897
+DEBUG:MNF:MNF  ::: [423] fit: 26023.53593 | delta: 1.3e+02 | secs: 0.28948
+DEBUG:MNF:MNF  ::: [424] fit: 25897.46135 | delta: 1.3e+02 | secs: 0.28903
+DEBUG:MNF:MNF  ::: [425] fit: 25772.30195 | delta: 1.3e+02 | secs: 0.28870
+DEBUG:MNF:MNF  ::: [426] fit: 25648.06382 | delta: 1.2e+02 | secs: 0.28858
+DEBUG:MNF:MNF  ::: [427] fit: 25524.74987 | delta: 1.2e+02 | secs: 0.29028
+DEBUG:MNF:MNF  ::: [428] fit: 25402.35602 | delta: 1.2e+02 | secs: 0.28931
+DEBUG:MNF:MNF  ::: [429] fit: 25280.86857 | delta: 1.2e+02 | secs: 0.29061
+DEBUG:MNF:MNF  ::: [430] fit: 25160.26563 | delta: 1.2e+02 | secs: 0.28925
+DEBUG:MNF:MNF  ::: [431] fit: 25040.52308 | delta: 1.2e+02 | secs: 0.28881
+DEBUG:MNF:MNF  ::: [432] fit: 24921.62160 | delta: 1.2e+02 | secs: 0.28907
+DEBUG:MNF:MNF  ::: [433] fit: 24803.54990 | delta: 1.2e+02 | secs: 0.28978
+DEBUG:MNF:MNF  ::: [434] fit: 24686.30200 | delta: 1.2e+02 | secs: 0.28946
+DEBUG:MNF:MNF  ::: [435] fit: 24569.87183 | delta: 1.2e+02 | secs: 0.28937
+DEBUG:MNF:MNF  ::: [436] fit: 24454.25028 | delta: 1.2e+02 | secs: 0.28924
+DEBUG:MNF:MNF  ::: [437] fit: 24339.42680 | delta: 1.1e+02 | secs: 0.28865
+DEBUG:MNF:MNF  ::: [438] fit: 24225.39367 | delta: 1.1e+02 | secs: 0.28917
+DEBUG:MNF:MNF  ::: [439] fit: 24112.14836 | delta: 1.1e+02 | secs: 0.28912
+DEBUG:MNF:MNF  ::: [440] fit: 23999.69123 | delta: 1.1e+02 | secs: 0.28926
+DEBUG:MNF:MNF  ::: [441] fit: 23888.02045 | delta: 1.1e+02 | secs: 0.28945
+DEBUG:MNF:MNF  ::: [442] fit: 23777.12793 | delta: 1.1e+02 | secs: 0.28983
+DEBUG:MNF:MNF  ::: [443] fit: 23666.99940 | delta: 1.1e+02 | secs: 0.28923
+DEBUG:MNF:MNF  ::: [444] fit: 23557.61822 | delta: 1.1e+02 | secs: 0.28867
+DEBUG:MNF:MNF  ::: [445] fit: 23448.97057 | delta: 1.1e+02 | secs: 0.29014
+DEBUG:MNF:MNF  ::: [446] fit: 23341.04875 | delta: 1.1e+02 | secs: 0.28899
+DEBUG:MNF:MNF  ::: [447] fit: 23233.85092 | delta: 1.1e+02 | secs: 0.29007
+DEBUG:MNF:MNF  ::: [448] fit: 23127.37830 | delta: 1.1e+02 | secs: 0.29033
+DEBUG:MNF:MNF  ::: [449] fit: 23021.63180 | delta: 1.1e+02 | secs: 0.28838
+DEBUG:MNF:MNF  ::: [450] fit: 22916.60962 | delta: 1.1e+02 | secs: 0.28857
+DEBUG:MNF:MNF  ::: [451] fit: 22812.30695 | delta: 1.0e+02 | secs: 0.29007
+DEBUG:MNF:MNF  ::: [452] fit: 22708.71707 | delta: 1.0e+02 | secs: 0.28897
+DEBUG:MNF:MNF  ::: [453] fit: 22605.83257 | delta: 1.0e+02 | secs: 0.28934
+DEBUG:MNF:MNF  ::: [454] fit: 22503.64513 | delta: 1.0e+02 | secs: 0.28925
+DEBUG:MNF:MNF  ::: [455] fit: 22402.14413 | delta: 1.0e+02 | secs: 0.28895
+DEBUG:MNF:MNF  ::: [456] fit: 22301.31530 | delta: 1.0e+02 | secs: 0.28883
+DEBUG:MNF:MNF  ::: [457] fit: 22201.14053 | delta: 1.0e+02 | secs: 0.28989
+DEBUG:MNF:MNF  ::: [458] fit: 22101.59925 | delta: 1.0e+02 | secs: 0.28879
+DEBUG:MNF:MNF  ::: [459] fit: 22002.67106 | delta: 9.9e+01 | secs: 0.29011
+DEBUG:MNF:MNF  ::: [460] fit: 21904.33839 | delta: 9.8e+01 | secs: 0.28946
+DEBUG:MNF:MNF  ::: [461] fit: 21806.58741 | delta: 9.8e+01 | secs: 0.28913
+DEBUG:MNF:MNF  ::: [462] fit: 21709.40697 | delta: 9.7e+01 | secs: 0.28834
+DEBUG:MNF:MNF  ::: [463] fit: 21612.78750 | delta: 9.7e+01 | secs: 0.29008
+DEBUG:MNF:MNF  ::: [464] fit: 21516.72166 | delta: 9.6e+01 | secs: 0.28889
+DEBUG:MNF:MNF  ::: [465] fit: 21421.20548 | delta: 9.6e+01 | secs: 0.29007
+DEBUG:MNF:MNF  ::: [466] fit: 21326.23863 | delta: 9.5e+01 | secs: 0.28972
+DEBUG:MNF:MNF  ::: [467] fit: 21231.82346 | delta: 9.4e+01 | secs: 0.28873
+DEBUG:MNF:MNF  ::: [468] fit: 21137.96387 | delta: 9.4e+01 | secs: 0.28864
+DEBUG:MNF:MNF  ::: [469] fit: 21044.66424 | delta: 9.3e+01 | secs: 0.28938
+DEBUG:MNF:MNF  ::: [470] fit: 20951.92824 | delta: 9.3e+01 | secs: 0.28917
+DEBUG:MNF:MNF  ::: [471] fit: 20859.75727 | delta: 9.2e+01 | secs: 0.28966
+DEBUG:MNF:MNF  ::: [472] fit: 20768.14832 | delta: 9.2e+01 | secs: 0.28863
+DEBUG:MNF:MNF  ::: [473] fit: 20677.09242 | delta: 9.1e+01 | secs: 0.28914
+DEBUG:MNF:MNF  ::: [474] fit: 20586.57431 | delta: 9.1e+01 | secs: 0.28851
+DEBUG:MNF:MNF  ::: [475] fit: 20496.57473 | delta: 9.0e+01 | secs: 0.29036
+DEBUG:MNF:MNF  ::: [476] fit: 20407.07452 | delta: 9.0e+01 | secs: 0.28897
+DEBUG:MNF:MNF  ::: [477] fit: 20318.05824 | delta: 8.9e+01 | secs: 0.28967
+DEBUG:MNF:MNF  ::: [478] fit: 20229.51559 | delta: 8.9e+01 | secs: 0.28890
+DEBUG:MNF:MNF  ::: [479] fit: 20141.44059 | delta: 8.8e+01 | secs: 0.28909
+DEBUG:MNF:MNF  ::: [480] fit: 20053.83025 | delta: 8.8e+01 | secs: 0.28859
+DEBUG:MNF:MNF  ::: [481] fit: 19966.68345 | delta: 8.7e+01 | secs: 0.29058
+DEBUG:MNF:MNF  ::: [482] fit: 19880.00013 | delta: 8.7e+01 | secs: 0.28896
+DEBUG:MNF:MNF  ::: [483] fit: 19793.78070 | delta: 8.6e+01 | secs: 0.29101
+DEBUG:MNF:MNF  ::: [484] fit: 19708.02571 | delta: 8.6e+01 | secs: 0.28958
+DEBUG:MNF:MNF  ::: [485] fit: 19622.73552 | delta: 8.5e+01 | secs: 0.28880
+DEBUG:MNF:MNF  ::: [486] fit: 19537.90999 | delta: 8.5e+01 | secs: 0.28960
+DEBUG:MNF:MNF  ::: [487] fit: 19453.54823 | delta: 8.4e+01 | secs: 0.28977
+DEBUG:MNF:MNF  ::: [488] fit: 19369.64870 | delta: 8.4e+01 | secs: 0.28893
+DEBUG:MNF:MNF  ::: [489] fit: 19286.20983 | delta: 8.3e+01 | secs: 0.28994
+DEBUG:MNF:MNF  ::: [490] fit: 19203.23100 | delta: 8.3e+01 | secs: 0.28843
+DEBUG:MNF:MNF  ::: [491] fit: 19120.71335 | delta: 8.3e+01 | secs: 0.28854
+DEBUG:MNF:MNF  ::: [492] fit: 19038.66002 | delta: 8.2e+01 | secs: 0.28890
+DEBUG:MNF:MNF  ::: [493] fit: 18957.07570 | delta: 8.2e+01 | secs: 0.28986
+DEBUG:MNF:MNF  ::: [494] fit: 18875.96625 | delta: 8.1e+01 | secs: 0.28908
+DEBUG:MNF:MNF  ::: [495] fit: 18795.33812 | delta: 8.1e+01 | secs: 0.29001
+DEBUG:MNF:MNF  ::: [496] fit: 18715.19790 | delta: 8.0e+01 | secs: 0.28868
+DEBUG:MNF:MNF  ::: [497] fit: 18635.55150 | delta: 8.0e+01 | secs: 0.28960
+DEBUG:MNF:MNF  ::: [498] fit: 18556.40334 | delta: 7.9e+01 | secs: 0.28873
+DEBUG:MNF:MNF  ::: [499] fit: 18477.75575 | delta: 7.9e+01 | secs: 0.29044
+DEBUG:MNF:Initializing U
+DEBUG:MNF:Initialization completed
+DEBUG:MNF:MNF  ::: [  0] fit: 960970571.47665 | delta: 9.6e+08 | secs: 0.26571
+DEBUG:MNF:MNF  ::: [  1] fit: 747904267.97426 | delta: 2.1e+08 | secs: 0.28583
+DEBUG:MNF:MNF  ::: [  2] fit: 531788495.20612 | delta: 2.2e+08 | secs: 0.28647
+DEBUG:MNF:MNF  ::: [  3] fit: 517354956.52166 | delta: 1.4e+07 | secs: 0.28423
+DEBUG:MNF:MNF  ::: [  4] fit: 531975506.63615 | delta: 1.5e+07 | secs: 0.28382
+DEBUG:MNF:MNF  ::: [  5] fit: 473214289.78600 | delta: 5.9e+07 | secs: 0.28401
+DEBUG:MNF:MNF  ::: [  6] fit: 374398420.34993 | delta: 9.9e+07 | secs: 0.28589
+DEBUG:MNF:MNF  ::: [  7] fit: 279176636.97622 | delta: 9.5e+07 | secs: 0.28395
+DEBUG:MNF:MNF  ::: [  8] fit: 204553690.15506 | delta: 7.5e+07 | secs: 0.28396
+DEBUG:MNF:MNF  ::: [  9] fit: 150903671.10262 | delta: 5.4e+07 | secs: 0.28379
+DEBUG:MNF:MNF  ::: [ 10] fit: 113438697.97449 | delta: 3.7e+07 | secs: 0.28399
+DEBUG:MNF:MNF  ::: [ 11] fit: 87267959.28981 | delta: 2.6e+07 | secs: 0.28471
+DEBUG:MNF:MNF  ::: [ 12] fit: 68709335.64864 | delta: 1.9e+07 | secs: 0.28523
+DEBUG:MNF:MNF  ::: [ 13] fit: 55263624.53735 | delta: 1.3e+07 | secs: 0.28554
+DEBUG:MNF:MNF  ::: [ 14] fit: 45294713.51192 | delta: 1.0e+07 | secs: 0.28514
+DEBUG:MNF:MNF  ::: [ 15] fit: 37736916.27932 | delta: 7.6e+06 | secs: 0.28515
+DEBUG:MNF:MNF  ::: [ 16] fit: 31888689.74922 | delta: 5.8e+06 | secs: 0.28592
+DEBUG:MNF:MNF  ::: [ 17] fit: 27279814.60277 | delta: 4.6e+06 | secs: 0.28648
+DEBUG:MNF:MNF  ::: [ 18] fit: 23588434.11317 | delta: 3.7e+06 | secs: 0.28741
+DEBUG:MNF:MNF  ::: [ 19] fit: 20589343.18347 | delta: 3.0e+06 | secs: 0.28751
+DEBUG:MNF:MNF  ::: [ 20] fit: 18121520.57012 | delta: 2.5e+06 | secs: 0.28652
+DEBUG:MNF:MNF  ::: [ 21] fit: 16067562.65965 | delta: 2.1e+06 | secs: 0.28676
+DEBUG:MNF:MNF  ::: [ 22] fit: 14340436.58092 | delta: 1.7e+06 | secs: 0.28745
+DEBUG:MNF:MNF  ::: [ 23] fit: 12874682.12511 | delta: 1.5e+06 | secs: 0.28763
+DEBUG:MNF:MNF  ::: [ 24] fit: 11620372.18218 | delta: 1.3e+06 | secs: 0.28651
+DEBUG:MNF:MNF  ::: [ 25] fit: 10538897.88831 | delta: 1.1e+06 | secs: 0.28763
+DEBUG:MNF:MNF  ::: [ 26] fit: 9600024.97316 | delta: 9.4e+05 | secs: 0.29586
+DEBUG:MNF:MNF  ::: [ 27] fit: 8779825.46559 | delta: 8.2e+05 | secs: 0.28620
+DEBUG:MNF:MNF  ::: [ 28] fit: 8059188.49076 | delta: 7.2e+05 | secs: 0.28691
+DEBUG:MNF:MNF  ::: [ 29] fit: 7422715.33845 | delta: 6.4e+05 | secs: 0.28769
+DEBUG:MNF:MNF  ::: [ 30] fit: 6857884.90823 | delta: 5.6e+05 | secs: 0.28805
+DEBUG:MNF:MNF  ::: [ 31] fit: 6354417.94525 | delta: 5.0e+05 | secs: 0.28754
+DEBUG:MNF:MNF  ::: [ 32] fit: 5903792.67440 | delta: 4.5e+05 | secs: 0.28786
+DEBUG:MNF:MNF  ::: [ 33] fit: 5498884.32969 | delta: 4.0e+05 | secs: 0.28794
+DEBUG:MNF:MNF  ::: [ 34] fit: 5133704.18386 | delta: 3.7e+05 | secs: 0.28775
+DEBUG:MNF:MNF  ::: [ 35] fit: 4803206.80072 | delta: 3.3e+05 | secs: 0.28804
+DEBUG:MNF:MNF  ::: [ 36] fit: 4503138.84457 | delta: 3.0e+05 | secs: 0.28962
+DEBUG:MNF:MNF  ::: [ 37] fit: 4229913.31731 | delta: 2.7e+05 | secs: 0.28822
+DEBUG:MNF:MNF  ::: [ 38] fit: 3980496.09778 | delta: 2.5e+05 | secs: 0.28758
+DEBUG:MNF:MNF  ::: [ 39] fit: 3752295.76036 | delta: 2.3e+05 | secs: 0.28808
+DEBUG:MNF:MNF  ::: [ 40] fit: 3543060.68212 | delta: 2.1e+05 | secs: 0.28795
+DEBUG:MNF:MNF  ::: [ 41] fit: 3350797.13433 | delta: 1.9e+05 | secs: 0.28790
+DEBUG:MNF:MNF  ::: [ 42] fit: 3173718.27174 | delta: 1.8e+05 | secs: 0.28863
+DEBUG:MNF:MNF  ::: [ 43] fit: 3010222.86936 | delta: 1.6e+05 | secs: 0.28904
+DEBUG:MNF:MNF  ::: [ 44] fit: 2858893.07277 | delta: 1.5e+05 | secs: 0.28781
+DEBUG:MNF:MNF  ::: [ 45] fit: 2718495.16540 | delta: 1.4e+05 | secs: 0.28773
+DEBUG:MNF:MNF  ::: [ 46] fit: 2587969.31306 | delta: 1.3e+05 | secs: 0.28728
+DEBUG:MNF:MNF  ::: [ 47] fit: 2466405.23385 | delta: 1.2e+05 | secs: 0.28758
+DEBUG:MNF:MNF  ::: [ 48] fit: 2353011.77449 | delta: 1.1e+05 | secs: 0.28955
+DEBUG:MNF:MNF  ::: [ 49] fit: 2247088.98362 | delta: 1.1e+05 | secs: 0.28842
+DEBUG:MNF:MNF  ::: [ 50] fit: 2148006.38243 | delta: 9.9e+04 | secs: 0.28771
+DEBUG:MNF:MNF  ::: [ 51] fit: 2055189.67512 | delta: 9.3e+04 | secs: 0.28785
+DEBUG:MNF:MNF  ::: [ 52] fit: 1968116.93984 | delta: 8.7e+04 | secs: 0.28763
+DEBUG:MNF:MNF  ::: [ 53] fit: 1886320.04651 | delta: 8.2e+04 | secs: 0.28814
+DEBUG:MNF:MNF  ::: [ 54] fit: 1809383.80425 | delta: 7.7e+04 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [ 55] fit: 1736939.55235 | delta: 7.2e+04 | secs: 0.28953
+DEBUG:MNF:MNF  ::: [ 56] fit: 1668656.09344 | delta: 6.8e+04 | secs: 0.28783
+DEBUG:MNF:MNF  ::: [ 57] fit: 1604231.96969 | delta: 6.4e+04 | secs: 0.28847
+DEBUG:MNF:MNF  ::: [ 58] fit: 1543390.10354 | delta: 6.1e+04 | secs: 0.28773
+DEBUG:MNF:MNF  ::: [ 59] fit: 1485873.66396 | delta: 5.8e+04 | secs: 0.28792
+DEBUG:MNF:MNF  ::: [ 60] fit: 1431442.63827 | delta: 5.4e+04 | secs: 0.28742
+DEBUG:MNF:MNF  ::: [ 61] fit: 1379872.24302 | delta: 5.2e+04 | secs: 0.28883
+DEBUG:MNF:MNF  ::: [ 62] fit: 1330954.20935 | delta: 4.9e+04 | secs: 0.28795
+DEBUG:MNF:MNF  ::: [ 63] fit: 1284499.68304 | delta: 4.6e+04 | secs: 0.28790
+DEBUG:MNF:MNF  ::: [ 64] fit: 1240340.87990 | delta: 4.4e+04 | secs: 0.28872
+DEBUG:MNF:MNF  ::: [ 65] fit: 1198329.97727 | delta: 4.2e+04 | secs: 0.28787
+DEBUG:MNF:MNF  ::: [ 66] fit: 1158336.09503 | delta: 4.0e+04 | secs: 0.28842
+DEBUG:MNF:MNF  ::: [ 67] fit: 1120241.85163 | delta: 3.8e+04 | secs: 0.28860
+DEBUG:MNF:MNF  ::: [ 68] fit: 1083940.30605 | delta: 3.6e+04 | secs: 0.28791
+DEBUG:MNF:MNF  ::: [ 69] fit: 1049332.68618 | delta: 3.5e+04 | secs: 0.28812
+DEBUG:MNF:MNF  ::: [ 70] fit: 1016327.00022 | delta: 3.3e+04 | secs: 0.28792
+DEBUG:MNF:MNF  ::: [ 71] fit: 984837.06535 | delta: 3.1e+04 | secs: 0.28808
+DEBUG:MNF:MNF  ::: [ 72] fit: 954781.39386 | delta: 3.0e+04 | secs: 0.28919
+DEBUG:MNF:MNF  ::: [ 73] fit: 926082.01246 | delta: 2.9e+04 | secs: 0.28812
+DEBUG:MNF:MNF  ::: [ 74] fit: 898663.82814 | delta: 2.7e+04 | secs: 0.28793
+DEBUG:MNF:MNF  ::: [ 75] fit: 872454.91912 | delta: 2.6e+04 | secs: 0.28839
+DEBUG:MNF:MNF  ::: [ 76] fit: 847387.42913 | delta: 2.5e+04 | secs: 0.28823
+DEBUG:MNF:MNF  ::: [ 77] fit: 823398.28009 | delta: 2.4e+04 | secs: 0.28829
+DEBUG:MNF:MNF  ::: [ 78] fit: 800429.03801 | delta: 2.3e+04 | secs: 0.28914
+DEBUG:MNF:MNF  ::: [ 79] fit: 778424.92486 | delta: 2.2e+04 | secs: 0.28898
+DEBUG:MNF:MNF  ::: [ 80] fit: 757333.66186 | delta: 2.1e+04 | secs: 0.28812
+DEBUG:MNF:MNF  ::: [ 81] fit: 737104.85852 | delta: 2.0e+04 | secs: 0.28833
+DEBUG:MNF:MNF  ::: [ 82] fit: 717690.09974 | delta: 1.9e+04 | secs: 0.28873
+DEBUG:MNF:MNF  ::: [ 83] fit: 699043.39295 | delta: 1.9e+04 | secs: 0.28824
+DEBUG:MNF:MNF  ::: [ 84] fit: 681121.55588 | delta: 1.8e+04 | secs: 0.28950
+DEBUG:MNF:MNF  ::: [ 85] fit: 663884.38873 | delta: 1.7e+04 | secs: 0.28899
+DEBUG:MNF:MNF  ::: [ 86] fit: 647294.80214 | delta: 1.7e+04 | secs: 0.28968
+DEBUG:MNF:MNF  ::: [ 87] fit: 631319.04063 | delta: 1.6e+04 | secs: 0.28813
+DEBUG:MNF:MNF  ::: [ 88] fit: 615926.72167 | delta: 1.5e+04 | secs: 0.28713
+DEBUG:MNF:MNF  ::: [ 89] fit: 601090.26834 | delta: 1.5e+04 | secs: 0.28794
+DEBUG:MNF:MNF  ::: [ 90] fit: 586783.88481 | delta: 1.4e+04 | secs: 0.28937
+DEBUG:MNF:MNF  ::: [ 91] fit: 572982.80078 | delta: 1.4e+04 | secs: 0.28915
+DEBUG:MNF:MNF  ::: [ 92] fit: 559663.20496 | delta: 1.3e+04 | secs: 0.28881
+DEBUG:MNF:MNF  ::: [ 93] fit: 546802.53496 | delta: 1.3e+04 | secs: 0.28856
+DEBUG:MNF:MNF  ::: [ 94] fit: 534379.59764 | delta: 1.2e+04 | secs: 0.28792
+DEBUG:MNF:MNF  ::: [ 95] fit: 522374.38825 | delta: 1.2e+04 | secs: 0.28808
+DEBUG:MNF:MNF  ::: [ 96] fit: 510767.82417 | delta: 1.2e+04 | secs: 0.28832
+DEBUG:MNF:MNF  ::: [ 97] fit: 499541.61108 | delta: 1.1e+04 | secs: 0.28891
+DEBUG:MNF:MNF  ::: [ 98] fit: 488678.28463 | delta: 1.1e+04 | secs: 0.28824
+DEBUG:MNF:MNF  ::: [ 99] fit: 478161.33330 | delta: 1.1e+04 | secs: 0.28895
+DEBUG:MNF:MNF  ::: [100] fit: 467975.31114 | delta: 1.0e+04 | secs: 0.28723
+DEBUG:MNF:MNF  ::: [101] fit: 458105.92658 | delta: 9.9e+03 | secs: 0.28881
+DEBUG:MNF:MNF  ::: [102] fit: 448540.11839 | delta: 9.6e+03 | secs: 0.28957
+DEBUG:MNF:MNF  ::: [103] fit: 439266.05069 | delta: 9.3e+03 | secs: 0.28972
+DEBUG:MNF:MNF  ::: [104] fit: 430272.92381 | delta: 9.0e+03 | secs: 0.28815
+DEBUG:MNF:MNF  ::: [105] fit: 421550.65505 | delta: 8.7e+03 | secs: 0.28851
+DEBUG:MNF:MNF  ::: [106] fit: 413089.64214 | delta: 8.5e+03 | secs: 0.28903
+DEBUG:MNF:MNF  ::: [107] fit: 404880.62975 | delta: 8.2e+03 | secs: 0.28851
+DEBUG:MNF:MNF  ::: [108] fit: 396914.52628 | delta: 8.0e+03 | secs: 0.28894
+DEBUG:MNF:MNF  ::: [109] fit: 389182.16296 | delta: 7.7e+03 | secs: 0.28875
+DEBUG:MNF:MNF  ::: [110] fit: 381674.10412 | delta: 7.5e+03 | secs: 0.28856
+DEBUG:MNF:MNF  ::: [111] fit: 374380.60469 | delta: 7.3e+03 | secs: 0.28842
+DEBUG:MNF:MNF  ::: [112] fit: 367291.81713 | delta: 7.1e+03 | secs: 0.28850
+DEBUG:MNF:MNF  ::: [113] fit: 360398.28283 | delta: 6.9e+03 | secs: 0.28866
+DEBUG:MNF:MNF  ::: [114] fit: 353691.50223 | delta: 6.7e+03 | secs: 0.28801
+DEBUG:MNF:MNF  ::: [115] fit: 347164.21784 | delta: 6.5e+03 | secs: 0.28954
+DEBUG:MNF:MNF  ::: [116] fit: 340810.25243 | delta: 6.4e+03 | secs: 0.28827
+DEBUG:MNF:MNF  ::: [117] fit: 334624.14719 | delta: 6.2e+03 | secs: 0.28853
+DEBUG:MNF:MNF  ::: [118] fit: 328600.87009 | delta: 6.0e+03 | secs: 0.28801
+DEBUG:MNF:MNF  ::: [119] fit: 322735.59757 | delta: 5.9e+03 | secs: 0.28854
+DEBUG:MNF:MNF  ::: [120] fit: 317023.53220 | delta: 5.7e+03 | secs: 0.28922
+DEBUG:MNF:MNF  ::: [121] fit: 311459.83164 | delta: 5.6e+03 | secs: 0.28897
+DEBUG:MNF:MNF  ::: [122] fit: 306039.71587 | delta: 5.4e+03 | secs: 0.28838
+DEBUG:MNF:MNF  ::: [123] fit: 300758.63573 | delta: 5.3e+03 | secs: 0.28875
+DEBUG:MNF:MNF  ::: [124] fit: 295612.31432 | delta: 5.1e+03 | secs: 0.28850
+DEBUG:MNF:MNF  ::: [125] fit: 290596.62693 | delta: 5.0e+03 | secs: 0.28892
+DEBUG:MNF:MNF  ::: [126] fit: 285707.41971 | delta: 4.9e+03 | secs: 0.28917
+DEBUG:MNF:MNF  ::: [127] fit: 280940.39689 | delta: 4.8e+03 | secs: 0.28923
+DEBUG:MNF:MNF  ::: [128] fit: 276291.13702 | delta: 4.6e+03 | secs: 0.28875
+DEBUG:MNF:MNF  ::: [129] fit: 271755.20950 | delta: 4.5e+03 | secs: 0.28864
+DEBUG:MNF:MNF  ::: [130] fit: 267328.30066 | delta: 4.4e+03 | secs: 0.28776
+DEBUG:MNF:MNF  ::: [131] fit: 263006.27737 | delta: 4.3e+03 | secs: 0.28873
+DEBUG:MNF:MNF  ::: [132] fit: 258785.22287 | delta: 4.2e+03 | secs: 0.28801
+DEBUG:MNF:MNF  ::: [133] fit: 254661.54293 | delta: 4.1e+03 | secs: 0.28887
+DEBUG:MNF:MNF  ::: [134] fit: 250632.13341 | delta: 4.0e+03 | secs: 0.28849
+DEBUG:MNF:MNF  ::: [135] fit: 246694.45906 | delta: 3.9e+03 | secs: 0.28855
+DEBUG:MNF:MNF  ::: [136] fit: 242846.43509 | delta: 3.8e+03 | secs: 0.28801
+DEBUG:MNF:MNF  ::: [137] fit: 239086.16911 | delta: 3.8e+03 | secs: 0.28880
+DEBUG:MNF:MNF  ::: [138] fit: 235411.68848 | delta: 3.7e+03 | secs: 0.28826
+DEBUG:MNF:MNF  ::: [139] fit: 231820.74948 | delta: 3.6e+03 | secs: 0.28967
+DEBUG:MNF:MNF  ::: [140] fit: 228310.79259 | delta: 3.5e+03 | secs: 0.28896
+DEBUG:MNF:MNF  ::: [141] fit: 224879.07500 | delta: 3.4e+03 | secs: 0.28830
+DEBUG:MNF:MNF  ::: [142] fit: 221522.93869 | delta: 3.4e+03 | secs: 0.28842
+DEBUG:MNF:MNF  ::: [143] fit: 218240.08776 | delta: 3.3e+03 | secs: 0.28862
+DEBUG:MNF:MNF  ::: [144] fit: 215028.72459 | delta: 3.2e+03 | secs: 0.28892
+DEBUG:MNF:MNF  ::: [145] fit: 211887.48811 | delta: 3.1e+03 | secs: 0.28956
+DEBUG:MNF:MNF  ::: [146] fit: 208815.27109 | delta: 3.1e+03 | secs: 0.28810
+DEBUG:MNF:MNF  ::: [147] fit: 205811.02151 | delta: 3.0e+03 | secs: 0.28916
+DEBUG:MNF:MNF  ::: [148] fit: 202873.57260 | delta: 2.9e+03 | secs: 0.28936
+DEBUG:MNF:MNF  ::: [149] fit: 200001.51947 | delta: 2.9e+03 | secs: 0.28851
+DEBUG:MNF:MNF  ::: [150] fit: 197193.16573 | delta: 2.8e+03 | secs: 0.28966
+DEBUG:MNF:MNF  ::: [151] fit: 194446.54265 | delta: 2.7e+03 | secs: 0.28922
+DEBUG:MNF:MNF  ::: [152] fit: 191759.48969 | delta: 2.7e+03 | secs: 0.28870
+DEBUG:MNF:MNF  ::: [153] fit: 189129.78399 | delta: 2.6e+03 | secs: 0.28876
+DEBUG:MNF:MNF  ::: [154] fit: 186555.27587 | delta: 2.6e+03 | secs: 0.28835
+DEBUG:MNF:MNF  ::: [155] fit: 184033.96266 | delta: 2.5e+03 | secs: 0.28837
+DEBUG:MNF:MNF  ::: [156] fit: 181563.98368 | delta: 2.5e+03 | secs: 0.28928
+DEBUG:MNF:MNF  ::: [157] fit: 179143.59536 | delta: 2.4e+03 | secs: 0.28980
+DEBUG:MNF:MNF  ::: [158] fit: 176771.18870 | delta: 2.4e+03 | secs: 0.29168
+DEBUG:MNF:MNF  ::: [159] fit: 174445.34203 | delta: 2.3e+03 | secs: 0.28844
+DEBUG:MNF:MNF  ::: [160] fit: 172164.84400 | delta: 2.3e+03 | secs: 0.28763
+DEBUG:MNF:MNF  ::: [161] fit: 169928.64444 | delta: 2.2e+03 | secs: 0.28842
+DEBUG:MNF:MNF  ::: [162] fit: 167735.76781 | delta: 2.2e+03 | secs: 0.28746
+DEBUG:MNF:MNF  ::: [163] fit: 165585.25105 | delta: 2.2e+03 | secs: 0.28833
+DEBUG:MNF:MNF  ::: [164] fit: 163476.11238 | delta: 2.1e+03 | secs: 0.28836
+DEBUG:MNF:MNF  ::: [165] fit: 161407.31240 | delta: 2.1e+03 | secs: 0.28817
+DEBUG:MNF:MNF  ::: [166] fit: 159377.69778 | delta: 2.0e+03 | secs: 0.28851
+DEBUG:MNF:MNF  ::: [167] fit: 157385.96887 | delta: 2.0e+03 | secs: 0.28857
+DEBUG:MNF:MNF  ::: [168] fit: 155430.71963 | delta: 2.0e+03 | secs: 0.28811
+DEBUG:MNF:MNF  ::: [169] fit: 153510.54611 | delta: 1.9e+03 | secs: 0.28904
+DEBUG:MNF:MNF  ::: [170] fit: 151624.16720 | delta: 1.9e+03 | secs: 0.28828
+DEBUG:MNF:MNF  ::: [171] fit: 149770.49686 | delta: 1.9e+03 | secs: 0.28863
+DEBUG:MNF:MNF  ::: [172] fit: 147948.64924 | delta: 1.8e+03 | secs: 0.28905
+DEBUG:MNF:MNF  ::: [173] fit: 146157.89487 | delta: 1.8e+03 | secs: 0.28800
+DEBUG:MNF:MNF  ::: [174] fit: 144397.59634 | delta: 1.8e+03 | secs: 0.28747
+DEBUG:MNF:MNF  ::: [175] fit: 142667.15606 | delta: 1.7e+03 | secs: 0.28898
+DEBUG:MNF:MNF  ::: [176] fit: 140966.00576 | delta: 1.7e+03 | secs: 0.28864
+DEBUG:MNF:MNF  ::: [177] fit: 139293.63939 | delta: 1.7e+03 | secs: 0.28849
+DEBUG:MNF:MNF  ::: [178] fit: 137649.65019 | delta: 1.6e+03 | secs: 0.28790
+DEBUG:MNF:MNF  ::: [179] fit: 136033.72492 | delta: 1.6e+03 | secs: 0.28853
+DEBUG:MNF:MNF  ::: [180] fit: 134445.58702 | delta: 1.6e+03 | secs: 0.28680
+DEBUG:MNF:MNF  ::: [181] fit: 132884.92846 | delta: 1.6e+03 | secs: 0.28905
+DEBUG:MNF:MNF  ::: [182] fit: 131351.37447 | delta: 1.5e+03 | secs: 0.28885
+DEBUG:MNF:MNF  ::: [183] fit: 129844.48998 | delta: 1.5e+03 | secs: 0.28839
+DEBUG:MNF:MNF  ::: [184] fit: 128363.81276 | delta: 1.5e+03 | secs: 0.28847
+DEBUG:MNF:MNF  ::: [185] fit: 126908.89453 | delta: 1.5e+03 | secs: 0.28772
+DEBUG:MNF:MNF  ::: [186] fit: 125479.32613 | delta: 1.4e+03 | secs: 0.28808
+DEBUG:MNF:MNF  ::: [187] fit: 124074.72246 | delta: 1.4e+03 | secs: 0.28862
+DEBUG:MNF:MNF  ::: [188] fit: 122694.66876 | delta: 1.4e+03 | secs: 0.28874
+DEBUG:MNF:MNF  ::: [189] fit: 121338.66599 | delta: 1.4e+03 | secs: 0.28835
+DEBUG:MNF:MNF  ::: [190] fit: 120006.11820 | delta: 1.3e+03 | secs: 0.28824
+DEBUG:MNF:MNF  ::: [191] fit: 118696.37025 | delta: 1.3e+03 | secs: 0.28925
+DEBUG:MNF:MNF  ::: [192] fit: 117408.76613 | delta: 1.3e+03 | secs: 0.28714
+DEBUG:MNF:MNF  ::: [193] fit: 116142.68890 | delta: 1.3e+03 | secs: 0.28896
+DEBUG:MNF:MNF  ::: [194] fit: 114897.56451 | delta: 1.2e+03 | secs: 0.28834
+DEBUG:MNF:MNF  ::: [195] fit: 113672.84516 | delta: 1.2e+03 | secs: 0.28838
+DEBUG:MNF:MNF  ::: [196] fit: 112468.00144 | delta: 1.2e+03 | secs: 0.28871
+DEBUG:MNF:MNF  ::: [197] fit: 111282.53070 | delta: 1.2e+03 | secs: 0.28876
+DEBUG:MNF:MNF  ::: [198] fit: 110115.95885 | delta: 1.2e+03 | secs: 0.28825
+DEBUG:MNF:MNF  ::: [199] fit: 108967.82112 | delta: 1.1e+03 | secs: 0.28810
+DEBUG:MNF:MNF  ::: [200] fit: 107837.64282 | delta: 1.1e+03 | secs: 0.28854
+DEBUG:MNF:MNF  ::: [201] fit: 106724.95006 | delta: 1.1e+03 | secs: 0.28885
+DEBUG:MNF:MNF  ::: [202] fit: 105629.31103 | delta: 1.1e+03 | secs: 0.28812
+DEBUG:MNF:MNF  ::: [203] fit: 104550.38098 | delta: 1.1e+03 | secs: 0.28859
+DEBUG:MNF:MNF  ::: [204] fit: 103487.92024 | delta: 1.1e+03 | secs: 0.28711
+DEBUG:MNF:MNF  ::: [205] fit: 102441.77309 | delta: 1.0e+03 | secs: 0.28801
+DEBUG:MNF:MNF  ::: [206] fit: 101411.81970 | delta: 1.0e+03 | secs: 0.28895
+DEBUG:MNF:MNF  ::: [207] fit: 100397.92335 | delta: 1.0e+03 | secs: 0.28864
+DEBUG:MNF:MNF  ::: [208] fit: 99399.88759 | delta: 1.0e+03 | secs: 0.28930
+DEBUG:MNF:MNF  ::: [209] fit: 98417.43205 | delta: 9.8e+02 | secs: 0.28815
+DEBUG:MNF:MNF  ::: [210] fit: 97450.19642 | delta: 9.7e+02 | secs: 0.28737
+DEBUG:MNF:MNF  ::: [211] fit: 96497.77652 | delta: 9.5e+02 | secs: 0.28919
+DEBUG:MNF:MNF  ::: [212] fit: 95559.77954 | delta: 9.4e+02 | secs: 0.28893
+DEBUG:MNF:MNF  ::: [213] fit: 94635.87123 | delta: 9.2e+02 | secs: 0.28890
+DEBUG:MNF:MNF  ::: [214] fit: 93725.79673 | delta: 9.1e+02 | secs: 0.28803
+DEBUG:MNF:MNF  ::: [215] fit: 92829.37549 | delta: 9.0e+02 | secs: 0.28903
+DEBUG:MNF:MNF  ::: [216] fit: 91946.48198 | delta: 8.8e+02 | secs: 0.28784
+DEBUG:MNF:MNF  ::: [217] fit: 91077.02336 | delta: 8.7e+02 | secs: 0.28933
+DEBUG:MNF:MNF  ::: [218] fit: 90220.92229 | delta: 8.6e+02 | secs: 0.28909
+DEBUG:MNF:MNF  ::: [219] fit: 89378.10609 | delta: 8.4e+02 | secs: 0.28880
+DEBUG:MNF:MNF  ::: [220] fit: 88548.49609 | delta: 8.3e+02 | secs: 0.28741
+DEBUG:MNF:MNF  ::: [221] fit: 87731.99522 | delta: 8.2e+02 | secs: 0.28866
+DEBUG:MNF:MNF  ::: [222] fit: 86928.47887 | delta: 8.0e+02 | secs: 0.28800
+DEBUG:MNF:MNF  ::: [223] fit: 86137.78629 | delta: 7.9e+02 | secs: 0.28785
+DEBUG:MNF:MNF  ::: [224] fit: 85359.69728 | delta: 7.8e+02 | secs: 0.28851
+DEBUG:MNF:MNF  ::: [225] fit: 84593.89219 | delta: 7.7e+02 | secs: 0.28877
+DEBUG:MNF:MNF  ::: [226] fit: 83839.92078 | delta: 7.5e+02 | secs: 0.28837
+DEBUG:MNF:MNF  ::: [227] fit: 83097.21046 | delta: 7.4e+02 | secs: 0.28879
+DEBUG:MNF:MNF  ::: [228] fit: 82365.12254 | delta: 7.3e+02 | secs: 0.28867
+DEBUG:MNF:MNF  ::: [229] fit: 81643.03956 | delta: 7.2e+02 | secs: 0.28915
+DEBUG:MNF:MNF  ::: [230] fit: 80930.44729 | delta: 7.1e+02 | secs: 0.28847
+DEBUG:MNF:MNF  ::: [231] fit: 80226.97395 | delta: 7.0e+02 | secs: 0.28857
+DEBUG:MNF:MNF  ::: [232] fit: 79532.37692 | delta: 6.9e+02 | secs: 0.28869
+DEBUG:MNF:MNF  ::: [233] fit: 78846.49827 | delta: 6.9e+02 | secs: 0.28894
+DEBUG:MNF:MNF  ::: [234] fit: 78169.21813 | delta: 6.8e+02 | secs: 0.29605
+DEBUG:MNF:MNF  ::: [235] fit: 77500.42502 | delta: 6.7e+02 | secs: 0.28766
+DEBUG:MNF:MNF  ::: [236] fit: 76840.00656 | delta: 6.6e+02 | secs: 0.28851
+DEBUG:MNF:MNF  ::: [237] fit: 76187.84836 | delta: 6.5e+02 | secs: 0.28884
+DEBUG:MNF:MNF  ::: [238] fit: 75543.82503 | delta: 6.4e+02 | secs: 0.28889
+DEBUG:MNF:MNF  ::: [239] fit: 74907.77944 | delta: 6.4e+02 | secs: 0.28860
+DEBUG:MNF:MNF  ::: [240] fit: 74279.50399 | delta: 6.3e+02 | secs: 0.28717
+DEBUG:MNF:MNF  ::: [241] fit: 73658.74291 | delta: 6.2e+02 | secs: 0.28882
+DEBUG:MNF:MNF  ::: [242] fit: 73045.22093 | delta: 6.1e+02 | secs: 0.28865
+DEBUG:MNF:MNF  ::: [243] fit: 72438.68117 | delta: 6.1e+02 | secs: 0.28812
+DEBUG:MNF:MNF  ::: [244] fit: 71838.90905 | delta: 6.0e+02 | secs: 0.28865
+DEBUG:MNF:MNF  ::: [245] fit: 71245.73636 | delta: 5.9e+02 | secs: 0.28817
+DEBUG:MNF:MNF  ::: [246] fit: 70659.03631 | delta: 5.9e+02 | secs: 0.28854
+DEBUG:MNF:MNF  ::: [247] fit: 70078.71993 | delta: 5.8e+02 | secs: 0.28887
+DEBUG:MNF:MNF  ::: [248] fit: 69504.73409 | delta: 5.7e+02 | secs: 0.28878
+DEBUG:MNF:MNF  ::: [249] fit: 68937.05642 | delta: 5.7e+02 | secs: 0.28838
+DEBUG:MNF:MNF  ::: [250] fit: 68375.68553 | delta: 5.6e+02 | secs: 0.28819
+DEBUG:MNF:MNF  ::: [251] fit: 67820.62965 | delta: 5.6e+02 | secs: 0.28829
+DEBUG:MNF:MNF  ::: [252] fit: 67271.89801 | delta: 5.5e+02 | secs: 0.28728
+DEBUG:MNF:MNF  ::: [253] fit: 66729.49479 | delta: 5.4e+02 | secs: 0.28865
+DEBUG:MNF:MNF  ::: [254] fit: 66193.41331 | delta: 5.4e+02 | secs: 0.28863
+DEBUG:MNF:MNF  ::: [255] fit: 65663.62919 | delta: 5.3e+02 | secs: 0.28857
+DEBUG:MNF:MNF  ::: [256] fit: 65140.09538 | delta: 5.2e+02 | secs: 0.28845
+DEBUG:MNF:MNF  ::: [257] fit: 64622.74281 | delta: 5.2e+02 | secs: 0.28856
+DEBUG:MNF:MNF  ::: [258] fit: 64111.48792 | delta: 5.1e+02 | secs: 0.28934
+DEBUG:MNF:MNF  ::: [259] fit: 63606.24374 | delta: 5.1e+02 | secs: 0.28899
+DEBUG:MNF:MNF  ::: [260] fit: 63106.92943 | delta: 5.0e+02 | secs: 0.28916
+DEBUG:MNF:MNF  ::: [261] fit: 62613.47661 | delta: 4.9e+02 | secs: 0.28879
+DEBUG:MNF:MNF  ::: [262] fit: 62125.83336 | delta: 4.9e+02 | secs: 0.28943
+DEBUG:MNF:MNF  ::: [263] fit: 61643.96071 | delta: 4.8e+02 | secs: 0.29002
+DEBUG:MNF:MNF  ::: [264] fit: 61167.81470 | delta: 4.8e+02 | secs: 0.28728
+DEBUG:MNF:MNF  ::: [265] fit: 60697.32049 | delta: 4.7e+02 | secs: 0.28938
+DEBUG:MNF:MNF  ::: [266] fit: 60232.35929 | delta: 4.6e+02 | secs: 0.28910
+DEBUG:MNF:MNF  ::: [267] fit: 59772.78305 | delta: 4.6e+02 | secs: 0.28888
+DEBUG:MNF:MNF  ::: [268] fit: 59318.44739 | delta: 4.5e+02 | secs: 0.30060
+DEBUG:MNF:MNF  ::: [269] fit: 58869.23409 | delta: 4.5e+02 | secs: 0.28991
+DEBUG:MNF:MNF  ::: [270] fit: 58425.04444 | delta: 4.4e+02 | secs: 0.28914
+DEBUG:MNF:MNF  ::: [271] fit: 57985.77611 | delta: 4.4e+02 | secs: 0.28971
+DEBUG:MNF:MNF  ::: [272] fit: 57551.31257 | delta: 4.3e+02 | secs: 0.29063
+DEBUG:MNF:MNF  ::: [273] fit: 57121.53574 | delta: 4.3e+02 | secs: 0.29014
+DEBUG:MNF:MNF  ::: [274] fit: 56696.34594 | delta: 4.3e+02 | secs: 0.29101
+DEBUG:MNF:MNF  ::: [275] fit: 56275.66846 | delta: 4.2e+02 | secs: 0.28997
+DEBUG:MNF:MNF  ::: [276] fit: 55859.44393 | delta: 4.2e+02 | secs: 0.28895
+DEBUG:MNF:MNF  ::: [277] fit: 55447.61687 | delta: 4.1e+02 | secs: 0.28986
+DEBUG:MNF:MNF  ::: [278] fit: 55040.13500 | delta: 4.1e+02 | secs: 0.29071
+DEBUG:MNF:MNF  ::: [279] fit: 54636.95831 | delta: 4.0e+02 | secs: 0.28974
+DEBUG:MNF:MNF  ::: [280] fit: 54238.06788 | delta: 4.0e+02 | secs: 0.29059
+DEBUG:MNF:MNF  ::: [281] fit: 53843.46655 | delta: 3.9e+02 | secs: 0.29007
+DEBUG:MNF:MNF  ::: [282] fit: 53453.16873 | delta: 3.9e+02 | secs: 0.28934
+DEBUG:MNF:MNF  ::: [283] fit: 53067.18272 | delta: 3.9e+02 | secs: 0.28996
+DEBUG:MNF:MNF  ::: [284] fit: 52685.49379 | delta: 3.8e+02 | secs: 0.29078
+DEBUG:MNF:MNF  ::: [285] fit: 52308.05547 | delta: 3.8e+02 | secs: 0.28999
+DEBUG:MNF:MNF  ::: [286] fit: 51934.79089 | delta: 3.7e+02 | secs: 0.29076
+DEBUG:MNF:MNF  ::: [287] fit: 51565.60153 | delta: 3.7e+02 | secs: 0.29017
+DEBUG:MNF:MNF  ::: [288] fit: 51200.37965 | delta: 3.7e+02 | secs: 0.28973
+DEBUG:MNF:MNF  ::: [289] fit: 50839.02088 | delta: 3.6e+02 | secs: 0.29001
+DEBUG:MNF:MNF  ::: [290] fit: 50481.43312 | delta: 3.6e+02 | secs: 0.29039
+DEBUG:MNF:MNF  ::: [291] fit: 50127.53898 | delta: 3.5e+02 | secs: 0.28977
+DEBUG:MNF:MNF  ::: [292] fit: 49777.27492 | delta: 3.5e+02 | secs: 0.29068
+DEBUG:MNF:MNF  ::: [293] fit: 49430.59070 | delta: 3.5e+02 | secs: 0.28998
+DEBUG:MNF:MNF  ::: [294] fit: 49087.44645 | delta: 3.4e+02 | secs: 0.28878
+DEBUG:MNF:MNF  ::: [295] fit: 48747.80347 | delta: 3.4e+02 | secs: 0.28961
+DEBUG:MNF:MNF  ::: [296] fit: 48411.61335 | delta: 3.4e+02 | secs: 0.29089
+DEBUG:MNF:MNF  ::: [297] fit: 48078.81459 | delta: 3.3e+02 | secs: 0.29034
+DEBUG:MNF:MNF  ::: [298] fit: 47749.33859 | delta: 3.3e+02 | secs: 0.29128
+DEBUG:MNF:MNF  ::: [299] fit: 47423.11775 | delta: 3.3e+02 | secs: 0.29016
+DEBUG:MNF:MNF  ::: [300] fit: 47100.08841 | delta: 3.2e+02 | secs: 0.28840
+DEBUG:MNF:MNF  ::: [301] fit: 46780.18934 | delta: 3.2e+02 | secs: 0.28951
+DEBUG:MNF:MNF  ::: [302] fit: 46463.35996 | delta: 3.2e+02 | secs: 0.29069
+DEBUG:MNF:MNF  ::: [303] fit: 46149.53862 | delta: 3.1e+02 | secs: 0.29072
+DEBUG:MNF:MNF  ::: [304] fit: 45838.65942 | delta: 3.1e+02 | secs: 0.29060
+DEBUG:MNF:MNF  ::: [305] fit: 45530.65117 | delta: 3.1e+02 | secs: 0.28971
+DEBUG:MNF:MNF  ::: [306] fit: 45225.44282 | delta: 3.1e+02 | secs: 0.29038
+DEBUG:MNF:MNF  ::: [307] fit: 44922.97242 | delta: 3.0e+02 | secs: 0.29014
+DEBUG:MNF:MNF  ::: [308] fit: 44623.19165 | delta: 3.0e+02 | secs: 0.29115
+DEBUG:MNF:MNF  ::: [309] fit: 44326.06384 | delta: 3.0e+02 | secs: 0.28973
+DEBUG:MNF:MNF  ::: [310] fit: 44031.56199 | delta: 2.9e+02 | secs: 0.29026
+DEBUG:MNF:MNF  ::: [311] fit: 43739.67118 | delta: 2.9e+02 | secs: 0.29018
+DEBUG:MNF:MNF  ::: [312] fit: 43450.39165 | delta: 2.9e+02 | secs: 0.28799
+DEBUG:MNF:MNF  ::: [313] fit: 43163.73725 | delta: 2.9e+02 | secs: 0.29002
+DEBUG:MNF:MNF  ::: [314] fit: 42879.72983 | delta: 2.8e+02 | secs: 0.29082
+DEBUG:MNF:MNF  ::: [315] fit: 42598.39347 | delta: 2.8e+02 | secs: 0.29051
+DEBUG:MNF:MNF  ::: [316] fit: 42319.75082 | delta: 2.8e+02 | secs: 0.29068
+DEBUG:MNF:MNF  ::: [317] fit: 42043.82125 | delta: 2.8e+02 | secs: 0.29039
+DEBUG:MNF:MNF  ::: [318] fit: 41770.61861 | delta: 2.7e+02 | secs: 0.28892
+DEBUG:MNF:MNF  ::: [319] fit: 41500.14708 | delta: 2.7e+02 | secs: 0.28952
+DEBUG:MNF:MNF  ::: [320] fit: 41232.39655 | delta: 2.7e+02 | secs: 0.29054
+DEBUG:MNF:MNF  ::: [321] fit: 40967.34211 | delta: 2.7e+02 | secs: 0.29013
+DEBUG:MNF:MNF  ::: [322] fit: 40704.95055 | delta: 2.6e+02 | secs: 0.29023
+DEBUG:MNF:MNF  ::: [323] fit: 40445.18934 | delta: 2.6e+02 | secs: 0.29072
+DEBUG:MNF:MNF  ::: [324] fit: 40188.02982 | delta: 2.6e+02 | secs: 0.28869
+DEBUG:MNF:MNF  ::: [325] fit: 39933.44179 | delta: 2.5e+02 | secs: 0.29005
+DEBUG:MNF:MNF  ::: [326] fit: 39681.38562 | delta: 2.5e+02 | secs: 0.29089
+DEBUG:MNF:MNF  ::: [327] fit: 39431.80943 | delta: 2.5e+02 | secs: 0.28996
+DEBUG:MNF:MNF  ::: [328] fit: 39184.65196 | delta: 2.5e+02 | secs: 0.29148
+DEBUG:MNF:MNF  ::: [329] fit: 38939.84734 | delta: 2.4e+02 | secs: 0.29021
+DEBUG:MNF:MNF  ::: [330] fit: 38697.33005 | delta: 2.4e+02 | secs: 0.28981
+DEBUG:MNF:MNF  ::: [331] fit: 38457.04104 | delta: 2.4e+02 | secs: 0.28980
+DEBUG:MNF:MNF  ::: [332] fit: 38218.93389 | delta: 2.4e+02 | secs: 0.29100
+DEBUG:MNF:MNF  ::: [333] fit: 37982.97691 | delta: 2.4e+02 | secs: 0.28997
+DEBUG:MNF:MNF  ::: [334] fit: 37749.14860 | delta: 2.3e+02 | secs: 0.29131
+DEBUG:MNF:MNF  ::: [335] fit: 37517.42848 | delta: 2.3e+02 | secs: 0.29053
+DEBUG:MNF:MNF  ::: [336] fit: 37287.78927 | delta: 2.3e+02 | secs: 0.28913
+DEBUG:MNF:MNF  ::: [337] fit: 37060.19589 | delta: 2.3e+02 | secs: 0.28981
+DEBUG:MNF:MNF  ::: [338] fit: 36834.61202 | delta: 2.3e+02 | secs: 0.29117
+DEBUG:MNF:MNF  ::: [339] fit: 36611.00986 | delta: 2.2e+02 | secs: 0.29041
+DEBUG:MNF:MNF  ::: [340] fit: 36389.37673 | delta: 2.2e+02 | secs: 0.29104
+DEBUG:MNF:MNF  ::: [341] fit: 36169.71525 | delta: 2.2e+02 | secs: 0.29066
+DEBUG:MNF:MNF  ::: [342] fit: 35952.03751 | delta: 2.2e+02 | secs: 0.28893
+DEBUG:MNF:MNF  ::: [343] fit: 35736.35619 | delta: 2.2e+02 | secs: 0.29012
+DEBUG:MNF:MNF  ::: [344] fit: 35522.67592 | delta: 2.1e+02 | secs: 0.29034
+DEBUG:MNF:MNF  ::: [345] fit: 35310.98784 | delta: 2.1e+02 | secs: 0.29049
+DEBUG:MNF:MNF  ::: [346] fit: 35101.26918 | delta: 2.1e+02 | secs: 0.29086
+DEBUG:MNF:MNF  ::: [347] fit: 34893.48799 | delta: 2.1e+02 | secs: 0.29010
+DEBUG:MNF:MNF  ::: [348] fit: 34687.61150 | delta: 2.1e+02 | secs: 0.28866
+DEBUG:MNF:MNF  ::: [349] fit: 34483.61368 | delta: 2.0e+02 | secs: 0.28962
+DEBUG:MNF:MNF  ::: [350] fit: 34281.47831 | delta: 2.0e+02 | secs: 0.29051
+DEBUG:MNF:MNF  ::: [351] fit: 34081.19688 | delta: 2.0e+02 | secs: 0.29001
+DEBUG:MNF:MNF  ::: [352] fit: 33882.76492 | delta: 2.0e+02 | secs: 0.29061
+DEBUG:MNF:MNF  ::: [353] fit: 33686.17972 | delta: 2.0e+02 | secs: 0.29020
+DEBUG:MNF:MNF  ::: [354] fit: 33491.43837 | delta: 1.9e+02 | secs: 0.28885
+DEBUG:MNF:MNF  ::: [355] fit: 33298.53399 | delta: 1.9e+02 | secs: 0.28980
+DEBUG:MNF:MNF  ::: [356] fit: 33107.45184 | delta: 1.9e+02 | secs: 0.29111
+DEBUG:MNF:MNF  ::: [357] fit: 32918.17018 | delta: 1.9e+02 | secs: 0.28988
+DEBUG:MNF:MNF  ::: [358] fit: 32730.66561 | delta: 1.9e+02 | secs: 0.29073
+DEBUG:MNF:MNF  ::: [359] fit: 32544.91806 | delta: 1.9e+02 | secs: 0.28998
+DEBUG:MNF:MNF  ::: [360] fit: 32360.91044 | delta: 1.8e+02 | secs: 0.28892
+DEBUG:MNF:MNF  ::: [361] fit: 32178.62488 | delta: 1.8e+02 | secs: 0.29012
+DEBUG:MNF:MNF  ::: [362] fit: 31998.03907 | delta: 1.8e+02 | secs: 0.29040
+DEBUG:MNF:MNF  ::: [363] fit: 31819.12438 | delta: 1.8e+02 | secs: 0.29026
+DEBUG:MNF:MNF  ::: [364] fit: 31641.84644 | delta: 1.8e+02 | secs: 0.29088
+DEBUG:MNF:MNF  ::: [365] fit: 31466.16841 | delta: 1.8e+02 | secs: 0.29030
+DEBUG:MNF:MNF  ::: [366] fit: 31292.05585 | delta: 1.7e+02 | secs: 0.28942
+DEBUG:MNF:MNF  ::: [367] fit: 31119.47966 | delta: 1.7e+02 | secs: 0.28996
+DEBUG:MNF:MNF  ::: [368] fit: 30948.41537 | delta: 1.7e+02 | secs: 0.29114
+DEBUG:MNF:MNF  ::: [369] fit: 30778.83882 | delta: 1.7e+02 | secs: 0.29021
+DEBUG:MNF:MNF  ::: [370] fit: 30610.72028 | delta: 1.7e+02 | secs: 0.29053
+DEBUG:MNF:MNF  ::: [371] fit: 30444.02075 | delta: 1.7e+02 | secs: 0.29039
+DEBUG:MNF:MNF  ::: [372] fit: 30278.69299 | delta: 1.7e+02 | secs: 0.28949
+DEBUG:MNF:MNF  ::: [373] fit: 30114.68716 | delta: 1.6e+02 | secs: 0.29032
+DEBUG:MNF:MNF  ::: [374] fit: 29951.95849 | delta: 1.6e+02 | secs: 0.29125
+DEBUG:MNF:MNF  ::: [375] fit: 29790.47315 | delta: 1.6e+02 | secs: 0.29056
+DEBUG:MNF:MNF  ::: [376] fit: 29630.20993 | delta: 1.6e+02 | secs: 0.29071
+DEBUG:MNF:MNF  ::: [377] fit: 29471.15864 | delta: 1.6e+02 | secs: 0.29039
+DEBUG:MNF:MNF  ::: [378] fit: 29313.31745 | delta: 1.6e+02 | secs: 0.28890
+DEBUG:MNF:MNF  ::: [379] fit: 29156.69109 | delta: 1.6e+02 | secs: 0.28992
+DEBUG:MNF:MNF  ::: [380] fit: 29001.28963 | delta: 1.6e+02 | secs: 0.29123
+DEBUG:MNF:MNF  ::: [381] fit: 28847.12668 | delta: 1.5e+02 | secs: 0.29032
+DEBUG:MNF:MNF  ::: [382] fit: 28694.21605 | delta: 1.5e+02 | secs: 0.29032
+DEBUG:MNF:MNF  ::: [383] fit: 28542.56800 | delta: 1.5e+02 | secs: 0.29013
+DEBUG:MNF:MNF  ::: [384] fit: 28392.18720 | delta: 1.5e+02 | secs: 0.28876
+DEBUG:MNF:MNF  ::: [385] fit: 28243.07397 | delta: 1.5e+02 | secs: 0.29026
+DEBUG:MNF:MNF  ::: [386] fit: 28095.22812 | delta: 1.5e+02 | secs: 0.29126
+DEBUG:MNF:MNF  ::: [387] fit: 27948.65269 | delta: 1.5e+02 | secs: 0.29023
+DEBUG:MNF:MNF  ::: [388] fit: 27803.35425 | delta: 1.5e+02 | secs: 0.29073
+DEBUG:MNF:MNF  ::: [389] fit: 27659.33924 | delta: 1.4e+02 | secs: 0.29016
+DEBUG:MNF:MNF  ::: [390] fit: 27516.60879 | delta: 1.4e+02 | secs: 0.28942
+DEBUG:MNF:MNF  ::: [391] fit: 27375.15523 | delta: 1.4e+02 | secs: 0.28987
+DEBUG:MNF:MNF  ::: [392] fit: 27234.96132 | delta: 1.4e+02 | secs: 0.29064
+DEBUG:MNF:MNF  ::: [393] fit: 27096.00109 | delta: 1.4e+02 | secs: 0.29082
+DEBUG:MNF:MNF  ::: [394] fit: 26958.24219 | delta: 1.4e+02 | secs: 0.29072
+DEBUG:MNF:MNF  ::: [395] fit: 26821.65017 | delta: 1.4e+02 | secs: 0.29048
+DEBUG:MNF:MNF  ::: [396] fit: 26686.19402 | delta: 1.4e+02 | secs: 0.28952
+DEBUG:MNF:MNF  ::: [397] fit: 26551.85036 | delta: 1.3e+02 | secs: 0.29002
+DEBUG:MNF:MNF  ::: [398] fit: 26418.60504 | delta: 1.3e+02 | secs: 0.29055
+DEBUG:MNF:MNF  ::: [399] fit: 26286.45235 | delta: 1.3e+02 | secs: 0.29006
+DEBUG:MNF:MNF  ::: [400] fit: 26155.39260 | delta: 1.3e+02 | secs: 0.29095
+DEBUG:MNF:MNF  ::: [401] fit: 26025.42880 | delta: 1.3e+02 | secs: 0.29047
+DEBUG:MNF:MNF  ::: [402] fit: 25896.56361 | delta: 1.3e+02 | secs: 0.28947
+DEBUG:MNF:MNF  ::: [403] fit: 25768.79659 | delta: 1.3e+02 | secs: 0.28989
+DEBUG:MNF:MNF  ::: [404] fit: 25642.12179 | delta: 1.3e+02 | secs: 0.29022
+DEBUG:MNF:MNF  ::: [405] fit: 25516.52654 | delta: 1.3e+02 | secs: 0.29038
+DEBUG:MNF:MNF  ::: [406] fit: 25391.99192 | delta: 1.2e+02 | secs: 0.29102
+DEBUG:MNF:MNF  ::: [407] fit: 25268.49377 | delta: 1.2e+02 | secs: 0.29029
+DEBUG:MNF:MNF  ::: [408] fit: 25146.00344 | delta: 1.2e+02 | secs: 0.28914
+DEBUG:MNF:MNF  ::: [409] fit: 25024.48915 | delta: 1.2e+02 | secs: 0.28997
+DEBUG:MNF:MNF  ::: [410] fit: 24903.91959 | delta: 1.2e+02 | secs: 0.29102
+DEBUG:MNF:MNF  ::: [411] fit: 24784.26845 | delta: 1.2e+02 | secs: 0.29081
+DEBUG:MNF:MNF  ::: [412] fit: 24665.51752 | delta: 1.2e+02 | secs: 0.29113
+DEBUG:MNF:MNF  ::: [413] fit: 24547.65764 | delta: 1.2e+02 | secs: 0.29024
+DEBUG:MNF:MNF  ::: [414] fit: 24430.68694 | delta: 1.2e+02 | secs: 0.28936
+DEBUG:MNF:MNF  ::: [415] fit: 24314.60653 | delta: 1.2e+02 | secs: 0.29021
+DEBUG:MNF:MNF  ::: [416] fit: 24199.41459 | delta: 1.2e+02 | secs: 0.29081
+DEBUG:MNF:MNF  ::: [417] fit: 24085.10154 | delta: 1.1e+02 | secs: 0.28976
+DEBUG:MNF:MNF  ::: [418] fit: 23971.64822 | delta: 1.1e+02 | secs: 0.29032
+DEBUG:MNF:MNF  ::: [419] fit: 23859.02736 | delta: 1.1e+02 | secs: 0.29038
+DEBUG:MNF:MNF  ::: [420] fit: 23747.20745 | delta: 1.1e+02 | secs: 0.28966
+DEBUG:MNF:MNF  ::: [421] fit: 23636.15688 | delta: 1.1e+02 | secs: 0.29007
+DEBUG:MNF:MNF  ::: [422] fit: 23525.84582 | delta: 1.1e+02 | secs: 0.29043
+DEBUG:MNF:MNF  ::: [423] fit: 23416.24572 | delta: 1.1e+02 | secs: 0.29067
+DEBUG:MNF:MNF  ::: [424] fit: 23307.32899 | delta: 1.1e+02 | secs: 0.29087
+DEBUG:MNF:MNF  ::: [425] fit: 23199.07119 | delta: 1.1e+02 | secs: 0.29016
+DEBUG:MNF:MNF  ::: [426] fit: 23091.45390 | delta: 1.1e+02 | secs: 0.28921
+DEBUG:MNF:MNF  ::: [427] fit: 22984.46571 | delta: 1.1e+02 | secs: 0.29015
+DEBUG:MNF:MNF  ::: [428] fit: 22878.10026 | delta: 1.1e+02 | secs: 0.29052
+DEBUG:MNF:MNF  ::: [429] fit: 22772.35372 | delta: 1.1e+02 | secs: 0.29073
+DEBUG:MNF:MNF  ::: [430] fit: 22667.22342 | delta: 1.1e+02 | secs: 0.29091
+DEBUG:MNF:MNF  ::: [431] fit: 22562.70787 | delta: 1.0e+02 | secs: 0.29044
+DEBUG:MNF:MNF  ::: [432] fit: 22458.80719 | delta: 1.0e+02 | secs: 0.28974
+DEBUG:MNF:MNF  ::: [433] fit: 22355.52302 | delta: 1.0e+02 | secs: 0.28980
+DEBUG:MNF:MNF  ::: [434] fit: 22252.85787 | delta: 1.0e+02 | secs: 0.29040
+DEBUG:MNF:MNF  ::: [435] fit: 22150.81418 | delta: 1.0e+02 | secs: 0.29066
+DEBUG:MNF:MNF  ::: [436] fit: 22049.39390 | delta: 1.0e+02 | secs: 0.29088
+DEBUG:MNF:MNF  ::: [437] fit: 21948.59860 | delta: 1.0e+02 | secs: 0.29048
+DEBUG:MNF:MNF  ::: [438] fit: 21848.43030 | delta: 1.0e+02 | secs: 0.28972
+DEBUG:MNF:MNF  ::: [439] fit: 21748.89223 | delta: 1.0e+02 | secs: 0.29008
+DEBUG:MNF:MNF  ::: [440] fit: 21649.98883 | delta: 9.9e+01 | secs: 0.29099
+DEBUG:MNF:MNF  ::: [441] fit: 21551.72440 | delta: 9.8e+01 | secs: 0.29491
+DEBUG:MNF:MNF  ::: [442] fit: 21454.10132 | delta: 9.8e+01 | secs: 0.29001
+DEBUG:MNF:MNF  ::: [443] fit: 21357.11867 | delta: 9.7e+01 | secs: 0.29051
+DEBUG:MNF:MNF  ::: [444] fit: 21260.77178 | delta: 9.6e+01 | secs: 0.29023
+DEBUG:MNF:MNF  ::: [445] fit: 21165.05214 | delta: 9.6e+01 | secs: 0.29027
+DEBUG:MNF:MNF  ::: [446] fit: 21069.94710 | delta: 9.5e+01 | secs: 0.29067
+DEBUG:MNF:MNF  ::: [447] fit: 20975.43988 | delta: 9.5e+01 | secs: 0.29050
+DEBUG:MNF:MNF  ::: [448] fit: 20881.51162 | delta: 9.4e+01 | secs: 0.29112
+DEBUG:MNF:MNF  ::: [449] fit: 20788.14534 | delta: 9.3e+01 | secs: 0.29085
+DEBUG:MNF:MNF  ::: [450] fit: 20695.33000 | delta: 9.3e+01 | secs: 0.28989
+DEBUG:MNF:MNF  ::: [451] fit: 20603.06184 | delta: 9.2e+01 | secs: 0.29038
+DEBUG:MNF:MNF  ::: [452] fit: 20511.34321 | delta: 9.2e+01 | secs: 0.29107
+DEBUG:MNF:MNF  ::: [453] fit: 20420.18022 | delta: 9.1e+01 | secs: 0.29058
+DEBUG:MNF:MNF  ::: [454] fit: 20329.58108 | delta: 9.1e+01 | secs: 0.29102
+DEBUG:MNF:MNF  ::: [455] fit: 20239.55491 | delta: 9.0e+01 | secs: 0.29004
+DEBUG:MNF:MNF  ::: [456] fit: 20150.11064 | delta: 8.9e+01 | secs: 0.28902
+DEBUG:MNF:MNF  ::: [457] fit: 20061.25538 | delta: 8.9e+01 | secs: 0.28986
+DEBUG:MNF:MNF  ::: [458] fit: 19972.99240 | delta: 8.8e+01 | secs: 0.29144
+DEBUG:MNF:MNF  ::: [459] fit: 19885.31929 | delta: 8.8e+01 | secs: 0.29043
+DEBUG:MNF:MNF  ::: [460] fit: 19798.22786 | delta: 8.7e+01 | secs: 0.29105
+DEBUG:MNF:MNF  ::: [461] fit: 19711.70637 | delta: 8.7e+01 | secs: 0.29024
+DEBUG:MNF:MNF  ::: [462] fit: 19625.74340 | delta: 8.6e+01 | secs: 0.28916
+DEBUG:MNF:MNF  ::: [463] fit: 19540.33072 | delta: 8.5e+01 | secs: 0.28988
+DEBUG:MNF:MNF  ::: [464] fit: 19455.46331 | delta: 8.5e+01 | secs: 0.29061
+DEBUG:MNF:MNF  ::: [465] fit: 19371.13733 | delta: 8.4e+01 | secs: 0.29030
+DEBUG:MNF:MNF  ::: [466] fit: 19287.34796 | delta: 8.4e+01 | secs: 0.29118
+DEBUG:MNF:MNF  ::: [467] fit: 19204.08821 | delta: 8.3e+01 | secs: 0.29088
+DEBUG:MNF:MNF  ::: [468] fit: 19121.34883 | delta: 8.3e+01 | secs: 0.28935
+DEBUG:MNF:MNF  ::: [469] fit: 19039.11952 | delta: 8.2e+01 | secs: 0.29282
+DEBUG:MNF:MNF  ::: [470] fit: 18957.39087 | delta: 8.2e+01 | secs: 0.29104
+DEBUG:MNF:MNF  ::: [471] fit: 18876.15606 | delta: 8.1e+01 | secs: 0.29063
+DEBUG:MNF:MNF  ::: [472] fit: 18795.41122 | delta: 8.1e+01 | secs: 0.29119
+DEBUG:MNF:MNF  ::: [473] fit: 18715.15417 | delta: 8.0e+01 | secs: 0.29097
+DEBUG:MNF:MNF  ::: [474] fit: 18635.38268 | delta: 8.0e+01 | secs: 0.28930
+DEBUG:MNF:MNF  ::: [475] fit: 18556.09336 | delta: 7.9e+01 | secs: 0.29024
+DEBUG:MNF:MNF  ::: [476] fit: 18477.28191 | delta: 7.9e+01 | secs: 0.29061
+DEBUG:MNF:MNF  ::: [477] fit: 18398.94411 | delta: 7.8e+01 | secs: 0.29032
+DEBUG:MNF:MNF  ::: [478] fit: 18321.07650 | delta: 7.8e+01 | secs: 0.29051
+DEBUG:MNF:MNF  ::: [479] fit: 18243.67643 | delta: 7.7e+01 | secs: 0.29065
+DEBUG:MNF:MNF  ::: [480] fit: 18166.74207 | delta: 7.7e+01 | secs: 0.28911
+DEBUG:MNF:MNF  ::: [481] fit: 18090.27296 | delta: 7.6e+01 | secs: 0.28996
+DEBUG:MNF:MNF  ::: [482] fit: 18014.27027 | delta: 7.6e+01 | secs: 0.29091
+DEBUG:MNF:MNF  ::: [483] fit: 17938.73545 | delta: 7.6e+01 | secs: 0.29079
+DEBUG:MNF:MNF  ::: [484] fit: 17863.66764 | delta: 7.5e+01 | secs: 0.29083
+DEBUG:MNF:MNF  ::: [485] fit: 17789.06125 | delta: 7.5e+01 | secs: 0.29041
+DEBUG:MNF:MNF  ::: [486] fit: 17714.90534 | delta: 7.4e+01 | secs: 0.28990
+DEBUG:MNF:MNF  ::: [487] fit: 17641.18522 | delta: 7.4e+01 | secs: 0.28999
+DEBUG:MNF:MNF  ::: [488] fit: 17567.88569 | delta: 7.3e+01 | secs: 0.29041
+DEBUG:MNF:MNF  ::: [489] fit: 17494.99474 | delta: 7.3e+01 | secs: 0.29024
+DEBUG:MNF:MNF  ::: [490] fit: 17422.50556 | delta: 7.2e+01 | secs: 0.29126
+DEBUG:MNF:MNF  ::: [491] fit: 17350.41647 | delta: 7.2e+01 | secs: 0.29075
+DEBUG:MNF:MNF  ::: [492] fit: 17278.72941 | delta: 7.2e+01 | secs: 0.28929
+DEBUG:MNF:MNF  ::: [493] fit: 17207.44819 | delta: 7.1e+01 | secs: 0.29013
+DEBUG:MNF:MNF  ::: [494] fit: 17136.57695 | delta: 7.1e+01 | secs: 0.29064
+DEBUG:MNF:MNF  ::: [495] fit: 17066.11901 | delta: 7.0e+01 | secs: 0.29032
+DEBUG:MNF:MNF  ::: [496] fit: 16996.07616 | delta: 7.0e+01 | secs: 0.29075
+DEBUG:MNF:MNF  ::: [497] fit: 16926.44853 | delta: 7.0e+01 | secs: 0.29031
+DEBUG:MNF:MNF  ::: [498] fit: 16857.23532 | delta: 6.9e+01 | secs: 0.28982
+DEBUG:MNF:MNF  ::: [499] fit: 16788.43613 | delta: 6.9e+01 | secs: 0.29017
+DEBUG:MNF:Initializing U
+DEBUG:MNF:Initialization completed
+DEBUG:MNF:MNF  ::: [  0] fit: 960916593.91787 | delta: 9.6e+08 | secs: 0.26881
+DEBUG:MNF:MNF  ::: [  1] fit: 747594235.05273 | delta: 2.1e+08 | secs: 0.28732
+DEBUG:MNF:MNF  ::: [  2] fit: 530547737.55165 | delta: 2.2e+08 | secs: 0.28853
+DEBUG:MNF:MNF  ::: [  3] fit: 513922062.03154 | delta: 1.7e+07 | secs: 0.28496
+DEBUG:MNF:MNF  ::: [  4] fit: 525690965.59617 | delta: 1.2e+07 | secs: 0.28617
+DEBUG:MNF:MNF  ::: [  5] fit: 464802159.31638 | delta: 6.1e+07 | secs: 0.28456
+DEBUG:MNF:MNF  ::: [  6] fit: 365329632.76019 | delta: 9.9e+07 | secs: 0.28487
+DEBUG:MNF:MNF  ::: [  7] fit: 270675716.68433 | delta: 9.5e+07 | secs: 0.28603
+DEBUG:MNF:MNF  ::: [  8] fit: 197226413.57852 | delta: 7.3e+07 | secs: 0.28512
+DEBUG:MNF:MNF  ::: [  9] fit: 144873991.25284 | delta: 5.2e+07 | secs: 0.28503
+DEBUG:MNF:MNF  ::: [ 10] fit: 108589463.62456 | delta: 3.6e+07 | secs: 0.28547
+DEBUG:MNF:MNF  ::: [ 11] fit: 83404179.33990 | delta: 2.5e+07 | secs: 0.28616
+DEBUG:MNF:MNF  ::: [ 12] fit: 65635531.30185 | delta: 1.8e+07 | secs: 0.28596
+DEBUG:MNF:MNF  ::: [ 13] fit: 52810645.86930 | delta: 1.3e+07 | secs: 0.28708
+DEBUG:MNF:MNF  ::: [ 14] fit: 43324356.49502 | delta: 9.5e+06 | secs: 0.28653
+DEBUG:MNF:MNF  ::: [ 15] fit: 36139279.64477 | delta: 7.2e+06 | secs: 0.28665
+DEBUG:MNF:MNF  ::: [ 16] fit: 30578100.40408 | delta: 5.6e+06 | secs: 0.28679
+DEBUG:MNF:MNF  ::: [ 17] fit: 26190692.69173 | delta: 4.4e+06 | secs: 0.28797
+DEBUG:MNF:MNF  ::: [ 18] fit: 22671208.25228 | delta: 3.5e+06 | secs: 0.28711
+DEBUG:MNF:MNF  ::: [ 19] fit: 19806615.76847 | delta: 2.9e+06 | secs: 0.28882
+DEBUG:MNF:MNF  ::: [ 20] fit: 17444836.40319 | delta: 2.4e+06 | secs: 0.28739
+DEBUG:MNF:MNF  ::: [ 21] fit: 15475013.51428 | delta: 2.0e+06 | secs: 0.28796
+DEBUG:MNF:MNF  ::: [ 22] fit: 13815068.95854 | delta: 1.7e+06 | secs: 0.28841
+DEBUG:MNF:MNF  ::: [ 23] fit: 12403460.82168 | delta: 1.4e+06 | secs: 0.28875
+DEBUG:MNF:MNF  ::: [ 24] fit: 11193418.80564 | delta: 1.2e+06 | secs: 0.28803
+DEBUG:MNF:MNF  ::: [ 25] fit: 10148842.96537 | delta: 1.0e+06 | secs: 0.28878
+DEBUG:MNF:MNF  ::: [ 26] fit: 9241440.21838 | delta: 9.1e+05 | secs: 0.28810
+DEBUG:MNF:MNF  ::: [ 27] fit: 8448744.05949 | delta: 7.9e+05 | secs: 0.28938
+DEBUG:MNF:MNF  ::: [ 28] fit: 7752704.08821 | delta: 7.0e+05 | secs: 0.28829
+DEBUG:MNF:MNF  ::: [ 29] fit: 7138642.87948 | delta: 6.1e+05 | secs: 0.28912
+DEBUG:MNF:MNF  ::: [ 30] fit: 6594481.85963 | delta: 5.4e+05 | secs: 0.28828
+DEBUG:MNF:MNF  ::: [ 31] fit: 6110179.52799 | delta: 4.8e+05 | secs: 0.28847
+DEBUG:MNF:MNF  ::: [ 32] fit: 5677334.92532 | delta: 4.3e+05 | secs: 0.28823
+DEBUG:MNF:MNF  ::: [ 33] fit: 5288910.96950 | delta: 3.9e+05 | secs: 0.28878
+DEBUG:MNF:MNF  ::: [ 34] fit: 4939024.66328 | delta: 3.5e+05 | secs: 0.28820
+DEBUG:MNF:MNF  ::: [ 35] fit: 4622756.12770 | delta: 3.2e+05 | secs: 0.28829
+DEBUG:MNF:MNF  ::: [ 36] fit: 4335961.41708 | delta: 2.9e+05 | secs: 0.28876
+DEBUG:MNF:MNF  ::: [ 37] fit: 4075106.88079 | delta: 2.6e+05 | secs: 0.28909
+DEBUG:MNF:MNF  ::: [ 38] fit: 3837145.70339 | delta: 2.4e+05 | secs: 0.28828
+DEBUG:MNF:MNF  ::: [ 39] fit: 3619437.44299 | delta: 2.2e+05 | secs: 0.28892
+DEBUG:MNF:MNF  ::: [ 40] fit: 3419694.41348 | delta: 2.0e+05 | secs: 0.28813
+DEBUG:MNF:MNF  ::: [ 41] fit: 3235938.17556 | delta: 1.8e+05 | secs: 0.28863
+DEBUG:MNF:MNF  ::: [ 42] fit: 3066459.33892 | delta: 1.7e+05 | secs: 0.28877
+DEBUG:MNF:MNF  ::: [ 43] fit: 2909781.72480 | delta: 1.6e+05 | secs: 0.28866
+DEBUG:MNF:MNF  ::: [ 44] fit: 2764632.27892 | delta: 1.5e+05 | secs: 0.28841
+DEBUG:MNF:MNF  ::: [ 45] fit: 2629913.83742 | delta: 1.3e+05 | secs: 0.28850
+DEBUG:MNF:MNF  ::: [ 46] fit: 2504676.06145 | delta: 1.3e+05 | secs: 0.28910
+DEBUG:MNF:MNF  ::: [ 47] fit: 2388085.13095 | delta: 1.2e+05 | secs: 0.28905
+DEBUG:MNF:MNF  ::: [ 48] fit: 2279398.70600 | delta: 1.1e+05 | secs: 0.28881
+DEBUG:MNF:MNF  ::: [ 49] fit: 2177950.00993 | delta: 1.0e+05 | secs: 0.28953
+DEBUG:MNF:MNF  ::: [ 50] fit: 2083138.23695 | delta: 9.5e+04 | secs: 0.28820
+DEBUG:MNF:MNF  ::: [ 51] fit: 1994421.76986 | delta: 8.9e+04 | secs: 0.29000
+DEBUG:MNF:MNF  ::: [ 52] fit: 1911313.26208 | delta: 8.3e+04 | secs: 0.28897
+DEBUG:MNF:MNF  ::: [ 53] fit: 1833374.97250 | delta: 7.8e+04 | secs: 0.28919
+DEBUG:MNF:MNF  ::: [ 54] fit: 1760211.83349 | delta: 7.3e+04 | secs: 0.28878
+DEBUG:MNF:MNF  ::: [ 55] fit: 1691462.39859 | delta: 6.9e+04 | secs: 0.28984
+DEBUG:MNF:MNF  ::: [ 56] fit: 1626790.67918 | delta: 6.5e+04 | secs: 0.28919
+DEBUG:MNF:MNF  ::: [ 57] fit: 1565881.54597 | delta: 6.1e+04 | secs: 0.28875
+DEBUG:MNF:MNF  ::: [ 58] fit: 1508439.82256 | delta: 5.7e+04 | secs: 0.28854
+DEBUG:MNF:MNF  ::: [ 59] fit: 1454191.09752 | delta: 5.4e+04 | secs: 0.28952
+DEBUG:MNF:MNF  ::: [ 60] fit: 1402882.34653 | delta: 5.1e+04 | secs: 0.28874
+DEBUG:MNF:MNF  ::: [ 61] fit: 1354281.83714 | delta: 4.9e+04 | secs: 0.28917
+DEBUG:MNF:MNF  ::: [ 62] fit: 1308178.73582 | delta: 4.6e+04 | secs: 0.28865
+DEBUG:MNF:MNF  ::: [ 63] fit: 1264382.88687 | delta: 4.4e+04 | secs: 0.28933
+DEBUG:MNF:MNF  ::: [ 64] fit: 1222724.68785 | delta: 4.2e+04 | secs: 0.28879
+DEBUG:MNF:MNF  ::: [ 65] fit: 1183054.51737 | delta: 4.0e+04 | secs: 0.28905
+DEBUG:MNF:MNF  ::: [ 66] fit: 1145241.20749 | delta: 3.8e+04 | secs: 0.28896
+DEBUG:MNF:MNF  ::: [ 67] fit: 1109169.42975 | delta: 3.6e+04 | secs: 0.28974
+DEBUG:MNF:MNF  ::: [ 68] fit: 1074736.45216 | delta: 3.4e+04 | secs: 0.28899
+DEBUG:MNF:MNF  ::: [ 69] fit: 1041849.11530 | delta: 3.3e+04 | secs: 0.28951
+DEBUG:MNF:MNF  ::: [ 70] fit: 1010421.58500 | delta: 3.1e+04 | secs: 0.28887
+DEBUG:MNF:MNF  ::: [ 71] fit: 980373.84713 | delta: 3.0e+04 | secs: 0.29000
+DEBUG:MNF:MNF  ::: [ 72] fit: 951630.75396 | delta: 2.9e+04 | secs: 0.28970
+DEBUG:MNF:MNF  ::: [ 73] fit: 924121.69964 | delta: 2.8e+04 | secs: 0.28966
+DEBUG:MNF:MNF  ::: [ 74] fit: 897780.92272 | delta: 2.6e+04 | secs: 0.28890
+DEBUG:MNF:MNF  ::: [ 75] fit: 872547.79605 | delta: 2.5e+04 | secs: 0.28952
+DEBUG:MNF:MNF  ::: [ 76] fit: 848366.25779 | delta: 2.4e+04 | secs: 0.28931
+DEBUG:MNF:MNF  ::: [ 77] fit: 825183.38458 | delta: 2.3e+04 | secs: 0.28935
+DEBUG:MNF:MNF  ::: [ 78] fit: 802948.03478 | delta: 2.2e+04 | secs: 0.28907
+DEBUG:MNF:MNF  ::: [ 79] fit: 781610.32023 | delta: 2.1e+04 | secs: 0.28983
+DEBUG:MNF:MNF  ::: [ 80] fit: 761121.83106 | delta: 2.0e+04 | secs: 0.28907
+DEBUG:MNF:MNF  ::: [ 81] fit: 741436.21127 | delta: 2.0e+04 | secs: 0.29003
+DEBUG:MNF:MNF  ::: [ 82] fit: 722509.75811 | delta: 1.9e+04 | secs: 0.28867
+DEBUG:MNF:MNF  ::: [ 83] fit: 704301.66477 | delta: 1.8e+04 | secs: 0.28932
+DEBUG:MNF:MNF  ::: [ 84] fit: 686773.79644 | delta: 1.8e+04 | secs: 0.28883
+DEBUG:MNF:MNF  ::: [ 85] fit: 669890.44101 | delta: 1.7e+04 | secs: 0.28936
+DEBUG:MNF:MNF  ::: [ 86] fit: 653618.35498 | delta: 1.6e+04 | secs: 0.28871
+DEBUG:MNF:MNF  ::: [ 87] fit: 637926.79733 | delta: 1.6e+04 | secs: 0.28959
+DEBUG:MNF:MNF  ::: [ 88] fit: 622787.20652 | delta: 1.5e+04 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [ 89] fit: 608172.77000 | delta: 1.5e+04 | secs: 0.28905
+DEBUG:MNF:MNF  ::: [ 90] fit: 594058.41479 | delta: 1.4e+04 | secs: 0.28898
+DEBUG:MNF:MNF  ::: [ 91] fit: 580421.25484 | delta: 1.4e+04 | secs: 0.28969
+DEBUG:MNF:MNF  ::: [ 92] fit: 567240.85945 | delta: 1.3e+04 | secs: 0.28907
+DEBUG:MNF:MNF  ::: [ 93] fit: 554498.78618 | delta: 1.3e+04 | secs: 0.28934
+DEBUG:MNF:MNF  ::: [ 94] fit: 542177.59698 | delta: 1.2e+04 | secs: 0.28905
+DEBUG:MNF:MNF  ::: [ 95] fit: 530260.06386 | delta: 1.2e+04 | secs: 0.28999
+DEBUG:MNF:MNF  ::: [ 96] fit: 518729.04106 | delta: 1.2e+04 | secs: 0.28958
+DEBUG:MNF:MNF  ::: [ 97] fit: 507567.93509 | delta: 1.1e+04 | secs: 0.28963
+DEBUG:MNF:MNF  ::: [ 98] fit: 496761.24278 | delta: 1.1e+04 | secs: 0.28946
+DEBUG:MNF:MNF  ::: [ 99] fit: 486294.62675 | delta: 1.0e+04 | secs: 0.28887
+DEBUG:MNF:MNF  ::: [100] fit: 476154.56351 | delta: 1.0e+04 | secs: 0.28925
+DEBUG:MNF:MNF  ::: [101] fit: 466328.06374 | delta: 9.8e+03 | secs: 0.28981
+DEBUG:MNF:MNF  ::: [102] fit: 456802.75127 | delta: 9.5e+03 | secs: 0.28926
+DEBUG:MNF:MNF  ::: [103] fit: 447567.05150 | delta: 9.2e+03 | secs: 0.29103
+DEBUG:MNF:MNF  ::: [104] fit: 438610.09796 | delta: 9.0e+03 | secs: 0.28921
+DEBUG:MNF:MNF  ::: [105] fit: 429921.35980 | delta: 8.7e+03 | secs: 0.28993
+DEBUG:MNF:MNF  ::: [106] fit: 421490.39517 | delta: 8.4e+03 | secs: 0.28985
+DEBUG:MNF:MNF  ::: [107] fit: 413307.05237 | delta: 8.2e+03 | secs: 0.28954
+DEBUG:MNF:MNF  ::: [108] fit: 405361.98746 | delta: 7.9e+03 | secs: 0.28940
+DEBUG:MNF:MNF  ::: [109] fit: 397647.00509 | delta: 7.7e+03 | secs: 0.28983
+DEBUG:MNF:MNF  ::: [110] fit: 390154.82513 | delta: 7.5e+03 | secs: 0.28917
+DEBUG:MNF:MNF  ::: [111] fit: 382878.36515 | delta: 7.3e+03 | secs: 0.28975
+DEBUG:MNF:MNF  ::: [112] fit: 375810.04717 | delta: 7.1e+03 | secs: 0.29100
+DEBUG:MNF:MNF  ::: [113] fit: 368941.59452 | delta: 6.9e+03 | secs: 0.28924
+DEBUG:MNF:MNF  ::: [114] fit: 362264.37444 | delta: 6.7e+03 | secs: 0.28964
+DEBUG:MNF:MNF  ::: [115] fit: 355769.98867 | delta: 6.5e+03 | secs: 0.28997
+DEBUG:MNF:MNF  ::: [116] fit: 349450.76928 | delta: 6.3e+03 | secs: 0.28956
+DEBUG:MNF:MNF  ::: [117] fit: 343299.97640 | delta: 6.2e+03 | secs: 0.28883
+DEBUG:MNF:MNF  ::: [118] fit: 337311.65726 | delta: 6.0e+03 | secs: 0.28950
+DEBUG:MNF:MNF  ::: [119] fit: 331480.30211 | delta: 5.8e+03 | secs: 0.29006
+DEBUG:MNF:MNF  ::: [120] fit: 325800.52636 | delta: 5.7e+03 | secs: 0.28957
+DEBUG:MNF:MNF  ::: [121] fit: 320266.91137 | delta: 5.5e+03 | secs: 0.29015
+DEBUG:MNF:MNF  ::: [122] fit: 314873.97916 | delta: 5.4e+03 | secs: 0.28942
+DEBUG:MNF:MNF  ::: [123] fit: 309616.24566 | delta: 5.3e+03 | secs: 0.28990
+DEBUG:MNF:MNF  ::: [124] fit: 304488.35460 | delta: 5.1e+03 | secs: 0.28950
+DEBUG:MNF:MNF  ::: [125] fit: 299485.27141 | delta: 5.0e+03 | secs: 0.28898
+DEBUG:MNF:MNF  ::: [126] fit: 294602.41082 | delta: 4.9e+03 | secs: 0.28902
+DEBUG:MNF:MNF  ::: [127] fit: 289835.57929 | delta: 4.8e+03 | secs: 0.28959
+DEBUG:MNF:MNF  ::: [128] fit: 285180.79690 | delta: 4.7e+03 | secs: 0.28916
+DEBUG:MNF:MNF  ::: [129] fit: 280634.20115 | delta: 4.5e+03 | secs: 0.28972
+DEBUG:MNF:MNF  ::: [130] fit: 276192.13964 | delta: 4.4e+03 | secs: 0.28926
+DEBUG:MNF:MNF  ::: [131] fit: 271851.35730 | delta: 4.3e+03 | secs: 0.28939
+DEBUG:MNF:MNF  ::: [132] fit: 267609.11029 | delta: 4.2e+03 | secs: 0.28947
+DEBUG:MNF:MNF  ::: [133] fit: 263463.12497 | delta: 4.1e+03 | secs: 0.28943
+DEBUG:MNF:MNF  ::: [134] fit: 259411.43639 | delta: 4.1e+03 | secs: 0.28911
+DEBUG:MNF:MNF  ::: [135] fit: 255452.20587 | delta: 4.0e+03 | secs: 0.28961
+DEBUG:MNF:MNF  ::: [136] fit: 251583.60133 | delta: 3.9e+03 | secs: 0.29005
+DEBUG:MNF:MNF  ::: [137] fit: 247803.73657 | delta: 3.8e+03 | secs: 0.28996
+DEBUG:MNF:MNF  ::: [138] fit: 244110.61751 | delta: 3.7e+03 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [139] fit: 240502.09939 | delta: 3.6e+03 | secs: 0.29016
+DEBUG:MNF:MNF  ::: [140] fit: 236975.90589 | delta: 3.5e+03 | secs: 0.28909
+DEBUG:MNF:MNF  ::: [141] fit: 233529.71304 | delta: 3.4e+03 | secs: 0.28975
+DEBUG:MNF:MNF  ::: [142] fit: 230161.23808 | delta: 3.4e+03 | secs: 0.28932
+DEBUG:MNF:MNF  ::: [143] fit: 226868.27748 | delta: 3.3e+03 | secs: 0.28948
+DEBUG:MNF:MNF  ::: [144] fit: 223648.67772 | delta: 3.2e+03 | secs: 0.28926
+DEBUG:MNF:MNF  ::: [145] fit: 220500.26117 | delta: 3.1e+03 | secs: 0.29020
+DEBUG:MNF:MNF  ::: [146] fit: 217420.76532 | delta: 3.1e+03 | secs: 0.28958
+DEBUG:MNF:MNF  ::: [147] fit: 214407.85424 | delta: 3.0e+03 | secs: 0.28957
+DEBUG:MNF:MNF  ::: [148] fit: 211459.19940 | delta: 2.9e+03 | secs: 0.29214
+DEBUG:MNF:MNF  ::: [149] fit: 208572.56431 | delta: 2.9e+03 | secs: 0.29012
+DEBUG:MNF:MNF  ::: [150] fit: 205745.83099 | delta: 2.8e+03 | secs: 0.28961
+DEBUG:MNF:MNF  ::: [151] fit: 202976.96341 | delta: 2.8e+03 | secs: 0.28998
+DEBUG:MNF:MNF  ::: [152] fit: 200263.95861 | delta: 2.7e+03 | secs: 0.28907
+DEBUG:MNF:MNF  ::: [153] fit: 197604.84635 | delta: 2.7e+03 | secs: 0.29004
+DEBUG:MNF:MNF  ::: [154] fit: 194997.76168 | delta: 2.6e+03 | secs: 0.28943
+DEBUG:MNF:MNF  ::: [155] fit: 192441.05152 | delta: 2.6e+03 | secs: 0.28886
+DEBUG:MNF:MNF  ::: [156] fit: 189933.33411 | delta: 2.5e+03 | secs: 0.28930
+DEBUG:MNF:MNF  ::: [157] fit: 187473.46652 | delta: 2.5e+03 | secs: 0.28982
+DEBUG:MNF:MNF  ::: [158] fit: 185060.45502 | delta: 2.4e+03 | secs: 0.28938
+DEBUG:MNF:MNF  ::: [159] fit: 182693.36654 | delta: 2.4e+03 | secs: 0.28983
+DEBUG:MNF:MNF  ::: [160] fit: 180371.26692 | delta: 2.3e+03 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [161] fit: 178093.19436 | delta: 2.3e+03 | secs: 0.28996
+DEBUG:MNF:MNF  ::: [162] fit: 175858.17828 | delta: 2.2e+03 | secs: 0.28952
+DEBUG:MNF:MNF  ::: [163] fit: 173665.28823 | delta: 2.2e+03 | secs: 0.28988
+DEBUG:MNF:MNF  ::: [164] fit: 171513.66613 | delta: 2.2e+03 | secs: 0.28955
+DEBUG:MNF:MNF  ::: [165] fit: 169402.51243 | delta: 2.1e+03 | secs: 0.28992
+DEBUG:MNF:MNF  ::: [166] fit: 167331.05017 | delta: 2.1e+03 | secs: 0.28966
+DEBUG:MNF:MNF  ::: [167] fit: 165298.50817 | delta: 2.0e+03 | secs: 0.29023
+DEBUG:MNF:MNF  ::: [168] fit: 163304.12678 | delta: 2.0e+03 | secs: 0.28921
+DEBUG:MNF:MNF  ::: [169] fit: 161347.15815 | delta: 2.0e+03 | secs: 0.28912
+DEBUG:MNF:MNF  ::: [170] fit: 159426.84918 | delta: 1.9e+03 | secs: 0.28919
+DEBUG:MNF:MNF  ::: [171] fit: 157542.42099 | delta: 1.9e+03 | secs: 0.29042
+DEBUG:MNF:MNF  ::: [172] fit: 155693.06812 | delta: 1.8e+03 | secs: 0.29172
+DEBUG:MNF:MNF  ::: [173] fit: 153877.98903 | delta: 1.8e+03 | secs: 0.28970
+DEBUG:MNF:MNF  ::: [174] fit: 152096.42546 | delta: 1.8e+03 | secs: 0.28957
+DEBUG:MNF:MNF  ::: [175] fit: 150347.66378 | delta: 1.7e+03 | secs: 0.29017
+DEBUG:MNF:MNF  ::: [176] fit: 148630.98191 | delta: 1.7e+03 | secs: 0.29109
+DEBUG:MNF:MNF  ::: [177] fit: 146945.57936 | delta: 1.7e+03 | secs: 0.28933
+DEBUG:MNF:MNF  ::: [178] fit: 145290.54804 | delta: 1.7e+03 | secs: 0.28927
+DEBUG:MNF:MNF  ::: [179] fit: 143664.90471 | delta: 1.6e+03 | secs: 0.29032
+DEBUG:MNF:MNF  ::: [180] fit: 142067.64097 | delta: 1.6e+03 | secs: 0.28912
+DEBUG:MNF:MNF  ::: [181] fit: 140497.74033 | delta: 1.6e+03 | secs: 0.29044
+DEBUG:MNF:MNF  ::: [182] fit: 138954.16883 | delta: 1.5e+03 | secs: 0.28938
+DEBUG:MNF:MNF  ::: [183] fit: 137435.89760 | delta: 1.5e+03 | secs: 0.28984
+DEBUG:MNF:MNF  ::: [184] fit: 135941.98377 | delta: 1.5e+03 | secs: 0.28990
+DEBUG:MNF:MNF  ::: [185] fit: 134471.65306 | delta: 1.5e+03 | secs: 0.28972
+DEBUG:MNF:MNF  ::: [186] fit: 133024.31421 | delta: 1.4e+03 | secs: 0.28979
+DEBUG:MNF:MNF  ::: [187] fit: 131599.51015 | delta: 1.4e+03 | secs: 0.29021
+DEBUG:MNF:MNF  ::: [188] fit: 130196.85769 | delta: 1.4e+03 | secs: 0.28925
+DEBUG:MNF:MNF  ::: [189] fit: 128815.99866 | delta: 1.4e+03 | secs: 0.28938
+DEBUG:MNF:MNF  ::: [190] fit: 127456.56002 | delta: 1.4e+03 | secs: 0.28994
+DEBUG:MNF:MNF  ::: [191] fit: 126118.12850 | delta: 1.3e+03 | secs: 0.29044
+DEBUG:MNF:MNF  ::: [192] fit: 124800.24703 | delta: 1.3e+03 | secs: 0.28923
+DEBUG:MNF:MNF  ::: [193] fit: 123502.43085 | delta: 1.3e+03 | secs: 0.29011
+DEBUG:MNF:MNF  ::: [194] fit: 122224.19354 | delta: 1.3e+03 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [195] fit: 120965.07125 | delta: 1.3e+03 | secs: 0.28957
+DEBUG:MNF:MNF  ::: [196] fit: 119724.64001 | delta: 1.2e+03 | secs: 0.28977
+DEBUG:MNF:MNF  ::: [197] fit: 118502.52596 | delta: 1.2e+03 | secs: 0.28979
+DEBUG:MNF:MNF  ::: [198] fit: 117298.40823 | delta: 1.2e+03 | secs: 0.28972
+DEBUG:MNF:MNF  ::: [199] fit: 116112.01561 | delta: 1.2e+03 | secs: 0.29047
+DEBUG:MNF:MNF  ::: [200] fit: 114943.11890 | delta: 1.2e+03 | secs: 0.28927
+DEBUG:MNF:MNF  ::: [201] fit: 113791.51853 | delta: 1.2e+03 | secs: 0.28988
+DEBUG:MNF:MNF  ::: [202] fit: 112657.03316 | delta: 1.1e+03 | secs: 0.28950
+DEBUG:MNF:MNF  ::: [203] fit: 111539.49876 | delta: 1.1e+03 | secs: 0.28918
+DEBUG:MNF:MNF  ::: [204] fit: 110438.77175 | delta: 1.1e+03 | secs: 0.28976
+DEBUG:MNF:MNF  ::: [205] fit: 109354.71776 | delta: 1.1e+03 | secs: 0.29014
+DEBUG:MNF:MNF  ::: [206] fit: 108287.17878 | delta: 1.1e+03 | secs: 0.28926
+DEBUG:MNF:MNF  ::: [207] fit: 107235.92941 | delta: 1.1e+03 | secs: 0.28963
+DEBUG:MNF:MNF  ::: [208] fit: 106200.64298 | delta: 1.0e+03 | secs: 0.28992
+DEBUG:MNF:MNF  ::: [209] fit: 105180.89163 | delta: 1.0e+03 | secs: 0.29052
+DEBUG:MNF:MNF  ::: [210] fit: 104176.19092 | delta: 1.0e+03 | secs: 0.28937
+DEBUG:MNF:MNF  ::: [211] fit: 103186.06862 | delta: 9.9e+02 | secs: 0.28973
+DEBUG:MNF:MNF  ::: [212] fit: 102210.12054 | delta: 9.8e+02 | secs: 0.28962
+DEBUG:MNF:MNF  ::: [213] fit: 101248.03142 | delta: 9.6e+02 | secs: 0.28942
+DEBUG:MNF:MNF  ::: [214] fit: 100299.56575 | delta: 9.5e+02 | secs: 0.28933
+DEBUG:MNF:MNF  ::: [215] fit: 99364.54611 | delta: 9.4e+02 | secs: 0.29005
+DEBUG:MNF:MNF  ::: [216] fit: 98442.83538 | delta: 9.2e+02 | secs: 0.28943
+DEBUG:MNF:MNF  ::: [217] fit: 97534.33221 | delta: 9.1e+02 | secs: 0.28981
+DEBUG:MNF:MNF  ::: [218] fit: 96638.97341 | delta: 9.0e+02 | secs: 0.28933
+DEBUG:MNF:MNF  ::: [219] fit: 95756.72348 | delta: 8.8e+02 | secs: 0.29017
+DEBUG:MNF:MNF  ::: [220] fit: 94887.53854 | delta: 8.7e+02 | secs: 0.28981
+DEBUG:MNF:MNF  ::: [221] fit: 94031.31451 | delta: 8.6e+02 | secs: 0.29002
+DEBUG:MNF:MNF  ::: [222] fit: 93187.84743 | delta: 8.4e+02 | secs: 0.28925
+DEBUG:MNF:MNF  ::: [223] fit: 92356.83087 | delta: 8.3e+02 | secs: 0.28990
+DEBUG:MNF:MNF  ::: [224] fit: 91537.89277 | delta: 8.2e+02 | secs: 0.28935
+DEBUG:MNF:MNF  ::: [225] fit: 90730.64690 | delta: 8.1e+02 | secs: 0.28976
+DEBUG:MNF:MNF  ::: [226] fit: 89934.73165 | delta: 8.0e+02 | secs: 0.28964
+DEBUG:MNF:MNF  ::: [227] fit: 89149.83125 | delta: 7.8e+02 | secs: 0.28993
+DEBUG:MNF:MNF  ::: [228] fit: 88375.68669 | delta: 7.7e+02 | secs: 0.28917
+DEBUG:MNF:MNF  ::: [229] fit: 87612.09587 | delta: 7.6e+02 | secs: 0.29026
+DEBUG:MNF:MNF  ::: [230] fit: 86858.90348 | delta: 7.5e+02 | secs: 0.28959
+DEBUG:MNF:MNF  ::: [231] fit: 86115.98981 | delta: 7.4e+02 | secs: 0.28981
+DEBUG:MNF:MNF  ::: [232] fit: 85383.25663 | delta: 7.3e+02 | secs: 0.28969
+DEBUG:MNF:MNF  ::: [233] fit: 84660.59787 | delta: 7.2e+02 | secs: 0.28972
+DEBUG:MNF:MNF  ::: [234] fit: 83947.86104 | delta: 7.1e+02 | secs: 0.28914
+DEBUG:MNF:MNF  ::: [235] fit: 83244.83048 | delta: 7.0e+02 | secs: 0.29056
+DEBUG:MNF:MNF  ::: [236] fit: 82551.25473 | delta: 6.9e+02 | secs: 0.28949
+DEBUG:MNF:MNF  ::: [237] fit: 81866.90095 | delta: 6.8e+02 | secs: 0.28981
+DEBUG:MNF:MNF  ::: [238] fit: 81191.59406 | delta: 6.8e+02 | secs: 0.28951
+DEBUG:MNF:MNF  ::: [239] fit: 80525.21134 | delta: 6.7e+02 | secs: 0.29011
+DEBUG:MNF:MNF  ::: [240] fit: 79867.64013 | delta: 6.6e+02 | secs: 0.28928
+DEBUG:MNF:MNF  ::: [241] fit: 79218.72792 | delta: 6.5e+02 | secs: 0.29103
+DEBUG:MNF:MNF  ::: [242] fit: 78578.25015 | delta: 6.4e+02 | secs: 0.28962
+DEBUG:MNF:MNF  ::: [243] fit: 77945.90887 | delta: 6.3e+02 | secs: 0.29013
+DEBUG:MNF:MNF  ::: [244] fit: 77321.36638 | delta: 6.2e+02 | secs: 0.28954
+DEBUG:MNF:MNF  ::: [245] fit: 76704.30101 | delta: 6.2e+02 | secs: 0.28958
+DEBUG:MNF:MNF  ::: [246] fit: 76094.45327 | delta: 6.1e+02 | secs: 0.28974
+DEBUG:MNF:MNF  ::: [247] fit: 75491.63476 | delta: 6.0e+02 | secs: 0.29002
+DEBUG:MNF:MNF  ::: [248] fit: 74895.70442 | delta: 6.0e+02 | secs: 0.28953
+DEBUG:MNF:MNF  ::: [249] fit: 74306.53781 | delta: 5.9e+02 | secs: 0.28969
+DEBUG:MNF:MNF  ::: [250] fit: 73724.01193 | delta: 5.8e+02 | secs: 0.28958
+DEBUG:MNF:MNF  ::: [251] fit: 73148.00993 | delta: 5.8e+02 | secs: 0.28960
+DEBUG:MNF:MNF  ::: [252] fit: 72578.43387 | delta: 5.7e+02 | secs: 0.28975
+DEBUG:MNF:MNF  ::: [253] fit: 72015.20899 | delta: 5.6e+02 | secs: 0.29050
+DEBUG:MNF:MNF  ::: [254] fit: 71458.27229 | delta: 5.6e+02 | secs: 0.28905
+DEBUG:MNF:MNF  ::: [255] fit: 70907.55143 | delta: 5.5e+02 | secs: 0.28962
+DEBUG:MNF:MNF  ::: [256] fit: 70362.94963 | delta: 5.4e+02 | secs: 0.28964
+DEBUG:MNF:MNF  ::: [257] fit: 69824.34466 | delta: 5.4e+02 | secs: 0.28967
+DEBUG:MNF:MNF  ::: [258] fit: 69291.59717 | delta: 5.3e+02 | secs: 0.28965
+DEBUG:MNF:MNF  ::: [259] fit: 68764.55591 | delta: 5.3e+02 | secs: 0.28978
+DEBUG:MNF:MNF  ::: [260] fit: 68243.05624 | delta: 5.2e+02 | secs: 0.28952
+DEBUG:MNF:MNF  ::: [261] fit: 67726.92249 | delta: 5.2e+02 | secs: 0.29047
+DEBUG:MNF:MNF  ::: [262] fit: 67215.98274 | delta: 5.1e+02 | secs: 0.28955
+DEBUG:MNF:MNF  ::: [263] fit: 66710.08975 | delta: 5.1e+02 | secs: 0.28972
+DEBUG:MNF:MNF  ::: [264] fit: 66209.13589 | delta: 5.0e+02 | secs: 0.28989
+DEBUG:MNF:MNF  ::: [265] fit: 65713.05684 | delta: 5.0e+02 | secs: 0.29063
+DEBUG:MNF:MNF  ::: [266] fit: 65221.82562 | delta: 4.9e+02 | secs: 0.28908
+DEBUG:MNF:MNF  ::: [267] fit: 64735.44118 | delta: 4.9e+02 | secs: 0.29023
+DEBUG:MNF:MNF  ::: [268] fit: 64253.91625 | delta: 4.8e+02 | secs: 0.28946
+DEBUG:MNF:MNF  ::: [269] fit: 63777.26826 | delta: 4.8e+02 | secs: 0.28903
+DEBUG:MNF:MNF  ::: [270] fit: 63305.51306 | delta: 4.7e+02 | secs: 0.28971
+DEBUG:MNF:MNF  ::: [271] fit: 62838.65862 | delta: 4.7e+02 | secs: 0.29010
+DEBUG:MNF:MNF  ::: [272] fit: 62376.69662 | delta: 4.6e+02 | secs: 0.28980
+DEBUG:MNF:MNF  ::: [273] fit: 61919.59340 | delta: 4.6e+02 | secs: 0.29011
+DEBUG:MNF:MNF  ::: [274] fit: 61467.28486 | delta: 4.5e+02 | secs: 0.28960
+DEBUG:MNF:MNF  ::: [275] fit: 61019.67924 | delta: 4.5e+02 | secs: 0.28968
+DEBUG:MNF:MNF  ::: [276] fit: 60576.66689 | delta: 4.4e+02 | secs: 0.29021
+DEBUG:MNF:MNF  ::: [277] fit: 60138.13344 | delta: 4.4e+02 | secs: 0.29035
+DEBUG:MNF:MNF  ::: [278] fit: 59703.97313 | delta: 4.3e+02 | secs: 0.28924
+DEBUG:MNF:MNF  ::: [279] fit: 59274.09991 | delta: 4.3e+02 | secs: 0.29085
+DEBUG:MNF:MNF  ::: [280] fit: 58848.45481 | delta: 4.3e+02 | secs: 0.29088
+DEBUG:MNF:MNF  ::: [281] fit: 58427.00787 | delta: 4.2e+02 | secs: 0.28967
+DEBUG:MNF:MNF  ::: [282] fit: 58009.75317 | delta: 4.2e+02 | secs: 0.28936
+DEBUG:MNF:MNF  ::: [283] fit: 57596.69687 | delta: 4.1e+02 | secs: 0.28984
+DEBUG:MNF:MNF  ::: [284] fit: 57187.84267 | delta: 4.1e+02 | secs: 0.28947
+DEBUG:MNF:MNF  ::: [285] fit: 56783.18101 | delta: 4.0e+02 | secs: 0.28963
+DEBUG:MNF:MNF  ::: [286] fit: 56382.68778 | delta: 4.0e+02 | secs: 0.28962
+DEBUG:MNF:MNF  ::: [287] fit: 55986.33371 | delta: 4.0e+02 | secs: 0.28941
+DEBUG:MNF:MNF  ::: [288] fit: 55594.09874 | delta: 3.9e+02 | secs: 0.28944
+DEBUG:MNF:MNF  ::: [289] fit: 55205.98017 | delta: 3.9e+02 | secs: 0.29049
+DEBUG:MNF:MNF  ::: [290] fit: 54821.98671 | delta: 3.8e+02 | secs: 0.28934
+DEBUG:MNF:MNF  ::: [291] fit: 54442.12040 | delta: 3.8e+02 | secs: 0.29002
+DEBUG:MNF:MNF  ::: [292] fit: 54066.35375 | delta: 3.8e+02 | secs: 0.28904
+DEBUG:MNF:MNF  ::: [293] fit: 53694.61162 | delta: 3.7e+02 | secs: 0.29010
+DEBUG:MNF:MNF  ::: [294] fit: 53326.76754 | delta: 3.7e+02 | secs: 0.28947
+DEBUG:MNF:MNF  ::: [295] fit: 52962.66105 | delta: 3.6e+02 | secs: 0.29054
+DEBUG:MNF:MNF  ::: [296] fit: 52602.12900 | delta: 3.6e+02 | secs: 0.28928
+DEBUG:MNF:MNF  ::: [297] fit: 52245.03136 | delta: 3.6e+02 | secs: 0.28995
+DEBUG:MNF:MNF  ::: [298] fit: 51891.25880 | delta: 3.5e+02 | secs: 0.28958
+DEBUG:MNF:MNF  ::: [299] fit: 51540.72848 | delta: 3.5e+02 | secs: 0.29003
+DEBUG:MNF:MNF  ::: [300] fit: 51193.38060 | delta: 3.5e+02 | secs: 0.28968
+DEBUG:MNF:MNF  ::: [301] fit: 50849.17780 | delta: 3.4e+02 | secs: 0.29025
+DEBUG:MNF:MNF  ::: [302] fit: 50508.10111 | delta: 3.4e+02 | secs: 0.28938
+DEBUG:MNF:MNF  ::: [303] fit: 50170.14105 | delta: 3.4e+02 | secs: 0.28999
+DEBUG:MNF:MNF  ::: [304] fit: 49835.28839 | delta: 3.3e+02 | secs: 0.28957
+DEBUG:MNF:MNF  ::: [305] fit: 49503.52883 | delta: 3.3e+02 | secs: 0.28953
+DEBUG:MNF:MNF  ::: [306] fit: 49174.84169 | delta: 3.3e+02 | secs: 0.29005
+DEBUG:MNF:MNF  ::: [307] fit: 48849.20029 | delta: 3.3e+02 | secs: 0.29047
+DEBUG:MNF:MNF  ::: [308] fit: 48526.57182 | delta: 3.2e+02 | secs: 0.28935
+DEBUG:MNF:MNF  ::: [309] fit: 48206.91611 | delta: 3.2e+02 | secs: 0.28974
+DEBUG:MNF:MNF  ::: [310] fit: 47890.18436 | delta: 3.2e+02 | secs: 0.29136
+DEBUG:MNF:MNF  ::: [311] fit: 47576.31901 | delta: 3.1e+02 | secs: 0.28989
+DEBUG:MNF:MNF  ::: [312] fit: 47265.25447 | delta: 3.1e+02 | secs: 0.28968
+DEBUG:MNF:MNF  ::: [313] fit: 46956.91848 | delta: 3.1e+02 | secs: 0.29028
+DEBUG:MNF:MNF  ::: [314] fit: 46651.23615 | delta: 3.1e+02 | secs: 0.28991
+DEBUG:MNF:MNF  ::: [315] fit: 46348.13844 | delta: 3.0e+02 | secs: 0.29004
+DEBUG:MNF:MNF  ::: [316] fit: 46047.57179 | delta: 3.0e+02 | secs: 0.28948
+DEBUG:MNF:MNF  ::: [317] fit: 45749.50277 | delta: 3.0e+02 | secs: 0.28931
+DEBUG:MNF:MNF  ::: [318] fit: 45453.91569 | delta: 3.0e+02 | secs: 0.28937
+DEBUG:MNF:MNF  ::: [319] fit: 45160.80568 | delta: 2.9e+02 | secs: 0.29006
+DEBUG:MNF:MNF  ::: [320] fit: 44870.17082 | delta: 2.9e+02 | secs: 0.28913
+DEBUG:MNF:MNF  ::: [321] fit: 44582.00655 | delta: 2.9e+02 | secs: 0.28960
+DEBUG:MNF:MNF  ::: [322] fit: 44296.30356 | delta: 2.9e+02 | secs: 0.28936
+DEBUG:MNF:MNF  ::: [323] fit: 44013.04845 | delta: 2.8e+02 | secs: 0.29004
+DEBUG:MNF:MNF  ::: [324] fit: 43732.22540 | delta: 2.8e+02 | secs: 0.28944
+DEBUG:MNF:MNF  ::: [325] fit: 43453.81678 | delta: 2.8e+02 | secs: 0.29076
+DEBUG:MNF:MNF  ::: [326] fit: 43177.80273 | delta: 2.8e+02 | secs: 0.28926
+DEBUG:MNF:MNF  ::: [327] fit: 42904.16178 | delta: 2.7e+02 | secs: 0.29036
+DEBUG:MNF:MNF  ::: [328] fit: 42632.87448 | delta: 2.7e+02 | secs: 0.28965
+DEBUG:MNF:MNF  ::: [329] fit: 42363.92767 | delta: 2.7e+02 | secs: 0.29058
+DEBUG:MNF:MNF  ::: [330] fit: 42097.31481 | delta: 2.7e+02 | secs: 0.28936
+DEBUG:MNF:MNF  ::: [331] fit: 41833.03055 | delta: 2.6e+02 | secs: 0.29041
+DEBUG:MNF:MNF  ::: [332] fit: 41571.06268 | delta: 2.6e+02 | secs: 0.28954
+DEBUG:MNF:MNF  ::: [333] fit: 41311.38752 | delta: 2.6e+02 | secs: 0.29007
+DEBUG:MNF:MNF  ::: [334] fit: 41053.97285 | delta: 2.6e+02 | secs: 0.28999
+DEBUG:MNF:MNF  ::: [335] fit: 40798.78716 | delta: 2.6e+02 | secs: 0.28968
+DEBUG:MNF:MNF  ::: [336] fit: 40545.80978 | delta: 2.5e+02 | secs: 0.28993
+DEBUG:MNF:MNF  ::: [337] fit: 40295.03592 | delta: 2.5e+02 | secs: 0.29039
+DEBUG:MNF:MNF  ::: [338] fit: 40046.47486 | delta: 2.5e+02 | secs: 0.28937
+DEBUG:MNF:MNF  ::: [339] fit: 39800.14385 | delta: 2.5e+02 | secs: 0.29032
+DEBUG:MNF:MNF  ::: [340] fit: 39556.06105 | delta: 2.4e+02 | secs: 0.28977
+DEBUG:MNF:MNF  ::: [341] fit: 39314.23887 | delta: 2.4e+02 | secs: 0.29014
+DEBUG:MNF:MNF  ::: [342] fit: 39074.67911 | delta: 2.4e+02 | secs: 0.28953
+DEBUG:MNF:MNF  ::: [343] fit: 38837.37190 | delta: 2.4e+02 | secs: 0.29034
+DEBUG:MNF:MNF  ::: [344] fit: 38602.29971 | delta: 2.4e+02 | secs: 0.28969
+DEBUG:MNF:MNF  ::: [345] fit: 38369.44505 | delta: 2.3e+02 | secs: 0.29032
+DEBUG:MNF:MNF  ::: [346] fit: 38138.79600 | delta: 2.3e+02 | secs: 0.28927
+DEBUG:MNF:MNF  ::: [347] fit: 37910.34390 | delta: 2.3e+02 | secs: 0.28957
+DEBUG:MNF:MNF  ::: [348] fit: 37684.07482 | delta: 2.3e+02 | secs: 0.28942
+DEBUG:MNF:MNF  ::: [349] fit: 37459.96175 | delta: 2.2e+02 | secs: 0.28998
+DEBUG:MNF:MNF  ::: [350] fit: 37237.96319 | delta: 2.2e+02 | secs: 0.28919
+DEBUG:MNF:MNF  ::: [351] fit: 37018.02713 | delta: 2.2e+02 | secs: 0.29012
+DEBUG:MNF:MNF  ::: [352] fit: 36800.09888 | delta: 2.2e+02 | secs: 0.28992
+DEBUG:MNF:MNF  ::: [353] fit: 36584.13030 | delta: 2.2e+02 | secs: 0.28969
+DEBUG:MNF:MNF  ::: [354] fit: 36370.08561 | delta: 2.1e+02 | secs: 0.28933
+DEBUG:MNF:MNF  ::: [355] fit: 36157.93940 | delta: 2.1e+02 | secs: 0.31059
+DEBUG:MNF:MNF  ::: [356] fit: 35947.66994 | delta: 2.1e+02 | secs: 0.28932
+DEBUG:MNF:MNF  ::: [357] fit: 35739.25531 | delta: 2.1e+02 | secs: 0.29015
+DEBUG:MNF:MNF  ::: [358] fit: 35532.67506 | delta: 2.1e+02 | secs: 0.28955
+DEBUG:MNF:MNF  ::: [359] fit: 35327.91324 | delta: 2.0e+02 | secs: 0.29010
+DEBUG:MNF:MNF  ::: [360] fit: 35124.95703 | delta: 2.0e+02 | secs: 0.28932
+DEBUG:MNF:MNF  ::: [361] fit: 34923.79057 | delta: 2.0e+02 | secs: 0.29046
+DEBUG:MNF:MNF  ::: [362] fit: 34724.38885 | delta: 2.0e+02 | secs: 0.29013
+DEBUG:MNF:MNF  ::: [363] fit: 34526.71752 | delta: 2.0e+02 | secs: 0.29041
+DEBUG:MNF:MNF  ::: [364] fit: 34330.73968 | delta: 2.0e+02 | secs: 0.28983
+DEBUG:MNF:MNF  ::: [365] fit: 34136.42396 | delta: 1.9e+02 | secs: 0.29009
+DEBUG:MNF:MNF  ::: [366] fit: 33943.74692 | delta: 1.9e+02 | secs: 0.28926
+DEBUG:MNF:MNF  ::: [367] fit: 33752.69035 | delta: 1.9e+02 | secs: 0.28981
+DEBUG:MNF:MNF  ::: [368] fit: 33563.23998 | delta: 1.9e+02 | secs: 0.28943
+DEBUG:MNF:MNF  ::: [369] fit: 33375.38862 | delta: 1.9e+02 | secs: 0.28957
+DEBUG:MNF:MNF  ::: [370] fit: 33189.13976 | delta: 1.9e+02 | secs: 0.28974
+DEBUG:MNF:MNF  ::: [371] fit: 33004.50683 | delta: 1.8e+02 | secs: 0.29031
+DEBUG:MNF:MNF  ::: [372] fit: 32821.50757 | delta: 1.8e+02 | secs: 0.28995
+DEBUG:MNF:MNF  ::: [373] fit: 32640.15596 | delta: 1.8e+02 | secs: 0.28976
+DEBUG:MNF:MNF  ::: [374] fit: 32460.45401 | delta: 1.8e+02 | secs: 0.28952
+DEBUG:MNF:MNF  ::: [375] fit: 32282.38640 | delta: 1.8e+02 | secs: 0.28988
+DEBUG:MNF:MNF  ::: [376] fit: 32105.92117 | delta: 1.8e+02 | secs: 0.28953
+DEBUG:MNF:MNF  ::: [377] fit: 31931.01831 | delta: 1.7e+02 | secs: 0.29053
+DEBUG:MNF:MNF  ::: [378] fit: 31757.64215 | delta: 1.7e+02 | secs: 0.28950
+DEBUG:MNF:MNF  ::: [379] fit: 31585.77044 | delta: 1.7e+02 | secs: 0.29038
+DEBUG:MNF:MNF  ::: [380] fit: 31415.39505 | delta: 1.7e+02 | secs: 0.28937
+DEBUG:MNF:MNF  ::: [381] fit: 31246.51625 | delta: 1.7e+02 | secs: 0.29014
+DEBUG:MNF:MNF  ::: [382] fit: 31079.13587 | delta: 1.7e+02 | secs: 0.29111
+DEBUG:MNF:MNF  ::: [383] fit: 30913.25167 | delta: 1.7e+02 | secs: 0.28982
+DEBUG:MNF:MNF  ::: [384] fit: 30748.85237 | delta: 1.6e+02 | secs: 0.28961
+DEBUG:MNF:MNF  ::: [385] fit: 30585.91349 | delta: 1.6e+02 | secs: 0.29001
+DEBUG:MNF:MNF  ::: [386] fit: 30424.39800 | delta: 1.6e+02 | secs: 0.28935
+DEBUG:MNF:MNF  ::: [387] fit: 30264.26367 | delta: 1.6e+02 | secs: 0.28997
+DEBUG:MNF:MNF  ::: [388] fit: 30105.47253 | delta: 1.6e+02 | secs: 0.28950
+DEBUG:MNF:MNF  ::: [389] fit: 29947.99436 | delta: 1.6e+02 | secs: 0.28992
+DEBUG:MNF:MNF  ::: [390] fit: 29791.80300 | delta: 1.6e+02 | secs: 0.28978
+DEBUG:MNF:MNF  ::: [391] fit: 29636.87070 | delta: 1.5e+02 | secs: 0.29034
+DEBUG:MNF:MNF  ::: [392] fit: 29483.16593 | delta: 1.5e+02 | secs: 0.28965
+DEBUG:MNF:MNF  ::: [393] fit: 29330.65422 | delta: 1.5e+02 | secs: 0.29015
+DEBUG:MNF:MNF  ::: [394] fit: 29179.29993 | delta: 1.5e+02 | secs: 0.28963
+DEBUG:MNF:MNF  ::: [395] fit: 29029.06870 | delta: 1.5e+02 | secs: 0.29053
+DEBUG:MNF:MNF  ::: [396] fit: 28879.93101 | delta: 1.5e+02 | secs: 0.28995
+DEBUG:MNF:MNF  ::: [397] fit: 28731.86620 | delta: 1.5e+02 | secs: 0.29077
+DEBUG:MNF:MNF  ::: [398] fit: 28584.86509 | delta: 1.5e+02 | secs: 0.28936
+DEBUG:MNF:MNF  ::: [399] fit: 28438.92943 | delta: 1.5e+02 | secs: 0.29021
+DEBUG:MNF:MNF  ::: [400] fit: 28294.06830 | delta: 1.4e+02 | secs: 0.28930
+DEBUG:MNF:MNF  ::: [401] fit: 28150.29359 | delta: 1.4e+02 | secs: 0.29015
+DEBUG:MNF:MNF  ::: [402] fit: 28007.61618 | delta: 1.4e+02 | secs: 0.28965
+DEBUG:MNF:MNF  ::: [403] fit: 27866.04362 | delta: 1.4e+02 | secs: 0.29013
+DEBUG:MNF:MNF  ::: [404] fit: 27725.57873 | delta: 1.4e+02 | secs: 0.28970
+DEBUG:MNF:MNF  ::: [405] fit: 27586.21807 | delta: 1.4e+02 | secs: 0.29026
+DEBUG:MNF:MNF  ::: [406] fit: 27447.94999 | delta: 1.4e+02 | secs: 0.28990
+DEBUG:MNF:MNF  ::: [407] fit: 27310.75373 | delta: 1.4e+02 | secs: 0.29078
+DEBUG:MNF:MNF  ::: [408] fit: 27174.60225 | delta: 1.4e+02 | secs: 0.28963
+DEBUG:MNF:MNF  ::: [409] fit: 27039.46871 | delta: 1.4e+02 | secs: 0.29043
+DEBUG:MNF:MNF  ::: [410] fit: 26905.33262 | delta: 1.3e+02 | secs: 0.28920
+DEBUG:MNF:MNF  ::: [411] fit: 26772.18150 | delta: 1.3e+02 | secs: 0.29058
+DEBUG:MNF:MNF  ::: [412] fit: 26640.00802 | delta: 1.3e+02 | secs: 0.28980
+DEBUG:MNF:MNF  ::: [413] fit: 26508.80649 | delta: 1.3e+02 | secs: 0.29100
+DEBUG:MNF:MNF  ::: [414] fit: 26378.57174 | delta: 1.3e+02 | secs: 0.28994
+DEBUG:MNF:MNF  ::: [415] fit: 26249.30069 | delta: 1.3e+02 | secs: 0.28938
+DEBUG:MNF:MNF  ::: [416] fit: 26120.99435 | delta: 1.3e+02 | secs: 0.28959
+DEBUG:MNF:MNF  ::: [417] fit: 25993.65812 | delta: 1.3e+02 | secs: 0.29024
+DEBUG:MNF:MNF  ::: [418] fit: 25867.30085 | delta: 1.3e+02 | secs: 0.28973
+DEBUG:MNF:MNF  ::: [419] fit: 25741.93297 | delta: 1.3e+02 | secs: 0.29004
+DEBUG:MNF:MNF  ::: [420] fit: 25617.56413 | delta: 1.2e+02 | secs: 0.28941
+DEBUG:MNF:MNF  ::: [421] fit: 25494.20010 | delta: 1.2e+02 | secs: 0.29067
+DEBUG:MNF:MNF  ::: [422] fit: 25371.83990 | delta: 1.2e+02 | secs: 0.28973
+DEBUG:MNF:MNF  ::: [423] fit: 25250.47352 | delta: 1.2e+02 | secs: 0.29000
+DEBUG:MNF:MNF  ::: [424] fit: 25130.08176 | delta: 1.2e+02 | secs: 0.28985
+DEBUG:MNF:MNF  ::: [425] fit: 25010.63856 | delta: 1.2e+02 | secs: 0.28953
+DEBUG:MNF:MNF  ::: [426] fit: 24892.11596 | delta: 1.2e+02 | secs: 0.28982
+DEBUG:MNF:MNF  ::: [427] fit: 24774.49029 | delta: 1.2e+02 | secs: 0.28962
+DEBUG:MNF:MNF  ::: [428] fit: 24657.74705 | delta: 1.2e+02 | secs: 0.28957
+DEBUG:MNF:MNF  ::: [429] fit: 24541.88136 | delta: 1.2e+02 | secs: 0.29007
+DEBUG:MNF:MNF  ::: [430] fit: 24426.89329 | delta: 1.1e+02 | secs: 0.28951
+DEBUG:MNF:MNF  ::: [431] fit: 24312.78130 | delta: 1.1e+02 | secs: 0.28997
+DEBUG:MNF:MNF  ::: [432] fit: 24199.53851 | delta: 1.1e+02 | secs: 0.28965
+DEBUG:MNF:MNF  ::: [433] fit: 24087.15402 | delta: 1.1e+02 | secs: 0.29030
+DEBUG:MNF:MNF  ::: [434] fit: 23975.61774 | delta: 1.1e+02 | secs: 0.28954
+DEBUG:MNF:MNF  ::: [435] fit: 23864.92422 | delta: 1.1e+02 | secs: 0.29057
+DEBUG:MNF:MNF  ::: [436] fit: 23755.07186 | delta: 1.1e+02 | secs: 0.28988
+DEBUG:MNF:MNF  ::: [437] fit: 23646.05902 | delta: 1.1e+02 | secs: 0.29071
+DEBUG:MNF:MNF  ::: [438] fit: 23537.88156 | delta: 1.1e+02 | secs: 0.28964
+DEBUG:MNF:MNF  ::: [439] fit: 23430.53437 | delta: 1.1e+02 | secs: 0.29001
+DEBUG:MNF:MNF  ::: [440] fit: 23324.01427 | delta: 1.1e+02 | secs: 0.28964
+DEBUG:MNF:MNF  ::: [441] fit: 23218.32020 | delta: 1.1e+02 | secs: 0.28994
+DEBUG:MNF:MNF  ::: [442] fit: 23113.44990 | delta: 1.0e+02 | secs: 0.28966
+DEBUG:MNF:MNF  ::: [443] fit: 23009.39669 | delta: 1.0e+02 | secs: 0.28958
+DEBUG:MNF:MNF  ::: [444] fit: 22906.14977 | delta: 1.0e+02 | secs: 0.28997
+DEBUG:MNF:MNF  ::: [445] fit: 22803.69738 | delta: 1.0e+02 | secs: 0.29001
+DEBUG:MNF:MNF  ::: [446] fit: 22702.02885 | delta: 1.0e+02 | secs: 0.28953
+DEBUG:MNF:MNF  ::: [447] fit: 22601.13358 | delta: 1.0e+02 | secs: 0.29009
+DEBUG:MNF:MNF  ::: [448] fit: 22500.99793 | delta: 1.0e+02 | secs: 0.28974
+DEBUG:MNF:MNF  ::: [449] fit: 22401.60305 | delta: 9.9e+01 | secs: 0.29042
+DEBUG:MNF:MNF  ::: [450] fit: 22302.92479 | delta: 9.9e+01 | secs: 0.28972
+DEBUG:MNF:MNF  ::: [451] fit: 22204.93496 | delta: 9.8e+01 | secs: 0.29019
+DEBUG:MNF:MNF  ::: [452] fit: 22107.60382 | delta: 9.7e+01 | secs: 0.28976
+DEBUG:MNF:MNF  ::: [453] fit: 22010.90320 | delta: 9.7e+01 | secs: 0.28958
+DEBUG:MNF:MNF  ::: [454] fit: 21914.80941 | delta: 9.6e+01 | secs: 0.28973
+DEBUG:MNF:MNF  ::: [455] fit: 21819.30517 | delta: 9.6e+01 | secs: 0.28912
+DEBUG:MNF:MNF  ::: [456] fit: 21724.38080 | delta: 9.5e+01 | secs: 0.28958
+DEBUG:MNF:MNF  ::: [457] fit: 21630.03433 | delta: 9.4e+01 | secs: 0.28967
+DEBUG:MNF:MNF  ::: [458] fit: 21536.27002 | delta: 9.4e+01 | secs: 0.28937
+DEBUG:MNF:MNF  ::: [459] fit: 21443.09593 | delta: 9.3e+01 | secs: 0.29043
+DEBUG:MNF:MNF  ::: [460] fit: 21350.52168 | delta: 9.3e+01 | secs: 0.28964
+DEBUG:MNF:MNF  ::: [461] fit: 21258.55664 | delta: 9.2e+01 | secs: 0.29026
+DEBUG:MNF:MNF  ::: [462] fit: 21167.20844 | delta: 9.1e+01 | secs: 0.28948
+DEBUG:MNF:MNF  ::: [463] fit: 21076.48137 | delta: 9.1e+01 | secs: 0.28974
+DEBUG:MNF:MNF  ::: [464] fit: 20986.37490 | delta: 9.0e+01 | secs: 0.28946
+DEBUG:MNF:MNF  ::: [465] fit: 20896.88278 | delta: 8.9e+01 | secs: 0.28992
+DEBUG:MNF:MNF  ::: [466] fit: 20807.99364 | delta: 8.9e+01 | secs: 0.28927
+DEBUG:MNF:MNF  ::: [467] fit: 20719.69395 | delta: 8.8e+01 | secs: 0.29033
+DEBUG:MNF:MNF  ::: [468] fit: 20631.97233 | delta: 8.8e+01 | secs: 0.28956
+DEBUG:MNF:MNF  ::: [469] fit: 20544.82289 | delta: 8.7e+01 | secs: 0.28960
+DEBUG:MNF:MNF  ::: [470] fit: 20458.24534 | delta: 8.7e+01 | secs: 0.28924
+DEBUG:MNF:MNF  ::: [471] fit: 20372.24228 | delta: 8.6e+01 | secs: 0.29027
+DEBUG:MNF:MNF  ::: [472] fit: 20286.81617 | delta: 8.5e+01 | secs: 0.28914
+DEBUG:MNF:MNF  ::: [473] fit: 20201.96718 | delta: 8.5e+01 | secs: 0.28972
+DEBUG:MNF:MNF  ::: [474] fit: 20117.69156 | delta: 8.4e+01 | secs: 0.28964
+DEBUG:MNF:MNF  ::: [475] fit: 20033.97971 | delta: 8.4e+01 | secs: 0.29061
+DEBUG:MNF:MNF  ::: [476] fit: 19950.81538 | delta: 8.3e+01 | secs: 0.28947
+DEBUG:MNF:MNF  ::: [477] fit: 19868.17732 | delta: 8.3e+01 | secs: 0.29051
+DEBUG:MNF:MNF  ::: [478] fit: 19786.04355 | delta: 8.2e+01 | secs: 0.28962
+DEBUG:MNF:MNF  ::: [479] fit: 19704.39585 | delta: 8.2e+01 | secs: 0.29067
+DEBUG:MNF:MNF  ::: [480] fit: 19623.22238 | delta: 8.1e+01 | secs: 0.28935
+DEBUG:MNF:MNF  ::: [481] fit: 19542.51794 | delta: 8.1e+01 | secs: 0.28994
+DEBUG:MNF:MNF  ::: [482] fit: 19462.28241 | delta: 8.0e+01 | secs: 0.28951
+DEBUG:MNF:MNF  ::: [483] fit: 19382.51858 | delta: 8.0e+01 | secs: 0.28929
+DEBUG:MNF:MNF  ::: [484] fit: 19303.23018 | delta: 7.9e+01 | secs: 0.29000
+DEBUG:MNF:MNF  ::: [485] fit: 19224.42083 | delta: 7.9e+01 | secs: 0.29010
+DEBUG:MNF:MNF  ::: [486] fit: 19146.09394 | delta: 7.8e+01 | secs: 0.29011
+DEBUG:MNF:MNF  ::: [487] fit: 19068.25279 | delta: 7.8e+01 | secs: 0.28962
+DEBUG:MNF:MNF  ::: [488] fit: 18990.90026 | delta: 7.7e+01 | secs: 0.28972
+DEBUG:MNF:MNF  ::: [489] fit: 18914.03847 | delta: 7.7e+01 | secs: 0.28998
+DEBUG:MNF:MNF  ::: [490] fit: 18837.66861 | delta: 7.6e+01 | secs: 0.28953
+DEBUG:MNF:MNF  ::: [491] fit: 18761.79102 | delta: 7.6e+01 | secs: 0.28984
+DEBUG:MNF:MNF  ::: [492] fit: 18686.40444 | delta: 7.5e+01 | secs: 0.28951
+DEBUG:MNF:MNF  ::: [493] fit: 18611.50459 | delta: 7.5e+01 | secs: 0.28993
+DEBUG:MNF:MNF  ::: [494] fit: 18537.08227 | delta: 7.4e+01 | secs: 0.28950
+DEBUG:MNF:MNF  ::: [495] fit: 18463.12208 | delta: 7.4e+01 | secs: 0.29061
+DEBUG:MNF:MNF  ::: [496] fit: 18389.60249 | delta: 7.4e+01 | secs: 0.28974
+DEBUG:MNF:MNF  ::: [497] fit: 18316.49808 | delta: 7.3e+01 | secs: 0.29025
+DEBUG:MNF:MNF  ::: [498] fit: 18243.78356 | delta: 7.3e+01 | secs: 0.29043
+DEBUG:MNF:MNF  ::: [499] fit: 18171.43820 | delta: 7.2e+01 | secs: 0.29054
