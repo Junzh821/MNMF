@@ -14,14 +14,14 @@ custom = '_MNF_'
 now = datetime.now()
 args['timestamp'] = str(now.month)+'|'+str(now.day)+'|'+str(now.hour)+':'+str(now.minute)+':'+str(now.second) + custom
 
-args['DATA_DIR'] = ['cora']
+args['DATA_DIR'] = ['citeseer']
 args['ETA'] = [1.0]
 args['ALPHA'] = [1.0]
-args['BETA'] = [0.1, 0.3, 0.5, 0.7, 1.0, 3.0, 5.0, 7.0, 10.0]
+args['BETA'] = [1.0]
 args['THETA'] = [1.0]
-args['GAMMA'] = [0.1, 0.3, 0.5, 0.7, 1.0, 3.0, 5.0, 7.0, 10.0]
+args['GAMMA'] = [1.0]
 args['LAMBDA'] = [1.0]
-args['K'] = [5]
+args['K'] = [4, 5, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40]
 args['MAX_ITER'] = [500]
 
 
@@ -100,6 +100,7 @@ if __name__ == "__main__":
     for k, v in tmp_n_50.most_common(1):
         print('N :- %s: %f' % (k, v))
         print('Beta :- %s: Gamma :- %s K:- %s' % (config_n_50[k].BETA, config_n_50[k].GAMMA, config_n_50[k].K))
+        print('Alpha :- %s: Theta :- %s K:- %s' % (config_n_50[k].ALPHA, config_n_50[k].THETA, config_n_50[k].K))
         if k not in merged_n:
             merged_n[k] = []
 
@@ -109,6 +110,7 @@ if __name__ == "__main__":
     for k, v in tmp_lr_50.most_common(1):
         print('LR :- %s: %f' % (k, v))
         print('Beta :- %s: Gamma :- %s K:- %s' % (config_lr_50[k].BETA, config_lr_50[k].GAMMA, config_lr_50[k].K))
+        print('Alpha :- %s: Theta :- %s K:- %s' % (config_lr_50[k].ALPHA, config_lr_50[k].THETA, config_lr_50[k].K))
         if k not in merged_lr:
             merged_lr[k] = []
         merged_lr[k].append(v)
@@ -117,6 +119,7 @@ if __name__ == "__main__":
     for k, v in tmp_svm_50.most_common(1):
         print('SVM :- %s: %f' % (k, v))
         print('Beta :- %s: Gamma :- %s K:- %s' % (config_svm_50[k].BETA, config_svm_50[k].GAMMA, config_svm_50[k].K))
+        print('Alpha :- %s: Theta :- %s K:- %s' % (config_svm_50[k].ALPHA, config_svm_50[k].THETA, config_svm_50[k].K))
         if k not in merged_svm:
             merged_svm[k] = []
         merged_svm[k].append(v)
