@@ -24,7 +24,7 @@ def get_ArgumentParser():
     parser = argparse.ArgumentParser()
 
     # Experiment configuration
-    parser.add_argument("--DATA_DIR", default=" ")
+    parser.add_argument("--DATA_DIR", default="cora")
     parser.add_argument("--LOG_DIR", default="emb/")
     parser.add_argument("--FOLDER_SUFFIX", default=" ")
     parser.add_argument("--LOG_FNAME", default="mod_mnf.log")
