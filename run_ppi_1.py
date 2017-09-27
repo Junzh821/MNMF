@@ -23,7 +23,7 @@ args['BETA'] = [1.0]
 args['THETA'] = [1.0]
 args['GAMMA'] = [1.0]
 args['LAMBDA'] = [1.0]
-args['K'] = [30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70]
+args['K'] = [40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60]
 args['MAX_ITER'] = [500]
 
 dataset = ['cora', 'citeseer', 'wiki', 'ppi', 'blogcatalog']

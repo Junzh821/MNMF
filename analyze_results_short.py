@@ -14,14 +14,14 @@ custom = '_MNF_'
 now = datetime.now()
 args['timestamp'] = str(now.month)+'|'+str(now.day)+'|'+str(now.hour)+':'+str(now.minute)+':'+str(now.second) + custom
 
-args['DATA_DIR'] = ['citeseer']
+args['DATA_DIR'] = ['wiki']
 args['ETA'] = [1.0]
 args['ALPHA'] = [1.0]
 args['BETA'] = [1.0]
 args['THETA'] = [1.0]
 args['GAMMA'] = [1.0]
 args['LAMBDA'] = [1.0]
-args['K'] = [4, 5, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40]
+args['K'] = [7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 50]
 args['MAX_ITER'] = [500]
 
 

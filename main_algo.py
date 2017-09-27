@@ -36,8 +36,8 @@ def get_ArgumentParser():
 
     # Weights for different components in the objective functions
     parser.add_argument("--ETA", default=1.0, help="First and Second order proximity mixing parameters")
-    parser.add_argument("--ALPHA", default=1.0, help="Similarity matrix factorization weight")
-    parser.add_argument("--BETA", default=1.0, help="Community Indicator matrix factorization weight")
+    parser.add_argument("--ALPHA", default=10.0, help="Similarity matrix factorization weight")
+    parser.add_argument("--BETA", default=0.7, help="Community Indicator matrix factorization weight")
     parser.add_argument("--THETA", default=1.0, help="Label matrix factorization weight")
     parser.add_argument("--GAMMA", default=1.0, help="Modularity Maximization weight")
     parser.add_argument("--PHI", default=1.0, help="Network regularization weight")
@@ -47,9 +47,9 @@ def get_ArgumentParser():
     # paper to code attribute mapping : alpha for S factorization, beta for H factorization, gamma for modularity maximization
 
     # Factorization parameters
-    parser.add_argument("--MAX_ITER", default=500)
+    parser.add_argument("--MAX_ITER", default=50)
     parser.add_argument("--L_COMPONENTS", default=128)
-    parser.add_argument("--K", default=1)
+    parser.add_argument("--K", default=5)
     parser.add_argument("--INIT", default="random")
     parser.add_argument("--PROJ", default=True)
     parser.add_argument("--COST_F", default='LS')
