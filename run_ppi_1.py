@@ -14,7 +14,7 @@ args = dict()
 args['hyper_params'] = ['DATA_DIR', 'ETA', 'ALPHA', 'BETA', 'THETA', 'GAMMA', 'LAMBDA', 'K', 'MAX_ITER']
 custom = '_MNF_'
 now = datetime.now()
-args['timestamp'] = str(now.month)+'|'+str(now.day)+'|'+str(now.hour)+':'+st(now.minute)+':'+str(now.second) + custom
+args['timestamp'] = str(now.month)+'|'+str(now.day)+'|'+str(now.hour)+':'+str(now.minute)+':'+str(now.second) + custom
 
 args['DATA_DIR'] = ['ppi']
 args['ETA'] = [1.0]
