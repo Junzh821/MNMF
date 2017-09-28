@@ -16,14 +16,14 @@ custom = '_MNF_'
 now = datetime.now()
 args['timestamp'] = str(now.month)+'|'+str(now.day)+'|'+str(now.hour)+':'+str(now.minute)+':'+str(now.second) + custom
 
-args['DATA_DIR'] = ['ppi']
+args['DATA_DIR'] = ['cora']
 args['ETA'] = [1.0]
 args['ALPHA'] = [1.0]
-args['BETA'] = [1.0]
+args['BETA'] = [0.1, 0.3, 0.5, 0.7, 1.0, 3.0, 5.0, 7.0, 10.0]
 args['THETA'] = [1.0]
-args['GAMMA'] = [1.0]
+args['GAMMA'] = [0.1, 0.3, 0.5, 0.7, 1.0, 3.0, 5.0, 7.0, 10.0]
 args['LAMBDA'] = [1.0]
-args['K'] = [30, 32, 34, 36, 38]# [40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60]
+args['K'] = [5]
 args['MAX_ITER'] = [500]
 
 dataset = ['cora', 'citeseer', 'wiki', 'ppi', 'blogcatalog']
