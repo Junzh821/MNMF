@@ -1,0 +1,46 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Matrix Factorization~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Config: Namespace(ALPHA='1.0', BETA='10.0', CONV_KL=0.0001, CONV_LS=5e-06, CONV_MUL=0.0001, COST_F='LS', DATA_DIR='ppi', DELTA=1.0, ENF_Y=0, ETA='1.0', FACT_Y=1, FOLDER_SUFFIX='MNF_ppi_1.0_1.0_10.0_1.0_0.7_1.0_40_500', GAMMA='0.7', INIT='random', K='40', LAMBDA='1.0', LG=1, LOG_DIR='emb/Ppi/MNF_ppi_1.0_1.0_10.0_1.0_0.7_1.0_40_500', LOG_FNAME='mod_mnf.log', L_COMPONENTS=128, MAX_ITER='500', MODEL='data/', MULTI_LABEL=True, PHI=1.0, PROJ=True, THETA='1.0', ZETA=1000000000.0)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+================ Dataset Details : Start ================
+Dataset: ppi
+Attributes: ['view.mat']
+Relations: ['adjmat.mat']
+Sets: [50]
+N_Folds: 5
+Number of nodes : 3890
+Number of labels : 50
+Number of features : [444]
+All label distribution : [ 0.00496988  0.00768072  0.02710843  0.02650602  0.01415663  0.02921687
+  0.025       0.02680723  0.02740964  0.02831325  0.02560241  0.00466867
+  0.02846386  0.02665663  0.00707831  0.02786145  0.01355422  0.0121988
+  0.0251506   0.02063253  0.01671687  0.01069277  0.02846386  0.02228916
+  0.00451807  0.02966867  0.02198795  0.02756024  0.0123494   0.01686747
+  0.02861446  0.02650602  0.00828313  0.02981928  0.02756024  0.01385542
+  0.01987952  0.02319277  0.01415663  0.02665663  0.02771084  0.02695783
+  0.01506024  0.02936747  0.00512048  0.02605422  0.00557229  0.02213855
+  0.0186747   0.00466867]
+================ Dataset Details : End ================
+% of randomly sampled training data ----  50
+Performance_using_LR : Test accuracy: {0.02416 } , Test Loss: {0.71765 } Iter: {499}
+Performance_using_SVM : Test accuracy: {0.03599 } , Test Loss: {0.69871 } Iter: {499}
+Performance_without_classifier : Test accuracy: {0.01285 } , Test Loss: {0.74630 } Iter: {499}
+**********************************************************
+Performance_using_LR : Test accuracy: {0.02571 } , Test Loss: {0.71339 } Iter: {499}
+Performance_using_SVM : Test accuracy: {0.03496 } , Test Loss: {0.69894 } Iter: {499}
+Performance_without_classifier : Test accuracy: {0.01080 } , Test Loss: {0.74701 } Iter: {499}
+**********************************************************
+Performance_using_LR : Test accuracy: {0.01851 } , Test Loss: {0.72712 } Iter: {499}
+Performance_using_SVM : Test accuracy: {0.02622 } , Test Loss: {0.70984 } Iter: {499}
+Performance_without_classifier : Test accuracy: {0.01491 } , Test Loss: {0.74819 } Iter: {499}
+**********************************************************
+Performance_using_LR : Test accuracy: {0.02674 } , Test Loss: {0.72333 } Iter: {499}
+Performance_using_SVM : Test accuracy: {0.04165 } , Test Loss: {0.70131 } Iter: {499}
+Performance_without_classifier : Test accuracy: {0.00925 } , Test Loss: {0.75103 } Iter: {499}
+**********************************************************
+Performance_using_LR : Test accuracy: {0.02931 } , Test Loss: {0.71836 } Iter: {499}
+Performance_using_SVM : Test accuracy: {0.04062 } , Test Loss: {0.69539 } Iter: {499}
+Performance_without_classifier : Test accuracy: {0.01337 } , Test Loss: {0.74867 } Iter: {499}
+**********************************************************
+LR --->  [{'micro_recall': 0.087120984663127898, 'pak': array([ 0.,  0.,  0.,  0.]), 'macro_precision': 0.08486693143458636, 'micro_precision': 0.087120984663127898, 'accuracy': 0.024884318766066837, 'cross_entropy': 0.71996922887129999, 'coverage': 23.750334190231364, 'macro_recall': 0.070719139442547277, 'average_precision': 0.15025364568052549, 'macro_f1': 0.0769810724843073, 'micro_f1': 0.087120484666011577, 'ranking_loss': 0.38133409735539725, 'hamming_loss': 0.06253573264781491, 'bae': 0.0}]
+SVM --->  [{'micro_recall': 0.11137796454176585, 'pak': array([ 0.,  0.,  0.,  0.]), 'macro_precision': 0.10127718079270123, 'micro_precision': 0.11137796454176585, 'accuracy': 0.035886889460154239, 'cross_entropy': 0.70083823910114817, 'coverage': 23.795372750642674, 'macro_recall': 0.096212619744693667, 'average_precision': 0.17167886774580815, 'macro_f1': 0.09860027700628729, 'micro_f1': 0.1113774645440178, 'ranking_loss': 0.37801786979512453, 'hamming_loss': 0.060874035989717225, 'bae': 0.0}]
+N --->  [{'micro_recall': 0.051275893109794093, 'pak': array([ 0.,  0.,  0.,  0.]), 'macro_precision': 0.056346086291513012, 'micro_precision': 0.051275893109794093, 'accuracy': 0.012236503856041131, 'cross_entropy': 0.74823950751140367, 'coverage': 29.743650385604116, 'macro_recall': 0.051033783280139543, 'average_precision': 0.10466062314743205, 'macro_f1': 0.053508230283957146, 'micro_f1': 0.051275393114677756, 'ranking_loss': 0.49547350142079871, 'hamming_loss': 0.06499125964010284, 'bae': 0.0}]
