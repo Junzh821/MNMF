@@ -16,12 +16,12 @@ custom = '_MNF_'
 now = datetime.now()
 args['timestamp'] = str(now.month)+'|'+str(now.day)+'|'+str(now.hour)+':'+str(now.minute)+':'+str(now.second) + custom
 
-args['DATA_DIR'] = ['washington']
+args['DATA_DIR'] = ['cornell']
 args['ETA'] = [1.0]
 args['ALPHA'] = [0.1, 0.3, 0.5, 0.7, 1.0, 3.0, 5.0, 7.0, 10.0]
-args['BETA'] = [1.0]
+args['BETA'] = [0.1]
 args['THETA'] = [1.0]
-args['GAMMA'] = [5.0]
+args['GAMMA'] = [3.0]
 args['LAMBDA'] = [1.0]
 args['K'] = [3]
 args['MAX_ITER'] = [500]
