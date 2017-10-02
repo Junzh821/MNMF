@@ -219,7 +219,8 @@ def main():
         overall_performances_c = [dict.fromkeys(g, 0) for g in overall_performances_c]
         itr = 0
         print("% of randomly sampled training data ---- ", a)
-        for b in range(1, dataset.n_folds+1) :
+        #for b in range(1, dataset.n_folds+1) :
+        for b in range(1, 2):
             data_dir = path.join("../Datasets/", config.DATA_DIR.lower(), 'index', str(a), str(b))
             train_ids = np.load(path.join(data_dir, 'train_ids.npy')).astype(dtype=bool)
             val_ids = np.load(path.join(data_dir, 'val_ids.npy')).astype(dtype=bool)
