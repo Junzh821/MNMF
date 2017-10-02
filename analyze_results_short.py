@@ -16,10 +16,10 @@ args['timestamp'] = str(now.month)+'|'+str(now.day)+'|'+str(now.hour)+':'+str(no
 
 args['DATA_DIR'] = ['wiki']
 args['ETA'] = [1.0]
-args['ALPHA'] = [1.0]
-args['BETA'] = [0.1, 0.3, 0.5, 0.7, 1.0, 3.0, 5.0, 7.0, 10.0]
+args['ALPHA'] = [0.1, 0.3, 0.5, 0.7, 1.0, 3.0, 5.0, 7.0, 10.0]
+args['BETA'] = [0.7]
 args['THETA'] = [1.0]
-args['GAMMA'] = [0.1, 0.3, 0.5, 0.7, 1.0, 3.0, 5.0, 7.0, 10.0]
+args['GAMMA'] = [10.0]
 args['LAMBDA'] = [1.0]
 args['K'] = [7]
 args['MAX_ITER'] = [500]

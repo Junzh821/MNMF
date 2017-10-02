@@ -9,7 +9,7 @@ import math
 from scipy.linalg import sqrtm
 
 def initialize_factor_matrices(S, Y, n, rank, k, init, dtype, logger) :
-    # np.random.seed(0)
+    np.random.seed(0)
     logger.debug('Initializing U')
     if init == 'random':
         U = np.array(np.random.rand(rank, n), dtype=dtype)
