@@ -1,0 +1,38 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Matrix Factorization~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Config: Namespace(ALPHA='1.0', BETA='1.0', CONV_KL=0.0001, CONV_LS=5e-06, CONV_MUL=0.0001, COST_F='LS', DATA_DIR='cornell', DELTA=1.0, ENF_Y=0, ETA='1.0', FACT_Y=1, FOLDER_SUFFIX='MNF_cornell_1.0_1.0_1.0_1.0_1.0_1.0_15_500', GAMMA='1.0', INIT='random', K='15', LAMBDA='1.0', LG=1, LOG_DIR='emb/Cornell/MNF_cornell_1.0_1.0_1.0_1.0_1.0_1.0_15_500', LOG_FNAME='mod_mnf.log', L_COMPONENTS=128, MAX_ITER='500', MODEL='data/', MULTI_LABEL=False, PHI=1.0, PROJ=True, THETA='1.0', ZETA=1000000000.0)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+================ Dataset Details : Start ================
+Dataset: cornell
+Attributes: ['view.mat']
+Relations: ['adjmat.mat']
+Sets: [50]
+N_Folds: 5
+Number of nodes : 195
+Number of labels : 5
+Number of features : [1703]
+All label distribution : [ 0.21538462  0.16410256  0.0974359   0.0974359   0.42564103]
+================ Dataset Details : End ================
+% of randomly sampled training data ----  50
+Performance_using_LR : Test accuracy: {0.39796 } , Test Loss: {2.77250 } Iter: {499}
+Performance_using_SVM : Test accuracy: {0.30612 } , Test Loss: {3.19542 } Iter: {499}
+Performance_without_classifier : Test accuracy: {0.25510 } , Test Loss: {3.43038 } Iter: {499}
+**********************************************************
+Performance_using_LR : Test accuracy: {0.30612 } , Test Loss: {3.19542 } Iter: {499}
+Performance_using_SVM : Test accuracy: {0.23469 } , Test Loss: {3.52436 } Iter: {499}
+Performance_without_classifier : Test accuracy: {0.12245 } , Test Loss: {4.04127 } Iter: {499}
+**********************************************************
+Performance_using_LR : Test accuracy: {0.35714 } , Test Loss: {2.96047 } Iter: {499}
+Performance_using_SVM : Test accuracy: {0.32653 } , Test Loss: {3.10144 } Iter: {499}
+Performance_without_classifier : Test accuracy: {0.15306 } , Test Loss: {3.90030 } Iter: {499}
+**********************************************************
+Performance_using_LR : Test accuracy: {0.38776 } , Test Loss: {2.81949 } Iter: {499}
+Performance_using_SVM : Test accuracy: {0.33673 } , Test Loss: {3.05445 } Iter: {499}
+Performance_without_classifier : Test accuracy: {0.25510 } , Test Loss: {3.43038 } Iter: {499}
+**********************************************************
+Performance_using_LR : Test accuracy: {0.45918 } , Test Loss: {2.49055 } Iter: {499}
+Performance_using_SVM : Test accuracy: {0.35714 } , Test Loss: {2.96047 } Iter: {499}
+Performance_without_classifier : Test accuracy: {0.19388 } , Test Loss: {3.71233 } Iter: {499}
+**********************************************************
+LR --->  [{'ranking_loss': 0.0, 'macro_precision': 0.0, 'coverage': 0.0, 'bae': 0.78168707482993194, 'average_precision': 0.0, 'macro_recall': 0.0, 'cross_entropy': 2.8476868701033711, 'pak': 0.0, 'hamming_loss': 0.0, 'accuracy': 0.38163265306122451, 'micro_f1': 0.38163265306122451, 'micro_precision': 0.38163265306122451, 'macro_f1': 0.0, 'micro_recall': 0.38163265306122451}]
+SVM --->  [{'ranking_loss': 0.0, 'macro_precision': 0.0, 'coverage': 0.0, 'bae': 0.78620408163265298, 'average_precision': 0.0, 'macro_recall': 0.0, 'cross_entropy': 3.16722929117332, 'pak': 0.0, 'hamming_loss': 0.0, 'accuracy': 0.3122448979591837, 'micro_f1': 0.3122448979591837, 'micro_precision': 0.3122448979591837, 'macro_f1': 0.0, 'micro_recall': 0.3122448979591837}]
+N --->  [{'ranking_loss': 0.0, 'macro_precision': 0.0, 'coverage': 0.0, 'bae': 0.81024613481756325, 'average_precision': 0.0, 'macro_recall': 0.0, 'cross_entropy': 3.7029326598498287, 'pak': 0.0, 'hamming_loss': 0.0, 'accuracy': 0.19591836734693874, 'micro_f1': 0.19591836734693874, 'micro_precision': 0.19591836734693874, 'macro_f1': 0.0, 'micro_recall': 0.19591836734693874}]
