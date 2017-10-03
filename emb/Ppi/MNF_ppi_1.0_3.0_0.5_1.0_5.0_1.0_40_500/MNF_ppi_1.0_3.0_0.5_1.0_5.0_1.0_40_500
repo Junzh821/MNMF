@@ -1,0 +1,30 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Matrix Factorization~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Config: Namespace(ALPHA='3.0', BETA='0.5', CONV_KL=0.0001, CONV_LS=5e-06, CONV_MUL=0.0001, COST_F='LS', DATA_DIR='ppi', DELTA=1.0, ENF_Y=0, ETA='1.0', FACT_Y=1, FOLDER_SUFFIX='MNF_ppi_1.0_3.0_0.5_1.0_5.0_1.0_40_500', GAMMA='5.0', INIT='random', K='40', LAMBDA='1.0', LG=1, LOG_DIR='emb/Ppi/MNF_ppi_1.0_3.0_0.5_1.0_5.0_1.0_40_500', LOG_FNAME='mod_mnf.log', L_COMPONENTS=128, MAX_ITER='500', MODEL='data/', MULTI_LABEL=True, PHI=1.0, PROJ=True, THETA='1.0', ZETA=1000000000.0)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+================ Dataset Details : Start ================
+Dataset: ppi
+Attributes: ['view.mat']
+Relations: ['adjmat.mat']
+Sets: [50]
+N_Folds: 5
+Number of nodes : 3890
+Number of labels : 50
+Number of features : [444]
+All label distribution : [ 0.00496988  0.00768072  0.02710843  0.02650602  0.01415663  0.02921687
+  0.025       0.02680723  0.02740964  0.02831325  0.02560241  0.00466867
+  0.02846386  0.02665663  0.00707831  0.02786145  0.01355422  0.0121988
+  0.0251506   0.02063253  0.01671687  0.01069277  0.02846386  0.02228916
+  0.00451807  0.02966867  0.02198795  0.02756024  0.0123494   0.01686747
+  0.02861446  0.02650602  0.00828313  0.02981928  0.02756024  0.01385542
+  0.01987952  0.02319277  0.01415663  0.02665663  0.02771084  0.02695783
+  0.01506024  0.02936747  0.00512048  0.02605422  0.00557229  0.02213855
+  0.0186747   0.00466867]
+================ Dataset Details : End ================
+% of randomly sampled training data ----  50
+Performance_using_LR : Test accuracy: {0.10694 } , Test Loss: {0.61560 } Iter: {499}
+Performance_using_SVM : Test accuracy: {0.10746 } , Test Loss: {0.62365 } Iter: {499}
+Performance_without_classifier : Test accuracy: {0.01748 } , Test Loss: {0.73943 } Iter: {499}
+**********************************************************
+LR --->  [{'bae': 0.0, 'hamming_loss': 0.010694087403598972, 'cross_entropy': 0.12312023119336162, 'micro_precision': 0.043890723493278078, 'ranking_loss': 0.054307601813443372, 'macro_recall': 0.036006088661017038, 'macro_precision': 0.041871603720010017, 'average_precision': 0.057672093886466755, 'pak': array([ 0.,  0.,  0.,  0.]), 'micro_f1': 0.043890623493505913, 'coverage': 3.5976349614395886, 'accuracy': 0.021388174807197943, 'micro_recall': 0.043890723493278078, 'macro_f1': 0.038717860225219641}]
+SVM --->  [{'bae': 0.0, 'hamming_loss': 0.010833933161953729, 'cross_entropy': 0.12473026498589916, 'micro_precision': 0.041849294493590726, 'ranking_loss': 0.059880990574285586, 'macro_recall': 0.037680306179779174, 'macro_precision': 0.036409235216802414, 'average_precision': 0.056064855083583165, 'pak': array([ 0.,  0.,  0.,  0.]), 'micro_f1': 0.041849194493829685, 'coverage': 3.9334704370179949, 'accuracy': 0.021491002570694088, 'micro_recall': 0.041849294493590726, 'macro_f1': 0.037033767560268792}]
+N --->  [{'bae': 0.0, 'hamming_loss': 0.012845244215938304, 'cross_entropy': 0.14788633516600935, 'micro_precision': 0.012488742115734391, 'ranking_loss': 0.099150127794728121, 'macro_recall': 0.011000275674008275, 'macro_precision': 0.013580166388401201, 'average_precision': 0.02332590218374778, 'pak': array([ 0.,  0.,  0.,  0.]), 'micro_f1': 0.012488642116535106, 'coverage': 5.952904884318766, 'accuracy': 0.003496143958868895, 'micro_recall': 0.012488742115734391, 'macro_f1': 0.012154733272794852}]
